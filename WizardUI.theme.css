@@ -1,0 +1,60 @@
+/**
+* @name WizardUI
+* @author Purple Wizard#0984
+* @authorLink https://github.com/GoldenLys
+* @version BETA
+* @invite SBuYeHh
+* @description An amazing theme with full customization included, made with 💖 by Purple Wizard.
+* @website https://purplewizard.space/
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
+@import url("https://purplewizard.space/WizardUI/UI.css");
+
+/* The line below is an addon that moves the "user is typing" text to the bottom of the app, like the default discord.
+@import url("https://purplewizard.space/WizardUI/UserIsTyping.css");
+*/
+
+:root {
+    /* MAIN VARIABLES */
+    --font: "Quicksand";
+    --Text: rgb(255, 255, 255);
+    --Highlighted: rgba(50, 10, 200, .5);
+    --MessageHover: transparent;
+    --Unread: rgba(255, 255, 255, 0.10);
+    --Hover: rgba(18, 19, 31, 0.50);
+
+     /* STATUS VARIABLES */
+    --Online: rgb(0, 255, 6);
+    --Idle: rgb(18, 100, 239);
+    --Unavailable: rgb(228, 15, 0);
+    --Offline: rgb(90, 95, 100);
+
+    /* PROFILE VARIABLES */
+    --Playing: rgb(0, 133, 241);
+    --Xbox: rgb(0, 185, 75);
+    --Spotify: rgb(0, 205, 76);
+    --Streaming: rgb(110, 0, 196);
+
+    /* UI COLOR VARIABLES */
+    --grey: rgb(18, 19, 31);
+    --grey5: rgba(18, 19, 31, .75);
+    --darkgrey: rgb(10, 10, 20);
+    --darkgrey5: rgba(10, 10, 20, .75);
+
+    /* THEME COLORS */
+    --Primary: rgb(50, 10, 200);
+
+    /* BACKGROUNDS */
+    --logo: url(https://goldenlys.github.io/ThemeGen/img/home.png);
+    --background: url(https://purplewizard.space/images/clouds.png);
+    --mini-profile: url(https://purplewizard.space/images/profile.jpg);
+    --bg-servers: rgba(0, 0, 0, 0.5);
+    --bg-ui: rgba(0, 0, 0, 0.65);
+    --bg-chatbox: rgba(0, 0, 0, 0.5);
+    --bg-sendmessage: rgba(0, 0, 0, 0.25);
+
+    /* SERVER SETTINGS */
+    --ServerSize: 45px;
+    --ServerColumns: 1;
+}
