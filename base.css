@@ -3303,24 +3303,24 @@ div[class^=folderIconWrapper] {
 .iconBackgroundTierThree-FWlUL9::after {
     font-family: "Font Awesome 5 Pro";
     font-weight: 900;
-    content: "";
     color: var(--Text);
     font-size: 15px;
     text-align: center;
 }
 
 .iconBackgroundTierNone-3ZkOsa::after {
-    content: "\f443";
+	content: "\f089";
+	font-weight: 400;
 }
 
 .iconBackgroundTierOne-2OQMBY::after {
-    content: "\f441"; 
+	content: "\f089";
 }
 
 .iconBackgroundTierTwo-Eab9L6::after {
-    content: "\f447";
+	content: "\f005";
 }
 
 .iconBackgroundTierThree-FWlUL9::after {
-    content: "\f43f";
+	content: "\f762";
 }
