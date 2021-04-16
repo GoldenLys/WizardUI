@@ -2,7 +2,7 @@
 @import url("https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css");
 :root {
     --build: "B";
-    --version: "0.86";
+    --version: "0.87";
     /* MAIN VARIABLES */
     --font: 'Inter', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -795,7 +795,7 @@ rect[fill="rgb(80, 54, 149)"], rect[fill="#593695"], rect[fill="rgba(80, 54, 149
     color: var(--Text);
 }
 
-.avatar-VxgULZ {
+.avatar-VxgULZ, .avatar-3bWpYy {
     border-radius: 5px;
 }
 
@@ -3268,8 +3268,7 @@ div[class^=folderIconWrapper] {
     display: none;
 }
 
-.iconBackgroundTierNone-3ZkOsa, .iconBackgroundTierOne-2OQMBY, .iconBackgroundTierTwo-Eab9L6, .iconBackgroundTierThree-FWlUL9,
-.rowIcon-1VZqx4.verified-1eC5dy, .guildBadge-3IDi4U.verified-1eC5dy, .rowIcon-1VZqx4.partnered-3nJayh, .guildBadge-3IDi4U.partnered-3nJayh {
+.iconBackgroundTierNone-3ZkOsa, .iconBackgroundTierOne-2OQMBY, .iconBackgroundTierTwo-Eab9L6, .iconBackgroundTierThree-FWlUL9, .rowIcon-1VZqx4.verified-1eC5dy, .guildBadge-3IDi4U.verified-1eC5dy, .rowIcon-1VZqx4.partnered-3nJayh, .guildBadge-3IDi4U.partnered-3nJayh {
     background-color: var(--Primary);
     border-radius: 2.5px;
     width: 25px !important;
@@ -3297,30 +3296,57 @@ div[class^=folderIconWrapper] {
     text-align: center;
 }
 
-.iconBackgroundTierNone-3ZkOsa::after,
-.iconBackgroundTierOne-2OQMBY::after,
-.iconBackgroundTierTwo-Eab9L6::after,
-.iconBackgroundTierThree-FWlUL9::after {
+.iconBackgroundTierNone-3ZkOsa::after, .iconBackgroundTierOne-2OQMBY::after, .iconBackgroundTierTwo-Eab9L6::after, .iconBackgroundTierThree-FWlUL9::after {
     font-family: "Font Awesome 5 Pro";
     font-weight: 900;
+    content: "";
     color: var(--Text);
     font-size: 15px;
     text-align: center;
 }
 
 .iconBackgroundTierNone-3ZkOsa::after {
-	content: "\f089";
-	font-weight: 400;
+    content: "\f089";
+    font-weight: 400;
 }
 
 .iconBackgroundTierOne-2OQMBY::after {
-	content: "\f089";
+    content: "\f089";
 }
 
 .iconBackgroundTierTwo-Eab9L6::after {
-	content: "\f005";
+    content: "\f005";
 }
 
 .iconBackgroundTierThree-FWlUL9::after {
-	content: "\f762";
+    content: "\f762";
+}
+
+.partyMember-1CzxeX, .voiceSectionAssets-1gjfmz, .voiceSectionGuildImage-3HwnfL, .voiceSectionNoGuildImageWrapper-TicZR3 {
+    border-radius: 5px;
+    -webkit-mask: none;
+    mask: none;
+}
+
+.partyMember-1CzxeX:not(:last-child) {
+    margin-right: 5px;
+}
+
+foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
+    -webkit-mask: none;
+    mask: none;
+}
+
+.size24-1HlGux .avatarContainerMasked-PIJ-3L {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.moreUsers-7v8yWY {
+    border-radius: 5px;
+}
+
+.container-3baos1 .avatar-SmRMf2 .avatarSpeaking-2c8-9i {
+    display: none;
 }
