@@ -1729,7 +1729,7 @@ div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(39):before
     font-weight: bold;
 }
 
-.container-1r6BKw>.children-19S4PO>.topPill-30KHOu>.item-PXvHYJ:not(.themed-OHr7kt) {
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
     background: var(--Primary) !important;
 }
 
