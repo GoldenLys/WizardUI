@@ -3408,3 +3408,7 @@ div[role="radiogroup"]>.item-26Dhrx:nth-child(2)>.radioBar-bMNUI- {
 div[role="radiogroup"]>.item-26Dhrx:nth-child(3)>.radioBar-bMNUI- {
     --radio-bar-accent-color: var(--Unavailable) !important;
 }
+
+.container-1r6BKw>.children-19S4PO>.topPill-30KHOu>.item-PXvHYJ[style^=background-color] {
+    background-color: var(--Online) !important;
+}
