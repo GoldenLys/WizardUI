@@ -2,10 +2,11 @@
 @import url("https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css");
 :root {
     --build: "B";
-    --version: "0.88";
+    --version: "0.89";
     /* MAIN VARIABLES */
     --font: 'Inter', sans-serif;
     --Text: rgb(255, 255, 255);
+    --Selected: rgba(56, 33, 146, 0.35);
     --Highlighted: rgba(15, 15, 50, 0.25);
     --Unread: rgba(255, 255, 255, 0.10);
     --Hover: rgba(18, 19, 31, 0.50);
@@ -29,6 +30,7 @@
     --background: var(--grey);
     --logo: url(https://goldenlys.github.io/ThemeGen/img/home.png);
     --MessageHover: var(--grey);
+    --bg-titlebar: var(--grey);
     --bg-servers: var(--grey);
     --bg-sendmessage: var(--grey);
     --bg-ui: var(--grey);
@@ -149,7 +151,7 @@
     border-radius: 0px !important;
 }
 
-.total-i6us2n:after, .iconContainer-1BBaeJ, .avatar-3uk_u9 .dots-3Bkt3k, #user-settings .contentRegion-3nDuYy>div>div>main>div>[class^=divider], .buttons-3JBrkn>button:not(.buttonContainer-28fw2U)>div:not(.translateButton-DhP9x8), .option-96V44q:after, .resultsGroup-r_nuzN:before, .attachButtonPlay-3iJ0mf, .wrapper-2jXpOf.modeUnread-1qO3K1>.unread-2lAfLh, .emptyMessage-3ggYEG, .spinner-2enMB9>.pulsingEllipsis-3YiXRF, .emptyChannelIcon-cc932w, .total-3tKGEB:after, .guildIcon-2Tpnad, .form-2fGMdU:before, div[class^=guildSeparator], .unreadPillCap-3_K2q2, .form-2fGMdU>.wrapper-39oAo3, div[class^=tutorialContainer]>div[class^=listItem] svg mask, a[href="https://support.discord.com"], .wordmark-2iDDfm svg, .chat-3bRxxu>section.title-3qD0b->.children-19S4PO>.iconWrapper-2OrFZ1, .buttons-3JBrkn>.buttonContainer-28fw2U>button:not(.emojiButton-3uL3Aw) {
+.iconContainer-1BBaeJ, .avatar-3uk_u9 .dots-3Bkt3k, #user-settings .contentRegion-3nDuYy>div>div>main>div>[class^=divider], .buttons-3JBrkn>button:not(.buttonContainer-28fw2U)>div:not(.translateButton-DhP9x8), .option-96V44q:after, .resultsGroup-r_nuzN:before, .attachButtonPlay-3iJ0mf, .wrapper-2jXpOf.modeUnread-1qO3K1>.unread-2lAfLh, .emptyMessage-3ggYEG, .spinner-2enMB9>.pulsingEllipsis-3YiXRF, .emptyChannelIcon-cc932w, .total-i6us2n:after, .guildIcon-2Tpnad, .form-2fGMdU:before, div[class^=guildSeparator], .unreadPillCap-3_K2q2, .form-2fGMdU>.wrapper-39oAo3, div[class^=tutorialContainer]>div[class^=listItem] svg mask, a[href="https://support.discord.com"], .wordmark-2iDDfm svg, .chat-3bRxxu>section.title-3qD0b->.children-19S4PO>.iconWrapper-2OrFZ1, .buttons-3JBrkn>.buttonContainer-28fw2U>button:not(.emojiButton-3uL3Aw) {
     display: none;
 }
 
@@ -902,10 +904,6 @@ rect[fill="rgba(116, 127, 141, 1)"], rect[fill="#747f8d"], [mask^="url(#svg-mask
     content: "\f3c9";
 }
 
-.panels-j1Uci_ .container-3baos1 button:nth-last-child(3)[aria-checked="true"]>.contents-18-Yxp::after {
-    content: "\f539";
-}
-
 /* DEAFEN BUTTON */
 
 .panels-j1Uci_ .container-3baos1 button:nth-last-child(2)>.contents-18-Yxp::after {
@@ -1041,8 +1039,7 @@ rect[fill="rgba(116, 127, 141, 1)"], rect[fill="#747f8d"], [mask^="url(#svg-mask
 }
 
 .modeSelected-346R90 .content-1x5b-n .mainContent-u_9PKf:before {
-    background: var(--Online);
-    opacity: .25 !important;
+    background: var(--Selected);
     z-index: -1;
     top: 0px;
     bottom: 0px;
@@ -1262,6 +1259,10 @@ div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(5):before 
 div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(8):before {
     color: rgb(114, 137, 218);
     content: "\f0e7"
+}
+
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(8)[style*="background-color: rgb(114, 137, 218);"]:before {
+color: var(--Text);
 }
 
 /* Server Boost */
@@ -1545,8 +1546,8 @@ div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(39):before
 }
 
 .selected-aXhQR6 .layout-2DM8Md {
-    border-radius: 2.5px;
-    background-color: var(--grey5) !important;
+    border-radius: 0;
+    background-color: var(--Selected) !important;
 }
 
 .privateChannels-1nO12o .selected-aXhQR6 .layout-2DM8Md {
@@ -1604,24 +1605,27 @@ div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(39):before
     border-radius: 5px;
 }
 
-.userLimit-64AFxe>.wrapper-pZmgj4 {
+.userLimit-3aerPX>.wrapper-2tAnRe {
     height: 28px;
-    background-color: var(--darkgrey5);
+    border-radius: 0px;
+    background-color: var(--grey5);
 }
 
-.users-i_3-kL, .total-3tKGEB {
-    width: 32px;
+.users-3kndPl, .total-i6us2n {
+    width: 30px;
     height: 28px;
-    line-height: 32px;
-    padding: 0 8px 0 6px;
+    line-height: 30px;
     background-color: transparent;
+    padding: 0 5px;
+    place-content: center;
+    border-radius: 0px;
 }
 
-.users-i_3-kL {
-    width: 35px;
-    padding: 0 8px;
-    background-color: var(--Primary);
-    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+.users-3kndPl {
+    margin-right: 0;
+    background-color: var(--grey5);
+    color: var(--Primary);
+    font-weight: bold;
 }
 
 .platform-win .scroller-1Bvpku {
@@ -2872,9 +2876,9 @@ div[class^=folderIconWrapper] {
 }
 
 .channelSettingButtons-23CIRg {
-    background-color: var(--bg-ui);
+    background-color: var(--grey5);
     padding: 5px 10px;
-    margin-top: 10px;
+    margin: 10px -16px 0px -16px;
 }
 
 .recentMentionsPopout-3rCiI6 .header-2-Imhb {
@@ -3041,13 +3045,13 @@ div[class^=folderIconWrapper] {
 }
 
 .lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
-    color: var(--Text);
-    background-color: var(--darkgrey);
+    color: var(--Text) !important;
+    background-color: var(--darkgrey) !important;
 }
 
 .lookFilled-1Gx00P.colorGrey-2DXtkV {
-    color: var(--Text);
-    background-color: var(--darkgrey);
+    color: var(--Text) !important;
+    background-color: var(--darkgrey) !important;
 }
 
 #status-picker>div>.item-1tOPte:hover {
@@ -3223,14 +3227,6 @@ div[class^=folderIconWrapper] {
 
 .pruneLink-3V7wes {
     color: var(--Unavailable) !important;
-}
-
-.users-3kndPl {
-    margin-right: 5px;
-    width: 30px;
-    padding: 0 5px;
-    place-content: center;
-    border-radius: 5px;
 }
 
 .wrapper-2tAnRe {
@@ -3411,4 +3407,13 @@ div[role="radiogroup"]>.item-26Dhrx:nth-child(3)>.radioBar-bMNUI- {
 
 .container-1r6BKw>.children-19S4PO>.topPill-30KHOu>.item-PXvHYJ[style^=background-color] {
     background-color: var(--Online) !important;
+}
+
+.titleBar-AC4pGV {
+    background: var(--bg-titlebar);
+}
+
+.standardSidebarView-3F1I7i .contentRegion-3nDuYy .background-1QDuV2 {
+    border-radius: 5px;
+    background-color: var(--Primary);
 }

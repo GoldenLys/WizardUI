@@ -23,6 +23,7 @@
     --MessageHover: transparent;
     --Unread: rgba(255, 255, 255, 0.10);
     --Hover: rgba(18, 19, 31, 0.50);
+    --Selected: rgba(56, 33, 146, 0.35);
 
      /* STATUS VARIABLES */
     --Online: rgb(0, 255, 6);
@@ -49,6 +50,7 @@
     --logo: url(https://goldenlys.github.io/ThemeGen/img/home.png);
     --background: url(https://purplewizard.space/images/clouds.png);
     --mini-profile: url(https://purplewizard.space/images/profile.jpg);
+    --bg-titlebar: rgba(0, 0, 0, 0.65);
     --bg-servers: rgba(0, 0, 0, 0.65);
     --bg-ui: rgba(0, 0, 0, 0.65);
     --bg-chatbox: rgba(0, 0, 0, 0.5);
