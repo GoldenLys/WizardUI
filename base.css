@@ -389,16 +389,28 @@ div.wrapper-2jXpOf[class*="modeSelected"]:before {
     padding: 0;
 }
 
+.reaction-1hd86g:hover {
+    background-color: var(--Primary);
+    border-color: var(--Text);
+}
+
 .reaction-1hd86g [class^=reactionCount], .search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root {
     color: var(--Text);
 }
 
 .reaction-1hd86g[class*=reactionMe] {
     background-color: var(--Primary);
+    border-color: var(--Primary);
 }
 
 .reaction-1hd86g[class*=reactionMe]:hover {
     background-color: white;
+    border-color: var(--Primary);
+}
+
+.reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV {
+    color: var(--Text);
+    font-weight: bold;
 }
 
 .reactionMe-wv5HKu:hover .reactionCount-2mvXRV {
@@ -3416,4 +3428,9 @@ div[role="radiogroup"]>.item-26Dhrx:nth-child(3)>.radioBar-bMNUI- {
 .standardSidebarView-3F1I7i .contentRegion-3nDuYy .background-1QDuV2 {
     border-radius: 5px;
     background-color: var(--Primary);
+}
+
+
+.wrapperSimple-19ogV2 {
+    border-radius: 0.25px;
 }
