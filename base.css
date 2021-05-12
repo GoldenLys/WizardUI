@@ -423,7 +423,7 @@ div.wrapper-2jXpOf[class*="modeSelected"]:before {
     border-color: var(--Online);
 }
 
-.statusOnline-8PnF5L, .status-1AY8sU[style="background-color: rgb(67, 181, 129);"], .lookFilled-1Gx00P.colorGreen-29iAKY:disabled, .iconBadge-2wi9r4.participating-NBGDkr {
+.statusOnline-8PnF5L, .status-1AY8sU[style="background-color: rgb(59, 165, 92);"], .lookFilled-1Gx00P.colorGreen-29iAKY:disabled, .iconBadge-2wi9r4.participating-NBGDkr {
     background-color: var(--Online) !important;
 }
 
@@ -439,7 +439,7 @@ div.wrapper-2jXpOf[class*="modeSelected"]:before {
     background-color: var(--Offline) !important;
 }
 
-rect[fill="rgb(67, 181, 129)"], rect[fill="#43b581"], rect[fill="rgba(67, 181, 129, 1)"], [mask^="url(#svg-mask-status-online"] {
+rect[fill="rgb(59, 165, 92)"], rect[fill="#3ba55c"], rect[fill="rgba(67, 181, 129, 1)"], [mask^="url(#svg-mask-status-online"] {
     fill: transparent !important;
     mask: none;
     color: var(--Online);
@@ -469,7 +469,7 @@ rect[fill="rgb(250, 166, 26)"], rect[fill="#faa61a"], rect[fill="rgba(250, 166, 
     height: 32px;
 }
 
-rect[fill="rgb(240, 71, 71)"], rect[fill="#f04747"], rect[fill="#f04745"], rect[fill="rgba(240, 71, 71, 1)"], [mask^="url(#svg-mask-status-dnd"] {
+rect[fill="rgb(240, 71, 71)"], rect[fill="#ed4245"], rect[fill="#f04747"], rect[fill="#f04745"], rect[fill="rgba(240, 71, 71, 1)"], [mask^="url(#svg-mask-status-dnd"] {
     fill: transparent !important;
     mask: none;
     color: var(--Unavailable);
@@ -873,6 +873,8 @@ rect[fill="rgba(116, 127, 141, 1)"], rect[fill="#747f8d"], [mask^="url(#svg-mask
     y: -17;
     position: relative;
     z-index: 0;
+    mask: none;
+    -webkit-mask: none;
 }
 
 .panels-j1Uci_ .container-3baos1 button>.contents-18-Yxp::after {
@@ -1027,9 +1029,10 @@ rect[fill="rgba(116, 127, 141, 1)"], rect[fill="#747f8d"], [mask^="url(#svg-mask
 .chat-3bRxxu>[class^="title"] .status-1XNdyw>svg>rect {
     width: 100%;
     height: 100%;
-    rx: 5;
-    ry: 5;
-    fill: currentColor !important;
+    rx: 2.5;
+    ry: 2.5;
+    -webkit-mask: none;
+    mask: none;
 }
 
 .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div div[class^=pill], div[class^=tutorialContainer]+div[class^=listItem] .pill-3YxEhL, div[class^=tutorialContainer] .pill-3YxEhL {
@@ -1274,7 +1277,7 @@ div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(8):before 
 }
 
 div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(8)[style*="background-color: rgb(114, 137, 218);"]:before {
-color: var(--Text);
+    color: var(--Text);
 }
 
 /* Server Boost */
@@ -2694,15 +2697,15 @@ a {
     position: relative;
 }
 
-.title-3qD0b- .status-1XNdyw>svg rect[fill="rgba(240, 71, 71, 1)"] {
+.title-3qD0b- .status-1XNdyw>svg rect[fill="rgba(237, 66, 69, 1)"] {
     fill: var(--Unavailable) !important;
 }
 
-.title-3qD0b- .status-1XNdyw>svg rect[fill="rgba(67, 181, 129, 1)"] {
+.title-3qD0b- .status-1XNdyw>svg rect[fill="rgba(59, 165, 92, 1)"] {
     fill: var(--Online) !important;
 }
 
-.title-3qD0b- .status-1XNdyw>svg rect[fill="rgba(250, 166, 26, 1)"] {
+.title-3qD0b- .status-1XNdyw>svg rect[fill="rgba(250, 166, 26, 1)"], .title-3qD0b- .status-1XNdyw>svg rect[fill="#747f8d"] {
     fill: var(--Idle) !important;
 }
 
@@ -3383,7 +3386,7 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
     content: "\f00d";
 }
 
-.bd-switch.bd-switch-checked::after, .container-3auIfb[style*="background-color: rgb(67, 181, 129);"]::after {
+.bd-switch.bd-switch-checked::after, .container-3auIfb[style*="background-color: rgb(59, 165, 92);"]::after {
     content: "\f00c";
 }
 
@@ -3397,7 +3400,7 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
     place-items: center;
 }
 
-.bd-switch.bd-switch-checked, .container-3auIfb[style*="background-color: rgb(67, 181, 129);"] {
+.bd-switch.bd-switch-checked, .container-3auIfb[style*="background-color: rgb(59, 165, 92);"] {
     background-color: var(--Primary) !important;
 }
 
@@ -3429,7 +3432,6 @@ div[role="radiogroup"]>.item-26Dhrx:nth-child(3)>.radioBar-bMNUI- {
     border-radius: 5px;
     background-color: var(--Primary);
 }
-
 
 .wrapperSimple-19ogV2 {
     border-radius: 0.25px;
