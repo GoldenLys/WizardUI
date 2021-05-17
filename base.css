@@ -1156,7 +1156,7 @@ div[class^=expandedFolderIconWrapper]:before, div[class^=closedFolderIconWrapper
     -webkit-font-smoothing: antialiased;
     display: block;
     font-size: 20px;
-    line-height: 40px;
+    line-height: var(--ServerSize);
     text-align: center;
     color: var(--Text);
 }
@@ -3476,7 +3476,6 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
 .radioBar-bMNUI-[style^="--radio-bar-accent-color:#ed4245;"] {
     --radio-bar-accent-color: var(--Unavailable) !important;
 }
-
 
 .radioIconForeground-XwlXQN {
     color: var(--Primary);
