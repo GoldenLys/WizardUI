@@ -1,0 +1,141 @@
+.guilds-1SWlCJ {
+    height: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+    width: 100%;
+}
+
+.guilds-1SWlCJ:before {
+    height: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+}
+
+.base-3dtUhz {
+    z-index: 1;
+    position: absolute;
+    top: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+    left: 0;
+    width: 100%;
+    height: calc(100% - (25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns)));
+}
+
+.platform-web .base-3dtUhz {
+    top: calc(35px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+}
+
+.platform-web .guilds-1SWlCJ:before, .platform-web .guilds-1SWlCJ>ul:before {
+    height: calc(35px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+}
+
+.platform-osx .base-3dtUhz {
+    top: calc(57px + var(--ServerSize) * var(--ServerColumns));
+}
+
+.root-SR8cQa {
+    width: calc(100vw - 265px);
+    top: calc(48px + var(--ServerSize) * var(--ServerColumns))
+}
+
+.guilds-1SWlCJ>ul, .guilds-1SWlCJ>ul>.scroller-1Bvpku {
+    display: flex;
+    contain: unset;
+    width: 100%;
+    height: calc(20px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+}
+
+
+.guilds-1SWlCJ .scroller-1Bvpku {
+    display: flex;
+    height: calc(20px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+    padding-top: 0;
+}
+
+.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label] {
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(20px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+    overflow: hidden auto;
+    width: 100%;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+/* PILLS */
+
+.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div div[class^=pill], div[class^=tutorialContainer]+div[class^=listItem] .pill-3YxEhL, div[class^=tutorialContainer] .pill-3YxEhL {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+div[class^=pill] {
+    width: 100%;
+    height: 5px;
+}
+
+.guilds-1SWlCJ .scroller-1Bvpku>div[class^=listItem] div[class^=pill]>.item-2hkk8m, .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div div[class^=pill]>.item-2hkk8m, div[class^=tutorialContainer]+div[class^=listItem]:hover .pill-3YxEhL .wrapper-sa6paO, div[class^=tutorialContainer]:hover .pill-3YxEhL .wrapper-sa6paO, div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2hkk8m, #app-mount .guilds-1SWlCJ .scroller-1Bvpku>div[style*="opacity: 1;"]:not(:first-child) div[class^=pill] div {
+    position: absolute;
+    display: block;
+    top: 2.5px;
+}
+
+.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div div[class^=pill]>.item-2hkk8m[style*="height: 40px"] {
+    max-width: 95%;
+    left: 2.5%;
+}
+
+div[class^=tutorialContainer]+div[class^=listItem]:hover .pill-3YxEhL .wrapper-sa6paO, div[class^=tutorialContainer]:hover .pill-3YxEhL .wrapper-sa6paO, div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2hkk8m, .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div div[class^=pill]>.item-2hkk8m[style*="height: 20px"], .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div:hover div[class^=pill]>.item-2hkk8m {
+    max-width: 90%;
+    left: 5%;
+}
+
+div[class^=tutorialContainer]+div[class^=listItem] .pill-3YxEhL .wrapper-sa6paO, div[class^=tutorialContainer] .pill-3YxEhL .wrapper-sa6paO, .item-2hkk8m {
+    height: 5px !important;
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+ul>div[class^=listItem]>div[class^=pill] {
+    top: -7.5px;
+}
+
+.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-3Njo_c>div[class^=listItem]>div[class^=pill] {
+    top: -10px;
+}
+
+.wrapper-sa6paO {
+    top: 0px;
+}
+
+.guilds-1SWlCJ .scroller-1Bvpku>div[style*="opacity: 1;"]:not(:first-child) div[class^=pill] .item-2hkk8m {
+    border-radius: 2.5px 2.5px 2.5px 2.5px;
+}
+
+/* GROUPS */
+
+#app-mount .wrapper-3Njo_c {
+    width: auto !important;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+#app-mount .wrapper-3Njo_c [role=group] {
+    display: flex;
+    align-items: center;
+    height: auto !important;
+    border-radius: 0 .25em .25em 0;
+}
+
+/* SERVER */
+
+div[class^=tutorialContainer], .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]+div[class^=tutorialContainer], div[class^=tutorialContainer]+div[class^=listItem], .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div[class^=listItem], #app-mount .guilds-1SWlCJ .scroller-1Bvpku>div[style*="opacity: 1;"]:not(:first-child), .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-3Njo_c, .guilds-1SWlCJ .scroller-1Bvpku>div[class^=listItem] {
+    margin: 5px 0px 0px 5px !important;
+}
+
+div[class^=tutorialContainer], div[class^=tutorialContainer]+div[class^=listItem] {
+    width: unset;
+}
+
+/* PMs */
+
+div[class^=tutorialContainer] {
+    margin-left: 5px !important;
+}

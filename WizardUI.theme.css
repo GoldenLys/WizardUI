@@ -11,8 +11,12 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
 @import url("https://goldenlys.github.io/WizardUI/base.css");
 
-/* The line below is an addon that moves the "user is typing" text to the bottom of the app, like the default discord.
+/* This is an addon that moves the "user is typing" text to the bottom of the app, like the default discord.
 @import url("https://goldenlys.github.io/WizardUI/addons/UserIsTyping.css");
+*/
+
+/* This is an addon that moves the servers list text to the top of the app with a full vertical width.
+@import url("https://goldenlys.github.io/WizardUI/addons/PurpleServerList.css");
 */
 
 :root {
