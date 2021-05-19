@@ -1933,10 +1933,6 @@ div[class^=tutorialContainer], div[class^=tutorialContainer]+div[class^=listItem
     height: 0 !important;
 }
 
-.selected-aXhQR6 .layout-2DM8Md>.avatar-3uk_u9 path {
-    color: var(--Primary);
-}
-
 .activityPanel-28dQGo {
     border-radius: 0 5px 0 0;
     border-bottom: none;
