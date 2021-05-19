@@ -3403,3 +3403,8 @@ div[class^=tutorialContainer]+div[class^=listItem] {
 .avatar-VxgULZ, .avatar-3bWpYy {
     border-radius: var(--Rounding);
 }
+
+.separator-XqIyoz {
+    background-color: var(--grey);
+    height: 2.5px;
+}

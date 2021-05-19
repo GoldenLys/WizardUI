@@ -57,6 +57,10 @@
     align-content: flex-start;
 }
 
+div[class^=tutorialContainer], div[class^=tutorialContainer]+div[class^=listItem] {
+    width: unset;
+}
+
 /* PILLS */
 
 .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div div[class^=pill], div[class^=tutorialContainer]+div[class^=listItem] .pill-3YxEhL, div[class^=tutorialContainer] .pill-3YxEhL {
