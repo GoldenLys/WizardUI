@@ -39,7 +39,7 @@
     /* SERVER SETTINGS */
     --ServerSize: 45px;
     --ServerColumns: 1;
-    --ServerSpacing: 5px;
+    --ServerSpacing: 5px 0px 0px 0px;
     --Rounding: 5px;
     --StatusRounding: 2.5;
 }
@@ -1792,7 +1792,7 @@ div[class^=pill] {
 }
 
 div[class^=tutorialContainer], .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]+div[class^=tutorialContainer], .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div[class^=listItem], #app-mount .guilds-1SWlCJ .scroller-1Bvpku>div[style*="opacity: 1;"]:not(:first-child), .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-3Njo_c, .tutorialContainer-30WoTp+div[class^=listItem] {
-    margin: var(--ServerSpacing) 0px 0px 0px;
+    margin: var(--ServerSpacing);
     border-radius: .25em;
     padding: 7.5px 0px 7.5px 0px;
 }
