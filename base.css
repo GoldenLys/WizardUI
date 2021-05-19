@@ -2,7 +2,7 @@
 @import url("https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css");
 :root {
     --build: "B";
-    --version: "0.91";
+    --version: "0.92";
     /* MAIN VARIABLES */
     --font: 'Inter', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -39,6 +39,9 @@
     /* SERVER SETTINGS */
     --ServerSize: 45px;
     --ServerColumns: 1;
+    --ServerSpacing: 5px;
+    --Rounding: 5px;
+    --StatusRounding: 2.5;
 }
 
 .theme-light, .theme-dark {
@@ -464,8 +467,8 @@ rect[fill="rgb(59, 165, 92)"], rect[fill="#3ba55c"], rect[fill="rgba(67, 181, 12
     opacity: 1;
     x: 0;
     y: 0;
-    rx: 2.5;
-    ry: 2.5;
+    rx: var(--StatusRounding);
+    ry: var(--StatusRounding);
     width: 32px;
     height: 32px;
 }
@@ -479,8 +482,8 @@ rect[fill="rgb(250, 166, 26)"], rect[fill="#faa61a"], rect[fill="rgba(250, 166, 
     opacity: 1;
     x: 0;
     y: 0;
-    rx: 2.5;
-    ry: 2.5;
+    rx: var(--StatusRounding);
+    ry: var(--StatusRounding);
     width: 32px;
     height: 32px;
 }
@@ -494,8 +497,8 @@ rect[fill="rgb(240, 71, 71)"], rect[fill="#ed4245"], rect[fill="#f04747"], rect[
     opacity: 1;
     x: 0;
     y: 0;
-    rx: 2.5;
-    ry: 2.5;
+    rx: var(--StatusRounding);
+    ry: var(--StatusRounding);
     width: 32px;
     height: 32px;
 }
@@ -509,8 +512,8 @@ rect[fill="rgb(116, 127, 141)"], rect[fill="#747f8d"], rect[fill="rgba(116, 127,
     opacity: 1;
     x: 0;
     y: 0;
-    rx: 2.5;
-    ry: 2.5;
+    rx: var(--StatusRounding);
+    ry: var(--StatusRounding);
     width: 32px;
     height: 32px;
 }
@@ -524,8 +527,8 @@ rect[fill="rgb(80, 54, 149)"], rect[fill="#593695"], rect[fill="rgba(80, 54, 149
     opacity: 1;
     x: 0;
     y: 0;
-    rx: 2.5;
-    ry: 2.5;
+    rx: var(--StatusRounding);
+    ry: var(--StatusRounding);
     width: 32px;
     height: 32px;
 }
@@ -830,10 +833,6 @@ rect[fill="rgb(80, 54, 149)"], rect[fill="#593695"], rect[fill="rgba(80, 54, 149
     color: var(--Text);
 }
 
-.avatar-VxgULZ, .avatar-3bWpYy {
-    border-radius: 5px;
-}
-
 /* DISABLE OFFLINE STATUS */
 
 .userPopout-3XzG_A .header-2BwW8b .avatarWrapper-3H_478>svg>foreignObject, .userPopout-3XzG_A .header-2BwW8b .avatarWrapper-3H_478:hover>svg>foreignObject, foreignObject[mask="url(#svg-mask-avatar-status-round-32)"], foreignObject[mask="url(#svg-mask-avatar-default)"], foreignObject[mask="url(#svg-mask-avatar-status-round-80)"], .panels-j1Uci_ .container-3baos1 .avatar-SmRMf2 .mask-1l8v16>foreignObject, .callAvatarMask-1SLlRi foreignObject, .controlButton-2MhVEL foreignObject {
@@ -858,7 +857,7 @@ rect[fill="rgba(116, 127, 141, 1)"], rect[fill="#747f8d"], [mask^="url(#svg-mask
 .assetsLargeImageStreamPreview-1A9lfF, .assetsLargeImageUserPopout-3Pp8BK, .assetsLargeImageUserPopoutXbox-2hgKt0 {
     width: 60px;
     height: 60px;
-    border-radius: 5px !important;
+    border-radius: var(--Rounding) !important;
 }
 
 #app-mount .wrapper-3t9DeA svg:not(:root) {
@@ -1045,8 +1044,8 @@ rect[fill="rgba(116, 127, 141, 1)"], rect[fill="#747f8d"], [mask^="url(#svg-mask
 .chat-3bRxxu>[class^="title"] .status-1XNdyw>svg>rect {
     width: 100%;
     height: 100%;
-    rx: 2.5;
-    ry: 2.5;
+    rx: var(--StatusRounding);
+    ry: var(--StatusRounding);
     -webkit-mask: none;
     mask: none;
 }
@@ -1110,7 +1109,7 @@ div[class^=circleIconButton-] {
 
 div[class^=circleIconButton-], .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]+div[class^=tutorialContainer] div[class^=circleIconButton-], .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]+div[class^=tutorialContainer]+div[class^=listItem] div[class^=circleIconButton-], div[class^=folderIconWrapper]:not([style]), div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);"] {
     background: var(--Primary) !important;
-    border-radius: 5px;
+    border-radius: var(--Rounding);
 }
 
 div[class^=folderIconWrapper]:hover {
@@ -1127,10 +1126,6 @@ div[class^=folderIconWrapper]:hover div[class^=closedFolderIconWrapper]:before {
 
 div[class^=expandedFolderIconWrapper]>svg {
     display: none;
-}
-
-.icon-27yU2q, .avatar-1BDn8e {
-    border-radius: 5px;
 }
 
 .numberBadge-2s8kKX {
@@ -1739,10 +1734,6 @@ div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(39):before
     margin-left: 5px !important;
 }
 
-.avatarHintInner-Dco91E {
-    border-radius: 5px;
-}
-
 .container-1r6BKw>.children-19S4PO, .container-1r6BKw>.children-19S4PO>.topPill-30KHOu, .container-1r6BKw>.children-19S4PO>.topPill-30KHOu>.item-PXvHYJ {
     height: 100%;
     vertical-align: middle;
@@ -1800,8 +1791,8 @@ div[class^=pill] {
     margin-left: 0 !important
 }
 
-div[class^=tutorialContainer], .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]+div[class^=tutorialContainer], div[class^=tutorialContainer]+div[class^=listItem], .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div[class^=listItem], #app-mount .guilds-1SWlCJ .scroller-1Bvpku>div[style*="opacity: 1;"]:not(:first-child), .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-3Njo_c, .guilds-1SWlCJ .scroller-1Bvpku>div[class^=listItem] {
-    margin: 5px 0px 0px 0px !important;
+div[class^=tutorialContainer], .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]+div[class^=tutorialContainer], .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div[class^=listItem], #app-mount .guilds-1SWlCJ .scroller-1Bvpku>div[style*="opacity: 1;"]:not(:first-child), .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-3Njo_c, .tutorialContainer-30WoTp+div[class^=listItem] {
+    margin: var(--ServerSpacing) 0px 0px 0px;
     border-radius: .25em;
     padding: 7.5px 0px 7.5px 0px;
 }
@@ -2770,6 +2761,7 @@ a {
 .wrapper-sa6paO {
     max-height: var(--ServerSize);
     top: 7.5px;
+    left: 2.5px;
 }
 
 .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]+div[class^=tutorialContainer] div[class^=listItem] {
@@ -2786,10 +2778,6 @@ a {
 
 .channelTextArea-rNsIhG>[class^=scrollableContainer] {
     background-color: var(--bg-sendmessage) !important;
-}
-
-div[class^=folderIconWrapper] {
-    border-radius: 5px;
 }
 
 .sidebar-2K8pFh .container-6sXIoE {
@@ -3400,4 +3388,22 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
 
 .avatars-kJA12W>.avatar-Nt40nT {
     margin: 0 2.5px;
+}
+
+div[class^=tutorialContainer]+div[class^=listItem] {
+    width: unset;
+    margin: 0!important;
+    /*
+    margin: 5px 0px 0px 0px !important;
+    border-radius: .25em;
+    padding: 7.5px 0px 7.5px 0px;
+    */
+}
+
+.icon-27yU2q, .avatar-1BDn8e, div[class^=folderIconWrapper], .avatarHintInner-Dco91E {
+    border-radius: var(--Rounding);
+}
+
+.avatar-VxgULZ, .avatar-3bWpYy {
+    border-radius: var(--Rounding);
 }

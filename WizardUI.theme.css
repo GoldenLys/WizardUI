@@ -63,4 +63,9 @@
     /* SERVER SETTINGS */
     --ServerSize: 45px;
     --ServerColumns: 1;
+    --ServerSpacing: 0px;
+
+    /* ROUNDING */
+    --Rounding: 50%;
+    --StatusRounding: 50;
 }

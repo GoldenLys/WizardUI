@@ -102,6 +102,7 @@ ul>div[class^=listItem]>div[class^=pill] {
 
 .wrapper-sa6paO {
     top: 0px;
+    left: 0px;
 }
 
 .guilds-1SWlCJ .scroller-1Bvpku>div[style*="opacity: 1;"]:not(:first-child) div[class^=pill] .item-2hkk8m {
@@ -128,10 +129,6 @@ ul>div[class^=listItem]>div[class^=pill] {
 
 div[class^=tutorialContainer], .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]+div[class^=tutorialContainer], div[class^=tutorialContainer]+div[class^=listItem], .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div[class^=listItem], #app-mount .guilds-1SWlCJ .scroller-1Bvpku>div[style*="opacity: 1;"]:not(:first-child), .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-3Njo_c, .guilds-1SWlCJ .scroller-1Bvpku>div[class^=listItem] {
     margin: 5px 0px 0px 5px !important;
-}
-
-div[class^=tutorialContainer], div[class^=tutorialContainer]+div[class^=listItem] {
-    width: unset;
 }
 
 /* PMs */
