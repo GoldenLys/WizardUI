@@ -574,7 +574,7 @@ rect[fill="rgb(80, 54, 149)"], rect[fill="#593695"], rect[fill="rgba(80, 54, 149
 .userPopout-3XzG_A {
     background-color: var(--grey);
     background: center / cover repeat var(--mini-profile);
-    width: 350px;
+    width: 350px !important;
 }
 
 .userPopout-3XzG_A .header-2BwW8b>.headerTop-3C2Zn0 {
@@ -630,7 +630,6 @@ rect[fill="rgb(80, 54, 149)"], rect[fill="#593695"], rect[fill="rgba(80, 54, 149
 
 .bodyInnerWrapper-Z8WDxe {
     padding-right: 0;
-    width: 340px;
 }
 
 .userPopout-3XzG_A>[class^=header] {
