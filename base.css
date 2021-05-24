@@ -3306,7 +3306,7 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
     content: "\f00d";
 }
 
-.bd-switch.bd-switch-checked::after, .container-3auIfb[style*="background-color: rgb(59, 165, 92);"]::after {
+.bd-switch.bd-switch-checked::after, .container-3auIfb[style*="background-color: rgb(59, 165, 92);"]::after, .container-3auIfb[style*="background-color: rgb(114, 137, 218);"]::after {
     content: "\f00c";
 }
 
@@ -3320,7 +3320,7 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
     place-items: center;
 }
 
-.bd-switch.bd-switch-checked, .container-3auIfb[style*="background-color: rgb(59, 165, 92);"] {
+.bd-switch.bd-switch-checked, .container-3auIfb[style*="background-color: rgb(59, 165, 92);"], .container-3auIfb[style*="background-color: rgb(114, 137, 218);"] {
     background-color: var(--Primary) !important;
 }
 
@@ -3408,6 +3408,6 @@ div[class^=tutorialContainer]+div[class^=listItem] {
 }
 
 .separator-XqIyoz {
-    background-color: var(--grey);
+    background-color: var(--grey) !important;
     height: 2.5px;
 }
