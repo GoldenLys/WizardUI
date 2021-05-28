@@ -3390,3 +3390,13 @@ div[class^=tutorialContainer]+div[class^=listItem] {
 .pill-1dHPfk {
     background-color: var(--grey5) !important;
 }
+
+.colorDefault-2K3EoJ .checkbox-3s5GYZ, .colorDefault-2K3EoJ .radioSelection-1HmrQS {
+    background-color: var(--Primary);
+}
+
+.aboutMeSection-3bipSD {
+    padding: 5px 10px;
+    border-radius: var(--Rounding);
+    background-color: var(--grey5);
+}
