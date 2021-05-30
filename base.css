@@ -3383,6 +3383,16 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     background-color: transparent;
 }
 
+.avatar-22FtUu>svg>svg {
+    x: 0px;
+    y: 0px;
+}
+
+.avatar-22FtUu>svg>svg rect {
+    width: 80px;
+    height: 80px;
+}
+
 .contentWrapper-3WC1ID {
     background-color: var(--darkgrey) !important;
 }
