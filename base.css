@@ -2,7 +2,7 @@
 @import url("https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css");
 :root {
     --build: "B";
-    --version: "0.92";
+    --version: "0.100";
     /* MAIN VARIABLES */
     --font: 'Inter', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -144,6 +144,10 @@
 
 .tooltipBrand-g03Nz8 .tooltipPointer-3ZfirK {
     border-top-color: var(--darkgrey) !important;
+}
+
+.bottomDivider-1K9Gao {
+    border-bottom-color: var(--darkgrey) !important;
 }
 
 .headerBarContainer-31FKNA, .notice-2X5hT5, .message-2qRu38, .elevationBorderHigh-2WYJ09, .header-2V-4Sw, .tabBody-3YRQ8W:before, .footer-2gL1pp, .modal-yWgWj-, .searchBar-6Kv8R2, .userPopout-3XzG_A, .content-yTz4x3:before, .header-2V-4Sw, .root-1gCeng {
@@ -421,7 +425,7 @@ div.wrapper-2jXpOf[class*="modeSelected"]:before {
     border-color: var(--Text);
 }
 
-.reaction-1hd86g [class^=reactionCount], .search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root {
+.reaction-1hd86g [class^=reactionCount], .search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root, .paymentRowHeader-2sfDdN {
     color: var(--Text);
 }
 
@@ -582,7 +586,7 @@ rect[fill="rgb(80, 54, 149)"], rect[fill="#593695"], rect[fill="rgba(80, 54, 149
 .userPopout-3XzG_A {
     background-color: var(--grey);
     background: center / cover repeat var(--mini-profile);
-    width: 350px !important;
+    width: 360px !important;
 }
 
 .userPopout-3XzG_A .header-2BwW8b>.headerTop-3C2Zn0 {
@@ -1157,6 +1161,15 @@ div[class^=closedFolderIconWrapper]:before {
     margin: 8px 0 !important;
     padding: 5px 0;
     border-radius: 2.5px;
+    border: none;
+    background-color: var(--Primary);
+}
+
+.divider-3573oO {
+    margin: 5px 0 !important;
+    padding: 0.5px 0;
+    border-radius: 2.5px;
+    border: none;
     background-color: var(--Primary);
 }
 
@@ -1245,7 +1258,7 @@ div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(5):before 
 /* Discord Nitro */
 
 div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(8):before {
-    color: rgb(114, 137, 218);
+    color: var(--brand-experiment);
     content: "\f0e7"
 }
 
@@ -1677,7 +1690,7 @@ div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(39):before
 
 .templatesList-2E6rTe {
     display: block;
-    height: 350px;
+    height: 360px;
 }
 
 .root-1gCeng.small-3iVZYw>.container-1CE3eW, .root-1gCeng.small-3iVZYw>.container-1CE3eW>div, .root-1gCeng.small-3iVZYw>.container-1CE3eW>div>div {
@@ -3374,12 +3387,18 @@ div[class^=tutorialContainer]+div[class^=listItem] {
 }
 
 .headerTop-2y3V6H {
+    padding: 20px 16px 16px 112px;
     background-color: transparent;
     border: none;
+    min-height: 90px;
+}
+
+.profileBanner-33-uE1 {
+    display: none;
 }
 
 .avatar-22FtUu {
-    border: 6px solid var(--grey5);
+    border: none;
     background-color: transparent;
 }
 
@@ -3409,4 +3428,81 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     padding: 5px 10px;
     border-radius: var(--Rounding);
     background-color: var(--grey5);
+}
+
+.avatarHint-1E3LMl {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.profileBadges-1dm1_q {
+    position: initial;
+    display: flex;
+    justify-content: left;
+}
+
+.avatarUploaderIndicator-2G-aIZ {
+    background-image: none!important;
+}
+
+.avatarUploaderIndicator-2G-aIZ:after {
+    content: "\f302";
+    color: var(--Text);
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.avatarUploaderInner-3UNxY3:hover .avatarUploaderIndicator-2G-aIZ:after {
+    color: var(--Primary);
+}
+
+.premiumTabItemLink-3IZzin .icon-Zc-uZZ {
+    fill: var(--brand-experiment)!important;
+}
+
+.premiumTabItemLink-3IZzin {
+    color: var(--brand-experiment)!important;
+}
+
+.paymentPane-3bwJ6A, .paginator-166-09, .hoverablePayment-Yc6mK7, .payment-xT17Mq {
+    background-color: var(--grey) !important;
+}
+
+.hoverablePayment-Yc6mK7:hover, .expandedInfo-3kfShd {
+    background-color: var(--darkgrey5) !important;
+}
+
+.codeRedemptionRedirect-1wVR4b {
+    background-color: var(--grey) !important;
+    border-color: transparent !important;
+}
+
+.selected-mKYnfr.option-n0icdO {
+    background-color: var(--Primary);
+    border-color: var(--Primary);
+}
+
+.wrapper-3jrx9n {
+    border: 2px solid var(--Primary);
+}
+
+.notDetected-33MY4s {
+    background-color: var(--grey) !important;
+}
+
+.overlayToggleIconOff-1kT42w>g>rect {
+    display: none;
+}
+
+.overlayToggleIconOff-1kT42w .fill-1ugeBG {
+    fill: var(--Unavailable);
+}
+
+.overlayToggleIconOn-3UNmty .fill-1ugeBG {
+    fill: var(--Online) !important;
 }
