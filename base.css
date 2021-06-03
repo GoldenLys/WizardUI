@@ -2,7 +2,7 @@
 @import url("https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css");
 :root {
     --build: "B";
-    --version: "0.100";
+    --version: "0.101";
     /* MAIN VARIABLES */
     --font: 'Inter', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -589,47 +589,40 @@ rect[fill="rgb(80, 54, 149)"], rect[fill="#593695"], rect[fill="rgba(80, 54, 149
     width: 360px !important;
 }
 
-.userPopout-3XzG_A .header-2BwW8b>.headerTop-3C2Zn0 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 1em 1em .5em;
-}
-
-.userPopout-3XzG_A .header-2BwW8b .avatarWrapper-3H_478 {
+.userPopout-3XzG_A .avatarWrapper-3H_478 {
     display: block;
     width: auto;
     margin: 0;
 }
 
-.userPopout-3XzG_A .header-2BwW8b .headerText-2sdzFM {
+.userPopout-3XzG_A .headerText-2sdzFM {
     display: block;
     width: calc(100% - 95px);
     margin: 0 0 0 15px;
 }
 
-.userPopout-3XzG_A .header-2BwW8b .headerText-2sdzFM .headerTagNoNickname-ENx6no {
+.userPopout-3XzG_A .headerText-2sdzFM .headerTagNoNickname-ENx6no {
     display: block;
     width: 100%;
 }
 
-.userPopout-3XzG_A .header-2BwW8b .headerText-2sdzFM>div span.username-2b1r56 {
+.userPopout-3XzG_A .headerText-2sdzFM>div span.username-2b1r56 {
     width: 100%;
     font-size: 16px;
 }
 
-.userPopout-3XzG_A .header-2BwW8b .headerText-2sdzFM>div span:not(.username-2b1r56):not(.botText-1526X_):not(.bot-2Fta1w):not(.headerName-fajvi9) {
+.userPopout-3XzG_A .headerText-2sdzFM>div span:not(.username-2b1r56):not(.botText-1526X_):not(.bot-2Fta1w):not(.headerName-fajvi9) {
     width: 100%;
     font-weight: bold;
     font-size: 12px;
     opacity: .65;
 }
 
-.userPopout-3XzG_A .header-2BwW8b .badges-XRnWAp, .userPopout-3XzG_A .header-2BwW8b .headerTagWithNickname-3IthZD {
+.userPopout-3XzG_A .badges-XRnWAp, .userPopout-3XzG_A .headerTagWithNickname-3IthZD {
     width: 100%;
 }
 
-.userPopout-3XzG_A .header-2BwW8b .badges-XRnWAp {
+.userPopout-3XzG_A .badges-XRnWAp {
     margin: 5px 15px 0;
 }
 
@@ -645,6 +638,7 @@ rect[fill="rgb(80, 54, 149)"], rect[fill="#593695"], rect[fill="rgba(80, 54, 149
 }
 
 .userPopout-3XzG_A>[class^=header] {
+    position: relative;
     background: transparent;
     padding-bottom: 10px;
     border-bottom: 2px solid var(--Primary);
@@ -812,7 +806,7 @@ rect[fill="rgb(80, 54, 149)"], rect[fill="#593695"], rect[fill="rgba(80, 54, 149
 
 /* DISABLE OFFLINE STATUS */
 
-.userPopout-3XzG_A .header-2BwW8b .avatarWrapper-3H_478>svg>foreignObject, .userPopout-3XzG_A .header-2BwW8b .avatarWrapper-3H_478:hover>svg>foreignObject, foreignObject[mask="url(#svg-mask-avatar-status-round-32)"], foreignObject[mask="url(#svg-mask-avatar-default)"], foreignObject[mask="url(#svg-mask-avatar-status-round-80)"], .panels-j1Uci_ .container-3baos1 .avatar-SmRMf2 .mask-1l8v16>foreignObject, .callAvatarMask-1SLlRi foreignObject, .controlButton-2MhVEL foreignObject {
+.userPopout-3XzG_A .avatarWrapper-3H_478>svg>foreignObject, .userPopout-3XzG_A .avatarWrapper-3H_478:hover>svg>foreignObject, foreignObject[mask="url(#svg-mask-avatar-status-round-32)"], foreignObject[mask="url(#svg-mask-avatar-default)"], foreignObject[mask="url(#svg-mask-avatar-status-round-80)"], .panels-j1Uci_ .container-3baos1 .avatar-SmRMf2 .mask-1l8v16>foreignObject, .callAvatarMask-1SLlRi foreignObject, .controlButton-2MhVEL foreignObject {
     mask: none !important
 }
 
@@ -826,7 +820,7 @@ rect[fill="rgba(116, 127, 141, 1)"], rect[fill="#747f8d"], [mask^="url(#svg-mask
     display: none;
 }
 
-.userPopout-3XzG_A>[class^=header] .pointerEvents-2zdfdO, .header-QKLPzZ .pointerEvents-2zdfdO {
+.userPopout-3XzG_A>[class^=header] .pointerEvents-2zdfdO, .header-QKLPzZ .pointerEvents-2zdfdO, .wrapper-3t9DeA[style*="height: 80px"]>svg>rect, .avatar-22FtUu>svg>svg rect {
     width: 80px;
     height: 80px;
 }
@@ -2947,11 +2941,6 @@ a {
     background-color: var(--darkgrey) !important;
 }
 
-.wrapper-3t9DeA[style*="height: 80px"]>svg>rect {
-    height: 80px;
-    width: 80px;
-}
-
 .container-JHR0NT {
     left: 30px;
     right: auto;
@@ -3385,8 +3374,7 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     background-color: var(--grey) !important;
     height: 2.5px;
 }
-
-.headerTop-2y3V6H {
+.headerTop-2cWpdB {
     padding: 20px 16px 16px 112px;
     background-color: transparent;
     border: none;
@@ -3394,7 +3382,12 @@ div[class^=tutorialContainer]+div[class^=listItem] {
 }
 
 .profileBanner-33-uE1 {
-    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
 }
 
 .avatar-22FtUu {
@@ -3405,11 +3398,6 @@ div[class^=tutorialContainer]+div[class^=listItem] {
 .avatar-22FtUu>svg>svg {
     x: 0px;
     y: 0px;
-}
-
-.avatar-22FtUu>svg>svg rect {
-    width: 80px;
-    height: 80px;
 }
 
 .contentWrapper-3WC1ID {
@@ -3436,7 +3424,7 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     left: 0px;
 }
 
-.profileBadges-1dm1_q {
+div[class*=profileBadges-] {
     position: initial;
     display: flex;
     justify-content: left;
