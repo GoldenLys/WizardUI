@@ -3396,8 +3396,9 @@ div[class^=tutorialContainer]+div[class^=listItem] {
 }
 
 .avatar-22FtUu>svg>svg {
-    x: 0px;
-    y: 0px;
+    display: contents;
+    x: 0;
+    y: 0;
 }
 
 .contentWrapper-3WC1ID {
