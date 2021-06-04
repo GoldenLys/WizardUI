@@ -3390,6 +3390,14 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     opacity: 0.5;
 }
 
+.profileBannerPremium-35utuo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .avatar-22FtUu {
     border: none;
     background-color: transparent;
@@ -3413,7 +3421,7 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     background-color: var(--Primary);
 }
 
-.aboutMeSection-3bipSD {
+.aboutMeSection---MkQa {
     padding: 5px 10px;
     border-radius: var(--Rounding);
     background-color: var(--grey5);
@@ -3494,4 +3502,8 @@ div[class*=profileBadges-] {
 
 .overlayToggleIconOn-3UNmty .fill-1ugeBG {
     fill: var(--Online) !important;
+}
+
+.avatarPositionNormal-1CZUPk, .avatarPositionPremium-1QenYe {
+    top: 16px;
 }
