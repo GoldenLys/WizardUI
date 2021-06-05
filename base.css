@@ -806,7 +806,7 @@ rect[fill="rgb(80, 54, 149)"], rect[fill="#593695"], rect[fill="rgba(80, 54, 149
 
 /* DISABLE OFFLINE STATUS */
 
-.userPopout-3XzG_A .avatarWrapper-3H_478>svg>foreignObject, .userPopout-3XzG_A .avatarWrapper-3H_478:hover>svg>foreignObject, foreignObject[mask="url(#svg-mask-avatar-status-round-32)"], foreignObject[mask="url(#svg-mask-avatar-default)"], foreignObject[mask="url(#svg-mask-avatar-status-round-80)"], .panels-j1Uci_ .container-3baos1 .avatar-SmRMf2 .mask-1l8v16>foreignObject, .callAvatarMask-1SLlRi foreignObject, .controlButton-2MhVEL foreignObject {
+.userPopout-3XzG_A .avatarWrapper-3H_478>svg>foreignObject, .userPopout-3XzG_A .avatarWrapper-3H_478:hover>svg>foreignObject, foreignObject[mask="url(#svg-mask-avatar-status-round-32)"], foreignObject[mask="url(#svg-mask-avatar-default)"], foreignObject[mask="url(#svg-mask-avatar-status-round-80)"], foreignObject[mask="url(#svg-mask-avatar-status-mobile-80)"], .panels-j1Uci_ .container-3baos1 .avatar-SmRMf2 .mask-1l8v16>foreignObject, .callAvatarMask-1SLlRi foreignObject, .controlButton-2MhVEL foreignObject {
     mask: none !important
 }
 
@@ -3366,7 +3366,7 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     margin: 0!important;
 }
 
-.avatarWrapper-1-5NA0, .avatarHint-1E3LMl, .icon-27yU2q, .avatar-1BDn8e, div[class^=folderIconWrapper], .avatarHintInner-Dco91E, .avatar-VxgULZ, .avatar-3bWpYy, .avatar-22FtUu {
+.avatarWrapper-1-5NA0, .avatarHint-1E3LMl, .icon-27yU2q, .avatar-1BDn8e, div[class^=folderIconWrapper], .avatarHintInner-2kMTo4,.avatar-VxgULZ, .avatar-3bWpYy, .avatar-22FtUu {
     border-radius: var(--Rounding);
 }
 
