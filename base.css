@@ -3375,8 +3375,9 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     height: 2.5px;
 }
 .headerTop-2cWpdB {
-    padding: 20px 16px 16px 112px;
+    padding: 20px 16px 16px 16px;
     background-color: transparent;
+    text-indent: 90px;
     border: none;
     min-height: 90px;
 }
@@ -3435,6 +3436,7 @@ div[class^=tutorialContainer]+div[class^=listItem] {
 
 div[class*=profileBadges-] {
     position: initial;
+    padding-left: 90px;
     display: flex;
     justify-content: left;
 }
