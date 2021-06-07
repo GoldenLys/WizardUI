@@ -3366,7 +3366,7 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     margin: 0!important;
 }
 
-.avatarWrapper-1-5NA0, .avatarHint-1E3LMl, .icon-27yU2q, .avatar-1BDn8e, div[class^=folderIconWrapper], .avatarHintInner-2kMTo4,.avatar-VxgULZ, .avatar-3bWpYy, .avatar-22FtUu {
+.avatarWrapper-1-5NA0, .avatarHint-1E3LMl, .icon-27yU2q, .avatar-1BDn8e, div[class^=folderIconWrapper], .avatarHintInner-2kMTo4, .avatar-VxgULZ, .avatar-3bWpYy, .avatar-22FtUu {
     border-radius: var(--Rounding);
 }
 
@@ -3374,12 +3374,16 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     background-color: var(--grey) !important;
     height: 2.5px;
 }
+
 .headerTop-2cWpdB {
     padding: 20px 16px 16px 16px;
     background-color: transparent;
-    text-indent: 90px;
     border: none;
     min-height: 90px;
+}
+
+.headerTop-2cWpdB>div:not([class^=aboutMeSection-]) {
+    padding-left: 96px;
 }
 
 .profileBanner-33-uE1 {
@@ -3424,6 +3428,7 @@ div[class^=tutorialContainer]+div[class^=listItem] {
 
 .aboutMeSection---MkQa {
     padding: 5px 10px;
+    margin-top: 26px !important;
     border-radius: var(--Rounding);
     background-color: var(--grey5);
 }
