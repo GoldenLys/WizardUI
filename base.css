@@ -820,9 +820,20 @@ rect[fill="rgba(116, 127, 141, 1)"], rect[fill="#747f8d"], [mask^="url(#svg-mask
     display: none;
 }
 
-.userPopout-xaxa6l>[class^=header] .pointerEvents-2zdfdO, .header-QKLPzZ .pointerEvents-2zdfdO, .wrapper-3t9DeA[style*="height: 80px"]>svg>rect, .avatar-22FtUu>svg>svg rect {
+.userPopout-xaxa6l>[class^=header] .pointerEvents-2zdfdO:not([aria-hidden="true"]), 
+.header-QKLPzZ .pointerEvents-2zdfdO,
+.wrapper-3t9DeA[style*="height: 80px"]>svg>rect:not([aria-hidden="true"]),
+.avatar-22FtUu>svg>svg rect,
+.avatar-37jOim>svg>svg[width="40"] rect {
     width: 80px;
     height: 80px;
+}
+
+.avatar-37jOim>svg>svg[width="40"],
+.avatar-22FtUu>svg>svg[width="40"] {
+    display: contents;
+    x: 0;
+    y: 0;
 }
 
 .assetsLargeImageStreamPreview-1A9lfF, .assetsLargeImageUserPopout-3Pp8BK, .assetsLargeImageUserPopoutXbox-2hgKt0 {
@@ -3408,12 +3419,6 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     background-color: transparent;
 }
 
-.avatar-22FtUu>svg>svg {
-    display: contents;
-    x: 0;
-    y: 0;
-}
-
 .contentWrapper-3WC1ID {
     background-color: var(--darkgrey) !important;
 }
@@ -3513,4 +3518,12 @@ div[class*=profileBadges-] {
 
 div[class*=avatarPositionNormal-], div[class*=avatarPositionPremium-] {
     top: 16px;
+}
+
+.avatarHint-2A3RNb {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    height: 84px !important;
+    width: 84px !important;
 }
