@@ -644,17 +644,17 @@ rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"], [mask^=
     border-bottom: 2px solid var(--Primary);
 }
 
-.userPopout-xaxa6l>[class^=header] .activity-fViXj7 {
+.userPopout-xaxa6l>[class^=header] .activity-3v9l4T {
     position: relative;
     padding: 12.5px 15px;
 }
 
-.userPopout-xaxa6l>[class^=header] .activity-fViXj7 [class^=body] {
+.userPopout-xaxa6l>[class^=header] .activity-3v9l4T [class^=body] {
     position: relative;
     z-index: 1;
 }
 
-.userPopout-xaxa6l>[class^=header] .activity-fViXj7:before {
+.userPopout-xaxa6l>[class^=header] .activity-3v9l4T:before {
     content: "";
     display: block;
     position: absolute;
@@ -667,7 +667,7 @@ rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"], [mask^=
     background-color: var(--Primary);
 }
 
-.userPopout-xaxa6l>[class^=header] .activity-fViXj7 .timeBarUserPopout-AWPFf2, .userPopout-xaxa6l>[class^=header] .activity-fViXj7 .timeBarUserPopout-AWPFf2+div {
+.userPopout-xaxa6l>[class^=header] .activity-3v9l4T .timeBarUserPopout-AWPFf2, .userPopout-xaxa6l>[class^=header] .activity-3v9l4T .timeBarUserPopout-AWPFf2+div {
     position: relative;
     z-index: 1;
 }
