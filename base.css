@@ -2611,23 +2611,23 @@ a {
     position: relative;
 }
 
-.title-3qD0b- .status-1XNdyw>svg rect[fill="rgba(237, 66, 69, 1)"], .title-3qD0b- .status-1XNdyw>svg rect[fill="#ed4245"] {
+.title-3qD0b- .status-1XNdyw>svg rect[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
     fill: var(--Unavailable) !important;
 }
 
-.title-3qD0b- .status-1XNdyw>svg rect[fill="rgba(59, 165, 92, 1)"], .title-3qD0b- .status-1XNdyw>svg rect[fill="#3ba55c"] {
+.title-3qD0b- .status-1XNdyw>svg rect[fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
     fill: var(--Online) !important;
 }
 
-.title-3qD0b- .status-1XNdyw>svg rect[fill="rgba(250, 166, 26, 1)"], .title-3qD0b- .status-1XNdyw>svg rect[fill="#faa61a"] {
+.title-3qD0b- .status-1XNdyw>svg rect[fill="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"] {
     fill: var(--Idle) !important;
 }
 
-.title-3qD0b- .status-1XNdyw>svg rect[fill="rgba(116, 127, 141, 1)"], .title-3qD0b- .status-1XNdyw>svg rect[fill="#747f8d"] {
+.title-3qD0b- .status-1XNdyw>svg rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"]{
     fill: var(--Offline) !important;
 }
 
-.title-3qD0b- .status-1XNdyw>svg rect[fill="rgba(80, 54, 149, 1)"], .title-3qD0b- .status-1XNdyw>svg rect[fill="#593695"] {
+.title-3qD0b- .status-1XNdyw>svg rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"] {
     fill: var(--Streaming) !important;
 }
 
