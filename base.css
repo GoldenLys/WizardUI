@@ -3284,7 +3284,7 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
     content: "\f00d";
 }
 
-.bd-switch.bd-switch-checked::after, .container-3auIfb[style*="background-color: rgb(59, 165, 92);"]::after, .container-3auIfb[style*="background-color: rgb(114, 137, 218);"]::after {
+.bd-switch.bd-switch-checked::after, .container-3auIfb[style*="background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"]::after, .container-3auIfb[style*="background-color: rgb(114, 137, 218);"]::after {
     content: "\f00c";
 }
 
@@ -3298,7 +3298,9 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
     place-items: center;
 }
 
-.bd-switch.bd-switch-checked, .container-3auIfb[style*="background-color: rgb(59, 165, 92);"], .container-3auIfb[style*="background-color: rgb(114, 137, 218);"] {
+.bd-switch.bd-switch-checked, 
+.container-3auIfb[style*="background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"],
+.container-3auIfb[style*="background-color: rgb(114, 137, 218);"] {
     background-color: var(--Primary) !important;
 }
 
@@ -3331,7 +3333,7 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
     border: none;
 }
 
-.side-8zPYf6 .item-PXvHYJ[style="color: rgb(237, 66, 69);"] {
+.side-8zPYf6 .item-PXvHYJ[style="color: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
     color: var(--Unavailable)!important;
 }
 
@@ -3343,15 +3345,15 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
     background: var(--Primary) !important;
 }
 
-.radioBar-bMNUI-[style^="--radio-bar-accent-color:#3ba55c;"] {
+.radioBar-bMNUI-[style^="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
     --radio-bar-accent-color: var(--Online) !important;
 }
 
-.radioBar-bMNUI-[style^="--radio-bar-accent-color:#cb8615;"] {
+.radioBar-bMNUI-[style^="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
     --radio-bar-accent-color: var(--Idle) !important;
 }
 
-.radioBar-bMNUI-[style^="--radio-bar-accent-color:#ed4245;"] {
+.radioBar-bMNUI-[style^="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);"] {
     --radio-bar-accent-color: var(--Unavailable) !important;
 }
 
