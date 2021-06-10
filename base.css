@@ -3390,6 +3390,7 @@ div[class^=tutorialContainer]+div[class^=listItem] {
 
 .headerTop-2cWpdB>div:not([class^=aboutMeSection-]) {
     padding-left: 96px;
+    max-width: calc(100% - 96px);
 }
 
 .profileBanner-33-uE1 {
