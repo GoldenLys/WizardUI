@@ -2,7 +2,7 @@
 @import url("https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css");
 :root {
     --build: "B";
-    --version: "0.102";
+    --version: "0.103";
     /* MAIN VARIABLES */
     --font: 'Inter', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -21,10 +21,6 @@
     --Idle: rgb(18, 100, 239);
     --Unavailable: rgb(228, 15, 0);
     --Offline: rgb(90, 95, 100);
-    /* PROFILE VARIABLES */
-    --Playing: rgb(0, 133, 241);
-    --Xbox: rgb(0, 185, 75);
-    --Spotify: rgb(0, 205, 76);
     --Streaming: rgb(110, 0, 196);
     /* VARS */
     --background: var(--grey);
@@ -644,6 +640,10 @@ rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"], [mask^=
     border-bottom: 2px solid var(--Primary);
 }
 
+.userPopout-xaxa6l>[class^=header] .headerText-15Q25Z.userSelectText-1o1dQ7 {
+    min-height: 60px;
+}
+
 .userPopout-xaxa6l>[class^=header] .activity-3v9l4T {
     position: relative;
     padding: 16px 26px;
@@ -825,10 +825,15 @@ rect[fill="rgba(116, 127, 141, 1)"], rect[fill="#747f8d"], [mask^="url(#svg-mask
     height: 80px;
 }
 
-.avatar-37jOim>svg>svg[width="40"], .avatar-22FtUu>svg>svg[width="40"] {
+.avatar-37jOim>svg>svg[width="40"], .avatar-22FtUu>svg>svg[width="40"], .avatar-AvHqJA>svg>svg {
     display: contents;
     x: 0;
     y: 0;
+}
+
+.avatar-AvHqJA>svg>svg>rect {
+    width: 120px;
+    height: 120px;
 }
 
 .assetsLargeImageStreamPreview-1A9lfF, .assetsLargeImageUserPopout-3Pp8BK, .assetsLargeImageUserPopoutXbox-2hgKt0 {
@@ -2179,7 +2184,6 @@ ul>div[class^=listItem]>div[class^=pill] {
 
 .checked-3_4uQ9 {
     border-color: transparent !important;
-    background-color: rgb(155 155 155 / 25%) !important;
 }
 
 path[fill="#7289da"] {
@@ -2206,11 +2210,11 @@ svg[width="49"][height="40"]>rect {
     border-radius: 2.5px;
 }
 
-.topSectionNormal-2-vo2m .tabBarContainer-1s1u-z, .userInfoSection-2acyCx+.userInfoSection-2acyCx, .tabBarContainer-1s1u-z {
+.topSection-y3p-_D .tabBarContainer-37hZsr, .userInfoSection-2acyCx+.userInfoSection-2acyCx, .tabBarContainer-37hZsr {
     border-top-color: transparent;
 }
 
-.connectedAccount-2Jb-Z0, .listRow-1iDGel {
+.connectedAccount-2Jb-Z0, .listRow-1iDGel, .userProfileActivity-Bnt1p_ {
     border-radius: 2.5px;
     width: calc(50% - 45px);
     border: none;
@@ -2251,49 +2255,13 @@ div[class^="topSection"] .activityProfile-2bJRaP.activity-1ythUs:before {
     z-index: 1;
 }
 
-.topSectionNormal-2-vo2m {
+.topSection-y3p-_D {
     border-bottom: 2px solid white;
     box-shadow: inset 0px -10px 10px -15px white;
 }
 
-.topSectionNormal-2-vo2m .activity-1ythUs:before {
+.topSection-y3p-_D .activity-1ythUs:before {
     background: transparent;
-}
-
-.topSectionStreaming-1Tpf5X {
-    border-bottom: 2px solid var(--Streaming);
-    box-shadow: inset 0px -10px 10px -15px var(--Streaming);
-}
-
-.topSectionStreaming-1Tpf5X .activity-1ythUs:before {
-    background: var(--Streaming);
-}
-
-.topSectionSpotify-1lI0-P {
-    border-bottom: 2px solid var(--Spotify);
-    box-shadow: inset 0px -10px 10px -15px var(--Spotify);
-}
-
-.topSectionSpotify-1lI0-P .activity-1ythUs:before {
-    background: var(--Spotify);
-}
-
-.topSectionXbox-3fWLjS {
-    border-bottom: 2px solid var(--Xbox);
-    box-shadow: inset 0px -10px 10px -15px var(--Xbox);
-}
-
-.topSectionXbox-3fWLjS .activity-1ythUs:before {
-    background: var(--Xbox);
-}
-
-.topSectionPlaying-1J5E4n {
-    border-bottom: 2px solid var(--Playing);
-    box-shadow: inset 0px -10px 10px -15px var(--Playing);
-}
-
-.topSectionPlaying-1J5E4n .activity-1ythUs:before {
-    background: var(--Playing);
 }
 
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
@@ -2317,7 +2285,7 @@ div[class^="topSection"] .activityProfile-2bJRaP.activity-1ythUs:before {
     border-color: transparent !important;
 }
 
-div[class^="topSection"] .tabBarContainer-1s1u-z .tabBar-2MuP6- {
+div[class^="topSection"] .tabBarContainer-37hZsr .tabBar-2MuP6- {
     justify-content: center;
 }
 
@@ -3372,7 +3340,7 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     margin: 0!important;
 }
 
-.wrapper-3t9DeA, .avatarWrapper-3r9PdD, .avatarWrapper-1-5NA0, .avatarHint-1E3LMl, .icon-27yU2q, .avatar-1BDn8e, div[class^=folderIconWrapper], .avatarHintInner-2kMTo4, .avatar-VxgULZ, .avatar-3bWpYy, .avatar-22FtUu {
+.iconActiveMedium-1UaEIR, .wrapper-3t9DeA, .avatarWrapper-3r9PdD, .avatarWrapper-1-5NA0, .avatarHint-1E3LMl, .icon-27yU2q, .avatar-1BDn8e, div[class^=folderIconWrapper], .avatarHintInner-2kMTo4, .avatar-VxgULZ, .avatar-3bWpYy, .avatar-22FtUu {
     border-radius: var(--Rounding);
 }
 
@@ -3386,11 +3354,7 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     background-color: transparent;
     border: none;
     min-height: 90px;
-}
-
-.headerTop-2cWpdB>div:not([class^=aboutMeSection-]) {
-    padding-left: 96px;
-    max-width: calc(100% - 96px);
+    text-shadow: 0 0 5px var(--darkgrey);
 }
 
 .avatar-22FtUu {
@@ -3412,7 +3376,6 @@ div[class^=tutorialContainer]+div[class^=listItem] {
 
 .aboutMeSection---MkQa {
     padding: 5px 10px;
-    margin-top: 26px !important;
     border-radius: var(--Rounding);
     background-color: var(--grey5);
 }
@@ -3425,9 +3388,14 @@ div[class^=tutorialContainer]+div[class^=listItem] {
 
 div[class*=profileBadges-] {
     position: initial;
-    padding-left: 90px;
     display: flex;
     justify-content: left;
+    min-height: 30px;
+}
+
+div[class*=profileBadges-], .userPopout-xaxa6l>[class^=header] .headerText-15Q25Z.userSelectText-1o1dQ7 {
+    padding-left: 96px;
+    max-width: calc(100% - 96px);
 }
 
 .avatarUploaderIndicator-2G-aIZ {
@@ -3528,4 +3496,13 @@ div[class*=avatarPositionNormal-], div[class*=avatarPositionPremium-] {
 .userTooltip-7qZaHD svg>rect {
     width: 16px;
     height: 16px;
+}
+
+.footer-2gL1pp.footer-1JuRYY {
+    background-color: transparent !important;
+}
+
+.appMount-3lHmkl>.layerContainer-yqaFcK, .appMount-3lHmkl>.popouts-2bnG9Z {
+    position: fixed;
+    z-index: 10000;
 }
