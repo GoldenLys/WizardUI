@@ -3524,3 +3524,8 @@ div[class*=avatarPositionNormal-], div[class*=avatarPositionPremium-] {
 .userInfoSection-q_35fn+.userInfoSection-q_35fn {
     border: none;
 }
+
+.userTooltip-7qZaHD svg>rect {
+    width: 16px;
+    height: 16px;
+}
