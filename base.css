@@ -85,6 +85,7 @@
     --status-danger-background: var(--Unavailable);
     --status-danger-text: var(--Text);
     --focus-primary: var(--Primary);
+    --font-display: var(--font) !important;
 }
 
 .appMount-3lHmkl {
@@ -96,6 +97,7 @@
 
 ::-webkit-input-placeholder, body, button, input, select, textarea {
     font-family: var(--font);
+    line-height: 1.15;
     text-rendering: optimizeLegibility
 }
 
@@ -629,13 +631,13 @@ rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"], [mask^=
     border-radius: 0 0 5px 5px;
 }
 
-.bodyInnerWrapper-Z8WDxe {
+.bodyInnerWrapper-1NH0NQ {
     padding-right: 0;
 }
 
 .userPopout-xaxa6l>[class^=header] {
     position: relative;
-    background: transparent;
+    background: var(--darkgrey);
     padding-bottom: 10px;
     border-bottom: 2px solid var(--Primary);
 }
@@ -3334,6 +3336,9 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
 .userPopout-xaxa6l[data-user-id="201474545289396224"] {
     background: center / cover no-repeat url(https://purplewizard.space/images/wizard.gif);
 }
+.userPopout-xaxa6l[data-user-id="201474545289396224"] .headerNormal-1mX3KY {
+    background-color: transparent;
+}
 
 .avatars-kJA12W>.avatar-Nt40nT {
     margin: 0 2.5px;
@@ -3481,7 +3486,7 @@ div[class*=avatarPositionNormal-], div[class*=avatarPositionPremium-] {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.5;
+    opacity: .75;
 }
 
 .popoutBannerPremium-1n96gg {
