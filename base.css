@@ -1000,6 +1000,7 @@ rect[fill="rgba(116, 127, 141, 1)"], rect[fill="#747f8d"], [mask^="url(#svg-mask
     width: unset;
     border-radius: 0 !important;
     transition: 350ms ease;
+    padding: 0;
 }
 
 .searchBar-3dMhjb .icon-38sknP:not(.clear-1pMieT):after {
@@ -1939,7 +1940,7 @@ div[class^=tutorialContainer], div[class^=tutorialContainer]+div[class^=listItem
     height: 40px;
 }
 
-.chatContent-a9vAAp .scrollerInner-2YIMLh .container-3RCQyg .header-3uLluP {
+.chatContent-a9vAAp .scrollerInner-2YIMLh .container-3RCQyg .header-3uLluP, .guildNameWrapper-1RQYer {
     text-align: center;
 }
 
@@ -3336,6 +3337,7 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
 .userPopout-xaxa6l[data-user-id="201474545289396224"] {
     background: center / cover no-repeat url(https://purplewizard.space/images/wizard.gif);
 }
+
 .userPopout-xaxa6l[data-user-id="201474545289396224"] .headerNormal-1mX3KY {
     background-color: transparent;
 }
@@ -3522,4 +3524,9 @@ div[class*=avatarPositionNormal-], div[class*=avatarPositionPremium-] {
 
 .top-28JiJ- .brand-1Zl8en.item-PXvHYJ:active, .top-28JiJ- .brand-1Zl8en.selected-3s45Ha.item-PXvHYJ {
     border-bottom-color: var(--Primary);
+}
+
+.search-2oPWTC .DraftEditor-root .public-DraftEditor-content, .search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root {
+    padding-left: 0;
+    padding-right: 0;
 }
