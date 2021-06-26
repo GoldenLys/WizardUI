@@ -3343,7 +3343,7 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
     margin: 0 2.5px;
 }
 
-div[class^=tutorialContainer]+div[class^=listItem] {
+div[class^=tutorialContainer]+div[class^=listItem]:not(.frame-oXWS21) {
     width: unset;
     margin: 0!important;
 }
@@ -3568,4 +3568,40 @@ div[class*=avatarPositionNormal-], div[class*=avatarPositionPremium-] {
 
 .panels-j1Uci_>.container-3baos1.gameActivityToggleAdded-Yd-YxC .nameTag-3uD-yy>.subtext-3CDbHg>.hoverRoll-YK53gQ {
     max-width: calc(100% - 128px);
+}
+
+.listItem-GuPuDH.frame-oXWS21 {
+    background: var(--Primary) !important;
+    border-radius: var(--Rounding);
+    color: var(--Primary);
+    display: flex;
+    place-items: center;
+    place-content: center;
+    width: var(--ServerSize) !important;
+    height: var(--ServerSize);
+    margin: 5px auto !important;
+}
+
+.listItem-GuPuDH.frame-oXWS21:hover {
+    transform: scale(0.85);
+}
+
+.listItem-GuPuDH.frame-oXWS21>div {
+    width: var(--ServerSize);
+    height: var(--ServerSize);
+}
+
+.listItem-GuPuDH.frame-oXWS21 .childWrapper-anI2G9 {
+    background-color: transparent !important;
+    color: var(--Text);
+    text-align: center;
+    white-space: normal;
+    overflow: hidden;
+    font-size: 15px;
+    line-height: 16px;
+    height: auto;
+}
+
+.listItem-GuPuDH.frame-oXWS21:hover .childWrapper-anI2G9 {
+    color: var(--Text);
 }
