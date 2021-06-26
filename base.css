@@ -3343,11 +3343,6 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
     margin: 0 2.5px;
 }
 
-div[class^=tutorialContainer]+div[class^=listItem]:not(.frame-oXWS21) {
-    width: unset;
-    margin: 0!important;
-}
-
 .avatarHint-2A3RNb, .iconActiveMedium-1UaEIR, .wrapper-3t9DeA, .avatarWrapper-3r9PdD, .avatarWrapper-1-5NA0, .avatarHint-1E3LMl, .icon-27yU2q, .avatar-1BDn8e, div[class^=folderIconWrapper], .avatarHintInner-2kMTo4, .avatar-VxgULZ, .avatar-3bWpYy, .avatar-22FtUu {
     border-radius: var(--Rounding);
 }
