@@ -584,6 +584,7 @@ rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"], [mask^=
     background-color: var(--grey);
     background: center / cover repeat var(--mini-profile);
     width: 360px !important;
+    border-radius: var(--Rounding);
 }
 
 .userPopout-xaxa6l .avatarWrapper-3H_478 {
@@ -645,35 +646,35 @@ rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"], [mask^=
     min-height: 76px;
 }
 
-.userPopout-xaxa6l>.headerTop-3vNv-a .activity-3v9l4T {
+.userPopout-xaxa6l>.body-3HBlXn .activity-2INFPu {
     position: relative;
-    padding: 16px 26px;
+    padding: 16px 5px;
 }
 
-.userPopout-xaxa6l>.headerTop-3vNv-a .activity-3v9l4T [class^=body] {
+.userPopout-xaxa6l>.body-3HBlXn .activity-2INFPu [class^=body] {
     position: relative;
     z-index: 1;
 }
 
-.userPopout-xaxa6l>.headerTop-3vNv-a .activity-3v9l4T:before {
+.userPopout-xaxa6l>.body-3HBlXn .activity-2INFPu:before {
     content: "";
     display: block;
     position: absolute;
     top: 10px;
-    left: 16px;
-    right: 16px;
+    left: 0;
+    right: 0;
     bottom: 10px;
     opacity: 0.5;
     border-radius: 5px;
     background-color: var(--Primary);
 }
 
-.userPopout-xaxa6l>.headerTop-3vNv-a .activity-3v9l4T .timeBarUserPopout-AWPFf2, .userPopout-xaxa6l>.headerTop-3vNv-a .activity-3v9l4T .timeBarUserPopout-AWPFf2+div {
+.userPopout-xaxa6l>.body-3HBlXn .activity-2INFPu .timeBarUserPopout-AWPFf2, .userPopout-xaxa6l>.body-3HBlXn .activity-2INFPu .timeBarUserPopout-AWPFf2+div {
     position: relative;
     z-index: 1;
 }
 
-.bodyTitle-1ySSKn, .headerText-1HLrL7 {
+.bodyTitle-1ySSKn, .headerText-1HLrL7, .aboutMeTitle-1IYtPE {
     z-index: 1;
     position: relative;
     display: block;
@@ -816,6 +817,7 @@ rect[fill="rgba(116, 127, 141, 1)"], rect[fill="#747f8d"], [mask^="url(#svg-mask
     stroke: transparent !important;
     mask: none !important;
 }
+
 .userPopout-xaxa6l .footer-3UKYOU {
     display: none;
 }
@@ -3484,6 +3486,7 @@ div[class*=avatarPositionNormal-], div[class*=avatarPositionPremium-] {
     width: 100%;
     height: 100%;
     opacity: .75;
+    border-radius: var(--Rounding);
 }
 
 .popoutBannerPremium-1n96gg {
