@@ -3346,7 +3346,7 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     margin: 0!important;
 }
 
-.iconActiveMedium-1UaEIR, .wrapper-3t9DeA, .avatarWrapper-3r9PdD, .avatarWrapper-1-5NA0, .avatarHint-1E3LMl, .icon-27yU2q, .avatar-1BDn8e, div[class^=folderIconWrapper], .avatarHintInner-2kMTo4, .avatar-VxgULZ, .avatar-3bWpYy, .avatar-22FtUu {
+.avatarHint-2A3RNb, .iconActiveMedium-1UaEIR, .wrapper-3t9DeA, .avatarWrapper-3r9PdD, .avatarWrapper-1-5NA0, .avatarHint-1E3LMl, .icon-27yU2q, .avatar-1BDn8e, div[class^=folderIconWrapper], .avatarHintInner-2kMTo4, .avatar-VxgULZ, .avatar-3bWpYy, .avatar-22FtUu {
     border-radius: var(--Rounding);
 }
 
@@ -3471,10 +3471,10 @@ div[class*=avatarPositionNormal-], div[class*=avatarPositionPremium-] {
 
 .avatarHint-2A3RNb {
     position: absolute;
-    top: 7px;
-    left: 7px;
-    height: 78px !important;
-    width: 78px !important;
+    top: 0;
+    left: 0;
+    height: 92px !important;
+    width: 92px !important;
 }
 
 .popoutBanner-19WKGg, .popoutBannerPremium-1n96gg {
@@ -3561,4 +3561,8 @@ div[class*=avatarPositionNormal-], div[class*=avatarPositionPremium-] {
 
 .contentRegion-3nDuYy>div>div>main>div>.divider-3573oO {
     display: none;
+}
+
+.panels-j1Uci_>.container-3baos1.gameActivityToggleAdded-Yd-YxC .nameTag-3uD-yy>.subtext-3CDbHg>.hoverRoll-YK53gQ {
+    max-width: calc(100% - 128px);
 }
