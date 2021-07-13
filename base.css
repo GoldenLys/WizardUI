@@ -2,7 +2,7 @@
 @import url("https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css");
 :root {
     --build: "B";
-    --version: "0.104";
+    --version: "0.105";
     /* MAIN VARIABLES */
     --font: 'Inter', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -3257,11 +3257,14 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
     text-align: center;
 }
 
-.bd-switch::after, .container-3auIfb::after {
+.bd-switch:not(.bd-switch-checked)::after, .container-3auIfb::after {
     content: "\f00d";
 }
 
-.bd-switch.bd-switch-checked::after, .container-3auIfb::after[style*="background-color: hsl(227, calc(var(--saturation-factor, 1) * 58.4%), 65.1%);"], .container-3auIfb[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"]::after, .container-3auIfb[style*="background-color: rgb(114, 137, 218);"]::after {
+.bd-switch.bd-switch-checked::after, 
+.container-3auIfb[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"]::after,
+.container-3auIfb[style*="background-color: hsl(227, calc(var(--saturation-factor, 1) * 58.4%), 65.1%);"]::after, 
+.container-3auIfb[style*="background-color: rgb(114, 137, 218);"]::after {
     content: "\f00c";
 }
 
@@ -3275,7 +3278,11 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
     place-items: center;
 }
 
-.bd-switch.bd-switch-checked, .container-3auIfb::after[style*="background-color: hsl(227, calc(var(--saturation-factor, 1) * 58.4%), 65.1%);"], .container-3auIfb[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"], .container-3auIfb[style*="background-color: rgb(114, 137, 218);"] {
+
+.bd-switch.bd-switch-checked, 
+.container-3auIfb[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"], 
+.container-3auIfb[style*="background-color: hsl(227, calc(var(--saturation-factor, 1) * 58.4%), 65.1%);"], 
+.container-3auIfb[style*="background-color: rgb(114, 137, 218);"] {
     background-color: var(--Primary) !important;
 }
 
@@ -3595,4 +3602,17 @@ div[class*=avatarPositionNormal-], div[class*=avatarPositionPremium-] {
     font-size: 15px;
     line-height: 16px;
     height: auto;
+}
+
+.standardSidebarView-3F1I7i, .contentRegion-3nDuYy {
+    max-width: 100%;
+}
+
+.border-Jn5IOt.speaking-B2MXPi {
+    -webkit-box-shadow: inset 0 0 0 2px var(--Online);
+    box-shadow: inset 0 0 0 2px var(--Online)
+}
+
+.checkbox-1ix_J3[style*="background-color: var(--control-brand-foreground);"] {
+    background-color: var(--Primary) !important;
 }
