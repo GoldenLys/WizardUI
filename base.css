@@ -100,7 +100,7 @@
     line-height: 1.15;
     text-rendering: optimizeLegibility
 }
-::placeholder, body, button, input, select, textarea {
+::placeholder, body, button, input, select, textarea, .hljs {
     font-family: var(--font);
     text-rendering: optimizeLegibility
 }
