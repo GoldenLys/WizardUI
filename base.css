@@ -277,7 +277,8 @@ div[class^=tutorialContainer]>div[class^=listItem] svg mask,
 a[href="https://support.discord.com"],
 .wordmark-2iDDfm svg,
 .chat-3bRxxu>section.title-3qD0b->.children-19S4PO>.iconWrapper-2OrFZ1,
-.buttons-3JBrkn>.buttonContainer-28fw2U>button:not(.emojiButton-3uL3Aw) {
+.buttons-3JBrkn>.buttonContainer-28fw2U>button:not(.emojiButton-3uL3Aw),
+.repliedMessage-VokQwo:before {
     display: none;
 }
 
@@ -437,7 +438,8 @@ div.wrapper-2jXpOf[class*="modeSelected"]:before {
 }
 
 .mentioned-xhSam7 {
-    background: linear-gradient(to right, rgba(255, 255, 255, .05), transparent, transparent);
+    background: var(--grey5);
+    padding-bottom: 5px !important;
 }
 
 .mentioned-xhSam7:before {
@@ -3969,4 +3971,10 @@ div[class*=avatarPositionPremium-] {
 
 .checkbox-1ix_J3[style*="background-color: var(--control-brand-foreground);"] {
     background-color: var(--Primary) !important;
+}
+
+.repliedMessage-VokQwo {
+    margin: -.125rem -48px 5px -70px;
+    padding: 5px 16px;
+    background: var(--darkgrey5);
 }
