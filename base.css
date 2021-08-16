@@ -259,7 +259,6 @@ div[class^=folder-],
 .iconContainer-1BBaeJ,
 .avatar-3uk_u9 .dots-3Bkt3k,
 #user-settings .contentRegion-3nDuYy>div>div>main>div>[class^=divider],
-.buttons-3JBrkn>button:not(.buttonContainer-28fw2U)>div:not(.translateButton-DhP9x8),
 .option-96V44q:after,
 .resultsGroup-r_nuzN:before,
 .attachButtonPlay-3iJ0mf,
@@ -277,7 +276,8 @@ div[class^=tutorialContainer]>div[class^=listItem] svg mask,
 a[href="https://support.discord.com"],
 .wordmark-2iDDfm svg,
 .chat-3bRxxu>section.title-3qD0b->.children-19S4PO>.iconWrapper-2OrFZ1,
-.buttons-3JBrkn>.buttonContainer-28fw2U>button:not(.emojiButton-3uL3Aw),
+.buttons-3JBrkn .button-38aScr>.button-318s1X:not([class*=translateButton-DhP9x8]),
+/*.buttons-3JBrkn>.buttonContainer-28fw2U>button:not(.emojiButton-3uL3Aw),*/
 .repliedMessage-VokQwo:before {
     display: none;
 }
