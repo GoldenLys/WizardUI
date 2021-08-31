@@ -1229,7 +1229,8 @@ div[class^=listItem] {
     background-color: var(--Unavailable) !important;
 }
 
-[class^=expandedFolderBackground]:not(.collapsed-2ZrjoL) {
+[class^=expandedFolderBackground]:not(.collapsed-2ZrjoL),
+.bd-minimal .guilds-1SWlCJ .wrapper-3Njo_c>span:not(.collapsed-2ZrjoL) {
     position: absolute;
     top: 0;
     left: 0;
@@ -1995,9 +1996,13 @@ div[class^=tutorialContainer],
     top: 0px;
 }
 
-.svg-1X37T1,
-.wrapper-25eVIn,
-div[class^=folder-] {
+.guilds-1SWlCJ svg[width="48"],
+.guilds-1SWlCJ .wrapper-25eVIn,
+.guilds-1SWlCJ [class*=guildsError-],
+.guilds-1SWlCJ div[class^=folder-],
+.bd-minimal .guilds-1SWlCJ .wrapper-25eVIn,
+.bd-minimal .guilds-1SWlCJ [class*=guildsError-],
+.bd-minimal .guilds-1SWlCJ svg[width="48"] {
     width: var(--ServerSize);
     height: var(--ServerSize);
 }
@@ -3302,7 +3307,8 @@ div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2hkk8m,
     background-color: var(--Offline);
 }
 
-.unreadMentionsIndicatorTop-2-tcdU {
+.unreadMentionsIndicatorTop-2-tcdU,
+.bd-minimal .guilds-1SWlCJ [class*=unreadMentionsIndicator] {
     top: 15px;
     left: 5px;
     padding: 0;
@@ -3977,4 +3983,17 @@ div[class*=avatarPositionPremium-] {
     margin: -.125rem -48px 5px -70px;
     padding: 5px 16px;
     background: var(--darkgrey5);
+}
+
+.bd-minimal .sidebar-2K8pFh,
+.bd-minimal .members-1998pB,
+.bd-minimal .membersWrap-2h-GB4,
+.bd-minimal .nowPlayingColumn-2sl4cE,
+.bd-minimal .bannerImage-3KhIJ6 {
+    width: 265px;
+    min-width: auto;
+}
+
+.bd-minimal .guilds-1SWlCJ {
+    width: 100%;
 }
