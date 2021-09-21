@@ -3997,3 +3997,11 @@ div[class*=avatarPositionPremium-] {
 .bd-minimal .guilds-1SWlCJ {
     width: 100%;
 }
+
+.activityCount-2GgGMq div[class^=pill] {
+    height: unset;
+}
+
+.pillMessage-1btqlx {
+    width: 100%;
+}
