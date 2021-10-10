@@ -1986,7 +1986,7 @@ div[class^=tutorialContainer],
 .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div[class^=listItem],
 #app-mount .guilds-1SWlCJ .scroller-1Bvpku>div[style*="opacity: 1;"]:not(:first-child),
 .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-3Njo_c,
-.tutorialContainer-30WoTp+div[class^=listItem] {
+.tutorialContainer-32VdNI+div[class^=listItem] {
     margin: var(--ServerSpacing);
     border-radius: .25em;
     padding: 7.5px 0px 7.5px 0px;
@@ -2027,7 +2027,6 @@ div[class^=expandedFolderIconWrapper] {
 }
 
 .guilds-1SWlCJ>ul>.scroller-1Bvpku>div[class^=tutorialContainer],
-.guilds-1SWlCJ>ul .scroller-1Bvpku>div[class^=tutorialContainer],
 .guilds-1SWlCJ>ul>.scroller-1Bvpku>div:last-child {
     background-color: transparent;
 }
@@ -3315,8 +3314,8 @@ div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2hkk8m,
     width: var(--ServerSize);
 }
 
-.tutorialContainer-30WoTp,
-.tutorialContainer-30WoTp+div[class^=listItem] {
+.tutorialContainer-32VdNI,
+.tutorialContainer-32VdNI+div[class^=listItem] {
     width: var(--ServerSize);
     height: var(--ServerSize);
 }
