@@ -8,7 +8,7 @@
 
 :root {
     --build: "B";
-    --version: "0.106";
+    --version: "0.107";
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -459,6 +459,14 @@ div.wrapper-2jXpOf[class*="modeSelected"]:before {
     background-color: var(--grey5) !important;
     color: var(--Text);
     font-weight: bold;
+}
+
+.mentioned-xhSam7[class^="message"] .mention.iconMentionText-8GCluA {
+    padding-left: 1.2rem;
+}
+
+.mentioned-xhSam7[class^="message"] .mention.iconMention-1_KJ_B {
+    padding-left: 1.3rem;
 }
 
 .member-3-YXUe {
@@ -1229,8 +1237,8 @@ div[class^=listItem] {
     background-color: var(--Unavailable) !important;
 }
 
-[class^=expandedFolderBackground]:not(.collapsed-2ZrjoL),
-.bd-minimal .guilds-1SWlCJ .wrapper-3Njo_c>span:not(.collapsed-2ZrjoL) {
+.expandedFolderBackground-3ZDF05:not(.collapsed-2Zqqnx),
+.bd-minimal .guilds-1SWlCJ .wrapper-shyHJt>span:not(.collapsed-2Zqqnx) {
     position: absolute;
     top: 0;
     left: 0;
@@ -1264,7 +1272,7 @@ div[class^=folderIconWrapper]:hover div[class^=closedFolderIconWrapper]:before {
 }
 
 .wrapper-25eVIn>svg>foreignObject,
-.wrapper-3Njo_c>svg>foreignObject {
+.wrapper-shyHJt>svg>foreignObject {
     mask: none;
 }
 
@@ -1984,15 +1992,16 @@ div[class^=pill] {
 div[class^=tutorialContainer],
 .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]+div[class^=tutorialContainer],
 .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div[class^=listItem],
+.guilds-1SWlCJ .scroller-1Bvpku>div[class^=tutorialContainer]+div[class^=listItem],
 #app-mount .guilds-1SWlCJ .scroller-1Bvpku>div[style*="opacity: 1;"]:not(:first-child),
-.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-3Njo_c,
+.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-shyHJt,
 .tutorialContainer-32VdNI+div[class^=listItem] {
     margin: var(--ServerSpacing);
     border-radius: .25em;
     padding: 7.5px 0px 7.5px 0px;
 }
 
-.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-3Njo_c>div[class^=listItem]>div[class^=pill] {
+.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-shyHJt>div[class^=listItem]>div[class^=pill] {
     top: 0px;
 }
 
@@ -2066,7 +2075,7 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     height: var(--ServerSize);
 }
 
-.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-3Njo_c ul {
+.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-shyHJt ul {
     height: unset !important;
 }
 
@@ -2105,8 +2114,8 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     border-radius: 5px;
 }
 
-[class^=expandedFolderBackground]:not(.collapsed-2ZrjoL)+div[class^=listItem] div[class^=folder-],
-[class^=expandedFolderBackground]:not(.collapsed-2ZrjoL)+div[class^=listItem] div[class^=folderIconWrapper] {
+[class^=expandedFolderBackground]:not(.collapsed-2Zqqnx)+div[class^=listItem] div[class^=folder-],
+[class^=expandedFolderBackground]:not(.collapsed-2Zqqnx)+div[class^=listItem] div[class^=folderIconWrapper] {
     background-color: transparent !important;
 }
 
@@ -2161,7 +2170,7 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     opacity: 0.85;
 }
 
-.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-3Njo_c ul>div[class^=listItem] svg {
+.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-shyHJt ul>div[class^=listItem] svg {
     transform: scale(0.85);
 }
 

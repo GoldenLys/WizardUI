@@ -63,7 +63,7 @@ div[class^=tutorialContainer],
 div[class^=tutorialContainer]+div[class^=listItem],
 .bd-minimal .guilds-1SWlCJ .listItem-GuPuDH,
 .bd-minimal .guilds-1SWlCJ [class*=unreadMentionsIndicator],
-.bd-minimal .guilds-1SWlCJ .wrapper-3Njo_c {
+.bd-minimal .guilds-1SWlCJ .wrapper-shyHJt {
     width: unset;
 }
 
@@ -119,7 +119,7 @@ ul>div[class^=listItem]>div[class^=pill] {
     top: -7.5px;
 }
 
-.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-3Njo_c>div[class^=listItem]>div[class^=pill] {
+.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-shyHJt>div[class^=listItem]>div[class^=pill] {
     top: -10px;
 }
 
@@ -134,14 +134,16 @@ ul>div[class^=listItem]>div[class^=pill] {
 
 /* GROUPS */
 
-#app-mount .wrapper-3Njo_c {
+#app-mount .wrapper-shyHJt {
     width: auto !important;
     display: flex;
+    height: var(--ServerSize);
     align-items: center;
     margin-bottom: 0;
+    align-self: center;
 }
 
-#app-mount .wrapper-3Njo_c [role=group] {
+#app-mount .wrapper-shyHJt [role=group] {
     display: flex;
     align-items: center;
     height: auto !important;
@@ -155,7 +157,7 @@ div[class^=tutorialContainer],
 div[class^=tutorialContainer]+div[class^=listItem],
 .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div[class^=listItem],
 #app-mount .guilds-1SWlCJ .scroller-1Bvpku>div[style*="opacity: 1;"]:not(:first-child),
-.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-3Njo_c,
+.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-shyHJt,
 .guilds-1SWlCJ .scroller-1Bvpku>div[class^=listItem] {
     margin: 5px 0px 0px 5px !important;
 }
