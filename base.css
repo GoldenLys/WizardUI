@@ -40,6 +40,7 @@
     --bg-ui: var(--grey);
     --bg-chatbox: rgba(15, 15, 50, 0.25);
     --mini-profile: var(--Primary);
+    --text-link: var(--Primary);
     /* SERVER SETTINGS */
     --ServerSize: 45px;
     --ServerColumns: 1;
@@ -55,7 +56,6 @@
     --header-secondary: var(--Text);
     --text-normal: var(--Text);
     --text-muted: rgba(255, 255, 255, .65);
-    --text-link: var(--Primary);
     --text-positive: var(--Online);
     --channels-default: var(--Text);
     --channeltextarea-background: var(--grey);
