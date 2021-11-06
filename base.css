@@ -472,12 +472,12 @@ div.wrapper-2jXpOf[class*="modeSelected"]:before {
     font-weight: bold;
 }
 
-.mentioned-xhSam7[class^="message"] .mention.iconMentionText-8GCluA {
-    padding-left: 1.2rem;
+.mention.iconMentionText-8GCluA {
+    padding-left: 1.2rem !important;
 }
 
-.mentioned-xhSam7[class^="message"] .mention.iconMention-1_KJ_B {
-    padding-left: 1.3rem;
+.mention.iconMention-1_KJ_B {
+    padding-left: 1.3rem !important;
 }
 
 .member-3-YXUe {
