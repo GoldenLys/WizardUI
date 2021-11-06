@@ -72,6 +72,9 @@ div[class^=tutorialContainer]+div[class^=listItem],
 .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div div[class^=pill],
 div[class^=tutorialContainer]+div[class^=listItem] .pill-3YxEhL,
 div[class^=tutorialContainer] .pill-3YxEhL {
+    position: absolute;
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -94,25 +97,25 @@ div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2hkk8m,
 }
 
 .guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div div[class^=pill]>.item-2hkk8m[style*="height: 40px"] {
-    max-width: 95%;
-    left: 2.5%;
+    width: 95% !important;
 }
 
 div[class^=tutorialContainer]+div[class^=listItem]:hover .pill-3YxEhL .wrapper-sa6paO,
 div[class^=tutorialContainer]:hover .pill-3YxEhL .wrapper-sa6paO,
 div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2hkk8m,
-.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div div[class^=pill]>.item-2hkk8m[style*="height: 20px"],
-.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div:hover div[class^=pill]>.item-2hkk8m {
-    max-width: 90%;
-    left: 5%;
+.guilds-1SWlCJ .scroller-1Bvpku div[class^=pill]>.item-2hkk8m[style*="height: 20px"],
+.guilds-1SWlCJ .scroller-1Bvpku div[class^=listItem]:hover div[class^=pill]>.item-2hkk8m {
+    width: 90% !important;
 }
 
 div[class^=tutorialContainer]+div[class^=listItem] .pill-3YxEhL .wrapper-sa6paO,
 div[class^=tutorialContainer] .pill-3YxEhL .wrapper-sa6paO,
 .item-2hkk8m {
     height: 5px !important;
-    width: 100% !important;
+    width: calc(var(--ServerSize) / 2) !important;
     margin: 0 !important;
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
 }
 
 ul>div[class^=listItem]>div[class^=pill] {
