@@ -59,6 +59,7 @@
     --ServerSize: 45px;
     --ServerColumns: 1;
     --ServerSpacing: 0px 0px 0px 0px;
+    --ServerPills: var(--Primary);
 
     /* ROUNDING */
     --Rounding: 50%;

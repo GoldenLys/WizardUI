@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css');
+@import url('https://purplewizard.space/WizardUI/fa-b2/css/all.min.css');
 
 @font-face {
     font-family: 'emoji';
     src: url('https://goldenlys.github.io/WizardUI/NotoColorEmoji.ttf') format('truetype');
 }
 
-:root {
+*,
+*:before,
+*:after {
     --build: "B";
-    --version: "0.107";
+    --version: "0.108";
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -42,6 +44,7 @@
     --ServerSize: 45px;
     --ServerColumns: 1;
     --ServerSpacing: 5px 0px 0px 0px;
+    --ServerPills: var(--Primary);
     --Rounding: 5px;
     --StatusRounding: 2.5;
 }
@@ -133,6 +136,7 @@ textarea,
     padding-top: 0;
 }
 
+.container-2wlB3z,
 .container-lRFx4q,
 .searchBar-6Kv8R2,
 .container-1D34oG,
@@ -1035,7 +1039,7 @@ rect[fill="#747f8d"],
 }
 
 .panels-j1Uci_ .container-3baos1 button>.contents-18-Yxp::after {
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Pro";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     display: block;
@@ -1163,7 +1167,7 @@ rect[fill="#747f8d"],
 }
 
 .searchBar-3dMhjb .icon-38sknP:not(.clear-1pMieT):after {
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Pro";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
@@ -1288,7 +1292,7 @@ div[class^=expandedFolderIconWrapper]>svg {
 
 div[class^=expandedFolderIconWrapper]:before,
 div[class^=closedFolderIconWrapper]:before {
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Pro";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     display: block;
@@ -1314,19 +1318,37 @@ div[class^=closedFolderIconWrapper]:before {
     color: var(--Text);
 }
 
-.info-1VyQPT>div:nth-child(1):before {
-    display: block;
-    content: "Made by Purple Wizard";
-    font-size: 12px;
+.info-1VyQPT:before {
+    display: inline-block;
+    color: var(--Text);
+    font-family: 'Font Awesome 6 Pro';
+    content: "\f6e8";
+    font-size: 10px;
+    font-weight: 100;
+    margin-right: 5px;
+    padding: 3.5px;
+    background: var(--Primary);
+    border-radius: var(--Rounding);
+}
+
+.info-1VyQPT>*:nth-child(1) {
+    display: inline;
+}
+
+.info-1VyQPT>*:nth-child(1):before {
+    display: inline-block;
+    content: "WizardUI v"var(--version)" "var(--build);
+    color: var(--Text);
+    font-size: 15px;
+    vertical-align: bottom;
     font-weight: bold;
     text-transform: none;
 }
 
-.info-1VyQPT:before {
+.info-1VyQPT>*:nth-child(1):after {
     display: block;
-    content: "WizardUI v"var(--version)" "var(--build);
-    color: var(--Text);
-    font-size: 15px;
+    content: "Made by Purple Wizard";
+    font-size: 12px;
     font-weight: bold;
     text-transform: none;
 }
@@ -1406,7 +1428,7 @@ div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:before,
 #bd-settings-sidebar>span>div>.ui-tab-bar-item:before,
 #bd-settings-sidebar>span>div .bd-changelog-button:before,
 #bd-settings-sidebar+div+.item-PXvHYJ:before {
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Pro";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     color: var(--Text);
@@ -1447,15 +1469,20 @@ div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(6):before 
     content: "\f0c1"
 }
 
-.premiumTabItem-1QTfBr[aria-selected=true]:before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(9).selected-3s45Ha:before {
     color: var(--Text) !important;
 }
 
 /* Discord Nitro */
 
 div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(9):before {
-    color: var(--brand-experiment);
+    z-index: 2;
+    position: relative;
     content: "\f0e7"
+}
+
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(9) {
+    display: flex;
 }
 
 /* Server Boost */
@@ -1464,144 +1491,150 @@ div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(10):before
     content: "\f055"
 }
 
-/* Gift Inventory */
+/* Subscriptions */
 
 div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(11):before {
+    content: "\f2c1"
+}
+
+/* Gift Inventory */
+
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(12):before {
     content: "\f06b"
 }
 
 /* Billing */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(12):before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(13):before {
     content: "\f555"
 }
 
 /* Appearance */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(15):before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(16):before {
     content: "\f53f"
 }
 
-/* Text & Images */
+/* Accessibility */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(16):before {
-    content: "\f894"
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(17):before {
+    content: "\f4bc"
 }
 
 /* Voice & Video */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(17):before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(18):before {
     content: "\f590"
 }
 
 /* Text & Images */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(18):before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(19):before {
     content: "\f03e"
 }
 
 /* Notifications */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(19):before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(20):before {
     content: "\f05a"
 }
 
 /*  Keybinds */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(20):before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(21):before {
     content: "\f11c"
 }
 
 /* Language */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(21):before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(22):before {
     content: "\f1ab"
 }
 
 /* Windows Settings */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(22):before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(23):before {
     content: "\f17a";
-    font-family: "Font Awesome 5 Brands";
+    font-family: "Font Awesome 6 Brands";
     font-weight: 400;
 }
 
 /* Streamer Mode */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(23):before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(24):before {
     content: "\f1e8";
-    font-family: "Font Awesome 5 Brands";
+    font-family: "Font Awesome 6 Brands";
     font-weight: 400;
 }
 
 /* Advanced */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(24):before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(25):before {
     content: "\f0fe"
 }
 
 /* Game Activity */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(27):before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(28):before {
     content: "\f8bc"
 }
 
 /* Overlay */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(28):before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(29):before {
     content: "\f856"
 }
 
 /* BD Settings */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(31):before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(32):before {
     content: "\f3f2"
 }
 
 /* BD Emotes */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(32):before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(33):before {
     content: "\f5b8"
 }
 
 /* BD Custom CSS */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(33):before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(34):before {
     content: "\f1c9"
 }
 
 /* BD Plugins */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(34):before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(35):before {
     content: "\f12e"
 }
 
 /* BD Themes */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(35):before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(36):before {
     content: "\f5aa"
 }
 
 /* Change Log */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(37):before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(38):before {
     content: "\f46d"
 }
 
 /* HypeSquad */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(38):before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(39):before {
     content: "\f500"
 }
 
 /* Log Out */
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(40):before {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(41):before {
     color: var(--Unavailable);
     content: "\f2f5"
 }
 
-div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(40) {
+div[aria-label="USER_SETTINGS"] .side-8zPYf6>.item-PXvHYJ:nth-of-type(41) {
     color: var(--Unavailable) !important;
 }
 
@@ -2208,7 +2241,7 @@ div[class^=tutorialContainer]+div[class^=listItem] {
 }
 
 .wrapper-PY0fhH.clickable-536fPF .name-3l27Hl:before {
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Pro";
     content: "\f070";
     color: var(--Unavailable);
     margin-right: 5px;
@@ -2249,7 +2282,7 @@ div[class^=tutorialContainer]+div[class^=listItem] {
 
 .container-3RCQyg>.description-1sDbzZ:before,
 .container-3zqIcM>.inner-3GZ54g>div:before {
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Pro";
     font-weight: 900;
     line-height: 14px;
     font-size: 18px;
@@ -2314,8 +2347,8 @@ div[class^=tutorialContainer]+div[class^=listItem] {
 /* CHANNELS ICONS */
 
 .containerDefault--pIXnN>div [class^="mainContent"] [class^="name"]:before {
-    font-family: "Font Awesome 5 Pro";
-    font-weight: 500;
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 100;
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
     line-height: 20px;
@@ -2723,7 +2756,7 @@ a {
     left: -24px;
     right: 0;
     bottom: 0;
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Pro";
     font-weight: 900;
     content: "\f093";
     color: var(--Text);
@@ -3008,7 +3041,7 @@ div[class^=tutorialContainer]+div[class^=listItem]:hover .pill-3YxEhL .wrapper-s
 div[class^=tutorialContainer]:hover .pill-3YxEhL .wrapper-sa6paO,
 div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2hkk8m,
 #app-mount .guilds-1SWlCJ .scroller-1Bvpku>div[style*="opacity: 1;"]:not(:first-child) div[class^=pill] div {
-    background: var(--Primary);
+    background: var(--ServerPills);
     border-radius: 2.5px 2.5px 2.5px 2.5px !important;
 }
 
@@ -3498,7 +3531,7 @@ div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2hkk8m,
 
 .rowIcon-1VZqx4.partnered-3nJayh::after,
 .guildBadge-3IDi4U.partnered-3nJayh::after {
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Pro";
     font-weight: 900;
     content: "\f4c6";
     color: var(--Text);
@@ -3508,7 +3541,7 @@ div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2hkk8m,
 
 .rowIcon-1VZqx4.verified-1eC5dy::after,
 .guildBadge-3IDi4U.verified-1eC5dy::after {
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Pro";
     font-weight: 900;
     content: "\f4c4";
     color: var(--Text);
@@ -3520,7 +3553,7 @@ div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2hkk8m,
 .iconBackgroundTierOne-2OQMBY::after,
 .iconBackgroundTierTwo-Eab9L6::after,
 .iconBackgroundTierThree-FWlUL9::after {
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Pro";
     font-weight: 900;
     content: "";
     color: var(--Text);
@@ -3592,7 +3625,7 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
 
 .bd-switch,
 .container-3auIfb {
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Pro";
     font-weight: 900;
     color: var(--Text);
     font-size: 15px;
@@ -3775,7 +3808,7 @@ div[class*=profileBadges-],
 .avatarUploaderIndicator-2G-aIZ:after {
     content: "\f302";
     color: var(--Text);
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Pro";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     display: block;
@@ -4012,4 +4045,8 @@ div[class*=avatarPositionPremium-] {
 
 .pillMessage-1btqlx {
     width: 100%;
+}
+
+.selectedBackground-2KQZ6B {
+    background: var(--Primary);
 }
