@@ -114,8 +114,8 @@ div[class^=tutorialContainer] .pill-3YxEhL .wrapper-sa6paO,
     height: 5px !important;
     width: calc(var(--ServerSize) / 2) !important;
     margin: 0 !important;
-    transition: all 250ms ease;
-    -webkit-transition: all 250ms ease;
+    transition: width 250ms ease;
+    -webkit-transition: width 250ms ease;
 }
 
 ul>div[class^=listItem]>div[class^=pill] {
