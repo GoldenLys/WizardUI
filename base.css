@@ -498,7 +498,7 @@ div.wrapper-2jXpOf[class*="modeSelected"]:before {
 }
 
 .form-2fGMdU {
-    position: unset;
+    position: initial;
     padding: 0 !important;
 }
 
@@ -2634,7 +2634,9 @@ div[class^="topSection"] .tabBarContainer-37hZsr .tabBar-2MuP6- {
 .message-2qRu38,
 .searchAnswer-3Dz2-q,
 .searchFilter-2ESiM3,
-.option-96V44q.selected-rZcOL- {
+.option-96V44q.selected-rZcOL-,
+.contentWarningPopout-n5JsIs,
+.footer-3N9rgh {
     background-color: var(--grey) !important;
 }
 
@@ -4056,4 +4058,8 @@ div[class*=avatarPositionPremium-] {
 
 .selectedBackground-2KQZ6B {
     background: var(--Primary);
+}
+
+.footer-3N9rgh {
+    color: var(--Text);
 }

@@ -1,5 +1,8 @@
 .typing-2GQL18 {
+    padding: 0px 16px;
     top: unset;
     bottom: 50px;
-    left: 60px;
+    left: 0px;
+    right: 0px;
+    background: var(--bg-sendmessage);
 }
