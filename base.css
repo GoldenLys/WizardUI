@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "0.108";
+    --version: "0.109";
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -974,7 +974,8 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-80)"],
 
 rect[fill="rgba(116, 127, 141, 1)"],
 rect[fill="#747f8d"],
-[mask^="url(#svg-mask-status-offline"] {
+[mask^="url(#svg-mask-status-offline"],
+rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     fill: transparent !important;
     stroke: transparent !important;
     mask: none !important;
