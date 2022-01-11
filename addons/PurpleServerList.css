@@ -1,13 +1,13 @@
-.guilds-1SWlCJ {
+.guilds-2JjMmN {
     height: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
     width: 100%;
 }
 
-.guilds-1SWlCJ:before {
+.guilds-2JjMmN:before {
     height: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
 }
 
-.base-3dtUhz {
+.base-2jDfDU {
     z-index: 1;
     position: absolute;
     top: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
@@ -16,16 +16,16 @@
     height: calc(100% - (25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns)));
 }
 
-.platform-web .base-3dtUhz {
+.platform-web .base-2jDfDU {
     top: calc(35px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
 }
 
-.platform-web .guilds-1SWlCJ:before,
-.platform-web .guilds-1SWlCJ>ul:before {
+.platform-web .guilds-2JjMmN:before,
+.platform-web .guilds-2JjMmN>ul:before {
     height: calc(35px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
 }
 
-.platform-osx .base-3dtUhz {
+.platform-osx .base-2jDfDU {
     top: calc(57px + var(--ServerSize) * var(--ServerColumns));
 }
 
@@ -34,8 +34,8 @@
     top: calc(48px + var(--ServerSize) * var(--ServerColumns))
 }
 
-.guilds-1SWlCJ>ul,
-.guilds-1SWlCJ>ul>.scroller-1Bvpku {
+.guilds-2JjMmN>ul,
+.guilds-2JjMmN>ul>.scroller-3X7KbA {
     display: flex;
     contain: unset;
     width: 100%;
@@ -43,13 +43,13 @@
 }
 
 
-.guilds-1SWlCJ .scroller-1Bvpku {
+.guilds-2JjMmN .scroller-3X7KbA {
     display: flex;
     height: calc(20px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
     padding-top: 0;
 }
 
-.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label] {
+.guilds-2JjMmN .scroller-3X7KbA>div[aria-label] {
     display: flex;
     flex-wrap: wrap;
     height: calc(20px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
@@ -61,15 +61,15 @@
 
 div[class^=tutorialContainer],
 div[class^=tutorialContainer]+div[class^=listItem],
-.bd-minimal .guilds-1SWlCJ .listItem-GuPuDH,
-.bd-minimal .guilds-1SWlCJ [class*=unreadMentionsIndicator],
-.bd-minimal .guilds-1SWlCJ .wrapper-shyHJt {
+.bd-minimal .guilds-2JjMmN .listItem-GuPuDH,
+.bd-minimal .guilds-2JjMmN [class*=unreadMentionsIndicator],
+.bd-minimal .guilds-2JjMmN .wrapper-38slSD {
     width: unset;
 }
 
 /* PILLS */
 
-.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div div[class^=pill],
+.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>div div[class^=pill],
 div[class^=tutorialContainer]+div[class^=listItem] .pill-3YxEhL,
 div[class^=tutorialContainer] .pill-3YxEhL {
     position: absolute;
@@ -85,26 +85,26 @@ div[class^=pill] {
     height: 5px;
 }
 
-.guilds-1SWlCJ .scroller-1Bvpku>div[class^=listItem] div[class^=pill]>.item-2hkk8m,
-.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div div[class^=pill]>.item-2hkk8m,
+.guilds-2JjMmN .scroller-3X7KbA>div[class^=listItem] div[class^=pill]>.item-2hkk8m,
+.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>div div[class^=pill]>.item-2hkk8m,
 div[class^=tutorialContainer]+div[class^=listItem]:hover .pill-3YxEhL .wrapper-sa6paO,
 div[class^=tutorialContainer]:hover .pill-3YxEhL .wrapper-sa6paO,
 div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2hkk8m,
-#app-mount .guilds-1SWlCJ .scroller-1Bvpku>div[style*="opacity: 1;"]:not(:first-child) div[class^=pill] div {
+#app-mount .guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child) div[class^=pill] div {
     position: absolute;
     display: block;
     top: 2.5px;
 }
 
-.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div div[class^=pill]>.item-2hkk8m[style*="height: 40px"] {
+.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>div div[class^=pill]>.item-2hkk8m[style*="height: 40px"] {
     width: 95% !important;
 }
 
 div[class^=tutorialContainer]+div[class^=listItem]:hover .pill-3YxEhL .wrapper-sa6paO,
 div[class^=tutorialContainer]:hover .pill-3YxEhL .wrapper-sa6paO,
 div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2hkk8m,
-.guilds-1SWlCJ .scroller-1Bvpku div[class^=pill]>.item-2hkk8m[style*="height: 20px"],
-.guilds-1SWlCJ .scroller-1Bvpku div[class^=listItem]:hover div[class^=pill]>.item-2hkk8m {
+.guilds-2JjMmN .scroller-3X7KbA div[class^=pill]>.item-2hkk8m[style*="height: 20px"],
+.guilds-2JjMmN .scroller-3X7KbA div[class^=listItem]:hover div[class^=pill]>.item-2hkk8m {
     width: 90% !important;
 }
 
@@ -122,7 +122,7 @@ ul>div[class^=listItem]>div[class^=pill] {
     top: -7.5px;
 }
 
-.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-shyHJt>div[class^=listItem]>div[class^=pill] {
+.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>.wrapper-38slSD>div[class^=listItem]>div[class^=pill] {
     top: -10px;
 }
 
@@ -131,13 +131,13 @@ ul>div[class^=listItem]>div[class^=pill] {
     left: 0px;
 }
 
-.guilds-1SWlCJ .scroller-1Bvpku>div[style*="opacity: 1;"]:not(:first-child) div[class^=pill] .item-2hkk8m {
+.guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child) div[class^=pill] .item-2hkk8m {
     border-radius: 2.5px 2.5px 2.5px 2.5px;
 }
 
 /* GROUPS */
 
-#app-mount .wrapper-shyHJt {
+#app-mount .wrapper-38slSD {
     width: auto !important;
     display: flex;
     height: var(--ServerSize);
@@ -146,7 +146,7 @@ ul>div[class^=listItem]>div[class^=pill] {
     align-self: center;
 }
 
-#app-mount .wrapper-shyHJt [role=group] {
+#app-mount .wrapper-38slSD [role=group] {
     display: flex;
     align-items: center;
     height: auto !important;
@@ -156,12 +156,12 @@ ul>div[class^=listItem]>div[class^=pill] {
 /* SERVER */
 
 div[class^=tutorialContainer],
-.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]+div[class^=tutorialContainer],
+.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer],
 div[class^=tutorialContainer]+div[class^=listItem],
-.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div[class^=listItem],
-#app-mount .guilds-1SWlCJ .scroller-1Bvpku>div[style*="opacity: 1;"]:not(:first-child),
-.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>.wrapper-shyHJt,
-.guilds-1SWlCJ .scroller-1Bvpku>div[class^=listItem] {
+.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>div[class^=listItem],
+#app-mount .guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child),
+.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>.wrapper-38slSD,
+.guilds-2JjMmN .scroller-3X7KbA>div[class^=listItem] {
     margin: 5px 0px 0px 5px !important;
 }
 
