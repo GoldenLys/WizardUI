@@ -61,7 +61,7 @@
 
 div[class^=tutorialContainer],
 div[class^=tutorialContainer]+div[class^=listItem],
-.bd-minimal .guilds-2JjMmN .listItem-GuPuDH,
+.bd-minimal .guilds-2JjMmN .listItem-3SmSlK,
 .bd-minimal .guilds-2JjMmN [class*=unreadMentionsIndicator],
 .bd-minimal .guilds-2JjMmN .wrapper-38slSD {
     width: unset;
@@ -70,8 +70,7 @@ div[class^=tutorialContainer]+div[class^=listItem],
 /* PILLS */
 
 .guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>div div[class^=pill],
-div[class^=tutorialContainer]+div[class^=listItem] .pill-3YxEhL,
-div[class^=tutorialContainer] .pill-3YxEhL {
+div[class^=tutorialContainer] .pill-1NRFie {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -85,32 +84,29 @@ div[class^=pill] {
     height: 5px;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[class^=listItem] div[class^=pill]>.item-2hkk8m,
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>div div[class^=pill]>.item-2hkk8m,
-div[class^=tutorialContainer]+div[class^=listItem]:hover .pill-3YxEhL .wrapper-sa6paO,
-div[class^=tutorialContainer]:hover .pill-3YxEhL .wrapper-sa6paO,
-div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2hkk8m,
+.guilds-2JjMmN .scroller-3X7KbA>div[class^=listItem] div[class^=pill]>.item-2LIpTv,
+.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>div div[class^=pill]>.item-2LIpTv,
+div[class^=tutorialContainer]:hover .pill-1NRFie .wrapper-z5ab_q,
+div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2LIpTv,
 #app-mount .guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child) div[class^=pill] div {
     position: absolute;
     display: block;
-    top: 2.5px;
+    top: 0px;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>div div[class^=pill]>.item-2hkk8m[style*="height: 40px"] {
+.guilds-2JjMmN .scroller-3X7KbA div[class^=pill]>.item-2LIpTv[style*="height: 40px"] {
     width: 95% !important;
 }
 
-div[class^=tutorialContainer]+div[class^=listItem]:hover .pill-3YxEhL .wrapper-sa6paO,
-div[class^=tutorialContainer]:hover .pill-3YxEhL .wrapper-sa6paO,
-div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2hkk8m,
-.guilds-2JjMmN .scroller-3X7KbA div[class^=pill]>.item-2hkk8m[style*="height: 20px"],
-.guilds-2JjMmN .scroller-3X7KbA div[class^=listItem]:hover div[class^=pill]>.item-2hkk8m {
+div[class^=tutorialContainer]:hover .pill-1NRFie .wrapper-z5ab_q,
+div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2LIpTv,
+.guilds-2JjMmN .scroller-3X7KbA div[class^=pill]>.item-2LIpTv[style*="height: 20px"],
+.guilds-2JjMmN .scroller-3X7KbA div[class^=listItem]:hover div[class^=pill]>.item-2LIpTv {
     width: 90% !important;
 }
 
-div[class^=tutorialContainer]+div[class^=listItem] .pill-3YxEhL .wrapper-sa6paO,
-div[class^=tutorialContainer] .pill-3YxEhL .wrapper-sa6paO,
-.item-2hkk8m {
+div[class^=tutorialContainer] .pill-1NRFie .wrapper-z5ab_q,
+.item-2LIpTv {
     height: 5px !important;
     width: calc(var(--ServerSize) / 2) !important;
     margin: 0 !important;
@@ -118,11 +114,16 @@ div[class^=tutorialContainer] .pill-3YxEhL .wrapper-sa6paO,
     -webkit-transition: width 250ms ease;
 }
 
-ul>div[class^=listItem]>div[class^=pill] {
+.guilds-2JjMmN div[class^=listItem]>div[class^=pill] {
+    top: -2.5px;
+}
+
+.guilds-2JjMmN div[class^=tutorialContainer]>div[class^=listItem]>div[class^=pill]>.item-2LIpTv {
     top: -7.5px;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>.wrapper-38slSD>div[class^=listItem]>div[class^=pill] {
+.guilds-2JjMmN ul>div[class^=listItem]>div[class^=pill],
+.guilds-2JjMmN .scroller-3X7KbA .wrapper-38slSD>div[class^=listItem]>div[class^=pill] {
     top: -10px;
 }
 
@@ -131,7 +132,7 @@ ul>div[class^=listItem]>div[class^=pill] {
     left: 0px;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child) div[class^=pill] .item-2hkk8m {
+.guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child) div[class^=pill] .item-2LIpTv {
     border-radius: 2.5px 2.5px 2.5px 2.5px;
 }
 
@@ -157,7 +158,6 @@ ul>div[class^=listItem]>div[class^=pill] {
 
 div[class^=tutorialContainer],
 .guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer],
-div[class^=tutorialContainer]+div[class^=listItem],
 .guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>div[class^=listItem],
 #app-mount .guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child),
 .guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>.wrapper-38slSD,
