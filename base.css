@@ -1356,11 +1356,11 @@ div[class^=closedFolderIconWrapper]:before {
     content: "\f07b";
 }
 
-.info-1VyQPT>.colorMuted-HdFt4q {
+.info-1sUqUG>.colorMuted-HdFt4q {
     color: var(--Text);
 }
 
-.info-1VyQPT:before {
+.info-1sUqUG:before {
     display: inline-block;
     color: var(--Text);
     font-family: 'Font Awesome 6 Pro';
@@ -1373,11 +1373,11 @@ div[class^=closedFolderIconWrapper]:before {
     border-radius: var(--Rounding);
 }
 
-.info-1VyQPT>*:nth-child(1) {
+.info-1sUqUG>*:nth-child(1) {
     display: inline;
 }
 
-.info-1VyQPT>*:nth-child(1):before {
+.info-1sUqUG>*:nth-child(1):before {
     display: inline-block;
     content: "WizardUI v"var(--version)" "var(--build);
     color: var(--Text);
@@ -1387,7 +1387,7 @@ div[class^=closedFolderIconWrapper]:before {
     text-transform: none;
 }
 
-.info-1VyQPT>*:nth-child(1):after {
+.info-1sUqUG>*:nth-child(1):after {
     display: block;
     content: "Made by Purple Wizard";
     font-size: 12px;
