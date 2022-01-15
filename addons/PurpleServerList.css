@@ -1,10 +1,10 @@
 .guilds-2JjMmN {
-    height: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+    height: calc(20px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
     width: 100%;
 }
 
 .guilds-2JjMmN:before {
-    height: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+    height: calc(20px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
 }
 
 .base-2jDfDU {
