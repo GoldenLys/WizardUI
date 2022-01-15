@@ -4093,8 +4093,7 @@ div[class*=avatarPositionPremium-] {
     background-color: var(--Selected) !important;
 }
 
-.reactorDefault-1IUqMZ,
-. {
+.reactorDefault-1IUqMZ {
     -webkit-box-shadow: inset 0 -1px 0 var(--darkgrey5) !important;
     box-shadow: inset 0 -1px 0 var(--darkgrey5) !important;
 }
