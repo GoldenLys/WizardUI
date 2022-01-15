@@ -60,7 +60,7 @@
 }
 
 div[class^=tutorialContainer],
-div[class^=tutorialContainer]+div[class^=listItem],
+div[class^=tutorialContainer]+.listItem-3SmSlK,
 .bd-minimal .guilds-2JjMmN .listItem-3SmSlK,
 .bd-minimal .guilds-2JjMmN [class*=unreadMentionsIndicator],
 .bd-minimal .guilds-2JjMmN .wrapper-38slSD {
@@ -84,7 +84,7 @@ div[class^=pill] {
     height: 5px;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[class^=listItem] div[class^=pill]>.item-2LIpTv,
+.guilds-2JjMmN .scroller-3X7KbA>.listItem-3SmSlK div[class^=pill]>.item-2LIpTv,
 .guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>div div[class^=pill]>.item-2LIpTv,
 div[class^=tutorialContainer]:hover .pill-1NRFie .wrapper-z5ab_q,
 div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2LIpTv,
@@ -101,7 +101,7 @@ div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2LIpTv,
 div[class^=tutorialContainer]:hover .pill-1NRFie .wrapper-z5ab_q,
 div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2LIpTv,
 .guilds-2JjMmN .scroller-3X7KbA div[class^=pill]>.item-2LIpTv[style*="height: 20px"],
-.guilds-2JjMmN .scroller-3X7KbA div[class^=listItem]:hover div[class^=pill]>.item-2LIpTv {
+.guilds-2JjMmN .scroller-3X7KbA .listItem-3SmSlK:hover div[class^=pill]>.item-2LIpTv {
     width: 90% !important;
 }
 
@@ -114,16 +114,16 @@ div[class^=tutorialContainer] .pill-1NRFie .wrapper-z5ab_q,
     -webkit-transition: width 250ms ease;
 }
 
-.guilds-2JjMmN div[class^=listItem]>div[class^=pill] {
+.guilds-2JjMmN .listItem-3SmSlK>div[class^=pill] {
     top: -2.5px;
 }
 
-.guilds-2JjMmN div[class^=tutorialContainer]>div[class^=listItem]>div[class^=pill]>.item-2LIpTv {
+.guilds-2JjMmN div[class^=tutorialContainer]>.listItem-3SmSlK>div[class^=pill]>.item-2LIpTv {
     top: -7.5px;
 }
 
-.guilds-2JjMmN ul>div[class^=listItem]>div[class^=pill],
-.guilds-2JjMmN .scroller-3X7KbA .wrapper-38slSD>div[class^=listItem]>div[class^=pill] {
+.guilds-2JjMmN ul>.listItem-3SmSlK>div[class^=pill],
+.guilds-2JjMmN .scroller-3X7KbA .wrapper-38slSD>.listItem-3SmSlK>div[class^=pill] {
     top: -10px;
 }
 
@@ -158,10 +158,10 @@ div[class^=tutorialContainer] .pill-1NRFie .wrapper-z5ab_q,
 
 div[class^=tutorialContainer],
 .guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer],
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>div[class^=listItem],
+.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>.listItem-3SmSlK,
 #app-mount .guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child),
 .guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>.wrapper-38slSD,
-.guilds-2JjMmN .scroller-3X7KbA>div[class^=listItem] {
+.guilds-2JjMmN .scroller-3X7KbA>.listItem-3SmSlK {
     margin: 5px 0px 0px 5px !important;
 }
 

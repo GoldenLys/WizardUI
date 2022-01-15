@@ -154,7 +154,7 @@ div[class^=folder-],
 .header-3OsQeK,
 .scroller-1IIF0A,
 .privateChannels-oVe7HL,
-.guilds-2JjMmN div[class^=tutorialContainer]>div[class^=listItem]>div[class^=listItemWrapper]>div svg .childWrapper-1j_1ub,
+.guilds-2JjMmN div[class^=tutorialContainer]>.listItem-3SmSlK>div[class^=listItemWrapper]>div svg .childWrapper-1j_1ub,
 .scroller-3X7KbA,
 .scroller-1JbKMe,
 #MemberCount,
@@ -281,13 +281,13 @@ div[class^=folder-],
 div[class^=guildSeparator],
 .unreadPillCap-3_K2q2,
 .form-2fGMdU>.wrapper-39oAo3,
-div[class^=tutorialContainer]>div[class^=listItem] svg mask,
+div[class^=tutorialContainer]>.listItem-3SmSlK svg mask,
 a[href="https://support.discord.com"],
 .wordmark-2u86JB svg,
 .chat-3bRxxu>section.title-3qD0b->.children-19S4PO>.iconWrapper-2OrFZ1,
 .buttons-uaqb-5 .button-f2h6uQ>.button-3BaQ4X:not([class*=translateButton-]),
 .repliedMessage-VokQwo:before,
-div[class^=tutorialContainer]+div[class^=listItem] .pill-1NRFie {
+div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie {
     display: none;
 }
 
@@ -1237,7 +1237,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     mask: none;
 }
 
-.guilds-2JjMmN div[class^=tutorialContainer]:not(:hover)>div[class^=listItem]>div[class^=pill]>.item-2LIpTv {
+.guilds-2JjMmN div[class^=tutorialContainer]:not(:hover)>.listItem-3SmSlK>div[class^=pill]>.item-2LIpTv {
     height: 100% !important;
     width: 100%;
     margin: 0;
@@ -1270,7 +1270,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     bottom: 0;
 }
 
-.guilds-2JjMmN div[class^=listItem] {
+.guilds-2JjMmN .listItem-3SmSlK {
     width: unset;
     margin: 0;
 }
@@ -1299,7 +1299,7 @@ div[class^=circleIconButton-] {
 
 div[class^=circleIconButton-],
 .guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer] div[class^=circleIconButton-],
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer]+div[class^=listItem] div[class^=circleIconButton-],
+.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer]+.listItem-3SmSlK div[class^=circleIconButton-],
 div[class^=folderIconWrapper]:not([style]),
 div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);"] {
     background: var(--Primary) !important;
@@ -1937,7 +1937,7 @@ div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(41) {
 }
 
 .guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer] div[class^=circleIconButton-],
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer]+div[class^=listItem] div[class^=circleIconButton-] {
+.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer]+.listItem-3SmSlK div[class^=circleIconButton-] {
     color: var(--Text);
 }
 
@@ -2059,17 +2059,17 @@ div[class^=pill] {
 
 div[class^=tutorialContainer],
 .guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer],
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>div[class^=listItem],
-.guilds-2JjMmN .scroller-3X7KbA>div[class^=tutorialContainer]+div[class^=listItem],
+.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>.listItem-3SmSlK,
+.guilds-2JjMmN .scroller-3X7KbA>div[class^=tutorialContainer]+.listItem-3SmSlK,
 #app-mount .guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child),
 .guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>.wrapper-3kah-n,
-.tutorialContainer-32VdNI+div[class^=listItem] {
+.tutorialContainer-32VdNI+.listItem-3SmSlK {
     margin: var(--ServerSpacing);
     border-radius: .25em;
     padding: 7.5px 0px 7.5px 0px;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>.wrapper-3kah-n>div[class^=listItem]>div[class^=pill] {
+.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>.wrapper-3kah-n>.listItem-3SmSlK>div[class^=pill] {
     top: 0px;
 }
 
@@ -2108,7 +2108,7 @@ div[class^=expandedFolderIconWrapper] {
     background-color: transparent;
 }
 
-.guilds-2JjMmN>.scrollerWrap-2lJEkd>.scroller-3X7KbA>div[class^=listItem] {
+.guilds-2JjMmN>.scrollerWrap-2lJEkd>.scroller-3X7KbA>.listItem-3SmSlK {
     background-color: var(--grey);
     margin-left: 5px !important;
     border-radius: .35em;
@@ -2129,7 +2129,7 @@ div[class^=expandedFolderIconWrapper] {
 }
 
 div[class^=tutorialContainer],
-div[class^=tutorialContainer]+div[class^=listItem] {
+div[class^=tutorialContainer]+.listItem-3SmSlK {
     width: 72px;
     order: 2;
 }
@@ -2138,8 +2138,8 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     order: 3;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[class^=listItem]:first-child+div[class^=listItem]:not([style]),
-.guilds-2JjMmN .scroller-3X7KbA>div[style]:not(div[class^=listItem])+div[class^=listItem] {
+.guilds-2JjMmN .scroller-3X7KbA>.listItem-3SmSlK:first-child+.listItem-3SmSlK:not([style]),
+.guilds-2JjMmN .scroller-3X7KbA>div[style]:not(.listItem-3SmSlK)+.listItem-3SmSlK {
     height: var(--ServerSize);
 }
 
@@ -2165,14 +2165,14 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     background-position: center;
 }
 
-#app-mount .guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child)>div[class^=listItem] {
+#app-mount .guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child)>.listItem-3SmSlK {
     position: initial;
     width: 100%;
     height: 100%;
 }
 
-[class^=expandedFolderBackground]:not(.collapsed-uGXEbi)+div[class^=listItem] div[class^=folder-],
-[class^=expandedFolderBackground]:not(.collapsed-uGXEbi)+div[class^=listItem] div[class^=folderIconWrapper] {
+[class^=expandedFolderBackground]:not(.collapsed-uGXEbi)+.listItem-3SmSlK div[class^=folder-],
+[class^=expandedFolderBackground]:not(.collapsed-uGXEbi)+.listItem-3SmSlK div[class^=folderIconWrapper] {
     background-color: transparent !important;
 }
 
@@ -2227,7 +2227,7 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     opacity: 0.85;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>.wrapper-38slSD ul>div[class^=listItem] svg {
+.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>.wrapper-38slSD ul>.listItem-3SmSlK svg {
     transform: scale(0.85);
 }
 
@@ -2431,7 +2431,7 @@ div[class^=tutorialContainer]+div[class^=listItem] {
     font-size: 12px;
 }
 
-ul>div[class^=listItem]>div[class^=pill] {
+ul>.listItem-3SmSlK>div[class^=pill] {
     top: 0px;
 }
 
@@ -3059,11 +3059,11 @@ a {
 }
 
 .guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer]:hover div[class^=listItemWrapper],
-div[class^=tutorialContainer]+div[class^=listItem]:hover div[class^=listItemWrapper] {
+div[class^=tutorialContainer]+.listItem-3SmSlK:hover div[class^=listItemWrapper] {
     transform: scale(0.85);
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[class^=listItem] div[class^=pill]>.item-2LIpTv,
+.guilds-2JjMmN .scroller-3X7KbA>.listItem-3SmSlK div[class^=pill]>.item-2LIpTv,
 .guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>div div[class^=pill]>.item-2LIpTv,
 div[class^=tutorialContainer]:hover div[class^=pill] .wrapper-z5ab_q,
 div[class^=tutorialContainer]:hover div[class^=pill] .item-2LIpTv,
@@ -3078,7 +3078,7 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item-2LIpTv,
     left: 0px;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer] div[class^=listItem] {
+.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer] .listItem-3SmSlK {
     position: initial;
 }
 
@@ -3381,7 +3381,7 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item-2LIpTv,
 }
 
 .tutorialContainer-32VdNI,
-.tutorialContainer-32VdNI+div[class^=listItem] {
+.tutorialContainer-32VdNI+.listItem-3SmSlK {
     width: var(--ServerSize);
     height: var(--ServerSize);
 }
