@@ -161,7 +161,9 @@ div[class^=folder-],
 .spoilerText-3p6IlD.hidden-HHr2R9,
 .form-3gdLxP,
 .channelTextArea-1FufC0,
-.app-2CXKsg {
+.app-2CXKsg,
+.replyBar-1oi75v, 
+.threadSuggestionBar-3ExSyc {
     background-color: transparent !important;
 }
 
@@ -2449,7 +2451,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 .divider-2rZFJK span {
     position: unset;
     background-color: var(--grey5);
-    color: var(--Text);
+    color: var(--Text) !important;
     text-align: center;
     padding: 5px 10px;
     height: auto;
