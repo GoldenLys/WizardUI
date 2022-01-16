@@ -1404,6 +1404,7 @@ div[class^=closedFolderIconWrapper]:before {
     vertical-align: bottom;
     font-weight: bold;
     text-transform: none;
+    min-width: 75%;
 }
 
 .info-1sUqUG>*:nth-child(1):after {
