@@ -73,7 +73,7 @@
     --background-modifier-active: var(--darkgrey5);
     --background-modifier-selected: var(--grey5);
     --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
-    --background-message-hover: var(--grey5);
+    --background-message-hover: var(--MessageHover);
     --background-mentioned-hover: var(--grey5);
     --background-mentioned: var(--grey5);
     --scrollbar-thin-thumb: var(--Primary);
@@ -99,7 +99,7 @@
     --brand-experiment: var(--Primary);
 }
 
-.appMount-3lHmkl {
+.appMount-2yBXZl {
     background: center / cover no-repeat var(--background);
     position: relative;
     top: 0;
@@ -139,7 +139,7 @@ textarea,
 .container-2cd8Mz,
 .container-ZMc96U,
 .container-1D34oG,
-.chat-3bRxxu,
+.chat-2ZfjoI,
 .members-3WRCEx>div,
 div[class^=folder-],
 .messagesWrapper-1sRNjr>div>div>div>.wrapper-3vR61M,
@@ -161,7 +161,7 @@ div[class^=folder-],
 .spoilerText-3p6IlD.hidden-HHr2R9,
 .form-3gdLxP,
 .channelTextArea-1FufC0,
-.app-2rEoOp {
+.app-2CXKsg {
     background-color: transparent !important;
 }
 
@@ -284,7 +284,7 @@ div[class^=guildSeparator],
 div[class^=tutorialContainer]>.listItem-3SmSlK svg mask,
 a[href="https://support.discord.com"],
 .wordmark-2u86JB svg,
-.chat-3bRxxu>section.title-3qD0b->.children-19S4PO>.iconWrapper-2OrFZ1,
+.chat-2ZfjoI>section.title-3qD0b->.children-19S4PO>.iconWrapper-2OrFZ1,
 .buttons-uaqb-5 .button-f2h6uQ>.button-3BaQ4X:not([class*=translateButton-]),
 .repliedMessage-VokQwo:before,
 div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie {
@@ -313,7 +313,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie {
     margin: 0;
 }
 
-.chat-3bRxxu .textArea-2CLwUE>.placeholder-1_mJY1 {
+.chat-2ZfjoI .textArea-2CLwUE>.placeholder-1_mJY1 {
     font-size: 0;
     line-height: 0;
 }
@@ -328,7 +328,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie {
     margin-top: 0;
 }
 
-.chat-3bRxxu .textArea-2CLwUE>.placeholder-1_mJY1:after {
+.chat-2ZfjoI .textArea-2CLwUE>.placeholder-1_mJY1:after {
     font-size: 1rem;
     line-height: 1.375rem;
     color: var(--Text);
@@ -1228,7 +1228,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     width: 240px !important;
 }
 
-.chat-3bRxxu>[class^="title"] .status-1XNdyw>svg>rect {
+.chat-2ZfjoI>[class^="title"] .status-1XNdyw>svg>rect {
     width: 100%;
     height: 100%;
     rx: var(--StatusRounding);
@@ -3087,7 +3087,7 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item-2LIpTv,
 }
 
 .stageSection-3mAD8V,
-.chat-3bRxxu .chatContent-3KubbW,
+.chat-2ZfjoI .chatContent-3KubbW,
 .tabBody-2dgbAs .peopleColumn-1wMU14,
 .applicationStore-1pNvnv>.homeWrapper-3-Wh5T>.scroller-9moviB {
     background-color: var(--bg-chatbox) !important;
@@ -3096,10 +3096,11 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item-2LIpTv,
 .nowPlayingSidebar-2OFn0o,
 .container-1r6BKw.themed-ANHk51,
 .container-ZMc96U.themed-Hp1KC_,
-.chat-3bRxxu .title-3qD0b-.container-1r6BKw,
+.chat-2ZfjoI .title-3qD0b-.container-1r6BKw,
 .container-1D34oG .container-1r6BKw.themed-ANHk51,
 .headerBar-1YYOfi.container-1r6BKw.themed-ANHk51,
 .container-2wlB3z,
+.container-2o3qEW,
 .nowPlayingColumn-1eCBCN,
 .sidebar-1tnWFu {
     background-color: var(--bg-ui) !important;

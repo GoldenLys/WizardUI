@@ -10,10 +10,10 @@
 .base-2jDfDU {
     z-index: 1;
     position: absolute;
-    top: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+    top: calc(20px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
     left: 0;
     width: 100%;
-    height: calc(100% - (25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns)));
+    height: calc(100% - (20px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns)));
 }
 
 .platform-web .base-2jDfDU {
