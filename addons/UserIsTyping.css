@@ -6,3 +6,11 @@
     right: 0px;
     background: var(--bg-sendmessage);
 }
+
+[class*=channelTextAreaDisabled] {
+    display: block;
+}
+
+.chat-2ZfjoI [class*=channelTextAreaDisabled] .textArea-2CLwUE>.placeholder-1_mJY1:after {
+    content: "You do not have permission to send messages in this channel.";
+}
