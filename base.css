@@ -874,7 +874,8 @@ rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"],
     border-bottom: 2.5px solid;
 }
 
-.rolesList-3uZoaa[class^=role-],
+.rolesList-3uZoaa [class^=role-],
+.side-2ur1Qk [class^=role-],
 .member-perms div[class^=role-] {
     min-width: calc(33.333% - 0px);
     max-width: 100%;
@@ -890,7 +891,33 @@ rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"],
     min-width: calc(100% - 0px);
 }
 
+.side-2ur1Qk [class^=role-] {
+    border-width: 0px 0px 0px 2.5px;
+    padding-left: 5px;
+    border-style: solid;
+}
+
+.side-2ur1Qk [class^=role-]:after,
+.side-2ur1Qk [class^=role-]:before {
+    content: "";
+}
+
+.side-2ur1Qk [class^=role-]:before {
+    background-color: currentColor;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 .roleCircle-1EgnFN,
+.side-2ur1Qk [class^=role-]:after,
 .member-perms .member-perm .perm-circle {
     border-radius: 0px;
     width: 100%;
@@ -2766,7 +2793,7 @@ button[role*="switch"][aria-checked=false]:not(#GameActivityToggleBtn):after {
 }
 
 .tooltipRed-8-9NeP,
-.deny-3nAuT6.selected-2YhbGh {
+.deny-1GO6vI.selected-3jieYB {
     background-color: var(--Unavailable) !important;
     color: var(--Text) !important;
 }
@@ -2777,7 +2804,7 @@ button[role*="switch"][aria-checked=false]:not(#GameActivityToggleBtn):after {
 
 .tooltipGreen-WdeQwd,
 .lookFilled-yCfaCM.colorGreen-3y-Z79,
-.allow-1PzSY3.selected-2YhbGh {
+.allow-1h61-Z.selected-3jieYB {
     background-color: var(--Online) !important;
     color: var(--Text) !important;
 }
@@ -2894,7 +2921,7 @@ a {
 .colorDanger-2qLCe1,
 .colorDanger-2qLCe1 .checkbox-3s5GYZ,
 .colorDanger-2qLCe1 .radioSelection-1HmrQS,
-.deny-3nAuT6 {
+.deny-1GO6vI {
     color: var(--Unavailable);
 }
 
@@ -3204,11 +3231,12 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item-2LIpTv,
     padding: 0 !important;
 }
 
-.allow-1PzSY3 {
+.allow-1h61-Z {
     color: var(--Online);
 }
 
-.passthrough-1c2ewQ.selected-2YhbGh {
+
+.passthrough--fbdFR.selected-3jieYB {
     background-color: var(--Primary);
     color: var(--Text);
 }
