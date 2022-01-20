@@ -19,6 +19,10 @@
 @import url("https://goldenlys.github.io/WizardUI/addons/PurpleServerList.css");
 */
 
+/* This is an addon that makes the members list hidden until you hover it.
+@import url("https://goldenlys.github.io/WizardUI/addons/HoverMembers.css");
+*/
+
 :root {
     /* MAIN VARIABLES */
     --font: "Quicksand";

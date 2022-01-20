@@ -1,11 +1,3 @@
-.membersWrap-3NUR2t,
-.membersWrap-3NUR2t .scroller-2FKFPG {
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-
 /* ROLE NAME */
 .membersGroup-2eiWxl {
     opacity: 0;
@@ -18,22 +10,27 @@
 }
 
 /* DEAD ZONE TO AVOID GRAPHICAL BUGS */
-
-.membersWrap-3NUR2t:before {
+.members-3WRCEx:before {
+    height: 100%;
     width: 15px;
-    content: "";    
+    content: "";
 }
 
 /* MOVING THE MEMBERS LIST TO THE RIGHT */
-
 .membersWrap-3NUR2t {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    bottom: 0;
+    min-width: 60px;
     -webkit-transform: translateX(220px);
     transform: translateX(220px);
-    position: absolute;
+    transition: all 500ms;
+    -webkit-transition: all 500ms;
+    padding-left: 10px;
 }
 
 /* MEMBERLIST CONTENT */
-
 .members-3WRCEx {
     width: 265px;
     overflow: hidden;
@@ -42,17 +39,16 @@
     -webkit-transition: all 500ms;
 }
 
-.membersWrap-3NUR2t:hover .members-3WRCEx{
-    -webkit-transform: translateX(-220px);
-    transform: translateX(-220px);
+.membersWrap-3NUR2t:hover {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
     overflow: auto;
     width: 265px !important;
-    transition: all 500ms;
-    background-color: var(--darkgrey5) !important;
+    background-color: var(--bg-ui) !important;
+    padding-left: 0px;
 }
 
 /* RESIZE CHAT CONTENT TO SHOW THE SCROLLBAR */
-
 .chatContent-3KubbW {
-    margin-right: 60px;
+    padding-right: 60px;
 }
