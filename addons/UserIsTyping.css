@@ -14,3 +14,9 @@
 .chat-2ZfjoI [class*=channelTextAreaDisabled] .textArea-2CLwUE>.placeholder-1_mJY1:after {
     content: "You do not have permission to send messages in this channel.";
 }
+
+.jumpToPresentBar-1cEnH0 {
+    bottom: 25px;
+    left: 5px;
+    right: 5px;
+}

@@ -1772,12 +1772,12 @@ div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(41) {
     box-shadow: 0 0 5px var(--darkgrey);
 }
 
-.jumpToPresentBar-G1R9s6 {
+.jumpToPresentBar-1cEnH0 {
     bottom: 5px;
     left: 5px;
     right: 5px;
-    border-radius: 5px;
-    background-color: var(--darkgrey5);
+    border-radius: var(--Rounding);
+    background-color: var(--bg-ui);
     box-shadow: 0 0 5px var(--darkgrey);
     opacity: 1;
     padding: 0;
