@@ -163,7 +163,8 @@ div[class^=folder-],
 .app-2CXKsg,
 .container-1oAagU,
 .replyBar-1oi75v,
-.threadSuggestionBar-3ExSyc {
+.threadSuggestionBar-3ExSyc,
+.hasBanner-2IrYih .header-3OsQeK {
     background-color: transparent !important;
 }
 
@@ -201,7 +202,6 @@ div[class^=folder-],
 .modal-yWgWj-,
 .wrapper-35wsBm,
 .scroller-WSmht3,
-.hasBanner-14PPlG .header-3OsQeK,
 .clickable-vvKY2q .header-3OsQeK {
     background-color: var(--bg-ui) !important;
     border: none;
@@ -245,7 +245,6 @@ div[class^=folder-],
 .message-G6O-Wv,
 .message-2qRu38,
 .elevationBorderHigh-2WYJ09,
-.header-3OsQeK,
 .tabBody-3YRQ8W:before,
 .footer-2gL1pp,
 .modal-yWgWj-,
@@ -1144,6 +1143,10 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 
 .panels-3wFtMD {
     position: relative;
+}
+
+.panels-3wFtMD .container-YkUktl button>.contents-3ca1mk svg {
+    height: 0px;
 }
 
 .panels-3wFtMD .container-YkUktl button>.contents-3ca1mk svg path {
