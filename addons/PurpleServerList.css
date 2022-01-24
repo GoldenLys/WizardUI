@@ -1,4 +1,6 @@
 .guilds-2JjMmN {
+    /* place-content: center; */
+    /* place-items: center; */
     height: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
     width: 100%;
 }
@@ -39,7 +41,7 @@
     display: flex;
     contain: unset;
     width: 100%;
-    height: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+    place-items: center;
     overflow: hidden hidden !important;
 }
 
@@ -139,6 +141,7 @@ div[class^=tutorialContainer] .pill-1NRFie .wrapper-z5ab_q,
     align-items: center;
     margin-bottom: 0;
     align-self: center;
+    padding: 7.5px 0px 7.5px 0px;
 }
 
 #app-mount .wrapper-38slSD [role=group] {

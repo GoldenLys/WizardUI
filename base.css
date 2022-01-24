@@ -2112,7 +2112,7 @@ div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(41) {
 }
 
 div[class^=pill] {
-    border-radius: 5px;
+    border-radius: 2.5px;
 }
 
 .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])::-webkit-scrollbar {
@@ -2200,7 +2200,6 @@ div[class^=expandedFolderIconWrapper] {
 
 div[class^=tutorialContainer],
 div[class^=tutorialContainer]+.listItem-3SmSlK {
-    width: 72px;
     order: 2;
 }
 
