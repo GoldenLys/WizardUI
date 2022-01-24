@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "15";
+    --version: "15-2";
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -39,7 +39,6 @@
     --bg-sendmessage: var(--grey);
     --bg-ui: var(--grey);
     --bg-chatbox: rgba(15, 15, 50, 0.25);
-    --mini-profile: var(--Primary);
     --text-link: var(--Primary);
     /* SERVER SETTINGS */
     --ServerSize: 45px;
@@ -761,7 +760,6 @@ rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"],
 
 .userPopout-2j1gM4 {
     background-color: var(--grey);
-    background: center / cover repeat var(--mini-profile);
     width: 360px !important;
     border-radius: 5px;
 }
@@ -2135,7 +2133,7 @@ div[class^=tutorialContainer],
 .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-3kah-n,
 .tutorialContainer-32VdNI+.listItem-3SmSlK {
     margin: var(--ServerSpacing);
-    border-radius: .25em;
+    border-radius: 2.5px;
     padding: 7.5px 0px 7.5px 0px;
 }
 
@@ -2225,7 +2223,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 }
 
 #bd-pub-button {
-    border-radius: .25em;
+    border-radius: 2.5px;
     background: url("https://goldenlys.github.io/ThemeGen/img/public.png");
     color: #ffffff;
     font-size: 12px;
