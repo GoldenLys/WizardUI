@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "14-3";
+    --version: "14-4";
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -276,7 +276,7 @@ div[class^=folder-],
 .divider-2rZFJK,
 .scroller-hE2gWq,
 .divider-_0um2u,
-.markup-2BOw-j code {
+.markup-eYLPri code {
     border: none !important;
 }
 
@@ -3552,11 +3552,11 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item-2LIpTv,
     background-color: var(--grey) !important;
 }
 
-.markup-2BOw-j code {
+.markup-eYLPri code {
     background-color: var(--grey5);
 }
 
-.markup-2BOw-j code.inline {
+.markup-eYLPri code.inline {
     background-color: var(--Primary);
     color: var(--Text);
 }
