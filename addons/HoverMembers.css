@@ -18,6 +18,7 @@
 
 /* MOVING THE MEMBERS LIST TO THE RIGHT */
 .membersWrap-3NUR2t {
+    background-color: var(--bg-ui);
     position: absolute;
     right: 0px;
     top: 0;
@@ -44,7 +45,6 @@
     transform: translateX(0px);
     overflow: auto;
     width: 265px !important;
-    background-color: var(--bg-ui) !important;
     padding-left: 0px;
 }
 
