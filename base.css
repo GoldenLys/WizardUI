@@ -122,8 +122,7 @@ body,
 button,
 input,
 select,
-textarea,
-.hljs {
+textarea {
     font-family: var(--font);
     text-rendering: optimizeLegibility
 }
