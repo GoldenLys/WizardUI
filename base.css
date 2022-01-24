@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "14-5";
+    --version: "15";
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -163,7 +163,8 @@ div[class^=folder-],
 .container-1oAagU,
 .replyBar-1oi75v,
 .threadSuggestionBar-3ExSyc,
-.hasBanner-2IrYih .header-3OsQeK {
+.hasBanner-2IrYih .header-3OsQeK,
+.scroller-WSmht3 {
     background-color: transparent !important;
 }
 
@@ -199,8 +200,7 @@ div[class^=folder-],
 .footer-31IekZ,
 .footer-2gL1pp,
 .modal-yWgWj-,
-.wrapper-35wsBm,
-.scroller-WSmht3,
+.wrapper-1HIH0j,
 .clickable-vvKY2q .header-3OsQeK {
     background-color: var(--bg-ui) !important;
     border: none;
@@ -298,7 +298,7 @@ div[class^=folder-],
 .wrapper-NhbLHG.modeUnread-3Cxepe>.unread-2lAfLh,
 .emptyMessage-3ggYEG,
 .spinner-2enMB9>.pulsingEllipsis-3YiXRF,
-.emptyChannelIcon-cc932w,
+.emptyChannelIcon-1YdEz2,
 .total-1c5KCN:after,
 .guildIcon-2Tpnad,
 .guildIcon-d5nahd,
@@ -1364,8 +1364,8 @@ div[class^=circleIconButton-] {
 }
 
 div[class^=circleIconButton-],
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer] div[class^=circleIconButton-],
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer]+.listItem-3SmSlK div[class^=circleIconButton-],
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])+div[class^=tutorialContainer] div[class^=circleIconButton-],
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])+div[class^=tutorialContainer]+.listItem-3SmSlK div[class^=circleIconButton-],
 div[class^=folderIconWrapper]:not([style]),
 div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);"] {
     background: var(--Primary) !important;
@@ -1902,8 +1902,7 @@ div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(41) {
 }
 
 .thin-1ybCId::-webkit-scrollbar,
-.sidebar-1tnWFu .scroller-1JbKMe::-webkit-scrollbar,
-.sidebar-1tnWFu .scroller-2wx7Hm::-webkit-scrollbar,
+.sidebar-1tnWFu div[class^=scroller-]::-webkit-scrollbar,
 .members-3WRCEx::-webkit-scrollbar {
     width: 0;
 }
@@ -1922,36 +1921,36 @@ div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(41) {
     display: block;
 }
 
-.wrapper-35wsBm.userSelectNone-Iy6XEP.cursorDefault-331ZcI {
+.wrapper-1HIH0j {
     padding: 0 0 15px;
     width: 100%;
 }
 
-.wrapper-35wsBm.userSelectNone-Iy6XEP.cursorDefault-331ZcI>.header-2BTCnc {
+.wrapper-1HIH0j>.header-3anOjb {
     background-color: var(--grey5);
     border-radius: 5px 5px 0 0;
     padding: 10px 5px 10px;
     text-align: center;
 }
 
-.wrapper-35wsBm.userSelectNone-Iy6XEP.cursorDefault-331ZcI>.content-2U5lSY {
+.wrapper-1HIH0j>.content-1r-J1r {
     padding: 0 10px;
 }
 
-.wrapper-35wsBm.userSelectNone-Iy6XEP.cursorDefault-331ZcI>.content-2U5lSY .statusCounts-2qk4EE {
+.wrapper-1HIH0j>.content-1r-J1r .statusCounts-3GLDH6 {
     text-align: center;
     display: block;
 }
 
-.wrapper-35wsBm.userSelectNone-Iy6XEP.cursorDefault-331ZcI>.content-2U5lSY .count-30T-5k {
+.wrapper-1HIH0j>.content-1r-J1r .count-62gVQ0 {
     display: block;
 }
 
-.wrapper-35wsBm.userSelectNone-Iy6XEP.cursorDefault-331ZcI>.content-2U5lSY .status-2L8Zc7 {
+.wrapper-1HIH0j>.content-1r-J1r .status-JIDx3x {
     display: none;
 }
 
-.iconActiveLarge-2nzn9z {
+.iconSizeLarge-_r2zCK {
     border-radius: 5px;
 }
 
@@ -2007,8 +2006,8 @@ div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(41) {
     padding: 7.5px 5px 7.5px 5px !important
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer] div[class^=circleIconButton-],
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer]+.listItem-3SmSlK div[class^=circleIconButton-] {
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])+div[class^=tutorialContainer] div[class^=circleIconButton-],
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])+div[class^=tutorialContainer]+.listItem-3SmSlK div[class^=circleIconButton-] {
     color: var(--Text);
 }
 
@@ -2116,31 +2115,31 @@ div[class^=pill] {
     border-radius: 5px;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]::-webkit-scrollbar {
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])::-webkit-scrollbar {
     width: .75rem;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]::-webkit-scrollbar-thumb {
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])::-webkit-scrollbar-thumb {
     border-radius: 2.5px 0 0 2.5px;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>div:first-child {
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>div:first-child {
     margin-left: 0 !important
 }
 
 div[class^=tutorialContainer],
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer],
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>.listItem-3SmSlK,
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])+div[class^=tutorialContainer],
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.listItem-3SmSlK,
 .guilds-2JjMmN .scroller-3X7KbA>div[class^=tutorialContainer]+.listItem-3SmSlK,
 #app-mount .guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child),
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>.wrapper-3kah-n,
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-3kah-n,
 .tutorialContainer-32VdNI+.listItem-3SmSlK {
     margin: var(--ServerSpacing);
     border-radius: .25em;
     padding: 7.5px 0px 7.5px 0px;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>.wrapper-3kah-n>.listItem-3SmSlK>div[class^=pill] {
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-3kah-n>.listItem-3SmSlK>div[class^=pill] {
     top: 0px;
 }
 
@@ -2205,7 +2204,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
     order: 2;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label] {
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style]) {
     order: 3;
 }
 
@@ -2214,7 +2213,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
     height: var(--ServerSize);
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>.wrapper-3kah-n ul {
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-3kah-n ul {
     height: unset !important;
 }
 
@@ -2288,17 +2287,19 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
     height: 40px;
 }
 
-.chatContent-3KubbW .scrollerInner-2YIMLh .container-3RCQyg .header-3uLluP,
-.guildNameWrapper-1RQYer {
+/* EMPTY CHANNEL HEADER */
+
+.chatContent-3KubbW .container-1yy5xN .header-1dhDWV,
+.guildNameWrapper-2SntYa {
     text-align: center;
 }
 
-.chatContent-3KubbW .scrollerInner-2YIMLh .container-3RCQyg .description-1sDbzZ {
+.chatContent-3KubbW .container-1yy5xN .description-22d6ux {
     text-align: center;
     opacity: 0.85;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>.wrapper-38slSD ul>.listItem-3SmSlK svg {
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-38slSD ul>.listItem-3SmSlK svg {
     transform: scale(0.85);
 }
 
@@ -3128,13 +3129,13 @@ a {
     border-radius: 5px;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer]:hover div[class^=listItemWrapper],
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])+div[class^=tutorialContainer]:hover div[class^=listItemWrapper],
 div[class^=tutorialContainer]+.listItem-3SmSlK:hover div[class^=listItemWrapper] {
     transform: scale(0.85);
 }
 
 .guilds-2JjMmN .scroller-3X7KbA>.listItem-3SmSlK div[class^=pill]>.item-2LIpTv,
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>div div[class^=pill]>.item-2LIpTv,
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>div div[class^=pill]>.item-2LIpTv,
 div[class^=tutorialContainer]:hover div[class^=pill] .wrapper-z5ab_q,
 div[class^=tutorialContainer]:hover div[class^=pill] .item-2LIpTv,
 #app-mount .guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child) div[class^=pill] div {
@@ -3148,7 +3149,7 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item-2LIpTv,
     left: 0px;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer] .listItem-3SmSlK {
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])+div[class^=tutorialContainer] .listItem-3SmSlK {
     position: initial;
 }
 
@@ -3681,7 +3682,7 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
     border-radius: 5px;
 }
 
-.container-YkUktl .avatar-SmRMf2 .avatarSpeaking-2c8-9i {
+.container-YkUktl .avatar-SmRMf2 .avatarSpeaking-33RRJU {
     display: none;
 }
 
@@ -4097,7 +4098,7 @@ div[class*=avatarPositionPremium-] {
     max-width: 100%;
 }
 
-.border-Jn5IOt.speaking-B2MXPi {
+.avatarSpeaking-2pCGrZ {
     -webkit-box-shadow: inset 0 0 0 2px var(--Online);
     box-shadow: inset 0 0 0 2px var(--Online)
 }

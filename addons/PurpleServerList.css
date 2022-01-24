@@ -43,7 +43,7 @@
     overflow: hidden hidden !important;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label] {
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style]) {
     display: flex;
     flex-wrap: wrap;
     height: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
@@ -63,7 +63,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK,
 
 /* PILLS */
 
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>div div[class^=pill],
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>div div[class^=pill],
 div[class^=tutorialContainer] .pill-1NRFie {
     position: absolute;
     display: flex;
@@ -79,7 +79,7 @@ div[class^=pill] {
 }
 
 .guilds-2JjMmN .scroller-3X7KbA>.listItem-3SmSlK div[class^=pill]>.item-2LIpTv,
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>div div[class^=pill]>.item-2LIpTv,
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>div div[class^=pill]>.item-2LIpTv,
 div[class^=tutorialContainer]:hover .pill-1NRFie .wrapper-z5ab_q,
 div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2LIpTv,
 #app-mount .guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child) div[class^=pill] div {
@@ -151,12 +151,12 @@ div[class^=tutorialContainer] .pill-1NRFie .wrapper-z5ab_q,
 /* SERVER */
 
 div[class^=tutorialContainer],
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]+div[class^=tutorialContainer],
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>.listItem-3SmSlK,
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])+div[class^=tutorialContainer],
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.listItem-3SmSlK,
 #app-mount .guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child),
-.guilds-2JjMmN .scroller-3X7KbA>div[aria-label]>.wrapper-38slSD,
+.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-38slSD,
 .guilds-2JjMmN .scroller-3X7KbA>.listItem-3SmSlK {
-    margin: 5px 0px 0px 5px !important;
+    margin: var(--ServerSpacing);
 }
 
 /* PMs */
