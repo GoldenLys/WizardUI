@@ -3308,13 +3308,13 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item-2LIpTv,
     background-color: rgba(228, 15, 0, 15%) !important;
 }
 
-.closeButton-1tv5uR {
+.closeButton-PCZcma {
     border-color: transparent !important;
     background: var(--Primary);
     border-radius: 5px;
 }
 
-.closeButton-1tv5uR>svg>path {
+.closeButton-PCZcma>svg>path {
     fill: var(--Text);
 }
 
