@@ -28,7 +28,7 @@
     transform: translateX(220px);
     transition: all 500ms;
     -webkit-transition: all 500ms;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 /* MEMBERLIST CONTENT */
