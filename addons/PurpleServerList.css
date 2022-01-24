@@ -39,20 +39,14 @@
     display: flex;
     contain: unset;
     width: 100%;
-    height: calc(20px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
-}
-
-
-.guilds-2JjMmN .scroller-3X7KbA {
-    display: flex;
-    height: calc(20px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
-    padding-top: 0;
+    height: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+    overflow: hidden hidden !important;
 }
 
 .guilds-2JjMmN .scroller-3X7KbA>div[aria-label] {
     display: flex;
     flex-wrap: wrap;
-    height: calc(20px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+    height: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
     overflow: hidden auto;
     width: 100%;
     justify-content: center;
