@@ -1288,7 +1288,8 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     display: none
 }
 
-.focused-8aNhVB .searchBar-zdmu7v,.open-3y3yI_ .searchBar-zdmu7v {
+.focused-8aNhVB .searchBar-zdmu7v,
+.open-3y3yI_ .searchBar-zdmu7v {
     width: 240px;
 }
 
@@ -1464,7 +1465,7 @@ div[class^=closedFolderIconWrapper]:before {
 /* USER SETTINGS */
 
 #bd-settings-sidebar .ui-tab-bar-separator,
-.side-2ur1Qk .separator-gCa7yv {
+.side-2ur1Qk .separator-2wx7h6 {
     margin: 8px 0 !important;
     padding: 5px 0;
     border-radius: 2.5px;
@@ -1472,7 +1473,7 @@ div[class^=closedFolderIconWrapper]:before {
     background-color: var(--Primary);
 }
 
-.divider-3573oO {
+.divider-_0um2u {
     margin: 5px 0 !important;
     padding: 0.5px 0;
     border-radius: 2.5px;
