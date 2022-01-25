@@ -1,9 +1,5 @@
 .typing-2J1mQU {
-    padding: 0px 16px;
-    top: unset;
-    bottom: 50px;
-    left: 0px;
-    right: 0px;
+    position: unset;
     background: var(--bg-sendmessage);
 }
 
@@ -16,7 +12,7 @@
 }
 
 .jumpToPresentBar-1cEnH0 {
-    bottom: 25px;
+    bottom: 5px;
     left: 5px;
     right: 5px;
 }

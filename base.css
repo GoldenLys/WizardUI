@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "15-3";
+    --version: "15-4";
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -168,7 +168,7 @@ div[class^=folder-],
 }
 
 .stageSection-3mAD8V,
-.chat-2ZfjoI .chatContent-3KubbW,
+.chat-2ZfjoI .chatContent-3KubbW .messagesWrapper-RpOMA3,
 .tabBody-2dgbAs .peopleColumn-1wMU14,
 .applicationStore-2nk7Lo>.homeWrapper-L4ors0>.scroller-29cQFV,
 .pageWrapper-2PwDoS {
@@ -348,7 +348,6 @@ div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie {
 }
 
 .form-3gdLxP {
-    background-color: var(--background-primary);
     margin-top: 0;
     position: initial;
     padding: 0 !important;
