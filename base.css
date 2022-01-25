@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "15-2";
+    --version: "15-3";
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -178,7 +178,7 @@ div[class^=folder-],
 .nowPlayingSidebar-2OFn0o,
 .container-1r6BKw.themed-ANHk51,
 .container-ZMc96U.themed-Hp1KC_,
-.chat-2ZfjoI .title-3qD0b-.container-1r6BKw,
+.chat-2ZfjoI .title-31SJ6t.container-1r6BKw,
 .container-1D34oG .container-1r6BKw.themed-ANHk51,
 .headerBar-1YYOfi.container-1r6BKw.themed-ANHk51,
 .container-2wlB3z,
@@ -308,7 +308,7 @@ div[class^=guildSeparator],
 div[class^=tutorialContainer]>.listItem-3SmSlK svg mask,
 a[href="https://support.discord.com"],
 .wordmark-2u86JB svg,
-.chat-2ZfjoI>section.title-3qD0b->.children-19S4PO>.iconWrapper-2OrFZ1,
+.chat-2ZfjoI>section.title-31SJ6t>.children-19S4PO>.iconWrapper-2OrFZ1,
 .buttons-uaqb-5 .button-f2h6uQ>.button-3BaQ4X:not([class*=translateButton-]),
 .repliedMessage-VokQwo:before,
 div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie {
@@ -1292,7 +1292,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     width: 240px !important;
 }
 
-.chat-2ZfjoI>[class^="title"] .status-1XNdyw>svg>rect {
+.chat-2ZfjoI>[class^="title"] .status-12NUUC>svg>rect {
     width: 100%;
     height: 100%;
     rx: var(--StatusRounding);
@@ -3005,27 +3005,27 @@ a {
     position: relative;
 }
 
-.title-3qD0b- .status-1XNdyw>svg rect[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
+.title-31SJ6t .status-12NUUC>svg rect[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
     fill: var(--Unavailable) !important;
 }
 
-.title-3qD0b- .status-1XNdyw>svg rect[fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
+.title-31SJ6t .status-12NUUC>svg rect[fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
     fill: var(--Online) !important;
 }
 
-.title-3qD0b- .status-1XNdyw>svg rect[fill="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"] {
+.title-31SJ6t .status-12NUUC>svg rect[fill="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"] {
     fill: var(--Idle) !important;
 }
 
-.title-3qD0b- .status-1XNdyw>svg rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
+.title-31SJ6t .status-12NUUC>svg rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     fill: var(--Offline) !important;
 }
 
-.title-3qD0b- .status-1XNdyw>svg rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"] {
+.title-31SJ6t .status-12NUUC>svg rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"] {
     fill: var(--Streaming) !important;
 }
 
-.title-3qD0b- .status-1XNdyw>svg {
+.title-31SJ6t .status-12NUUC>svg {
     border-radius: 2.5px;
 }
 
