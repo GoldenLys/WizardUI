@@ -1,55 +1,49 @@
 /* ROLE NAME */
 .membersGroup-2eiWxl {
     opacity: 0;
-    transition: all 500ms;
+    transition: all 2s ease;
 }
 
 .membersWrap-3NUR2t:hover .membersGroup-2eiWxl {
-    transition: all 500ms;
+    transition: all 2s ease;
     opacity: 1;
 }
 
-/* DEAD ZONE TO AVOID GRAPHICAL BUGS */
-.members-3WRCEx:before {
-    height: 100%;
-    width: 15px;
-    content: "";
-}
-
 /* MOVING THE MEMBERS LIST TO THE RIGHT */
-.membersWrap-3NUR2t {
-    background-color: var(--bg-ui);
-    position: absolute;
-    right: 0px;
-    top: 0;
-    bottom: 0;
-    min-width: 60px;
-    z-index: 10;
-    -webkit-transform: translateX(220px);
-    transform: translateX(220px);
-    transition: all 500ms;
-    -webkit-transition: all 500ms;
-    padding-left: 15px;
+.chatContent-3KubbW+.container-2o3qEW {
+    width: 60px;
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
 }
 
-/* MEMBERLIST CONTENT */
+.chatContent-3KubbW+.container-2o3qEW:hover {
+    width: 265px;
+}
+
+/* MEMBERS LIST CONTENT */
 .members-3WRCEx {
     width: 265px;
     overflow: hidden;
-    border-radius: .5em 0 0 .5em;
-    transition: all 500ms;
-    -webkit-transition: all 500ms;
+    flex: 0 1 auto;
 }
 
 .membersWrap-3NUR2t:hover {
-    -webkit-transform: translateX(0px);
-    transform: translateX(0px);
     overflow: auto;
-    width: 265px !important;
-    padding-left: 0px;
 }
 
-/* RESIZE CHAT CONTENT TO SHOW THE SCROLLBAR */
-.chatContent-3KubbW {
-    padding-right: 60px;
+/* MOVING USER DETAILS */
+.members-3WRCEx .member-2gU6Ar .layout-1qmrhw {
+    padding-left: 12.5px;
+}
+
+.members-3WRCEx .member-2gU6Ar .content-1U25dZ {
+    -webkit-transform: translateX(220px);
+    transform: translateX(220px);
+    transition: all 750ms ease;
+    -webkit-transition: all 750ms ease;
+}
+
+.chatContent-3KubbW+.container-2o3qEW:hover .members-3WRCEx .member-2gU6Ar .content-1U25dZ {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
 }
