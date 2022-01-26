@@ -1200,12 +1200,18 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     margin: -5px 0 0 0;
 }
 
-.container-YkUktl .usernameContainer-3PPkWq+.subtext-2HDqJ7 {
+.container-YkUktl:not(.gameActivityToggleAdded-Yd-YxC) .usernameContainer-3PPkWq+.subtext-2HDqJ7 {
     position: relative;
     top: 7.5px;
     left: 0;
     text-indent: 20px;
     display: inline-block;
+    font-size: 15px;
+    line-height: 1;
+    opacity: .85;
+}
+
+.container-YkUktl.gameActivityToggleAdded-Yd-YxC .usernameContainer-3PPkWq+.subtext-2HDqJ7 {
     font-size: 15px;
     line-height: 1;
     opacity: .85;
