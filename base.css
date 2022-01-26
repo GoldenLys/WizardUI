@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "15-6";
+    --version: "15-7";
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -520,12 +520,6 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before {
 
 .member-2gU6Ar [class^=layout] {
     padding: 0 5px;
-    border-radius: 0;
-}
-
-.content-1gYQeQ {
-    padding: 0 5px;
-    margin: 0;
     border-radius: 0;
 }
 
@@ -1313,7 +1307,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     border-radius: 0;
 }
 
-.modeSelected-346R90 .content-1x5b-n .mainContent-u_9PKf:before {
+.modeSelected-3DmyhH .content-1gYQeQ .mainContent-20q_Hp:before {
     background: var(--Selected);
     z-index: -1;
     top: 0px;
@@ -1351,10 +1345,8 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 
 .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi),
 .bd-minimal .guilds-2JjMmN .wrapper-3kah-n>span:not(.collapsed-uGXEbi) {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
+    top: 7.5px;
+    height: var(--ServerSize);
     width: 100%;
     -webkit-transition: background-color .15s ease-out;
     transition: background-color .15s ease-out;
@@ -2173,7 +2165,7 @@ div[class^=expandedFolderIconWrapper] {
     top: 0;
     left: 0;
     bottom: 0;
-    border-radius: 5px;
+    border-radius: var(--Rounding);
 }
 
 .guilds-2JjMmN>ul>.scroller-3X7KbA>div[class^=tutorialContainer],
