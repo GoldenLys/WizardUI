@@ -1,6 +1,6 @@
 .guilds-2JjMmN {
-    /* place-content: center; */
-    /* place-items: center; */
+    place-content: center;
+    place-items: center;
     height: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
     width: 100%;
 }
@@ -123,7 +123,7 @@ div[class^=tutorialContainer] .pill-1NRFie .wrapper-z5ab_q,
     top: -10px;
 }
 
-.wrapper-sa6paO {
+.wrapper-z5ab_q {
     top: 0px;
     left: 0px;
 }
