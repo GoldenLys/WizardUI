@@ -1,10 +1,10 @@
 /* ROLE NAME */
-.membersGroup-2eiWxl {
+.chatContent-3KubbW+.container-2o3qEW .membersGroup-2eiWxl {
     opacity: 0;
     transition: all 2s ease;
 }
 
-.membersWrap-3NUR2t:hover .membersGroup-2eiWxl {
+.chatContent-3KubbW+.container-2o3qEW .membersWrap-3NUR2t:hover .membersGroup-2eiWxl {
     transition: all 2s ease;
     opacity: 1;
 }
@@ -21,22 +21,22 @@
 }
 
 /* MEMBERS LIST CONTENT */
-.members-3WRCEx {
+.chatContent-3KubbW+.container-2o3qEW .members-3WRCEx {
     width: 265px;
     overflow: hidden;
     flex: 0 1 auto;
 }
 
-.membersWrap-3NUR2t:hover {
+.chatContent-3KubbW+.container-2o3qEW .membersWrap-3NUR2t:hover {
     overflow: auto;
 }
 
 /* MOVING USER DETAILS */
-.members-3WRCEx .member-2gU6Ar .layout-1qmrhw {
+.chatContent-3KubbW+.container-2o3qEW .members-3WRCEx .member-2gU6Ar .layout-1qmrhw {
     padding-left: 12.5px;
 }
 
-.members-3WRCEx .member-2gU6Ar .content-1U25dZ {
+.chatContent-3KubbW+.container-2o3qEW .members-3WRCEx .member-2gU6Ar .content-1U25dZ {
     -webkit-transform: translateX(220px);
     transform: translateX(220px);
     transition: all 750ms ease;

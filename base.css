@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "15-5";
+    --version: "15-6";
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -4236,4 +4236,8 @@ div[class*=avatarPositionPremium-] {
 
 .members-1CYCy_ {
     column-gap: 5px;
+}
+
+.chatContent-3KubbW+.membersWrap-3NUR2t {
+    background-color: var(--bg-ui);
 }
