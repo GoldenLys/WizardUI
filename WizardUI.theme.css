@@ -11,8 +11,8 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
 @import url("https://goldenlys.github.io/WizardUI/base.css");
 
-/* This is an addon that moves the servers to the top with an horizontal width.
-@import url("https://goldenlys.github.io/WizardUI/addons/PurpleServerList.css"); */
+/* This is an addon that moves the servers to the top with an horizontal width.*/
+@import url("https://goldenlys.github.io/WizardUI/addons/PurpleServerList.css");
 
 /* This is a modification for PurpleServerList which replaces the folders icons with letters.
 @import url("https://goldenlys.github.io/WizardUI/addons/LettersInPSL.css"); */
@@ -23,10 +23,13 @@
 /* This is an addon that moves the "user is typing" text to the bottom of the app, like the default discord.
 @import url("https://goldenlys.github.io/WizardUI/addons/UserIsTyping.css"); */
 
-:root {
+*,
+*:before,
+*:after {
     /* MAIN VARIABLES */
     --font: "Quicksand";
     --Text: rgb(255, 255, 255);
+    --text-link: var(--Primary);
     --Highlighted: rgba(50, 10, 200, .5);
     --MessageHover: transparent;
     --Unread: rgba(255, 255, 255, 0.10);
@@ -51,13 +54,12 @@
 
     /* BACKGROUNDS */
     --logo: url(https://goldenlys.github.io/WUITG/images/home.png);
-    --background: url(https://purplewizard.space/images/clouds.png);
+    --background: url(https://goldenlys.github.io/WUITG/images/backgrounds/clouds.png);
     --bg-titlebar: rgba(0, 0, 0, 0.65);
     --bg-servers: rgba(0, 0, 0, 0.65);
     --bg-ui: rgba(0, 0, 0, 0.65);
     --bg-chatbox: rgba(0, 0, 0, 0.5);
     --bg-sendmessage: rgba(0, 0, 0, 0.25);
-    --text-link: var(--Primary);
 
     /* SERVER SETTINGS */
     --ServerSize: 45px;
@@ -66,6 +68,6 @@
     --ServerPills: var(--Primary);
 
     /* ROUNDING */
-    --Rounding: 50%;
-    --StatusRounding: 50;
+    --Rounding: 5px;
+    --StatusRounding: 4.5;
 }
