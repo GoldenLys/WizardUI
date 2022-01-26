@@ -4241,3 +4241,7 @@ div[class*=avatarPositionPremium-] {
 .chatContent-3KubbW+.membersWrap-3NUR2t {
     background-color: var(--bg-ui);
 }
+
+.name-3BUDLf.container-q97qHp {
+    display: inline-flex;
+}
