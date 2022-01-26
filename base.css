@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "16";
+    --version: "16-2";
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -3744,10 +3744,15 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
 }
 
 .userPopout-2j1gM4[data-user-id="201474545289396224"] {
-    background: center / cover no-repeat url(https://purplewizard.space/images/wizard.gif);
+    background: center / cover no-repeat url(https://goldenlys.github.io/WUITG/images/banners/wizard.gif);
 }
 
-.userPopout-2j1gM4[data-user-id="201474545289396224"] .headerNormal-1mX3KY {
+.userPopout-2j1gM4[data-user-id="295275466703503372"] {
+    background: center / cover no-repeat url(https://goldenlys.github.io/WUITG/images/banners/monokuma-laughter.gif);
+}
+
+.userPopout-2j1gM4[data-user-id="201474545289396224"] .headerNormal-1mX3KY,
+.userPopout-2j1gM4[data-user-id="295275466703503372"] .headerNormal-1mX3KY {
     background-color: transparent;
 }
 
