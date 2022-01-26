@@ -220,16 +220,11 @@ div[class^=folder-],
 }
 
 .keyboardShortcutsModal-2CRmCm,
-.tooltipBrand-20XsMA,
 .autocomplete-3NRXG8,
 .menu-1QACrS,
 .root-g14mjS,
 .scroller-2GkvCq {
     background-color: var(--darkgrey) !important;
-}
-
-.tooltipBrand-20XsMA .tooltipPointer-3L49xb {
-    border-top-color: var(--darkgrey) !important;
 }
 
 .bottomDivider-ZmTm-j {
@@ -4238,4 +4233,8 @@ div[class*=avatarPositionPremium-] {
 
 .name-3BUDLf.container-q97qHp {
     display: inline-flex;
+}
+
+.input-2g-os5.error-8r7mjf {
+    border-color: var(--Unavailable);
 }

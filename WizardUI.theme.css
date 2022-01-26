@@ -12,20 +12,16 @@
 @import url("https://goldenlys.github.io/WizardUI/base.css");
 
 /* This is an addon that moves the servers to the top with an horizontal width.
-@import url("https://goldenlys.github.io/WizardUI/addons/PurpleServerList.css");
-*/
+@import url("https://goldenlys.github.io/WizardUI/addons/PurpleServerList.css"); */
 
-/* This is an addon for the PurpleServerList addon which replaces the folders icons with letters.
-@import url("https://goldenlys.github.io/WizardUI/addons/LettersInPSL.css");
-*/
+/* This is a modification for PurpleServerList which replaces the folders icons with letters.
+@import url("https://goldenlys.github.io/WizardUI/addons/LettersInPSL.css"); */
 
 /* This is an addon that makes the members list hidden until you hover it.
-@import url("https://goldenlys.github.io/WizardUI/addons/HoverMembers.css");
-*/
+@import url("https://goldenlys.github.io/WizardUI/addons/HoverMembers.css"); */
 
 /* This is an addon that moves the "user is typing" text to the bottom of the app, like the default discord.
-@import url("https://goldenlys.github.io/WizardUI/addons/UserIsTyping.css");
-*/
+@import url("https://goldenlys.github.io/WizardUI/addons/UserIsTyping.css"); */
 
 :root {
     /* MAIN VARIABLES */
