@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "15-7";
+    --version: "15-8";
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -46,7 +46,7 @@
     --ServerSpacing: 5px 0px 0px 0px;
     --ServerPills: var(--Primary);
     --Rounding: 5px;
-    --StatusRounding: 2.5;
+    --StatusRounding: 4.5;
 }
 
 .theme-light,
@@ -760,7 +760,7 @@ rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"],
     border-radius: 5px;
 }
 
-.userPopout-2j1gM4 .avatarWrapper-3H_478 {
+.userPopout-2j1gM4 .avatarWrapper-eenWra {
     display: block;
     width: auto;
     margin: 0;
@@ -1024,8 +1024,8 @@ div[class^="role-"] {
 
 /* DISABLE OFFLINE STATUS */
 
-.userPopout-2j1gM4 .avatarWrapper-3H_478>svg>foreignObject,
-.userPopout-2j1gM4 .avatarWrapper-3H_478:hover>svg>foreignObject,
+.userPopout-2j1gM4 .avatarWrapper-eenWra>svg>foreignObject,
+.userPopout-2j1gM4 .avatarWrapper-eenWra:hover>svg>foreignObject,
 foreignObject[mask="url(#svg-mask-avatar-status-round-32)"],
 foreignObject[mask="url(#svg-mask-avatar-default)"],
 foreignObject[mask="url(#svg-mask-avatar-status-round-80)"],
@@ -1739,14 +1739,14 @@ div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(41) {
     color: var(--Unavailable) !important;
 }
 
-.avatarWrapper-3H_478 rect[width="40"] {
-    width: 80px;
-    height: 80px;
-    x: -49;
-    y: -53;
+.avatarWrapper-eenWra rect[width="40"] {
+    width: 78px;
+    height: 78px;
+    x: -47;
+    y: -51;
 }
 
-.avatarWrapper-3H_478 svg.cursorDefault-dsQJ1n {
+.avatarWrapper-eenWra svg.cursorDefault-dsQJ1n {
     x: 0;
     y: 0;
 }
