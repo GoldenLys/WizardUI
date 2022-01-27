@@ -10,12 +10,12 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "17";
+    --version: "17-2";
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
     --logo: url(https://goldenlys.github.io/WUITG/images/home.png);
-     /* STATUS VARIABLES */
+    /* STATUS VARIABLES */
     --Online: rgb(0, 255, 6);
     --Idle: rgb(18, 100, 239);
     --Unavailable: rgb(228, 15, 0);
@@ -172,7 +172,8 @@ div[class^=folder-],
 .standardSidebarView-E9Pc3j,
 .contentRegion-3HkfJJ,
 .sidebarRegionScroller-FXiQOh,
-.contentRegionScroller-2_GT_N {
+.contentRegionScroller-2_GT_N,
+.inset-SbsSFp {
     background-color: transparent !important;
 }
 
@@ -194,7 +195,8 @@ div[class^=folder-],
     background-color: var(--bg-ui) !important;
 }
 
-.container-2o3qEW {
+.container-2o3qEW,
+.nowPlayingColumn-1eCBCN {
     background-color: var(--bg-members);
 }
 
@@ -202,8 +204,6 @@ div[class^=folder-],
     background-color: var(--bg-sendmessage) !important;
 }
 
-.itemCard-3Etziu.wrapper-2RrXDg,
-.inset-SbsSFp,
 .modal-2RrUKJ,
 .clickable-vvKY2q .header-3OsQeK {
     background-color: var(--bg-ui) !important;
@@ -274,7 +274,9 @@ div[class^=folder-],
 .divider-2rZFJK,
 .scroller-hE2gWq,
 .divider-_0um2u,
-.markup-eYLPri code {
+.markup-eYLPri code,
+.scroller-hE2gWq,
+.wrapper-2RrXDg {
     border: none !important;
 }
 
@@ -2278,7 +2280,6 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 .nowPlayingColumn-1eCBCN {
     border-radius: 0 5px 0 0;
     border-bottom: none;
-    background-color: var(--bg-ui);
     padding: 5px;
     margin: 0;
 }
@@ -4254,8 +4255,14 @@ div[class*=avatarPositionPremium-] {
     background: var(--bg-settings);
 }
 
+.itemCard-3Etziu.wrapper-2RrXDg,
 .wrapper-1HIH0j,
+.section-3G9aLW,
 .embedFull-1HGV2S,
 .markup-eYLPri code {
-    background-color: var(--bg-chat-elements);
+    background-color: var(--bg-chat-elements) !important;
+}
+
+.section-3G9aLW {
+    border-radius: var(--Rounding);
 }
