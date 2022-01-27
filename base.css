@@ -162,7 +162,8 @@ div[class^=folder-],
 .replyBar-1oi75v,
 .threadSuggestionBar-3ExSyc,
 .hasBanner-2IrYih .header-3OsQeK,
-.scroller-WSmht3 {
+.scroller-WSmht3,
+.footer-31IekZ {
     background-color: transparent !important;
 }
 
@@ -194,8 +195,6 @@ div[class^=folder-],
 
 .itemCard-3Etziu.wrapper-2RrXDg,
 .inset-SbsSFp,
-.footer-31IekZ,
-.footer-31IekZ,
 .modal-2RrUKJ,
 .wrapper-1HIH0j,
 .clickable-vvKY2q .header-3OsQeK {
