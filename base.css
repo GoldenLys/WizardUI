@@ -738,7 +738,10 @@ rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"],
 }
 
 .guilds-2JjMmN .tutorialContainer-1pL9QS>div[class^=listItem-]>div[class^=listItemWrapper-]>div {
-    background: center / cover no-repeat var(--logo);
+    background-image: var(--logo);
+    background-size: calc(var(--ServerSize) - 1px);
+    background-position: 0 0;
+    background-repeat: no-repeat;
 }
 
 .unread-36eUEm {
