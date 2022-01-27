@@ -27,14 +27,9 @@
 *:before,
 *:after {
     /* MAIN VARIABLES */
-    --font: "Quicksand";
+    --font: 'Quicksand', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
-    --text-link: var(--Primary);
-    --Highlighted: rgba(50, 10, 200, .5);
-    --MessageHover: transparent;
-    --Unread: rgba(255, 255, 255, 0.10);
-    --Hover: rgba(18, 19, 31, 0.50);
-    --Selected: rgba(56, 33, 146, 0.35);
+    --logo: url(https://goldenlys.github.io/WUITG/images/home.png);
 
      /* STATUS VARIABLES */
     --Online: rgb(0, 255, 6);
@@ -51,15 +46,22 @@
 
     /* THEME COLORS */
     --Primary: rgb(50, 10, 200);
+    --text-link: var(--Primary);
+    --Highlighted: rgba(50, 10, 200, .5);
+    --MessageHover: transparent;
+    --Unread: rgba(255, 255, 255, 0.10);
+    --Hover: rgba(18, 19, 31, 0.50);
+    --Selected: rgba(56, 33, 146, 0.35);
 
     /* BACKGROUNDS */
-    --logo: url(https://goldenlys.github.io/WUITG/images/home.png);
     --background: url(https://goldenlys.github.io/WUITG/images/backgrounds/clouds.png);
     --bg-titlebar: rgba(0, 0, 0, 0.65);
     --bg-servers: rgba(0, 0, 0, 0.65);
     --bg-ui: rgba(0, 0, 0, 0.65);
     --bg-chatbox: rgba(0, 0, 0, 0.5);
     --bg-sendmessage: rgba(0, 0, 0, 0.25);
+    --bg-members: rgba(0, 0, 0, 0.65);
+    --bg-chat-elements: var(--bg-ui);
 
     /* SERVER SETTINGS */
     --ServerSize: 45px;

@@ -10,41 +10,46 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "16-2";
+    --version: "17";
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
-    --Selected: rgba(56, 33, 146, 0.35);
-    --Highlighted: rgba(114, 137, 218, 0.55);
-    --Unread: rgba(255, 255, 255, 0.10);
-    --Hover: rgba(18, 19, 31, 0.50);
-    /* THEME COLORS */
-    --Primary: rgb(50, 68, 131);
-    --grey: rgb(30, 30, 60);
-    --grey5: rgba(30, 30, 60, .75);
-    --darkgrey: rgb(40, 40, 80);
-    --darkgrey5: rgba(40, 40, 80, .75);
-    /* STATUSES */
-    --Online: rgb(0, 202, 99);
+    --logo: url(https://goldenlys.github.io/WUITG/images/home.png);
+     /* STATUS VARIABLES */
+    --Online: rgb(0, 255, 6);
     --Idle: rgb(18, 100, 239);
     --Unavailable: rgb(228, 15, 0);
     --Offline: rgb(90, 95, 100);
     --Streaming: rgb(110, 0, 196);
-    /* VARS */
-    --background: var(--grey);
-    --logo: url(https://goldenlys.github.io/WUITG/images/home.png);
-    --MessageHover: var(--grey);
-    --bg-titlebar: var(--grey);
-    --bg-servers: var(--grey);
-    --bg-sendmessage: var(--grey);
-    --bg-ui: var(--grey);
-    --bg-chatbox: rgba(15, 15, 50, 0.25);
+    /* UI COLOR VARIABLES */
+    --grey: rgb(18, 19, 31);
+    --grey5: rgba(18, 19, 31, .75);
+    --darkgrey: rgb(10, 10, 20);
+    --darkgrey5: rgba(10, 10, 20, .75);
+    /* THEME COLORS */
+    --Primary: rgb(50, 10, 200);
     --text-link: var(--Primary);
+    --Highlighted: rgba(50, 10, 200, .5);
+    --MessageHover: transparent;
+    --Unread: rgba(255, 255, 255, 0.10);
+    --Hover: rgba(18, 19, 31, 0.50);
+    --Selected: rgba(56, 33, 146, 0.35);
+    /* BACKGROUNDS */
+    --background: url(https://goldenlys.github.io/WUITG/images/backgrounds/clouds.png);
+    --bg-titlebar: rgba(0, 0, 0, 0.65);
+    --bg-servers: rgba(0, 0, 0, 0.65);
+    --bg-ui: rgba(0, 0, 0, 0.65);
+    --bg-chatbox: rgba(0, 0, 0, 0.5);
+    --bg-sendmessage: rgba(0, 0, 0, 0.25);
+    --bg-members: rgba(0, 0, 0, 0.65);
+    --bg-chat-elements: var(--grey5);
+    --bg-settings: var(--darkgrey);
     /* SERVER SETTINGS */
     --ServerSize: 45px;
     --ServerColumns: 1;
-    --ServerSpacing: 5px 0px 0px 0px;
+    --ServerSpacing: 5px 0px 0px 5px;
     --ServerPills: var(--Primary);
+    /* ROUNDING */
     --Rounding: 5px;
     --StatusRounding: 4.5;
 }
@@ -163,7 +168,11 @@ div[class^=folder-],
 .threadSuggestionBar-3ExSyc,
 .hasBanner-2IrYih .header-3OsQeK,
 .scroller-WSmht3,
-.footer-31IekZ {
+.footer-31IekZ,
+.standardSidebarView-E9Pc3j,
+.contentRegion-3HkfJJ,
+.sidebarRegionScroller-FXiQOh,
+.contentRegionScroller-2_GT_N {
     background-color: transparent !important;
 }
 
@@ -178,15 +187,15 @@ div[class^=folder-],
 .nowPlayingSidebar-2OFn0o,
 .container-ZMc96U.themed-Hp1KC_,
 .chat-2ZfjoI .title-31SJ6t.container-ZMc96U,
-.container-2cd8Mz .container-ZMc96U.themed-Hp1KC_,
-.headerBar-1dSpQr.container-ZMc96U.themed-Hp1KC_,
-.container-2o3qEW,
-.container-2o3qEW,
+.container-ZMc96U.themed-Hp1KC_,
 .sidebar-1tnWFu,
-.embedFull-1HGV2S,
 .container-S9SaVf,
 .attachedBars-2BCP3l {
     background-color: var(--bg-ui) !important;
+}
+
+.container-2o3qEW {
+    background-color: var(--bg-members);
 }
 
 .channelTextArea-1FufC0>[class^=scrollableContainer] {
@@ -196,7 +205,6 @@ div[class^=folder-],
 .itemCard-3Etziu.wrapper-2RrXDg,
 .inset-SbsSFp,
 .modal-2RrUKJ,
-.wrapper-1HIH0j,
 .clickable-vvKY2q .header-3OsQeK {
     background-color: var(--bg-ui) !important;
     border: none;
@@ -3517,10 +3525,6 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item-2LIpTv,
     background-color: var(--grey) !important;
 }
 
-.markup-eYLPri code {
-    background-color: var(--grey5);
-}
-
 .markup-eYLPri code.inline {
     background-color: var(--Primary);
     color: var(--Text);
@@ -4241,4 +4245,14 @@ div[class*=avatarPositionPremium-] {
 
 .input-2g-os5.error-8r7mjf {
     border-color: var(--Unavailable);
+}
+
+.layer-86YKbF {
+    background: var(--bg-settings);
+}
+
+.wrapper-1HIH0j,
+.embedFull-1HGV2S,
+.markup-eYLPri code {
+    background-color: var(--bg-chat-elements);
 }
