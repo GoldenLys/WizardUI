@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "17-2";
+    --version: "17-3";
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -173,7 +173,8 @@ div[class^=folder-],
 .contentRegion-3HkfJJ,
 .sidebarRegionScroller-FXiQOh,
 .contentRegionScroller-2_GT_N,
-.inset-SbsSFp {
+.inset-SbsSFp,
+.scroller-3_YDR2 {
     background-color: transparent !important;
 }
 
@@ -407,14 +408,15 @@ div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie {
     overflow: hidden auto !important;
 }
 
-[class^="containerDefault-"]>div:not(.wrapper-NhbLHG) [class^="mainContent"]>svg,
-[class^="containerDefault-"]>div.wrapper-NhbLHG [class^="mainContent"]>svg {
+.containerDefault-YUSmu3>div:not(.wrapper-NhbLHG) [class^="mainContent"]>svg,
+.containerDefault-YUSmu3>div.wrapper-NhbLHG [class^="mainContent"]>svg {
     display: none;
 }
 
-[class^="containerDefault-"]>div:hover,
+.containerDefault-3TQ5YN>div:hover,
+.containerDefault-YUSmu3>div:hover,
 .wrapper-NhbLHG:hover>.content-1gYQeQ {
-    background-color: var(--grey);
+    background-color: var(--Hover);
 }
 
 .wrapper-NhbLHG {
@@ -4265,4 +4267,8 @@ div[class*=avatarPositionPremium-] {
 
 .section-3G9aLW {
     border-radius: var(--Rounding);
+}
+
+.replyBar-1oi75v {
+    border-radius: 0;
 }
