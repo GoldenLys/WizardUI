@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "17-4";
+    --version: "17-5";
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -1427,11 +1427,11 @@ div[class^=closedFolderIconWrapper]:before {
     content: "\f07b";
 }
 
-.info-1sUqUG>.colorMuted-20987_ {
+.info-3pQQBb>.colorMuted-20987_ {
     color: var(--Text);
 }
 
-.info-1sUqUG:before {
+.info-3pQQBb:before {
     display: inline-block;
     color: var(--Text);
     font-family: 'Font Awesome 6 Pro';
@@ -1444,11 +1444,11 @@ div[class^=closedFolderIconWrapper]:before {
     border-radius: var(--Rounding);
 }
 
-.info-1sUqUG>*:nth-child(1) {
+.info-3pQQBb>*:nth-child(1) {
     display: inline;
 }
 
-.info-1sUqUG>*:nth-child(1):before {
+.info-3pQQBb>*:nth-child(1):before {
     display: inline-block;
     content: "WizardUI v"var(--version)" "var(--build);
     color: var(--Text);
@@ -1459,7 +1459,7 @@ div[class^=closedFolderIconWrapper]:before {
     min-width: 75%;
 }
 
-.info-1sUqUG>*:nth-child(1):after {
+.info-3pQQBb>*:nth-child(1):after {
     display: block;
     content: "Customized by Purple Wizard";
     font-size: 12px;
@@ -2534,6 +2534,7 @@ ul>.listItem-3SmSlK>div[class^=pill] {
 }
 
 .sidebar-nqHbhN {
+    width: auto;
     max-width: 250px;
     padding: 10px 20px;
 }
@@ -4272,4 +4273,15 @@ div[class*=avatarPositionPremium-] {
 
 .replyBar-1oi75v {
     border-radius: 0;
+}
+
+.layers-OrUESM>.layer-86YKbF.animating-1rIrGV {
+    -webkit-transition-property: none!important;
+    transition-property: none!important;
+    -webkit-animation: none!important;
+    animation: none!important
+}
+
+.inviteSplash-2nkLRX {
+    margin: 0;
 }
