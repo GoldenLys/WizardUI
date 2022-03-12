@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "17-5";
+    --version: "17-6";
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -1538,7 +1538,7 @@ div[class^=closedFolderIconWrapper]:before {
     display: none;
 }
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:before,
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:before,
 #bd-settings-sidebar>span>div>.ui-tab-bar-item:before,
 #bd-settings-sidebar>span>div .bd-changelog-button:before,
 #bd-settings-sidebar+div+.item-3XjbnG:before {
@@ -1555,119 +1555,119 @@ div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:before,
 
 /* My Account */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(2):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(2):before {
     content: "\f2bd"
 }
 
 /* User Profile */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(3):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(3):before {
     content: "\f2c2"
 }
 
 /* Privacy & Safety */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(4):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(4):before {
     content: "\f21b"
 }
 
 /* Authorized Apps */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(5):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(5):before {
     content: "\f336"
 }
 
 /* Connections */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(6):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(6):before {
     content: "\f0c1"
 }
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(9).selected-g-kMVV:before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(9).selected-g-kMVV:before {
     color: var(--Text) !important;
 }
 
 /* Discord Nitro */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(9):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(9):before {
     z-index: 2;
     position: relative;
     content: "\f0e7"
 }
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(9) {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(9) {
     display: flex;
 }
 
 /* Server Boost */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(10):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(10):before {
     content: "\f055"
 }
 
 /* Subscriptions */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(11):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(11):before {
     content: "\f2c1"
 }
 
 /* Gift Inventory */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(12):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(12):before {
     content: "\f06b"
 }
 
 /* Billing */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(13):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(13):before {
     content: "\f555"
 }
 
 /* Appearance */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(16):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(16):before {
     content: "\f53f"
 }
 
 /* Accessibility */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(17):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(17):before {
     content: "\f4bc"
 }
 
 /* Voice & Video */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(18):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(18):before {
     content: "\f590"
 }
 
 /* Text & Images */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(19):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(19):before {
     content: "\f03e"
 }
 
 /* Notifications */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(20):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(20):before {
     content: "\f05a"
 }
 
 /*  Keybinds */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(21):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(21):before {
     content: "\f11c"
 }
 
 /* Language */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(22):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(22):before {
     content: "\f1ab"
 }
 
 /* Windows Settings */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(23):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(23):before {
     content: "\f17a";
     font-family: "Font Awesome 6 Brands";
     font-weight: 400;
@@ -1675,7 +1675,7 @@ div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(23):before
 
 /* Streamer Mode */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(24):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(24):before {
     content: "\f1e8";
     font-family: "Font Awesome 6 Brands";
     font-weight: 400;
@@ -1683,73 +1683,79 @@ div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(24):before
 
 /* Advanced */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(25):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(25):before {
     content: "\f0fe"
 }
 
 /* Game Activity */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(28):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(28):before {
     content: "\f8bc"
 }
 
 /* Overlay */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(29):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(29):before {
     content: "\f856"
 }
 
 /* BD Settings */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(32):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(32):before {
     content: "\f3f2"
 }
 
 /* BD Emotes */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(33):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(33):before {
     content: "\f5b8"
 }
 
 /* BD Custom CSS */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(34):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(34):before {
     content: "\f1c9"
 }
 
 /* BD Plugins */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(35):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(35):before {
     content: "\f12e"
 }
 
 /* BD Themes */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(36):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(36):before {
     content: "\f5aa"
 }
 
 /* Change Log */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(38):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(38):before {
     content: "\f46d"
 }
 
 /* HypeSquad */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(39):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(39):before {
     content: "\f500"
 }
 
 /* Log Out */
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(41):before {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(41):before {
     color: var(--Unavailable);
     content: "\f2f5"
 }
 
-div[aria-label="USER_SETTINGS"] .side-2ur1Qk>.item-3XjbnG:nth-of-type(41) {
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG:nth-of-type(41) {
     color: var(--Unavailable) !important;
+}
+
+
+.avatarWrapper-eenWra .avatar-2Vndt_.wrapper-1VLyxH rect[width="40"] {
+    x: 0;
+    y: 0;
 }
 
 .avatarWrapper-eenWra rect[width="40"] {
@@ -4257,6 +4263,10 @@ div[class*=avatarPositionPremium-] {
 
 .layer-86YKbF {
     background: var(--bg-settings);
+    -webkit-transition-property: none!important;
+    transition-property: none!important;
+    -webkit-animation: none!important;
+    animation: none!important
 }
 
 .itemCard-3Etziu.wrapper-2RrXDg,
@@ -4273,13 +4283,6 @@ div[class*=avatarPositionPremium-] {
 
 .replyBar-1oi75v {
     border-radius: 0;
-}
-
-.layers-OrUESM>.layer-86YKbF.animating-1rIrGV {
-    -webkit-transition-property: none!important;
-    transition-property: none!important;
-    -webkit-animation: none!important;
-    animation: none!important
 }
 
 .inviteSplash-2nkLRX {
