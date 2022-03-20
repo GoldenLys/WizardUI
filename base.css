@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "17-7";
+    --version: "17-8";
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -1081,11 +1081,6 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     mask: none;
 }
 
-#app-mount .wrapper-1VLyxH .mask-1FEkla>rect[x="22"] {
-    x: 0;
-    y: 0;
-}
-
 .userInfo-2WpsYG svg[viewBox="0 0 40 32"] rect {
     width: 30px !important;
     height: 30px !important;
@@ -1104,6 +1099,8 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     -webkit-mask: none;
 }
 
+#app-mount .wrapper-1VLyxH .mask-1FEkla>rect[x="22"],
+#app-mount .avatar-6qzftW>.wrapper-1VLyxH[style*="width: 32px;"] rect,
 #app-mount .wrapper-1VLyxH[style*="width: 32px;"] rect[width="10"] {
     x: 1;
     y: 1;
