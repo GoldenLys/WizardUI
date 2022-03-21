@@ -1109,8 +1109,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     y: 1;
 }
 
-#app-mount .avatar-1EWyVD.wrapper-1VLyxH>svg>svg[x="14.5"] rect,
-#app-mount .avatar-6qzftW>.wrapper-1VLyxH svg>svg[x="14.5"] rect {
+#app-mount .wrapper-1VLyxH>svg>svg[x="14.5"] rect {
     x: -14.5;
     y: -17;
 }
