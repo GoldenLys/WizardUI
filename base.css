@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "18-2"; /* 00-0 */
+    --version: "18-3"; /* 00-0 */
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -26,7 +26,6 @@
     --grey5: rgba(18, 19, 31, .75);
     --darkgrey: rgb(10, 10, 20);
     --darkgrey5: rgba(10, 10, 20, .75);
-
     --ui-success: rgb(69, 208, 34);
     --ui-warning: rgb(238, 165, 30);
     --ui-error: rgb(208, 34, 34);
@@ -321,7 +320,8 @@ a[href="https://support.discord.com"],
 .chat-2ZfjoI>section.title-31SJ6t>.children-3xh0VB>.iconWrapper-2awDjA,
 .buttons-uaqb-5 .button-f2h6uQ>.button-3BaQ4X:not([class*=translateButton-]),
 .repliedMessage-3Z6XBG:before,
-div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie {
+div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie,
+.arrow-2HswgU.icon-3zI3d2 {
     display: none;
 }
 
@@ -1951,7 +1951,7 @@ div[class^=closedFolderIconWrapper]:before {
     border-radius: 5px;
 }
 
-.userLimit-VbEkeM>.wrapper-2fEmwW {
+.channelInfo-3jN1ay>.wrapper-2fEmwW {
     height: 28px;
     border-radius: 0px;
     background-color: var(--grey5);
@@ -4297,4 +4297,44 @@ div[class*=avatarPositionPremium-] {
 .lookOutlined-3yKVGo.colorRed-rQXKgM {
     color: var(--ui-error) !important;
     border-color: var(--ui-error) !important;
+}
+
+.hero-1aNo0v .heroHeader-1A0uOZ,
+.hero-1aNo0v .heroBody-20fY29 {
+    font-size: 0px;
+    line-height: 0px;
+}
+
+.hero-1aNo0v .heroHeader-1A0uOZ:before {
+    content: "Throw your money away !";
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.hero-1aNo0v .heroBody-20fY29:before {
+    content: "Also consider giving a tip to Purple Wizard, your money would be better spent.";
+    font-size: 16px;
+    line-height: 20px;
+} 
+
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG[aria-controls="discord-nitro-tab"]>.premiumLabel-3HPvdB {
+    font-size: 0px;
+    line-height: 0px;
+}
+
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG[aria-controls="discord-nitro-tab"]>.premiumLabel-3HPvdB:before {
+    content: "Discord Nitroscam";
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#my-account-tab.contentColumn-1C7as6 .sectionTitle-3j2YI1>.title-3hptVQ {
+    font-size: 0px;
+    line-height: 0px;
+}
+
+#my-account-tab.contentColumn-1C7as6 .sectionTitle-3j2YI1>.title-3hptVQ:before {
+    content: "Show me your ID sir.";
+    font-size: 20px;
+    line-height: 24px;
 }

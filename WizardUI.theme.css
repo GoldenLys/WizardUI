@@ -43,6 +43,9 @@
     --grey5: rgba(18, 19, 31, .75);
     --darkgrey: rgb(10, 10, 20);
     --darkgrey5: rgba(10, 10, 20, .75);
+    --ui-success: rgb(69, 208, 34);
+    --ui-warning: rgb(238, 165, 30);
+    --ui-error: rgb(208, 34, 34);
 
     /* THEME COLORS */
     --Primary: rgb(50, 10, 200);
