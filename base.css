@@ -4314,7 +4314,7 @@ div[class*=avatarPositionPremium-] {
     content: "Also consider giving a tip to Purple Wizard, your money would be better spent.";
     font-size: 16px;
     line-height: 20px;
-} 
+}
 
 .sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG[aria-controls="discord-nitro-tab"]>.premiumLabel-3HPvdB {
     font-size: 0px;
@@ -4327,12 +4327,12 @@ div[class*=avatarPositionPremium-] {
     line-height: 20px;
 }
 
-#my-account-tab.contentColumn-1C7as6 .sectionTitle-3j2YI1>.title-3hptVQ {
+#my-account-tab>div>div:nth-child(1)>div.sectionTitle-3j2YI1>.title-3hptVQ {
     font-size: 0px;
     line-height: 0px;
 }
 
-#my-account-tab.contentColumn-1C7as6 .sectionTitle-3j2YI1>.title-3hptVQ:before {
+#my-account-tab>div>div:nth-child(1)>div.sectionTitle-3j2YI1>.title-3hptVQ:before {
     content: "Show me your ID sir.";
     font-size: 20px;
     line-height: 24px;
