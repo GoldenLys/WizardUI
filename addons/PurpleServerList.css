@@ -167,3 +167,7 @@ div[class^=tutorialContainer],
 div[class^=tutorialContainer] {
     margin-left: 5px !important;
 }
+
+.tutorialContainer-2jwoiB+.listItem-3SmSlK {
+    padding-right: 5px !important;
+}   

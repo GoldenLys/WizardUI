@@ -10,7 +10,8 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "18-3"; /* 00-0 */
+    --version: "18-4";
+    /* 00-0 */
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
@@ -347,7 +348,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie,
     margin: 0;
 }
 
-.chat-2ZfjoI .textArea-2CLwUE>.placeholder-1_mJY1 {
+.chat-2ZfjoI .textArea-2CLwUE .placeholder-1rCBhr {
     font-size: 0;
     line-height: 0;
 }
@@ -363,7 +364,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie,
     padding: 0 !important;
 }
 
-.chat-2ZfjoI .textArea-2CLwUE>.placeholder-1_mJY1:after {
+.chat-2ZfjoI .textArea-2CLwUE .placeholder-1rCBhr:after {
     font-size: 1rem;
     line-height: 1.375rem;
     color: var(--Text);
@@ -568,7 +569,7 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before {
 }
 
 .reaction-2A2y9y [class^=reactionCount],
-.search-1FM8Qc .DraftEditor-root .public-DraftEditorPlaceholder-root,
+.search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root,
 .paymentRowHeader-3WJnOv {
     color: var(--Text);
 }
@@ -1234,16 +1235,16 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     margin: 0
 }
 
-.search-1FM8Qc .DraftEditor-root .public-DraftEditorPlaceholder-root {
+.search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root {
     display: none
 }
 
-.search-1FM8Qc[class*=open] .DraftEditor-root .public-DraftEditorPlaceholder-root,
-.search-1FM8Qc[class*=open] .DraftEditor-root .public-DraftStyleDefault-block {
+.search-2Mwzzq[class*=open] .DraftEditor-root .public-DraftEditorPlaceholder-root,
+.search-2Mwzzq[class*=open] .DraftEditor-root .public-DraftStyleDefault-block {
     display: block;
 }
 
-.searchBar-zdmu7v {
+.searchBar-jGtisZ {
     background-color: transparent;
     width: unset;
     border-radius: 0 !important;
@@ -1251,11 +1252,11 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     padding: 0;
 }
 
-.searchBar-zdmu7v .icon-1nNws_ {
+.searchBar-jGtisZ .icon-tZMHgY {
     position: relative;
 }
 
-.searchBar-zdmu7v .icon-1nNws_:not(.clear-2KQ7l1):after {
+.searchBar-jGtisZ .icon-tZMHgY:not(.clear-2KQ7l1):after {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -1273,16 +1274,16 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     align-items: center;
 }
 
-.searchBar-zdmu7v .icon-1nNws_ svg:first-child {
+.searchBar-jGtisZ .icon-tZMHgY svg:first-child {
     display: none
 }
 
-.focused-8aNhVB .searchBar-zdmu7v,
-.open-3y3yI_ .searchBar-zdmu7v {
+.focused-1xh-wG .searchBar-jGtisZ,
+.open-1F8u2c .searchBar-jGtisZ {
     width: 240px;
 }
 
-.search-1FM8Qc[class*=open] .searchBar-zdmu7v {
+.search-2Mwzzq[class*=open] .searchBar-jGtisZ {
     border-bottom: 1px solid white;
 }
 
@@ -1730,10 +1731,17 @@ div[class^=closedFolderIconWrapper]:before {
     content: "\f2f5"
 }
 
+.sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG[aria-controls="logout-tab"]>div>svg {
+    display: none;
+}
+
 .sidebar-nqHbhN>.side-2ur1Qk>.item-3XjbnG[aria-controls="logout-tab"] {
     color: var(--ui-error) !important;
 }
 
+.tabBarItemContainer-2HdIlr {
+    display: inline-flex;
+}
 
 .avatarWrapper-eenWra .avatar-2Vndt_.wrapper-1VLyxH rect[width="40"] {
     x: 0;
@@ -2751,6 +2759,7 @@ button[role*="switch"][aria-checked=false]:not(#GameActivityToggleBtn):after {
     position: relative;
 }
 
+.icon-3AqZ2e,
 .modal-2LBig1 .listRow-2nO1T6 .listAvatar-1NlAhb,
 .connectedAccountIcon-3P3V6F {
     width: var(--ServerSize);
@@ -3952,8 +3961,8 @@ div[class*=avatarPositionPremium-] {
     border-bottom-color: var(--Primary);
 }
 
-.search-1FM8Qc .DraftEditor-root .public-DraftEditor-content,
-.search-1FM8Qc .DraftEditor-root .public-DraftEditorPlaceholder-root {
+.search-2Mwzzq .DraftEditor-root .public-DraftEditor-content,
+.search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root {
     padding-left: 0;
     padding-right: 0;
 }
@@ -4336,4 +4345,8 @@ div[class*=avatarPositionPremium-] {
     content: "Show me your ID sir.";
     font-size: 20px;
     line-height: 24px;
+}
+
+.icon-3AqZ2e {
+    transform: scale(1.066666);
 }
