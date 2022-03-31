@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "18-4";
+    --version: "18-5";
     /* 00-0 */
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -4349,4 +4349,44 @@ div[class*=avatarPositionPremium-] {
 
 .icon-3AqZ2e {
     transform: scale(1.066666);
+}
+
+.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
+    content: " (" attr(aria-label) ")";
+    color: var(--text-muted);
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: lowercase;
+}
+
+.edited-1v5nT8:not(.message-translate-indicator) {
+    display: none;
+}
+
+.headerText-2z4IhQ>span::before {
+    content: '';
+    width: calc(100% + 7px);
+    height: 100%;
+    border-radius: 5px;
+    background-color: currentColor;
+    opacity: 0.15;
+    position: absolute;
+    margin-top: 0px;
+    z-index: -1;
+    margin-left: -3px;
+}
+
+.headerText-2z4IhQ>span {
+    margin-left: 3px;
+}
+
+.layers-OrUESM>.layer-86YKbF.animating-1rIrGV *,
+.layers-OrUESM>.layer-86YKbF.animating-1rIrGV {
+    pointer-events: auto !important;
+    will-change: unset;
+}
+
+.animating-1rIrGV.stop-animations {
+    z-index: 100 !important;
 }
