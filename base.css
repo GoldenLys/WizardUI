@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "19-2";
+    --version: "19-3";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -299,6 +299,7 @@ div[class^=folder-],
     border-radius: 0px !important;
 }
 
+.segmentContainer-358IfE>.divider-1hrwMv,
 .avatarSpeaking-33RRJU,
 .title-31SJ6t .status-12NUUC>svg,
 .bg-1QIAus,
