@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "19";
+    --version: "19-2";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -215,6 +215,10 @@ div[class^=folder-],
 .clickable-vvKY2q .header-3OsQeK {
     background-color: var(--bg-ui) !important;
     border: none;
+}
+
+.hasBanner-2IrYih.clickable-vvKY2q .header-3OsQeK {
+    background-color: transparent !important;
 }
 
 .container-S9SaVf {
@@ -4429,6 +4433,6 @@ div[class*=avatarPositionPremium-] {
 /* LOL */
 .connectedAccountIcon-2vls0t[src="/assets/94dc6f30a819026fa295d85f1f72b4ab.svg"] ~ div::before {--border-color: #CEA146;}
 
-.panels-3wFtMD .container-6sXIoE.withTimeline-824fT_ {
+.panels-3wFtMD .container-6sXIoE.maximized-vv2Wr0.withTimeline-824fT_ {
     padding-top: 0px!important;
 }
