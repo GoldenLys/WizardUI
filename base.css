@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "19-4";
+    --version: "19-5";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -308,7 +308,7 @@ div[class^=folder-],
 .iconContainer-21RCa3,
 .dots-1BwzZQ,
 #user-settings .contentRegion-3HkfJJ>div>div>main>div>[class^=divider],
-.option-2KkUJO:after,
+.option-ayUoaq:after,
 .resultsGroup-1BPR25:before,
 .wrapper-NhbLHG.modeUnread-3Cxepe>.unread-36eUEm,
 .emptyMessage-3ggYEG,
@@ -4143,10 +4143,6 @@ div[class*=avatarPositionPremium-] {
     background: var(--darkgrey) !important;
 }
 
-.option-2KkUJO:after {
-    display: none;
-}
-
 .wrapper-2SplAX {
     position: relative;
     border-radius: 0px;
@@ -4441,4 +4437,8 @@ div[class*=avatarPositionPremium-] {
 .avatarSpeaking-2pCGrZ {
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+
+.option-ayUoaq:hover {
+    background: var(--Primary);
 }
