@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "20-2";
+    --version: "20-3";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -2199,6 +2199,10 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 
 .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style]) {
     order: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .guilds-2JjMmN .scroller-3X7KbA>.listItem-3SmSlK:first-child+.listItem-3SmSlK:not([style]),
