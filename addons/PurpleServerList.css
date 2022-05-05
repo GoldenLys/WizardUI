@@ -59,9 +59,13 @@
 #app-mount [class*="pill"] {
     transform: rotate(90deg) translateY(-50%);
     height: var(--ServerSize);
-    width: 4px;
+    width: 5px;
     top: calc(var(--ServerSize) / -1 + var(--ServerSize) / 2 - 2.5px) !important;
     margin-left: -2px;
+}
+
+#app-mount [class*="pill"]>span {
+    width: 5px;
 }
 
 #app-mount .guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child)>.listItem-3SmSlK {
