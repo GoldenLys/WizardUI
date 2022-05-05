@@ -1,173 +1,71 @@
-.guilds-2JjMmN {
-    place-content: center;
-    place-items: center;
-    height: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
-    width: 100%;
+#app-mount .app-3xd6d0 .base-2jDfDU {
+    top: calc(var(--ServerSize) + 15px) !important;
+    position: absolute !important;
+    left: 0 !important;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
 }
 
-.guilds-2JjMmN:before {
-    height: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
-}
-
-.base-2jDfDU {
-    z-index: 1;
-    position: absolute;
-    top: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+#app-mount .guilds-2JjMmN {
+    transform-origin: top left;
+    transform: rotate(-90deg);
+    height: 100vw !important;
+    width: calc(var(--ServerSize) + 15px);
+    top: calc(var(--ServerSize) + 15px);
+    bottom: unset;
+    position: absolute !important;
     left: 0;
-    width: 100%;
-    height: calc(100% - (25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns)));
 }
 
-.platform-web .base-2jDfDU {
-    top: calc(35px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+.scrollerWrap-1IAIlv {
+    width: calc(100% + 30px);
 }
 
-.platform-web .guilds-2JjMmN:before,
-.platform-web .guilds-2JjMmN>ul:before {
-    height: calc(35px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+#app-mount .guilds-2JjMmN [class*=listItem]:not([class*=listItemWrapper]) {
+    padding: 2.5px 0px 2.5px 0px;
 }
 
-.platform-osx .base-2jDfDU {
-    top: calc(57px + var(--ServerSize) * var(--ServerColumns));
-}
-
-.root-SR8cQa {
-    width: calc(100vw - 265px);
-    top: calc(48px + var(--ServerSize) * var(--ServerColumns))
-}
-
-.guilds-2JjMmN>ul,
-.guilds-2JjMmN>ul>.scroller-3X7KbA {
+#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt {
+    padding: var(--ServerSpacing) 0 !important;
     display: flex;
-    contain: unset;
-    width: 100%;
-    place-items: center;
-    overflow: hidden hidden !important;
+    flex-direction: column;
+    gap: var(--ServerSpacing);
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style]) {
-    display: flex;
-    flex-wrap: wrap;
-    height: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
-    overflow: hidden auto;
-    width: 100%;
-    justify-content: center;
-    align-content: flex-start;
+#app-mount .guilds-2JjMmN [class*=listItem]:not([class*=listItemWrapper]) {
+    width: var(--ServerSize);
+    transform: rotate(90deg);
+    position: unset;
 }
 
-div[class^=tutorialContainer],
-div[class^=tutorialContainer]+.listItem-3SmSlK,
-.bd-minimal .guilds-2JjMmN .listItem-3SmSlK,
-.bd-minimal .guilds-2JjMmN [class*=unreadMentionsIndicator],
-.bd-minimal .guilds-2JjMmN .wrapper-38slSD {
-    width: unset;
-}
-
-/* PILLS */
-
-.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>div div[class^=pill],
-div[class^=tutorialContainer] .pill-1NRFie {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-}
-
-div[class^=pill] {
-    width: 100%;
-    height: 5px;
-}
-
-.guilds-2JjMmN .scroller-3X7KbA>.listItem-3SmSlK div[class^=pill]>.item-2LIpTv,
-.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>div div[class^=pill]>.item-2LIpTv,
-div[class^=tutorialContainer]:hover .pill-1NRFie .wrapper-z5ab_q,
-div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2LIpTv,
-#app-mount .guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child) div[class^=pill] div {
-    position: absolute;
-    display: block;
-    top: 0px;
-}
-
-.guilds-2JjMmN .scroller-3X7KbA div[class^=pill]>.item-2LIpTv[style*="height: 40px"] {
-    width: 95% !important;
-}
-
-div[class^=tutorialContainer]:hover .pill-1NRFie .wrapper-z5ab_q,
-div[class^=tutorialContainer]:hover .pill-2uzAFe .item-2LIpTv,
-.guilds-2JjMmN .scroller-3X7KbA div[class^=pill]>.item-2LIpTv[style*="height: 20px"],
-.guilds-2JjMmN .scroller-3X7KbA .listItem-3SmSlK:hover div[class^=pill]>.item-2LIpTv {
-    width: 90% !important;
-}
-
-div[class^=tutorialContainer] .pill-1NRFie .wrapper-z5ab_q,
-.item-2LIpTv {
-    height: 5px !important;
-    width: calc(var(--ServerSize) / 2) !important;
-    margin: 0 !important;
-    transition: width 250ms ease;
-    -webkit-transition: width 250ms ease;
-}
-
-.guilds-2JjMmN .listItem-3SmSlK>div[class^=pill] {
-    top: -2.5px;
-}
-
-.guilds-2JjMmN div[class^=tutorialContainer]>.listItem-3SmSlK>div[class^=pill]>.item-2LIpTv {
-    top: -7.5px;
-}
-
-.guilds-2JjMmN ul>.listItem-3SmSlK>div[class^=pill],
-.guilds-2JjMmN .scroller-3X7KbA .wrapper-38slSD>.listItem-3SmSlK>div[class^=pill] {
-    top: -10px;
-}
-
-.wrapper-z5ab_q {
-    top: 0px;
-    left: 0px;
-}
-
-.guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child) div[class^=pill] .item-2LIpTv {
-    border-radius: 2.5px 2.5px 2.5px 2.5px;
-}
-
-/* GROUPS */
-
-#app-mount .wrapper-38slSD {
-    width: auto !important;
-    display: flex;
-    height: var(--ServerSize);
-    align-items: center;
-    margin-bottom: 0;
-    align-self: center;
-    padding: 7.5px 0px 7.5px 0px;
-}
-
-#app-mount .wrapper-38slSD [role=group] {
-    display: flex;
-    align-items: center;
+#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt>div[style]:not(.listItem-2P_4kh) {
     height: auto !important;
-    border-radius: 0 2.5px 2.5px 0;
 }
 
-/* SERVER */
-
-div[class^=tutorialContainer],
-.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])+div[class^=tutorialContainer],
-.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.listItem-3SmSlK,
-#app-mount .guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child),
-.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-38slSD,
-.guilds-2JjMmN .scroller-3X7KbA>.listItem-3SmSlK {
-    margin: var(--ServerSpacing);
+#app-mount  [class*="guildSeparator"] {
+    transform: rotate(90deg);
+    width: var(--ServerSize);
 }
 
-/* PMs */
-
-div[class^=tutorialContainer] {
-    margin-left: 5px !important;
+#app-mount [class*="expandedFolderBackground"] {
+    width: calc(var(--ServerSize) + 0px);
+    left: 50%;
+    transform: translateX(calc(-50% - 8px));
+    height: 100%;
+    top: auto;
 }
 
-.tutorialContainer-2jwoiB+.listItem-3SmSlK {
-    padding-right: 5px !important;
-}   
+#app-mount [class*="pill"] {
+    transform: rotate(90deg) translateY(-50%);
+    height: var(--ServerSize);
+    width: 4px;
+    top: calc(var(--ServerSize) / -1 + var(--ServerSize) / 2 - 2.5px) !important;
+    margin-left: -2px;
+}
+
+#app-mount .guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child)>.listItem-3SmSlK {
+    position: initial;
+    width: var(--ServerSize);
+    height: var(--ServerSize);
+}

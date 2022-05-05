@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "19-6";
+    --version: "20-2";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -1348,7 +1348,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi),
 .bd-minimal .guilds-2JjMmN .wrapper-3kah-n>span:not(.collapsed-uGXEbi) {
     top: 7.5px;
-    height: var(--ServerSize);
+    height: auto;
     width: 100%;
     -webkit-transition: background-color .15s ease-out;
     transition: background-color .15s ease-out;
@@ -2127,20 +2127,10 @@ div[class^=pill] {
     border-radius: 2.5px 0 0 2.5px;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>div:first-child {
-    margin-left: 0 !important
-}
-
-div[class^=tutorialContainer],
-.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])+div[class^=tutorialContainer],
-.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.listItem-3SmSlK,
-.guilds-2JjMmN .scroller-3X7KbA>div[class^=tutorialContainer]+.listItem-3SmSlK,
-#app-mount .guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child),
-.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-3kah-n,
-.tutorialContainer-35RLOQ+.listItem-3SmSlK {
+#app-mount .guilds-2JjMmN [class*=listItem]:not([class*=listItemWrapper]) {
     margin: var(--ServerSpacing);
     border-radius: 2.5px;
-    padding: 7.5px 0px 7.5px 0px;
+    padding: 2.5px 0px 2.5px 0px;
 }
 
 .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-3kah-n>.listItem-3SmSlK>div[class^=pill] {
@@ -2213,7 +2203,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 
 .guilds-2JjMmN .scroller-3X7KbA>.listItem-3SmSlK:first-child+.listItem-3SmSlK:not([style]),
 .guilds-2JjMmN .scroller-3X7KbA>div[style]:not(.listItem-3SmSlK)+.listItem-3SmSlK {
-    height: var(--ServerSize);
+    display: none;
 }
 
 .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-3kah-n ul {
@@ -4362,7 +4352,7 @@ div[class*=avatarPositionPremium-] {
     display: none;
 }
 
-.headerText-2z4IhQ>span::after {
+.headerText-2z4IhQ>.username-h_Y3Us::after {
     content: '';
     width: calc(100% + 6px);
     left: -3px;
@@ -4375,7 +4365,7 @@ div[class*=avatarPositionPremium-] {
     z-index: -1;
 }
 
-.headerText-2z4IhQ>span {
+.headerText-2z4IhQ>.username-h_Y3Us{
     margin-left: 3px;
 }
 
