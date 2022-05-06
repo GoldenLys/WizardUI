@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "20-4";
+    --version: "20-5";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */

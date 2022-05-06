@@ -43,17 +43,25 @@
     height: auto !important;
 }
 
-#app-mount  [class*="guildSeparator"] {
+#app-mount [class*="guildSeparator"] {
     transform: rotate(90deg);
     width: var(--ServerSize);
 }
 
 #app-mount [class*="expandedFolderBackground"] {
-    width: calc(var(--ServerSize) + 0px);
-    left: 50%;
-    transform: translateX(calc(-50% - 8px));
-    height: 100%;
+    width: var(--ServerSize);
+    left: 5px;
+    height: calc(100% - 10px);
     top: auto;
+}
+
+#app-mount .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-38slSD [class^=expandedFolderBackground]:not(.collapsed-uGXEbi)+.listItem-3SmSlK+ul {
+    height: auto !important;
+}
+
+#app-mount .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-38slSD [class^=expandedFolderBackground]:not(.collapsed-uGXEbi)+.listItem-3SmSlK+ul>.listItem-3SmSlK {
+    margin-top: -5px;
+    margin-left: 5px;
 }
 
 #app-mount [class*="pill"] {
