@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "20-5";
+    --version: "20-7";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -562,41 +562,41 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before {
     min-height: 50px;
 }
 
-.reaction-2A2y9y {
+.reaction-3vwAF2 {
     background-color: transparent;
     border-radius: 5px;
     line-height: 25px;
     padding: 0;
 }
 
-.reaction-2A2y9y:hover {
+.reaction-3vwAF2:hover {
     background-color: var(--Primary);
     border-color: var(--Text);
 }
 
-.reaction-2A2y9y [class^=reactionCount],
+.reaction-3vwAF2 [class^=reactionCount],
 .search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root,
 .paymentRowHeader-3WJnOv {
     color: var(--Text);
 }
 
-.reaction-2A2y9y[class*=reactionMe] {
+.reaction-3vwAF2[class*=reactionMe] {
     background-color: var(--Primary);
     border-color: var(--Primary);
 }
 
-.reaction-2A2y9y[class*=reactionMe]:hover {
+.reaction-3vwAF2[class*=reactionMe]:hover {
     background-color: var(--Text);
     border-color: var(--Primary);
     color: var(--Primary);
 }
 
-.reaction-2A2y9y[class*=reactionMe]:hover [class^=reactionCount] {
+.reaction-3vwAF2[class*=reactionMe]:hover [class^=reactionCount] {
     color: var(--Primary);
     font-weight: bold;
 }
 
-.reaction-2A2y9y[class*=reactionMe] [class^=reactionCount] {
+.reaction-3vwAF2[class*=reactionMe] [class^=reactionCount] {
     color: var(--Text);
     font-weight: bold;
 }
@@ -2766,7 +2766,7 @@ button[role*="switch"][aria-checked=false]:not(#GameActivityToggleBtn):after {
     height: var(--ServerSize);
     background: var(--ui-error);
     border: none;
-    border-radius: 5px;
+    border-radius: var(--Rounding);
 }
 
 .operations-3q3u6E {
@@ -4224,6 +4224,7 @@ div[class*=avatarPositionPremium-] {
     transform: none !important;
 }
 
+.lookFilled-1GseHa.select-1Ia3hD,
 .itemCard-3Etziu.wrapper-2RrXDg,
 .wrapper-1HIH0j,
 .section-3G9aLW,
@@ -4451,4 +4452,16 @@ div[class*=avatarPositionPremium-] {
     border-radius: var(--Rounding);
     border-color: var(--bg-ui);
     background-color: var(--bg-ui);
+}
+
+.appDevToolsWrapper-1QxdQf {
+    position: initial;
+}
+
+.lookFilled-1GseHa.select-1Ia3hD {
+    border-color: var(--bg-chat-elements);
+}
+
+.select-1tJVq6:hover {
+    border-color: var(--Text);
 }
