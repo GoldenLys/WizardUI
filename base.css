@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "20-7";
+    --version: "20-8";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -4464,4 +4464,16 @@ div[class*=avatarPositionPremium-] {
 
 .select-1tJVq6:hover {
     border-color: var(--Text);
+}
+
+.container-2giAcK {
+    margin: 0px;
+}
+
+.container-2giAcK>.divider-3qUeLQ {
+    border-top: 2.5px solid var(--grey5);
+}
+
+.progressBar-2yl2pi {
+    background: var(--Primary);
 }
