@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "20-8";
+    --version: "20-9";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -181,7 +181,9 @@ div[class^=folder-],
 .sidebarRegionScroller-FXiQOh,
 .contentRegionScroller-2_GT_N,
 .inset-SbsSFp,
-.scroller-3_YDR2 {
+.scroller-3_YDR2,
+.wrapper-1gVUIN,
+.container-3XgAHv {
     background-color: transparent !important;
 }
 
@@ -199,7 +201,8 @@ div[class^=folder-],
 .container-ZMc96U.themed-Hp1KC_,
 .sidebar-1tnWFu,
 .container-S9SaVf,
-.attachedBars-2BCP3l {
+.attachedBars-2BCP3l,
+.callContainer-HtHELf {
     background-color: var(--bg-ui) !important;
 }
 
@@ -4476,4 +4479,32 @@ div[class*=avatarPositionPremium-] {
 
 .progressBar-2yl2pi {
     background: var(--Primary);
+}
+
+.resizeHandle-PBRzPC {
+    width: 0px;
+}
+
+.tile-2TcwiO {
+    background-color: var(--grey);
+}
+
+.background-L8lGH6[style="background-color: rgb(64, 79, 179);"] {
+    background-color: var(--Primary) !important;
+}
+
+.button-3Vyz67 {
+    background-color: rgb(255 255 255);
+    color: var(--grey);
+    border-radius: var(--Rounding);
+    border: 1px solid white;
+}
+
+.button-3Vyz67:hover {
+    color: rgb(255 255 255);
+    background-color: var(--grey);
+}
+
+.status-15kcmy {
+    border-radius: var(--Rounding);
 }
