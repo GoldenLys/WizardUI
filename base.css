@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "21-0";
+    --version: "21-1";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -2068,8 +2068,7 @@ div[class^=closedFolderIconWrapper]:before {
 }
 
 .guilds-2JjMmN div[style^="opacity: 1; height: 56px; transform: scale(1);"] {
-    height: unset !important;
-    padding: 7.5px 5px 7.5px 5px !important
+    height: unset !important
 }
 
 .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])+div[class^=tutorialContainer] div[class^=circleIconButton-],
