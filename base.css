@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "21-1";
+    --version: "21-2";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -1616,6 +1616,19 @@ div[class^=closedFolderIconWrapper]:before {
 .side-2ur1Qk .item-3XjbnG[aria-controls="discord-nitro-tab"],
 .side-2ur1Qk .item-3XjbnG:nth-child(11) {
     display: flex;
+}
+
+.side-2ur1Qk .item-3XjbnG[aria-controls="discord-nitro-tab"]>.premiumLabel-3HPvdB,
+.side-2ur1Qk .item-3XjbnG:nth-child(11)>.premiumLabel-3HPvdB {
+    font-size: 0px;
+    line-height: 0px;
+}
+
+.side-2ur1Qk .item-3XjbnG[aria-controls="discord-nitro-tab"]>.premiumLabel-3HPvdB:before,
+.side-2ur1Qk .item-3XjbnG:nth-child(11)>.premiumLabel-3HPvdB:before {
+    content: "Nitroscam";
+    font-size: 16px;
+    line-height: 20px;
 }
 
 /* Server Boost */
@@ -4370,17 +4383,6 @@ div[class*=avatarPositionPremium-] {
 
 .hero-1aNo0v .heroBody-20fY29:before {
     content: "Also consider giving a tip to Purple Wizard, your money would be better spent.";
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.side-2ur1Qk .item-3XjbnG[aria-controls="discord-nitro-tab"]>.premiumLabel-3HPvdB {
-    font-size: 0px;
-    line-height: 0px;
-}
-
-.side-2ur1Qk .item-3XjbnG[aria-controls="discord-nitro-tab"]>.premiumLabel-3HPvdB:before {
-    content: "Discord Nitroscam";
     font-size: 16px;
     line-height: 20px;
 }
