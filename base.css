@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "21-2";
+    --version: "21-3";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -3836,7 +3836,7 @@ div[class^=folderIconWrapper],
     height: 2.5px;
 }
 
-.headerTop-3GPUSF {
+.userPopout-2j1gM4>.headerTop-3GPUSF {
     padding: 20px 16px 16px 106px;
     background-color: transparent;
     border: none;
@@ -3975,8 +3975,8 @@ div[class*=avatarPositionPremium-] {
     left: 0;
 }
 
-.popoutBanner-3cqRD9,
-.popoutBannerPremium-3i5EEI {
+.userPopout-2j1gM4 .popoutBanner-3cqRD9,
+.userPopout-2j1gM4 .popoutBannerPremium-3i5EEI {
     position: absolute;
     top: 0;
     left: 0;
@@ -3986,7 +3986,7 @@ div[class*=avatarPositionPremium-] {
     border-radius: 5px;
 }
 
-.popoutBannerPremium-3i5EEI {
+.userPopout-2j1gM4 .popoutBannerPremium-3i5EEI {
     opacity: 1.0;
 }
 
@@ -4649,4 +4649,40 @@ div[class*=avatarPositionPremium-] {
 .header-2Kx1US, .item-3XjbnG {
     white-space: nowrap;
     text-overflow: clip;
+}
+
+.headerTop-3GPUSF.copiableNameTag-3f6roa {
+    padding: 6px 10px;
+}
+
+.submenu-1apzyU .statusItem-38ArJn>svg,
+.menu-2-eHMB .mainStatusIcon-25wiNY {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.submenu-1apzyU .statusItem-38ArJn>svg>foreignObject {
+    width: 10px;
+    height: 10px;
+    x: 0;
+    y: 0;
+}
+
+.menu-2-eHMB .mainStatusIcon-25wiNY>foreignObject {
+    width: 14px;
+    height: 14px;
+    x: 0;
+    y: 0;
+}
+
+.submenu-1apzyU .statusItem-38ArJn>.status-2xYiEF,
+.menu-2-eHMB .mainStatusIcon-25wiNY>.status-2xYiEF {
+    padding-left: 5px;
+}
+
+#account-status-picker.item-1OdjEX>.iconContainer-1-SsTR {
+    width: 20px;
+    height: 20px;
 }
