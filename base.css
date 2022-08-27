@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "21-3";
+    --version: "21-4";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -1118,6 +1118,11 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     z-index: 0;
     mask: none;
     -webkit-mask: none;
+}
+
+#app-mount .privateChannels-oVe7HL .wrapper-1VLyxH[style*="width: 32px;"] rect {
+    x: 0;
+    y: 0;
 }
 
 #app-mount .avatar-6qzftW>.wrapper-1VLyxH svg>svg rect {
@@ -2375,9 +2380,9 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
     transform: scale(0.85);
 }
 
-.wrapper-3kah-n.selected-1Drb7Z>.icon-3AqZ2e,
-.wrapper-3kah-n.selected-1Drb7Z>.acronym-2zrAHN {
-    transform: scale(.9);
+.wrapper-3kah-n.selected-1Drb7Z:hover>.icon-3AqZ2e,
+.wrapper-3kah-n.selected-1Drb7Z:hover>.acronym-2zrAHN {
+    transform: scale(.9); 
 }
 
 .containerDefault-3TQ5YN,
@@ -4677,6 +4682,11 @@ div[class*=avatarPositionPremium-] {
     y: 0;
 }
 
+.menu-2-eHMB .mainStatusIcon-25wiNY>foreignObject>.status-2DiCMd,
+.submenu-1apzyU .statusItem-38ArJn>svg>foreignObject>.status-2DiCMd {
+    background-color: currentColor !important;
+}
+
 .submenu-1apzyU .statusItem-38ArJn>.status-2xYiEF,
 .menu-2-eHMB .mainStatusIcon-25wiNY>.status-2xYiEF {
     padding-left: 5px;
@@ -4685,4 +4695,9 @@ div[class*=avatarPositionPremium-] {
 #account-status-picker.item-1OdjEX>.iconContainer-1-SsTR {
     width: 20px;
     height: 20px;
+}
+
+#account .submenuContainer-3EVTeH .separator-1So4YB,
+.statusItem-38ArJn .description-1Dd2kv {
+    display: none;
 }
