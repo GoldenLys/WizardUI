@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "21-5";
+    --version: "21-6";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -2675,6 +2675,10 @@ svg[width="49"][height="40"]>rect {
     border: none;
     background-color: var(--grey);
     padding: 6px 12px;
+}
+
+.listRow-2nO1T6,
+.userProfileActivity-sal5no {
     width: calc(100% - 24px);
 }
 
@@ -4004,6 +4008,7 @@ div[class*=avatarPositionPremium-] {
 .userInfoSection-2u2hir+.userInfoSection-2u2hir {
     border: none;
     flex-direction: column;
+    margin: 0 -10px;
 }
 
 .userTooltip-3rhC4_ svg>rect {
@@ -4469,6 +4474,12 @@ div[class*=avatarPositionPremium-] {
     border-radius: var(--Rounding);
 }
 
+.connectedAccountIcon-1FXG0p {
+    width: 40px;
+    height: 25px;
+    z-index: 1;
+}
+
 .connectedAccountIcon-1FXG0p~div::before {
     content: "";
     top: 0;
@@ -4503,6 +4514,7 @@ div[class*=avatarPositionPremium-] {
 .connectedAccount-2PrNaX {
     overflow: hidden;
     position: relative;
+    padding: 16px 10px;
 }
 
 /* Spotify */
