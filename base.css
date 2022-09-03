@@ -1213,6 +1213,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 
 .container-YkUktl .avatarWrapper-1B9FTW {
     margin: .5px 5px 0 0;
+    min-width: 152px;
 }
 
 .container-YkUktl .avatar-1EWyVD {
@@ -1227,7 +1228,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 
 .container-YkUktl:not(.gameActivityToggleAdded-Yd-YxC) .usernameContainer-3PPkWq+.subtext-2HDqJ7 {
     position: relative;
-    top: 7.5px;
+    top: 5px;
     left: 0;
     text-indent: 20px;
     display: inline-block;
@@ -3106,7 +3107,7 @@ a {
     flex: 1 1 auto;
     flex-direction: column;
     height: calc(100% - 5px);
-    margin: 5px 0 0;
+    margin: 0px;
 }
 
 .container-YkUktl .usernameContainer-3PPkWq+.subtext-2HDqJ7>:not(.customStatus-1UAQAK) {
