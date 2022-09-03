@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "22-0";
+    --version: "22-1";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -742,7 +742,7 @@ rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"],
 .guilds-2JjMmN .tutorialContainer-1pL9QS>div[class^=listItem-]>div[class^=listItemWrapper-]>div {
     background-image: var(--logo);
     background-size: calc(var(--ServerSize) - 1px);
-    background-position: 0 0;
+    background-position: cover;
     background-repeat: no-repeat;
 }
 
@@ -3789,7 +3789,7 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
 .side-2ur1Qk[aria-label] .item-3XjbnG .textBadge-1fdDPJ {
     margin-left: auto;
     position: absolute;
-    right: 0px;
+    right: 10px;
 }
 
 .bar-1Bhnl9 {
@@ -3824,7 +3824,7 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
 }
 
 .userPopout-3fydSP[aria-label="Purple Wizard"] .banner-2boKnS:after {
-    background: center / cover no-repeat url(https://goldenlys.github.io/WUITG/images/banners/wizard.gif);
+    background: center / cover no-repeat url(https://purplewizard.space/WizardUI/animation1.gif);
 }
 
 .userPopout-3fydSP[aria-label="Yuuki"] .banner-2boKnS:after {
@@ -3840,7 +3840,6 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
 .wrapper-1VLyxH,
 .avatarWrapper-eenWra,
 .avatarWrapper-1-5NA0,
-.avatarHint-1E3LMl,
 .icon-3AqZ2e,
 .avatar-2e8lTP,
 .avatar-b5OQ1N,
@@ -3851,7 +3850,6 @@ div[class^=folderIconWrapper],
 .avatar-22FtUu,
 .wrapper-28eC3z,
 .wrapper-3kah-n,
-.avatarHint-k7pYop,
 .avatar-2e8lTP {
     border-radius: var(--Rounding);
 }
@@ -3892,12 +3890,6 @@ div[class^=folderIconWrapper],
     padding: 5px 10px;
     border-radius: var(--Rounding);
     background-color: var(--grey5);
-}
-
-.avatarHint-1E3LMl {
-    position: absolute;
-    top: 0px;
-    left: 0px;
 }
 
 div[class*=profileBadges-] {
@@ -3998,12 +3990,6 @@ div[class*=profileBadges-] div:last-child {
 .avatar-2Vndt_>svg {
     width: 92px;
     height: 80px;
-}
-
-.avatarHint-k7pYop {
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .userPopout-3fydSP .popoutBanner-3cqRD9,
@@ -4814,4 +4800,36 @@ div[class*=avatarPositionPremium-],
 .avatarPositionPremiumBanner-2nq2Fy {
     top: 10px;
     left: 10px;
+}
+
+.avatar-2OC07D {
+    border-color: transparent;
+    background-color: var(--bg-ui);
+}
+
+.avatarHint-2g3Mcd {
+    top: 0px;
+    left: 0px;
+    width: 92px;
+    height: 92px;
+    border-radius: var(--Rounding);
+}
+
+.userPopout-3fydSP[aria-label="Purple Wizard"] div[class*=profileBadges-]::before {
+    content: "";
+    display: block;
+    border-radius: var(--Rounding);
+    margin: 0px -5px 0px 5px;
+    width: 22px;
+    height: 22px;
+    background: center / cover no-repeat url(https://purplewizard.space/images/logo.gif);
+}
+
+.contentTransitionWrap-1YD530 {
+    display: flex;
+    justify-content: center;
+}
+
+.standardSidebarView-E9Pc3j>.contentRegion-3HkfJJ>.contentTransitionWrap-1YD530>.contentRegionScroller-2_GT_N.contentRegionHiddenSidebar-GvtLIC {
+    max-width: 60%;
 }
