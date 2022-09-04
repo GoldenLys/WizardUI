@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "22-1";
+    --version: "22-2";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -413,6 +413,10 @@ div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie,
 .sidebar-1tnWFu {
     width: 265px;
     border-radius: 0 !important;
+}
+
+.bannerImage-ubW8K-, .bannerImg-2PzH6z {
+    width: 265px; 
 }
 
 #bd-pub-button {
@@ -1842,13 +1846,6 @@ div[class^=closedFolderIconWrapper]:before {
 .avatarWrapper-eenWra .avatar-2Vndt_.wrapper-1VLyxH rect[width="40"] {
     x: 0;
     y: 0;
-}
-
-.avatarWrapper-eenWra rect[width="40"] {
-    width: 78px;
-    height: 78px;
-    x: -47;
-    y: -51;
 }
 
 .avatarWrapper-eenWra svg.cursorDefault--wfhy5 {
@@ -4787,7 +4784,8 @@ div[class*=profileBadges-] div:last-child {
 }
 
 .popoutBanner-16rVDY,
-.popoutBannerPremium-2RvDNZ {
+.popoutBannerPremium-2RvDNZ,
+.popoutNoBannerPremium-2TQa6P {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -4798,7 +4796,8 @@ div[class*=profileBadges-] div:last-child {
 
 div[class*=avatarPositionNormal-],
 div[class*=avatarPositionPremium-],
-.avatarPositionPremiumBanner-2nq2Fy {
+.avatarPositionPremiumBanner-2nq2Fy,
+.avatarPositionPremiumNoBanner-nWzERs {
     top: 10px;
     left: 10px;
 }
@@ -4833,4 +4832,12 @@ div[class*=avatarPositionPremium-],
 
 .standardSidebarView-E9Pc3j>.contentRegion-3HkfJJ>.contentTransitionWrap-1YD530>.contentRegionScroller-2_GT_N.contentRegionHiddenSidebar-GvtLIC {
     max-width: 60%;
+}
+
+#app-mount .wrapper-1VLyxH foreignObject+svg>rect,
+.avatarWrapper-eenWra rect[width="40"] {
+    width: 78px;
+    height: 78px;
+    x: -47;
+    y: -51;
 }
