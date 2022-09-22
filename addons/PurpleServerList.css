@@ -48,6 +48,17 @@
     width: var(--ServerSize);
 }
 
+#app-mount .guilds-2JjMmN .target-1eRTCg::before {
+    top: 0;
+    height: var(--server-size);
+    width: 4px;
+    left: -6px;
+}
+
+#app-mount .guilds-2JjMmN.hidden-10MsGQ + .base-2jDfDU {
+    top: 0 !important;
+}
+
 #app-mount [class*="expandedFolderBackground"] {
     width: var(--ServerSize);
     left: 5px;

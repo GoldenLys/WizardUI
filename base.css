@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "22-2";
+    --version: "22-3";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -186,11 +186,12 @@ div[class^=folder-],
 .contentRegionScroller-2_GT_N,
 .inset-SbsSFp,
 .scroller-3_YDR2,
-.wrapper-1gVUIN,
-.container-3XgAHv {
+.wrapper-1gVUIN {
     background-color: transparent !important;
 }
 
+.container-3XgAHv,
+.container-3wLKDe,
 .callContainer-BGIngG,
 .stageSection-3mAD8V,
 .chat-2ZfjoI .chatContent-3KubbW .messagesWrapper-RpOMA3,
