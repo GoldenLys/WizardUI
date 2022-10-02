@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "22-3";
+    --version: "23";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -2534,7 +2534,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 
 /* CHANNELS ICONS */
 
-.containerDefault-YUSmu3>div [class^="mainContent"] [class^="name"]:before {
+.containerDefault-YUSmu3>div [class^="mainContent"] [class^="name"] .channelName-3KPsGw:before {
     font-family: "Font Awesome 6 Pro";
     font-weight: 100;
     -webkit-font-smoothing: antialiased;
@@ -2544,33 +2544,33 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 
 /* VOICE CHANNEL */
 
-.containerDefault-YUSmu3>div:not(.wrapper-NhbLHG) [class^="mainContent"] [class^="name"]:before {
+.containerDefault-YUSmu3>div:not(.wrapper-NhbLHG) [class^="mainContent"] [class^="name"] .channelName-3KPsGw:before {
     content: "\f6a8";
     margin-right: 5px
 }
 
 /* STAGE CHANNEL */
 
-.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"][aria-label="Stage Channel"] [class^="name"]::before {
+.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"][aria-label="Stage Channel"] [class^="name"] .channelName-3KPsGw:before {
     content: "\f685";
     margin-right: 5px
 }
 
-.containerDefault-YUSmu3>div>.modeConnected-NrO4cP [class^="mainContent"] [class^="name"]:before,
-.containerDefault-YUSmu3.selected-2TbFuo>.wrapper-NhbLHG [class^="mainContent"] [class^="name"]:before {
+.containerDefault-YUSmu3>div>.modeConnected-NrO4cP [class^="mainContent"] [class^="name"] .channelName-3KPsGw:before,
+.containerDefault-YUSmu3.selected-2TbFuo>.wrapper-NhbLHG [class^="mainContent"] [class^="name"] .channelName-3KPsGw:before {
     font-weight: 900;
 }
 
 /* TEXT CHANNEL */
 
-.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"] [class^="name"]:before {
+.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"] [class^="name"] .channelName-3KPsGw:before {
     content: "\f4a6";
     margin-right: 5px;
 }
 
 /* ANNOUNCEMENT CHANNEL */
 
-.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"][aria-label$="(announcement channel)"] [class^="name"]:before {
+.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"][aria-label$="(announcement channel)"] [class^="name"] .channelName-3KPsGw:before {
     content: "\f675";
     margin-right: 5px
 }
@@ -3465,10 +3465,6 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item-2LIpTv,
 .tutorialContainer-35RLOQ+.listItem-3SmSlK {
     width: var(--ServerSize);
     height: var(--ServerSize);
-}
-
-.name-28HaxV {
-    display: flex;
 }
 
 .channelName-3KPsGw {
@@ -4841,4 +4837,13 @@ div[class*=avatarPositionPremium-],
     height: 78px;
     x: -47;
     y: -51;
+}
+
+.tags-2CaEuN>div[class^=pill],
+.tagListInner-35MqcW>div[class^=pill] {
+    transform: unset !important;
+    height: unset !important;
+    width: unset !important;
+    top: unset !important;
+    margin-left: unset !important;
 }
