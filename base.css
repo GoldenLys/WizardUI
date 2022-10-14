@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "23-3";
+    --version: "23-4";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -766,6 +766,7 @@ rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"],
 
 .userPopoutOuter-3AVBmJ,
 .userPopoutInner-1hXSeY {
+    position: relative;
     background-color: var(--grey);
     width: 360px !important;
     border-radius: 5px;
@@ -824,7 +825,7 @@ rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"],
     position: relative;
     padding-bottom: 10px;
     border-top: 2px solid var(--Primary);
-    margin: 25px 0px 0px;
+    margin: 0px 0px 0px;
     border-radius: 0px;
     background-color: var(--bg-ui);
 }
@@ -1025,7 +1026,6 @@ div[class^="role-"] {
     padding: 5px 0px;
     margin: 0px 0px 5px;
     border: none;
-    border-bottom: 1px solid;
     position: relative;
 }
 
@@ -1767,6 +1767,11 @@ div[class^=closedFolderIconWrapper]:before {
 /* BD Settings */
 .side-2ur1Qk[aria-label] .bd-settings-tab.item-3XjbnG.themed-2-lozF:before {
     content: "\f3f2"
+}
+
+/* BD Updates */
+.side-2ur1Qk[aria-label] .bd-updates-tab.item-3XjbnG.themed-2-lozF:before {
+    content: "\f021"
 }
 
 /* BD Emotes */
@@ -3807,7 +3812,12 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
     color: var(--Primary);
 }
 
+.pencilContainer-11Kuga {
+    z-index: 2;
+}
+
 .userPopoutInner-1hXSeY .banner-2boKnS:after {
+    z-index: 1;
     content: "";
     position: absolute;
     width: 100%;
@@ -3884,6 +3894,9 @@ div[class^=folderIconWrapper],
 }
 
 div[class*=profileBadges-] {
+    position: absolute;
+    z-index: 2;
+    top: 60px;
     display: flex;
     right: 10px;
     column-gap: 5px;
@@ -3992,10 +4005,6 @@ div[class*=profileBadges-] div:last-child {
     height: 100%;
     opacity: .75;
     border-radius: 5px;
-}
-
-.profileColors-3Y0XaR .userPopoutInner-1hXSeY:not(.userProfileInnerWithBanner-3CJ1Og) .bannerSVGWrapper-qc0szY {
-    height: 120px;
 }
 
 .profileColors-3Y0XaR .userPopoutInner-1hXSeY .bannerSVGWrapper-qc0szY .popoutBanner-16rVDY {
@@ -4787,6 +4796,7 @@ div[class*=profileBadges-] div:last-child {
 .popoutBanner-16rVDY,
 .popoutBannerPremium-2RvDNZ,
 .popoutNoBannerPremium-2TQa6P {
+    transform: scaleX(1.27);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -4867,4 +4877,13 @@ div[class*=avatarPositionPremium-],
 
 .userProfileOuterThemed-3EfHmv {
     padding: 0px;
+}
+
+.userPopoutInner-1hXSeY .bannerSVGWrapper-qc0szY {
+    min-height: 100px !important;
+    height: 100px;
+}
+
+.userPopoutInner-1hXSeY .section-3FmfOT {
+    padding: 5px 10px;
 }
