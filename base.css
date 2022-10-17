@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "23-4";
+    --version: "23-5";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -4886,4 +4886,12 @@ div[class*=avatarPositionPremium-],
 
 .userPopoutInner-1hXSeY .section-3FmfOT {
     padding: 5px 10px;
+}
+
+.userProfileInner-3F03PX:before {
+    background-color: transparent;
+}
+
+.userPopoutInner-1hXSeY .wrapper-1VLyxH circle {
+    display: none;
 }
