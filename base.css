@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "23-5";
+    --version: "23-6";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -4889,9 +4889,24 @@ div[class*=avatarPositionPremium-],
 }
 
 .userProfileInner-3F03PX:before {
+    margin: 4px 4px 0;
     background-color: transparent;
 }
 
-.userPopoutInner-1hXSeY .wrapper-1VLyxH circle {
+.userProfileOuterThemed-3EfHmv[style*=profile-gradient-primary-color] .userProfileInner-3F03PX:before {
+    background-color: var(--bg-ui);
+}
+
+.userPopoutInner-1hXSeY .wrapper-1VLyxH circle,
+.userPopoutInner-1hXSeY .wrapper-1VLyxH rect[fill="black"] {
     display: none;
+}
+
+.userProfileOuterThemed-3EfHmv[style*=profile-gradient-primary-color] .userPopoutInner-1hXSeY .userPopoutOverlayBackground-dKOOda {
+    background-color: transparent;
+    border-top: none;
+}
+
+.userProfileOuterThemed-3EfHmv[style*=profile-gradient-primary-color] .bannerSVGWrapper-qc0szY {
+    margin: 4px 4px 0;
 }
