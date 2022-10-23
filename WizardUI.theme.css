@@ -48,13 +48,13 @@
     --ui-error: rgb(208, 34, 34);
 
     /* THEME COLORS */
-    --Primary: rgb(50, 10, 200);
+    --Primary: rgb(50 10 200);
     --text-link: var(--Primary);
-    --Highlighted: rgba(50, 10, 200, .5);
+    --Highlighted: rgba(50 10 200 / 5%);
     --MessageHover: transparent;
-    --Unread: rgba(255, 255, 255, 0.10);
-    --Hover: rgba(18, 19, 31, 0.50);
-    --Selected: rgba(56, 33, 146, 0.35);
+    --Unread: rgb(255 255 255 / 10%);
+    --Hover: rgb(18 19 31 / 50%);
+    --Selected: rgb(56 33 146);
 
     /* BACKGROUNDS */
     --background: url(https://goldenlys.github.io/WUITG/images/backgrounds/clouds.png);
