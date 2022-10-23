@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "23-7";
+    --version: "23-8";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -961,7 +961,7 @@ rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"],
 .roleName-2ZJJYR {
     max-width: unset;
     width: 100%;
-    margin: 0 20px;
+    margin: 0px;
     text-align: -webkit-center;
     color: var(--Text);
     z-index: 1;
@@ -2436,8 +2436,8 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 .wrapper-NhbLHG {
     height: auto;
     padding: 0;
-    -webkit-animation: writing .25s ease infinite;
-    animation: writing .25s ease infinite;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
 }
 
 .wrapper-1S43wv {
@@ -4872,7 +4872,7 @@ div[class*=avatarPositionPremium-],
     border-radius: var(--Rounding);
 }
 
-.userPopoutInner-1hXSeY[aria-label="Purple Wizard"] div[class*=profileBadges-]::before {
+div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges-]::before {
     content: "";
     display: block;
     border-radius: var(--Rounding);
