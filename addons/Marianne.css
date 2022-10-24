@@ -1,13 +1,43 @@
 @font-face {
     font-family: 'Marianne';
+    src: url('../fonts/Marianne-ExtraBold.otf') format('opentype');
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: 'Marianne';
+    src: url('../fonts/Marianne-ExtraBold') format('opentype');
+    font-weight: 950;
+}
+
+@font-face {
+    font-family: 'Marianne';
+    src: url('../fonts/Marianne-ExtraBold') format('opentype');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Marianne';
+    src: url('../fonts/Marianne-Bold') format('opentype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Marianne';
     src: url('../fonts/Marianne-Bold') format('opentype');
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'Marianne';
-    src: url('../fonts/Marianne-ExtraBold.otf') format('opentype');
-    font-weight: bolder;
+    src: url('../fonts/Marianne-Bold') format('opentype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Marianne';
+    src: url('../fonts/Marianne-Bold') format('opentype');
+    font-weight: 600;
 }
 
 @font-face {
@@ -18,8 +48,32 @@
 
 @font-face {
     font-family: 'Marianne';
+    src: url('../fonts/Marianne-Regular') format('opentype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Marianne';
+    src: url('../fonts/Marianne-Regular') format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Marianne';
     src: url('../fonts/Marianne-Light.otf') format('opentype');
     font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'Marianne';
+    src: url('../fonts/Marianne-Light') format('opentype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Marianne';
+    src: url('../fonts/Marianne-Light') format('opentype');
+    font-weight: 200;
 }
 
 @font-face {
