@@ -9,6 +9,10 @@
 */
 
 @import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
+
+/* This is an addon that adds the Marianne font.
+@import url("https://goldenlys.github.io/WizardUI/addons/Marianne.css"); */
+
 @import url("https://goldenlys.github.io/WizardUI/base.css");
 
 /* This is an addon that moves the servers to the top with an horizontal width.*/

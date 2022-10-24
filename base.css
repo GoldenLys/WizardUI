@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "24-0";
+    --version: "24-1";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -4919,6 +4919,10 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
 .userProfileModalInner-3fh3QA .avatar-1YsFQ1>svg>rect[mask] {
     height: 120px;
     width: 120px;
+}
+
+.userProfileModalInner-3fh3QA .avatar-1YsFQ1>svg>circle {
+    display: none;
 }
 
 .userPopoutInner-1hXSeY .bannerSVGWrapper-qc0szY {
