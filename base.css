@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "24-1";
+    --version: "24-2";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -49,6 +49,7 @@
     --bg-members: rgba(0, 0, 0, 0.65);
     --bg-chat-elements: var(--grey5);
     --bg-settings: var(--darkgrey);
+    --bg-colorprofile: var(--bg-ui);
     /* SERVER SETTINGS */
     --ServerSize: 45px;
     --ServerColumns: 1;
@@ -3854,6 +3855,7 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
 
 .pencilContainer-11Kuga {
     z-index: 2;
+    transform: scaleX(0.87);
 }
 
 .userPopoutInner-1hXSeY .banner-2boKnS:after {
@@ -4939,8 +4941,14 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
     background-color: transparent;
 }
 
+.userProfileInnerWithBanner-3CJ1Og.userProfileInner-3F03PX:before {
+    margin: 0px 0px 0;
+    height: calc(100% - 0px);
+    width: calc(100% - 0px);
+}
+
 .userProfileOuterThemed-3EfHmv[style*=profile-gradient-primary-color] .userProfileInner-3F03PX:before {
-    background-color: var(--bg-ui);
+    background-color: var(--bg-colorprofile);
 }
 
 .userPopoutInner-1hXSeY .wrapper-1VLyxH circle,
@@ -4951,10 +4959,6 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
 .userProfileOuterThemed-3EfHmv[style*=profile-gradient-primary-color] .userPopoutInner-1hXSeY .userPopoutOverlayBackground-dKOOda {
     background-color: transparent;
     border-top: none;
-}
-
-.userProfileOuterThemed-3EfHmv[style*=profile-gradient-primary-color] .bannerSVGWrapper-qc0szY {
-    margin: 4px 4px 0;
 }
 
 .divider-2rZFJK,

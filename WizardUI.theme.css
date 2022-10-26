@@ -52,9 +52,9 @@
     --ui-error: rgb(208, 34, 34);
 
     /* THEME COLORS */
-    --Primary: rgb(50 10 200);
+    --Primary: rgb(117 76 205);
     --text-link: var(--Primary);
-    --Highlighted: rgba(50 10 200 / 5%);
+    --Highlighted: rgba(117 76 205 / 5%);
     --MessageHover: transparent;
     --Unread: rgb(255 255 255 / 10%);
     --Hover: rgb(18 19 31 / 50%);
@@ -66,9 +66,10 @@
     --bg-servers: rgba(0, 0, 0, 0.65);
     --bg-ui: rgba(0, 0, 0, 0.65);
     --bg-chatbox: rgba(0, 0, 0, 0.5);
-    --bg-sendmessage: rgba(0, 0, 0, 0.25);
+    --bg-sendmessage: rgba(0, 0, 0, 0.65);
     --bg-members: rgba(0, 0, 0, 0.65);
-    --bg-chat-elements: var(--bg-ui);
+    --bg-chat-elements: rgba(0, 0, 0, 0.5);
+    --bg-colorprofile: rgba(0, 0, 0, 0.5);
 
     /* SERVER SETTINGS */
     --ServerSize: 45px;

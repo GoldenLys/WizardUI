@@ -42,14 +42,14 @@
 
 @font-face {
     font-family: 'Marianne';
-    src: url('../fonts/Marianne-Regular.otf') format('opentype');
-    font-weight: normal;
+    src: url('../fonts/Marianne-Bold.otf') format('opentype');
+    font-weight: 500;
 }
 
 @font-face {
     font-family: 'Marianne';
     src: url('../fonts/Marianne-Regular.otf') format('opentype');
-    font-weight: 500;
+    font-weight: normal;
 }
 
 @font-face {
