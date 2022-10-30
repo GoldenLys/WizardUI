@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "24-2";
+    --version: "24-3";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -449,12 +449,13 @@ div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie,
     height: 32px;
 }
 
+div.selected-3veCBZ:before,
 div.wrapper-NhbLHG[class*="modeSelected-"]:before {
     content: "";
     position: absolute;
     display: block;
     top: 0;
-    left: 0;
+    right: 0;
     bottom: 0;
     background: var(--Primary);
     box-shadow: 0 0 10px 0px var(--Primary);
@@ -1359,6 +1360,36 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     bottom: 0px;
     opacity: 0.15;
 }
+
+.interactive-1vLZ_I>a {
+    position: relative;
+}
+
+.interactive-1vLZ_I>a>div {
+    z-index: 1;
+}
+
+.selected-3veCBZ,
+.interactive-1vLZ_I:focus-within,
+.interactive-1vLZ_I:hover {
+    background-color: transparent;
+}
+
+.interactive-1vLZ_I:focus-within::after,
+.interactive-1vLZ_I:hover::after {
+    display: block;
+    position: absolute;
+    content: "";
+    z-index: 0;
+    top: 0px;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    opacity: 0.15;
+}
+
+.interactive-1vLZ_I:focus-within::after,
+.interactive-1vLZ_I:hover::after,
 .modeSelected-3DmyhH:hover .content-1gYQeQ .mainContent-20q_Hp:before {
     background: var(--Selected);
     opacity: 0.35;
