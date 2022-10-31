@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "24-3";
+    --version: "24-4";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -859,6 +859,7 @@ rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"],
     z-index: 1;
 }
 
+.fakeActivityTitle-3-_pB_,
 .headerText-3g1XK9,
 .userPopoutInner-1hXSeY .title-1r9MQ6,
 .userInfoSectionHeader-48g5Qj {
@@ -3909,6 +3910,7 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
     margin: 0 2.5px;
 }
 
+.avatarUploaderInner-1dBiHs,
 .acronym-2zrAHN,
 .iconActiveMedium-27_R5B,
 .wrapper-1VLyxH,
@@ -3958,6 +3960,7 @@ div[class^=folderIconWrapper],
 .colorDefault-CDqZdO .checkbox-hADx5o,
 .colorDefault-CDqZdO .radioSelection-1UHp0b {
     background-color: var(--Primary);
+    color: var(--Primary);
 }
 
 .aboutMeSection---MkQa {
@@ -4861,6 +4864,7 @@ div[class*=profileBadges-] div:last-child {
     padding-top: 60px;
 }
 
+.bannerUploader-1sbyBg,
 .popoutBanner-16rVDY,
 .popoutBannerPremium-2RvDNZ,
 .popoutNoBannerPremium-2TQa6P {
@@ -4873,6 +4877,7 @@ div[class*=profileBadges-] div:last-child {
     background-position: center;
 }
 
+.avatarUploaderPremium-2v2k2d,
 div[class*=avatarPositionNormal-],
 div[class*=avatarPositionPremium-],
 .avatarPositionPremiumBanner-2nq2Fy,
@@ -4971,7 +4976,8 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
     background-color: transparent;
 }
 
-.userProfileInnerWithBanner-3CJ1Og.userProfileInner-3F03PX:before {
+.userProfileInnerThemedWithBanner-2624Yx:before,
+.userProfileInnerWithBanner-3CJ1Og:before {
     margin: 0px 0px 0;
     height: calc(100% - 0px);
     width: calc(100% - 0px);
@@ -4998,4 +5004,38 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
 
 .repliedMessage-3Z6XBG:before {
     border-color: var(--Primary);
+}
+
+.customizationSection-IGy2fS {
+    width: 360px;
+}
+
+.customizationSection-IGy2fS .userProfileInnerThemedWithBanner-2624Yx:before, 
+.customizationSection-IGy2fS .userProfileInnerWithBanner-3CJ1Og:before {
+    max-width: calc(100% - 8px);
+}
+
+.customizationSection-IGy2fS .bannerUploader-1sbyBg {
+    width: calc(100% - 8px);
+}
+
+.customizationSection-IGy2fS .bannerUploaderInnerSquare-1ul1Dz {
+    transform: scaleY(2);
+}
+
+.customizationSection-IGy2fS .status-b9jLr4 { 
+    display: none; 
+}
+
+.customizationSection-IGy2fS .button-1d_47w {
+    max-width: calc(100% - 8px);
+}
+
+.accountProfilePopoutWrapper-3GskID {
+    left: 0px;
+}
+
+.accountProfilePopoutWrapper-3GskID .styleFlexible-x0_sIC {
+    margin-left: 8px;
+    max-width: calc(100% - 16px);
 }
