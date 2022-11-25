@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "24-4";
+    --version: "24-5";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -201,6 +201,15 @@ div[class^=folder-],
 .applicationStore-2nk7Lo>.homeWrapper-L4ors0>.scroller-29cQFV,
 .pageWrapper-2PwDoS {
     background-color: var(--bg-chatbox) !important;
+}
+
+.callContainer-BGIngG,
+.stageSection-3mAD8V,
+.chat-2ZfjoI .chatContent-3KubbW .messagesWrapper-RpOMA3,
+.tabBody-2dgbAs .peopleColumn-1wMU14,
+.applicationStore-2nk7Lo>.homeWrapper-L4ors0>.scroller-29cQFV,
+.pageWrapper-2PwDoS {
+    border-radius: var(--Rounding);
 }
 
 .nowPlayingSidebar-2OFn0o,
@@ -442,6 +451,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie,
 
 .containerDefault-3TQ5YN>div:hover,
 .wrapper-NhbLHG:hover>.content-1gYQeQ {
+    border-radius: var(--Rounding);
     background-color: var(--Hover);
 }
 
@@ -1417,6 +1427,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     left: 0;
     right: 0;
     bottom: 0;
+    border-radius: var(--Rounding);
 }
 
 .guilds-2JjMmN .listItem-3SmSlK {
@@ -2423,6 +2434,10 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
     height: 40px;
 }
 
+.chatContent-3KubbW {
+    padding: 0 5px;
+}
+
 /* EMPTY CHANNEL HEADER */
 
 .chatContent-3KubbW .container-1yy5xN .header-1dhDWV,
@@ -2460,6 +2475,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 .mainContent-uDGa6R:before {
     background-color: var(--grey5);
     z-index: -1;
+    border-radius: var(--Rounding);
 }
 
 .wrapper-NhbLHG {
@@ -2470,7 +2486,6 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 }
 
 .wrapper-1S43wv {
-    margin: 0;
     padding: 0 5px;
 }
 
@@ -5038,4 +5053,10 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
 .accountProfilePopoutWrapper-3GskID .styleFlexible-x0_sIC {
     margin-left: 8px;
     max-width: calc(100% - 16px);
+}
+
+.containerDefault-3TQ5YN,
+.containerDefault-YUSmu3 {
+    margin: 5px 0;
+    padding-left: 5px;
 }
