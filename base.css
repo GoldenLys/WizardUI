@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "24-6";
+    --version: "25";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -461,18 +461,32 @@ div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie,
 
 div.selected-3veCBZ:before,
 div.wrapper-NhbLHG[class*="modeSelected-"]:before {
-    content: "";
     position: absolute;
     display: block;
     top: 0;
     right: 0;
-    bottom: 0;
+    bottom: 0;  
+}
+
+div.selected-1-Z6gm .layout-1qmrhw:after {
+    position: absolute;
+    display: block;
+    top: 5px;
+    left: 0;
+    bottom: 5px;
+}
+
+div.selected-1-Z6gm .layout-1qmrhw:after,
+div.selected-3veCBZ:before,
+div.wrapper-NhbLHG[class*="modeSelected-"]:before {
+    content: "";
     background: var(--Primary);
-    box-shadow: 0 0 10px 0px var(--Primary);
     pointer-events: none;
-    width: 2.5px;
+    width: 4px;
+    border-radius: var(--Rounding);
     z-index: 1;
 }
+
 
 .blockquoteContainer-3VtvI1 .blockquoteDivider-363utW {
     width: 2px;
@@ -561,9 +575,9 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before {
 .typing-2J1mQU {
     z-index: 100;
     position: absolute;
-    top: -20px;
-    left: 5px;
-    right: 0;
+    top: 0px;
+    left: 10px;
+    right: 10px;
     font-size: 12px;
     line-height: 12px;
     text-align: center;
@@ -2035,7 +2049,6 @@ div[class^=closedFolderIconWrapper]:before {
 }
 
 .selected-1-Z6gm .layout-1qmrhw {
-    border-left: 2px solid var(--Primary);
     background-color: transparent;
     border-radius: 0;
 }
@@ -2115,7 +2128,7 @@ div[class^=closedFolderIconWrapper]:before {
 
 .channelInfo-3jN1ay>.wrapper-2fEmwW {
     height: 28px;
-    border-radius: 0px;
+    border-radius: var(--Rounding);
     background-color: var(--grey5);
 }
 
@@ -5064,4 +5077,8 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
 .containerDefault-YUSmu3 {
     margin: 5px 0;
     padding-left: 5px;
+}
+
+.chatContent-3KubbW+.container-2o3qEW .members-3WRCEx .member-2gU6Ar .layout-1qmrhw {
+    padding-left: 10.5px;
 }
