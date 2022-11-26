@@ -5121,3 +5121,7 @@ div.selected-3veCBZ .name-2m3Cms {
 div.selected-3veCBZ:hover .name-2m3Cms {
     color: var(--Text);
 }
+
+.closeButton-mupH76 {
+    z-index: 1;
+}
