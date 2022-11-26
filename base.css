@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "25-3";
+    --version: "25-4";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -240,6 +240,16 @@ div[class^=folder-],
 
 .hasBanner-2IrYih.clickable-vvKY2q .header-3OsQeK {
     background-color: transparent !important;
+}
+
+#app-mount .checkbox-f1HnKB.checked-1pZh2h {
+    background-color: var(--Primary) !important;
+}
+
+.addTags-26suzl,
+.colorDefault-CDqZdO.focused-3qFvc8 {
+    background-color: var(--Primary);
+    color: var(--Text);
 }
 
 .container-S9SaVf {
@@ -481,7 +491,7 @@ div.selected-3veCBZ:before{
     position: absolute;
     display: block;
     top: 5px;
-    right: 0;
+    right: 5px;
     bottom: 0;  
 }
 
@@ -574,7 +584,7 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before {
 
 .member-2gU6Ar {
     background: transparent;
-    margin: 0 5px 0 0px;
+    margin: 0 5px;
     padding-bottom: 2.5px;
     max-width: 100%;
     border-radius: var(--Rounding);
@@ -1445,6 +1455,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     opacity: 1;
     top: 5px;
     left: 5px;
+    right: 5px;
     border-radius: var(--Rounding);
 }
 
@@ -2065,7 +2076,7 @@ div[class^=closedFolderIconWrapper]:before {
 
 .privateChannels-oVe7HL .channel-1Shao0 {
     margin: 0;
-    padding: 0;
+    padding: 0 5px;
     border-radius: 0;
     max-width: 100%;
 }
@@ -2187,11 +2198,6 @@ div[class^=closedFolderIconWrapper]:before {
 #guild-header-popout .separator-1So4YB,
 #guild-context .separator-1So4YB {
     display: none;
-}
-
-.colorDefault-CDqZdO.focused-3qFvc8 {
-    background-color: var(--Primary);
-    color: var(--Text);
 }
 
 .colorBrand-3cPPsm,
@@ -2483,7 +2489,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 }
 
 .chatContent-3KubbW {
-    padding: 0 5px;
+    padding: 0 0;
 }
 
 /* EMPTY CHANNEL HEADER */
@@ -4989,15 +4995,6 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
     y: -51;
 }
 
-.tags-2CaEuN>div[class^=pill],
-.tagListInner-35MqcW>div[class^=pill] {
-    transform: unset !important;
-    height: unset !important;
-    width: unset !important;
-    top: unset !important;
-    margin-left: unset !important;
-}
-
 .channelName-3KPsGw+.subtitle-3PyFgf {
     color: var(--Primary) !important;
 }
@@ -5039,11 +5036,20 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
     background-color: transparent;
 }
 
-.userProfileInnerThemedWithBanner-2624Yx:before,
-.userProfileInnerWithBanner-3CJ1Og:before {
+
+/* Small profile */
+.userPopoutInner-1hXSeY.userProfileInnerThemedWithBanner-2624Yx:before,
+.userPopoutInner-1hXSeY.userProfileInnerWithBanner-3CJ1Og:before {
     margin: 0px 0px 0;
     height: calc(100% - 0px);
     width: calc(100% - 0px);
+}
+
+/* Extended profile */
+.userProfileModalInner-3fh3QA.userProfileModalInner-3fh3QA:before {
+    margin: 0px 0px 0;
+    height: calc(100% - 8px);
+    width: calc(100% - 8px);
 }
 
 .userProfileOuterThemed-3EfHmv[style*=profile-gradient-primary-color] .userProfileInner-3F03PX:before {
@@ -5106,17 +5112,19 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
 .containerDefault-3TQ5YN,
 .containerDefault-YUSmu3 {
     margin: 5px 0;
-    padding-left: 5px;
+    padding: 0 5px;
 }
 
 .chatContent-3KubbW+.container-2o3qEW .members-3WRCEx .member-2gU6Ar .layout-1qmrhw {
-    padding-left: 10.5px;
+    padding-left: 6.5px;
 }
 
+#app-mount .cta-1ioHap,
 div.selected-3veCBZ .name-2m3Cms {
     color: var(--Primary);
 }
 
+#app-mount .cta-1ioHap:hover,
 div.selected-3veCBZ:hover .name-2m3Cms {
     color: var(--Text);
 }
@@ -5129,10 +5137,15 @@ div.selected-3veCBZ:hover .name-2m3Cms {
     background-color: transparent;
 }
 
+#app-mount .tagList-1CiR0h .tagListInner-35MqcW .pill-3pRQlO,
 #app-mount .tags-1bn36G .container-m0iv4O .pill-3pRQlO {
     transform: none;
     height: auto;
     width: auto;
     top: 0;
     margin: 0;
+}
+
+.userPopoutInner-1hXSeY .scroller-1jBQYo {
+    padding: 0 0 !important;
 }

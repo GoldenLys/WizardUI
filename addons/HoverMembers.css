@@ -1,4 +1,11 @@
 /* ROLE NAME */
+.membersGroup-2eiWxl {
+    height: 0px;
+    padding: 0px;
+    transition: all 250ms ease, padding 100ms ease;
+    -webkit-transition: all 250ms ease, padding 100ms ease;
+}
+
 .chatContent-3KubbW+.container-2o3qEW .membersGroup-2eiWxl {
     opacity: 0;
     transition: all 2s ease;
@@ -7,6 +14,8 @@
 .chatContent-3KubbW+.container-2o3qEW .membersWrap-3NUR2t:hover .membersGroup-2eiWxl {
     transition: all 2s ease;
     opacity: 1;
+    height: 40px;
+    padding: 10px 5px 0 5px;
 }
 
 /* MOVING THE MEMBERS LIST TO THE RIGHT */
