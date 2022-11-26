@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "25-2";
+    --version: "25-3";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -1440,8 +1440,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 }
 
 .interactive-1vLZ_I:focus-within::after,
-.interactive-1vLZ_I:hover::after,
-.modeSelected-3DmyhH:hover .content-1gYQeQ .mainContent-20q_Hp:before {
+.interactive-1vLZ_I:hover::after {
     background: var(--Hover);
     opacity: 1;
     top: 5px;
@@ -5124,4 +5123,16 @@ div.selected-3veCBZ:hover .name-2m3Cms {
 
 .closeButton-mupH76 {
     z-index: 1;
+}
+
+.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+    background-color: transparent;
+}
+
+#app-mount .tags-1bn36G .container-m0iv4O .pill-3pRQlO {
+    transform: none;
+    height: auto;
+    width: auto;
+    top: 0;
+    margin: 0;
 }
