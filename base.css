@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "25";
+    --version: "25-2";
     --currentVersion: "WizardUI v"var(--version) " "var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -147,6 +147,7 @@ textarea {
     padding-top: 0;
 }
 
+.animatedContainer-2laTjx,
 .container-cH6QoY,
 .wrapper-3HVHpV,
 .wrapper-15CKyy,
@@ -160,7 +161,6 @@ div[class^=folder-],
 .messagesWrapper-RpOMA3>div>div>div>.wrapper-3HVHpV,
 .messagesWrapper-RpOMA3>div>div>div>.wrapper-3HVHpV .wrapper-15CKyy,
 .pageWrapper-2PwDoS,
-.modeSelected-3DmyhH .content-1gYQeQ,
 .container-1NXEtd,
 .panels-3wFtMD,
 .applicationStore-2nk7Lo,
@@ -270,6 +270,7 @@ div[class^=folder-],
     border-bottom-color: var(--darkgrey) !important;
 }
 
+.animatedContainer-2laTjx,
 .headerBarContainer-31FKNA,
 .notice-12Koq-,
 .message-G6O-Wv,
@@ -318,6 +319,7 @@ div[class^=folder-],
     border-radius: 0px !important;
 }
 
+.bannerImage-ubW8K-:before,
 .sectionDivider-189lqb,
 .overlayBackground-arbZMT>.divider-1tWBgZ,
 .segmentContainer-358IfE>.divider-1hrwMv,
@@ -426,7 +428,15 @@ div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie,
 }
 
 .bannerImage-ubW8K-, .bannerImg-2PzH6z {
-    width: 265px; 
+    width: 260px; 
+}
+
+.animatedContainer-2laTjx, .bannerImage-ubW8K- {
+    position: absolute;
+    height: 135px;
+    top: 0;
+    left: 0;
+    right: 5px;
 }
 
 #bd-pub-button {
@@ -459,11 +469,18 @@ div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie,
     height: 32px;
 }
 
-div.selected-3veCBZ:before,
 div.wrapper-NhbLHG[class*="modeSelected-"]:before {
     position: absolute;
     display: block;
     top: 0;
+    right: 0;
+    bottom: 0;  
+}
+
+div.selected-3veCBZ:before{
+    position: absolute;
+    display: block;
+    top: 5px;
     right: 0;
     bottom: 0;  
 }
@@ -1399,6 +1416,10 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     z-index: 1;
 }
 
+.interactive-1vLZ_I{
+    padding-top: 5px;
+}
+
 .selected-3veCBZ,
 .interactive-1vLZ_I:focus-within,
 .interactive-1vLZ_I:hover {
@@ -1421,12 +1442,19 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 .interactive-1vLZ_I:focus-within::after,
 .interactive-1vLZ_I:hover::after,
 .modeSelected-3DmyhH:hover .content-1gYQeQ .mainContent-20q_Hp:before {
-    background: var(--Selected);
-    opacity: 0.35;
+    background: var(--Hover);
+    opacity: 1;
+    top: 5px;
+    left: 5px;
+    border-radius: var(--Rounding);
 }
 
-.containerDefault-YUSmu3.selected-2TbFuo>.wrapper-NhbLHG [class^="mainContent"] [class^="name"] .channelName-3KPsGw {
+.containerDefault-YUSmu3.selected-2TbFuo>.wrapper-NhbLHG>.content-1gYQeQ .name-28HaxV>.channelName-3KPsGw {
     color: var(--Primary);
+}
+
+.containerDefault-YUSmu3.selected-2TbFuo>.wrapper-NhbLHG:hover>.content-1gYQeQ .name-28HaxV>.channelName-3KPsGw {
+    color: var(--Text);
 }
 
 .wrapper-NhbLHG.modeUnread-3Cxepe:before {
@@ -2091,6 +2119,9 @@ div[class^=closedFolderIconWrapper]:before {
 
 .membersGroup-2eiWxl>span {
     display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .wrapper-1HIH0j {
@@ -5081,4 +5112,12 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
 
 .chatContent-3KubbW+.container-2o3qEW .members-3WRCEx .member-2gU6Ar .layout-1qmrhw {
     padding-left: 10.5px;
+}
+
+div.selected-3veCBZ .name-2m3Cms {
+    color: var(--Primary);
+}
+
+div.selected-3veCBZ:hover .name-2m3Cms {
+    color: var(--Text);
 }
