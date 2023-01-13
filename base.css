@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "25-6";
+    --version: "25-7";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -516,6 +516,10 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before {
     z-index: 1;
 }
 
+.containerDefault-YUSmu3.selected-2TbFuo>svg,
+.containerDefault-YUSmu3.selected-2TbFuo .channelName-3KPsGw {
+    color: var(--Primary);
+}
 
 .blockquoteContainer-3VtvI1 .blockquoteDivider-363utW {
     width: 2px;
@@ -4858,12 +4862,43 @@ div[class*=avatarPositionPremium-],
     background-color: var(--bg-ui);
 }
 
-.avatarHint-2g3Mcd {
+.avatarHoverTarget-l77PhT {
+    position: relative;
+}
+
+.avatarWrapperNormal-1tQ3Je:hover .wrapper-1VLyxH>svg div:before {
+    content: " ";
+    z-index: 1;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 200'%3E%3Cpath d='M10 10h123v123H10z'/%3E%3C/svg%3E);
+    border-radius: var(--Rounding);
+    background: rgb(0 0 0 / 75%);
+}
+
+.avatarWrapperNormal-1tQ3Je .wrapper-1VLyxH>svg {
+    z-index: 1;
+}
+
+.avatarWrapperNormal-1tQ3Je .avatarHint-2g3Mcd {
+    z-index: 1;
     top: 0px;
     left: 0px;
     width: 80px;
     height: 80px;
     border-radius: var(--Rounding);
+}
+
+.avatarHint-2g3Mcd>foreignObject {
+    mask: none;
+    -webkit-mask: none;
+}
+
+.avatarHint-2g3Mcd>foreignObject>.avatarHintInner-3gk_Yx {
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges-]::before {
@@ -5048,145 +5083,6 @@ div.selected-3veCBZ:hover .name-2m3Cms {
 
 .avatarDecorationHint-GIo7Yh {
     border-radius: var(--Rounding) !important;
-}
-
-.userPopoutInner-1hXSeY .avatarHoverTarget-l77PhT .avatarDecoration-2OJuSI .avatar-b5OQ1N {
-    padding: 0;
-    width: 96px;
-    height: 96px;
-}
-
-/* Decoration 1 */
-img[src="/assets/cf7947886380f467528d7302af3458da.png"],
-img[src*="a_5ba11fabc18f76093b2533efdd765e76.png"] {
-    content: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1263950/77a5bfca9dcc44e2e3aaaabea62249407f9f4ec0.png");
-    background-position-x: 0px;
-    background-position-y: 0px;
-    background-size: contain;
-}
-
-/* Decoration 2 */
-img[src="/assets/bd9189e9280d3b0514cf14454a043485.png"],
-img[src*="a_9f54c6bf2d0d4aa2e20709f7482e83fa.png"] {
-    content: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1492660/06bb85cd5f39a963a39ae9327ea4eb7da5cd30d4.png");
-    background-position-x: 0px;
-    background-position-y: 0px;
-    background-size: contain;
-}
-
-/* Decoration 3 */
-img[src="/assets/caa099ee0308108e854dd9fa2dcfd2a6.png"],
-img[src*="a_ddf8a7e391ab9520f944bb67707c5815.png"] {
-    content: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/212070/9b6b26c7a03046da283408d72319f9eec932c80a.gif");
-    background-position-x: 0px;
-    background-position-y: 0px;
-    background-size: contain;
-}
-
-/* Decoration 4 */
-img[src="/assets/7d0b4ef2ef73677d34513b015e0eb9d1.png"],
-img[src*="a_ec7e6bb6c0c96acf4eb1ce04bc4ce727.png"] {
-    content: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png");
-    background-position-x: 0px;
-    background-position-y: 0px;
-    background-size: contain;
-}
-
-/* Decoration 5 */
-img[src="/assets/d52ff7e94c1374b4df069eee29a989cd.png"],
-img[src*="a_cb01109024624a65b759efe80c0ad19f.png"] {
-    content: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/212070/e39b802b3cff406590139dba9de470f31810027c.gif");
-    background-position-x: 0px;
-    background-position-y: 0px;
-    background-size: contain;
-}
-
-/* Decoration 6 */
-img[src="/assets/63b0c16f26ec12091437a265de2ac957.png"],
-img[src*="a_03784846208c9a0712967eb06bc4dae3.png"] {
-    content: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/979690/edcfeb1b1ea067e85eff4c616d284331be488cfe.png");
-    background-position-x: 0px;
-    background-position-y: 0px;
-    background-size: contain;
-}
-
-/* Decoration 7 */
-img[src="/assets/d18194dde6a25243aac60dbfc96c865e.png"],
-img[src*="669140dbf4a0b4e2789c277583a5ec13.png"] {
-    content: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/917720/812c7feba9751c6c1ee9e6df68b5f78317fc529c.png");
-    background-position-x: 0px;
-    background-position-y: 0px;
-    background-size: contain;
-}
-
-/* Decoration 8 */
-img[src="/assets/19fb51c7beb224f4b7bd92dfae19eef9.png"],
-img[src*="c670785f6c0bf84fe5d733cd1fdd8a7d.png"] {
-    content: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/579720/d42e32662e8ee6a94039c50007a4de0210f0f098.png");
-    background-position-x: 0px;
-    background-position-y: 0px;
-    background-size: contain;
-}
-
-/* Decoration 9 */
-img[src="/assets/e5efdb815dd85d95c7b2b0bc058ae022.png"],
-img[src*="a3784da56b6f59a09f67f727cf2f9b66.png"] {
-    content: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1098340/71f42ec23a7f80c365f0c3900a6e61bdc78733d7.png");
-    background-position-x: 0px;
-    background-position-y: 0px;
-    background-size: contain;
-}
-
-/* Decoration 10 */
-img[src="/assets/efcef8651f8610303f4e640ec1d72f32.png"],
-img[src*="d0fcf16241b42bbecafdb0317938d44b.png"] {
-    content: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1091500/2504dff701df1c304a964370e15f42aecee8e21b.png");
-    background-position-x: 0px;
-    background-position-y: 0px;
-    background-size: contain;
-}
-
-/* Decoration 11 */
-img[src="/assets/c32e05689aaae0f0bfaa6b9b1273c890.png"],
-img[src*="a_5b1801329a903f3d05130a61521abaa0.png"] {
-    content: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1218900/36f7893520284c0797e30d08c953a0cf4db9260d.png");
-    background-position-x: 0px;
-    background-position-y: 0px;
-    background-size: contain;
-}
-
-/* Decoration 12 */
-img[src="/assets/786a1d3553eab4cd9968de5f0ad79ad3.png"],
-img[src*="a_e390f210e8669b0527a8c6d86f927d53.png"] {
-    content: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/579720/053b984a253e1644cc8936a337d52c774c7d86bf.png");
-    background-position-x: 0px;
-    background-position-y: 0px;
-    background-size: contain;
-}
-
-/* Decoration 13 */
-img[src="/assets/be699ee3a5f71af93b33cad0c09fe994.png"],
-img[src*="a_15fb6cce2fd78fdecb9ba9d67a10d208.png"] {
-    content: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1239690/1aa4634933018734a8f9117f8657bc816de1893d.png");
-    background-position-x: 0px;
-    background-position-y: 0px;
-    background-size: contain;
-}
-
-/* Decoration 14 */
-img[src="/assets/a2124287961877b23d9f6593bb9d8412.png"],
-img[src*="a_8779733b612472543964ffcaf7dbf911.png"] {
-    content: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/604780/c706935c3650e6ca5401725ce3a5e618b0b778fc.png");
-    background-position-x: 0px;
-    background-position-y: 0px;
-    background-size: contain;
-}
-
-.container-YkUktl .avatar-1EWyVD .avatarDecoration-2OJuSI {
-    top: -6px;
-    left: -3px;
-    width: calc(100% + 15px);
-    height: calc(100% + 10px);
 }
 
 .textContentFooter-2JnNv8.noTags--bq3P2 {
