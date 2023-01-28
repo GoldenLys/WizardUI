@@ -3366,6 +3366,11 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item-2LIpTv,
     height: 24px;
 }
 
+.autocomplete-3NRXG8 .wrapper-1VLyxH[style="width: 24px; height: 24px;"] svg rect[mask] {
+    width: 8px;
+    height: 8px;
+}
+
 .notice-1tZwqv {
     background-color: var(--Primary);
     border-radius: 0;
