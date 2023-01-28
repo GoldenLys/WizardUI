@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "25-8";
+    --version: "25-9";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -112,6 +112,7 @@
     --control-brand-foreground: var(--Primary);
     --input-background: var(--grey);
     --profile-body-background-color: transparent;
+    --text-brand: var(--Primary);
 }
 
 #app-mount.appMount-2yBXZl {
@@ -2394,6 +2395,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 }
 
 .chatContent-3KubbW {
+    background-color: transparent;
     padding: 0 0;
 }
 
@@ -5117,4 +5119,18 @@ div.selected-3veCBZ:hover .name-2m3Cms {
 
 .connectedAccountContainerWithMetadata-3NgWeX>.connectedAccountChildren-2jEgw3 {
     margin-left: 48px;
+}
+
+.container-3YcgdM {
+    border-radius: var(--Rounding);
+}
+
+#app-mount .tags-2Siay7>.pill-3pRQlO {
+    transform: none;
+    height: unset;
+    width: unset;
+    padding: 2px 6px;
+    border-radius: var(--Rounding);
+    background-color: var(--bg-chat-elements);
+    margin-left: unset;
 }
