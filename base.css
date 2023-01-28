@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "25-7";
+    --version: "25-8";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -114,7 +114,7 @@
     --profile-body-background-color: transparent;
 }
 
-.appMount-2yBXZl {
+#app-mount.appMount-2yBXZl {
     background: center / cover no-repeat var(--background);
     position: relative;
     top: 0;
@@ -261,6 +261,7 @@ div[class^=folder-],
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_),
 .colorDefault-CDqZdO.focused-3qFvc8,
 .selected-3H3-RC,
+.selected-26oxtA,
 .wrapper-2RrXDg,
 .guilds-2JjMmN,
 .container-KM8BU6,
@@ -497,7 +498,7 @@ div.selected-3veCBZ:before {
     bottom: 0;
 }
 
-div.selected-1-Z6gm .layout-1qmrhw:after {
+div.selected-26oxtA .layout-1LjVue:after {
     position: absolute;
     display: block;
     top: 5px;
@@ -505,7 +506,7 @@ div.selected-1-Z6gm .layout-1qmrhw:after {
     bottom: 5px;
 }
 
-div.selected-1-Z6gm .layout-1qmrhw:after,
+div.selected-26oxtA .layout-1LjVue:after,
 div.selected-3veCBZ:before,
 div.wrapper-NhbLHG[class*="modeSelected-"]:before {
     content: "";
@@ -1981,21 +1982,21 @@ div[class^=closedFolderIconWrapper]:before {
 .privateChannels-oVe7HL .channel-1Shao0 {
     margin: 0;
     padding: 0 5px;
-    border-radius: 0;
+    border-radius: var(--Rounding);
     max-width: 100%;
 }
 
-.layout-1qmrhw {
+.layout-1LjVue {
     padding: 0 5px;
-    border-radius: 0;
+    border-radius: var(--Rounding);
 }
 
-.selected-1-Z6gm .layout-1qmrhw {
+.selected-26oxtA .layout-1LjVue {
     background-color: transparent;
     border-radius: 0;
 }
 
-.selected-1-Z6gm .layout-1qmrhw:before {
+.selected-26oxtA .layout-1LjVue:before {
     background: transparent;
     opacity: 0.15;
     content: "";
@@ -2007,11 +2008,11 @@ div[class^=closedFolderIconWrapper]:before {
     left: 0px;
 }
 
-.selected-1-Z6gm:hover .layout-1qmrhw:before {
+.selected-26oxtA:hover .layout-1LjVue:before {
     opacity: 0.35;
 }
 
-.privateChannels-oVe7HL .selected-1-Z6gm .layout-1qmrhw {
+.privateChannels-oVe7HL .selected-26oxtA .layout-1LjVue {
     padding: 0 5px;
 }
 
@@ -2689,6 +2690,7 @@ path[fill="#7289da"] {
 
 .panels-3wFtMD>.container-YkUktl {
     position: relative;
+    background-color: var(--bg-ui);
     height: 50px;
     padding: 0 5px 0 5px !important;
     margin: 0;
@@ -5035,7 +5037,7 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
     padding: 0 5px;
 }
 
-.chatContent-3KubbW+.container-2o3qEW .members-3WRCEx .member-2gU6Ar .layout-1qmrhw {
+.chatContent-3KubbW+.container-2o3qEW .members-3WRCEx .member-2gU6Ar .layout-1LjVue {
     padding-left: 6.5px;
 }
 
