@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "25-9";
+    --version: "25-10";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -2698,6 +2698,13 @@ path[fill="#7289da"] {
     margin: 0;
 }
 
+.panels-3wFtMD .container-1zzFcN {
+    position: relative;
+    background-color: var(--bg-ui);
+    padding: 0 5px 0 5px !important;
+    margin: 0;
+}
+
 #bd-settings-sidebar+div+.item-3XjbnG,
 #bd-settings-sidebar+div+.item-3XjbnG:before {
     color: var(--ui-error) !important;
@@ -5134,3 +5141,23 @@ div.selected-3veCBZ:hover .name-2m3Cms {
     background-color: var(--bg-chat-elements);
     margin-left: unset;
 }
+
+.userProfileInner-3F03PX .flexible-1UoeVa {
+    max-width: 100%;
+}
+
+.colorable-3rVGna.primaryDark-2UJt1G {
+    background-color: var(--bg-chat-elements);
+}
+
+.border-2BJQjd.speaking-3RWJBr {
+    -webkit-box-shadow: inset 0 0 0 2px var(--ui-success);
+    box-shadow: inset 0 0 0 2px var(--ui-success);
+}
+
+.callAvatarMask-fiNMWy>foreignObject,
+.controlButton-2PMNom>svg>foreignObject {
+    -webkit-mask: none;
+    mask: none;
+}
+
