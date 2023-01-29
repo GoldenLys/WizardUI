@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "25-10";
+    --version: "25-11";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -168,7 +168,6 @@ div[class^=folder-],
 .scroller-29cQFV,
 .header-2EadGG,
 .scroller-2XLwLg,
-.privateChannels-oVe7HL,
 .guilds-2JjMmN div[class^=tutorialContainer]>.listItem-3SmSlK>div[class^=listItemWrapper]>div svg .childWrapper-1j_1ub,
 .scroller-3X7KbA,
 .scroller-WSmht3,
@@ -189,7 +188,8 @@ div[class^=folder-],
 .contentRegionScroller-2_GT_N,
 .inset-SbsSFp,
 .scroller-3_YDR2,
-.wrapper-1gVUIN {
+.wrapper-1gVUIN,
+.sidebar-1tnWFu {
     background-color: transparent !important;
 }
 
@@ -217,7 +217,8 @@ div[class^=folder-],
 .container-ZMc96U.themed-Hp1KC_,
 .chat-2ZfjoI .title-31SJ6t.container-ZMc96U,
 .container-ZMc96U.themed-Hp1KC_,
-.sidebar-1tnWFu,
+.sidebar-1tnWFu>.container-1NXEtd,
+.privateChannels-oVe7HL,
 .container-S9SaVf,
 .attachedBars-2BCP3l,
 .callContainer-HtHELf {
@@ -235,7 +236,6 @@ div[class^=folder-],
 
 .modal-2RrUKJ,
 .clickable-vvKY2q .header-3OsQeK {
-    background-color: var(--bg-ui) !important;
     border: none;
 }
 
@@ -4889,7 +4889,6 @@ div[class*=avatarPositionPremium-],
     display: block;
     width: 100%;
     height: 100%;
-    background-image: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 200'%3E%3Cpath d='M10 10h123v123H10z'/%3E%3C/svg%3E);
     border-radius: var(--Rounding);
     background: rgb(0 0 0 / 75%);
 }
