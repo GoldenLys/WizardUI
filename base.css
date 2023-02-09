@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "25-11";
+    --version: "25-12";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -4432,6 +4432,7 @@ div[class*=profileBadges-] div:last-child {
     color: black !important;
 }
 
+.colorable-3rVGna.green-3wkLbx,
 .lookFilled-yCfaCM.colorGreen-3y-Z79,
 .allow-1h61-Z.selected-3jieYB {
     background-color: var(--ui-success) !important;
@@ -5165,4 +5166,8 @@ div.selected-3veCBZ:hover .name-2m3Cms {
 .controlButton-2PMNom>svg>foreignObject {
     -webkit-mask: none;
     mask: none;
+}
+
+.headerWrapper-1ULEPv>.title-31SJ6t>.children-3xh0VB>div:not(.titleWrapper-24Kyzc) {
+    display: none;
 }
