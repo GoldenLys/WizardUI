@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "26";
+    --version: "26-2";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -363,7 +363,7 @@ div[class^=tutorialContainer]>.listItem-3SmSlK svg mask,
 a[href="https://support.discord.com"],
 .wordmark-2u86JB svg,
 .chat-2ZfjoI>section.title-31SJ6t>.children-3xh0VB>.iconWrapper-2awDjA,
-.buttons-uaqb-5 .button-f2h6uQ>.button-3BaQ4X:not([class*=translateButton-]),
+.buttons-uaqb-5 .button-ejjZWC>.button-3BaQ4X:not([class*=translateButton-]),
 div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie,
 .arrow-2HswgU.icon-3zI3d2 {
     display: none;
