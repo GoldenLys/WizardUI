@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "27-3";
+    --version: "27-4";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -59,6 +59,7 @@
     /* ROUNDING */
     --Rounding: 5px;
     --StatusRounding: 4.5;
+    --Watermark: "WizardUI";
 }
 
 .theme-light,
@@ -441,7 +442,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie,
 }
 
 .wordmark-2u86JB:after {
-    content: "WizardUI";
+    content: var(--Watermark);
     margin-left: 5px;
     font-weight: normal;
     font-size: 12px;
@@ -5233,4 +5234,8 @@ div.selected-3veCBZ:hover .name-2m3Cms {
 
 div[style*="background-color: rgb(88, 101, 242);"] {
     background-color: var(--Primary) !important;
+}
+
+.backgroundFlash-1X5jVs:not([style="background-color: rgba(148, 156, 247, 0);"]) {
+    background-color: var(--background-modifier-hover) !important;
 }
