@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "27-4";
+    --version: "27-5";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -2576,8 +2576,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 }
 
 /* CHANNELS ICONS */
-
-.containerDefault-YUSmu3>div [class^="mainContent"] [class^="name"] .channelName-3KPsGw:before {
+.containerDefault-YUSmu3 a .channelName-3KPsGw:before {
     font-family: "Font Awesome 6 Pro";
     font-weight: 100;
     -webkit-font-smoothing: antialiased;
@@ -2586,7 +2585,6 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 }
 
 /*EVENTS CHANNEL */
-
 .containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"][data-list-item-id^="channels___upcoming-events"] .name-28HaxV:before {
     font-family: "Font Awesome 6 Pro";
     font-weight: 900;
@@ -2599,33 +2597,33 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 
 /* VOICE CHANNEL */
 
-.containerDefault-YUSmu3>div:not(.wrapper-NhbLHG) [class^="mainContent"] [class^="name"] .channelName-3KPsGw:before {
+.containerDefault-YUSmu3>div:not(.wrapper-NhbLHG) [class^="mainContent"] .channelName-3KPsGw:before {
     content: "\f6a8";
     margin-right: 5px
 }
 
 /* STAGE CHANNEL */
 
-.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"][aria-label="Stage Channel"] [class^="name"] .channelName-3KPsGw:before {
+.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"][aria-label="Stage Channel"] .channelName-3KPsGw:before {
     content: "\f685";
     margin-right: 5px
 }
 
-.containerDefault-YUSmu3>div>.modeConnected-NrO4cP [class^="mainContent"] [class^="name"] .channelName-3KPsGw:before,
-.containerDefault-YUSmu3.selected-2TbFuo>.wrapper-NhbLHG [class^="mainContent"] [class^="name"] .channelName-3KPsGw:before {
+.containerDefault-YUSmu3>div>.modeConnected-NrO4cP [class^="mainContent"] .channelName-3KPsGw:before,
+.containerDefault-YUSmu3.selected-2TbFuo>.wrapper-NhbLHG [class^="mainContent"] .channelName-3KPsGw:before {
     font-weight: 900;
 }
 
 /* TEXT CHANNEL */
 
-.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"] [class^="name"] .channelName-3KPsGw:before {
+.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"] .channelName-3KPsGw:before {
     content: "\f4a6";
     margin-right: 5px;
 }
 
 /* ANNOUNCEMENT CHANNEL */
 
-.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"][aria-label$="(announcement channel)"] [class^="name"] .channelName-3KPsGw:before {
+.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"][aria-label$="(announcement channel)"] .channelName-3KPsGw:before {
     content: "\f675";
     margin-right: 5px
 }
