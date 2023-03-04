@@ -26,7 +26,7 @@
     padding: 2.5px 0px 2.5px 0px;
 }
 
-#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt {
+#app-mount .guilds-2JjMmN .scrollerBase-1Pkza4 {
     padding: var(--ServerSpacing) 0 !important;
     display: flex;
     flex-direction: column;
@@ -39,7 +39,7 @@
     position: unset;
 }
 
-#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt>div[style]:not(.listItem-2P_4kh) {
+#app-mount .guilds-2JjMmN .scrollerBase-1Pkza4>div[style]:not(.listItem-2P_4kh) {
     height: auto !important;
 }
 
@@ -50,7 +50,7 @@
 
 #app-mount .guilds-2JjMmN .target-1eRTCg::before {
     top: 0;
-    height: var(--server-size);
+    height: var(--ServerSize);
     width: 4px;
     left: -6px;
 }

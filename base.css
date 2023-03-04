@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "27";
+    --version: "27-2";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -118,7 +118,7 @@
     --profile-body-background-color: transparent;
     --text-brand: var(--Primary);
     --mention-foreground: var(--Text);
-    --mention-background: var(--Primary);
+    --mention-background: var(--Hover);
 }
 
 #app-mount.appMount-2yBXZl {
@@ -197,10 +197,12 @@ div[class^=folder-],
 .wrapper-1gVUIN,
 .sidebar-1tnWFu,
 .selected-1-Z6gm .layout-1qmrhw,
-.selected-26oxtA {
+.selected-26oxtA,
+.header-3xB4vB {
     background-color: transparent !important;
 }
 
+.container-2IKOsH, 
 .container-3XgAHv,
 .container-3wLKDe,
 .callContainer-BGIngG,
@@ -2332,7 +2334,9 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
     order: 2;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style]) {
+
+#app-mount .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style]) {
+    position: relative;
     order: 3;
     height: auto;
     display: flex;
