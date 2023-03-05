@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "27-5";
+    --version: "27-6";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -179,7 +179,6 @@ div[class^=folder-],
 .scroller-3X7KbA,
 .scroller-WSmht3,
 #MemberCount,
-.spoilerText-27bIiA.hidden-3B-Rum,
 .form-3gdLxP,
 .channelTextArea-1FufC0,
 .app-2CXKsg,
@@ -1254,15 +1253,15 @@ side-1lrxIh
     opacity: .85;
 }
 
-.spoilerText-27bIiA.hidden-3B-Rum .inlineContent-2YnoDy {
+#app-mount .spoilerText-2G40u0.hidden-2lQZ5q>span {
     opacity: 1;
     -webkit-filter: blur(3px);
     filter: blur(3px);
     pointer-events: all;
 }
 
-.spoilerText-27bIiA {
-    background-color: var(--grey5) !important;
+#app-mount .spoilerText-2G40u0 {
+    background-color: transparent;
 }
 
 .mention-3XBnnZ {
@@ -2621,6 +2620,13 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
     margin-right: 5px;
 }
 
+/* THREADS CHANNEL */
+
+.containerDefault-YUSmu3>.wrapper-NhbLHG.typeThread-2Aqh6X  [class^="mainContent"] .channelName-3KPsGw:before {
+    content: "";
+    margin-right: 0;
+}
+
 /* ANNOUNCEMENT CHANNEL */
 
 .containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"][aria-label$="(announcement channel)"] .channelName-3KPsGw:before {
@@ -3114,6 +3120,25 @@ a {
 
 .embedProvider-1GSN0c {
     text-align: center;
+}
+
+.embedProvider-1GSN0c {position: relative; z-index: 0; }
+.embedProvider-1GSN0c>a:before,
+.embedProvider-1GSN0c>span:before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--Rounding);
+    background: var(--Primary);
+    color: var(--Text);
+}
+
+.embedProvider-1GSN0c>a[href="https://www.youtube.com"]:before {
+    background: #FF0000;
 }
 
 .embedTitle-2n1pEb {
