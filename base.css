@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "27-6";
+    --version: "27-7";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -214,6 +214,7 @@ div[class^=folder-],
     background-color: var(--bg-chatbox) !important;
 }
 
+.hoverButtonGroup-2yZIzC,
 .wrapper-3Un6-K>svg>foreignObject,
 .callContainer-BGIngG,
 .stageSection-3mAD8V,
@@ -254,6 +255,7 @@ div[class^=folder-],
     background-color: transparent !important;
 }
 
+.hoverButtonGroup-2yZIzC,
 #app-mount .checkbox-f1HnKB.checked-1pZh2h {
     background-color: var(--Primary) !important;
 }
@@ -425,8 +427,8 @@ div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie,
 
 .attachment-1PZZB2 {
     border-radius: 5px;
-    border-color: var(--grey);
-    background-color: var(--grey);
+    border-color: var(--bg-chat-elements);
+    background-color: var(--bg-chat-elements);
 }
 
 .wordmarkWindows-2dq6rw {
@@ -625,15 +627,16 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before {
 .typing-2J1mQU {
     z-index: 100;
     position: absolute;
-    top: 0px;
-    left: 10px;
-    right: 10px;
+    top: -24px;
+    left: 0px;
+    right: 0px;
     font-size: 12px;
-    line-height: 12px;
+    line-height: 14px;
     text-align: center;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     user-select: none;
+    background: transparent;
 }
 
 .attachButton-_ACFSu {
@@ -699,23 +702,31 @@ div[class*=reactionMe]:hover [class^=reactionCount] {
 }
 
 .statusOnline-Iw3r2o,
-.status-2DiCMd[style="background-color: rgb(59, 165, 92);"] {
+.status-2DiCMd[style="background-color: rgb(59, 165, 92);"],
+foreignObject[mask^="url(#svg-mask-status-online"]>.status-3cqfT9 {
     background-color: var(--Online) !important;
 }
 
-.status-2DiCMd[style="background-color: rgb(250, 166, 26);"] {
+.status-2DiCMd[style="background-color: rgb(250, 166, 26);"],
+foreignObject[mask^="url(#svg-mask-status-idle"]>.status-3cqfT9 {
     background-color: var(--Idle) !important;
 }
 
 .status-2DiCMd[style="background-color: rgb(240, 71, 71);"],
+foreignObject[mask^="url(#svg-mask-status-dnd"]>.status-3cqfT9,
 .callAvatarStatus-3vMeXZ.voice-3bPYC-,
 .iconBadge-3Mmg92 {
     background-color: var(--Unavailable) !important;
 }
 
 .statusOffline-2R-ArP,
-.status-2DiCMd[style="background-color: rgb(116, 127, 141);"] {
+.status-2DiCMd[style="background-color: rgb(116, 127, 141);"],
+foreignObject[mask^="url(#svg-mask-status-offline"]>.status-3cqfT9  {
     background-color: var(--Offline) !important;
+}
+
+foreignObject[mask^="url(#svg-mask-status-streaming"]>.status-3cqfT9 {
+    background-color: var(--Streaming) !important;
 }
 
 rect[fill="#23a55a"],
@@ -741,12 +752,13 @@ rect[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"],
 
 rect[fill="#747f8d"],
 rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"],
-[mask^="url(#svg-mask-status-offline"] {
+[mask^="url(#svg-mask-status-offline"]{
     fill: var(--Offline) !important;
 }
 
 rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"],
-[mask^="url(#svg-mask-status-streaming"] {
+[mask^="url(#svg-mask-status-streaming"],
+foreignObject[mask^="url(#svg-mask-status-streaming"]>.status-3cqfT9 {
     fill: var(--Streaming) !important;
 }
 
@@ -854,7 +866,7 @@ rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"],
 
 .userPopoutInner-1hXSeY .userPopoutOverlayBackground-dKOOda {
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     border-top: 2px solid var(--Primary);
     margin: 0px 0px 0px;
     border-radius: 0px;
@@ -1894,7 +1906,7 @@ div[class^=closedFolderIconWrapper]:before {
 .newMessagesBar-1hF-9G {
     border-radius: 5px;
     left: 5px;
-    top: 5px;
+    top: 30px;
     right: 5px;
     background-color: var(--darkgrey5);
     box-shadow: 0 0 5px var(--darkgrey);
@@ -3141,7 +3153,10 @@ a {
     background: #FF0000;
 }
 
-.embedTitle-2n1pEb {
+.embedTitle-2n1pEb,
+.embedAuthor-TJIHp5 {
+    display: flex;
+    justify-content: center;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -5261,4 +5276,16 @@ div[style*="background-color: rgb(88, 101, 242);"] {
 
 .backgroundFlash-1X5jVs:not([style="background-color: rgba(148, 156, 247, 0);"]) {
     background-color: var(--background-modifier-hover) !important;
+}
+
+.nonMediaAttachment-3C_4Pd{ outline: none; }
+
+.chat-2ZfjoI>.title-31SJ6t {
+    padding-bottom: 12px;
+}
+
+.userPopoutInner-1hXSeY .menu-KSaHL1 {
+    background: var(--bg-ui);
+    border-radius: 0;
+    max-width: 100%;
 }
