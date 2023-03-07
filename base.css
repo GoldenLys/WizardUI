@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "27-7";
+    --version: "27-8";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -112,7 +112,7 @@
     --focus-primary: var(--Primary);
     --font-display: var(--font) !important;
     --brand-experiment: var(--Primary);
-    --primary-dark-400: var(--Text); 
+    --primary-dark-400: var(--Text);
     --brand-500: var(--Primary);
     --control-brand-foreground: var(--Primary);
     --input-background: var(--grey);
@@ -202,7 +202,7 @@ div[class^=folder-],
     background-color: transparent !important;
 }
 
-.container-2IKOsH, 
+.container-2IKOsH,
 .container-3XgAHv,
 .container-3wLKDe,
 .callContainer-BGIngG,
@@ -219,7 +219,6 @@ div[class^=folder-],
 .callContainer-BGIngG,
 .stageSection-3mAD8V,
 .chat-2ZfjoI .chatContent-3KubbW .messagesWrapper-RpOMA3,
-.tabBody-2dgbAs .peopleColumn-1wMU14,
 .applicationStore-2nk7Lo>.homeWrapper-L4ors0>.scroller-29cQFV,
 .pageWrapper-2PwDoS {
     border-radius: var(--Rounding);
@@ -721,7 +720,7 @@ foreignObject[mask^="url(#svg-mask-status-dnd"]>.status-3cqfT9,
 
 .statusOffline-2R-ArP,
 .status-2DiCMd[style="background-color: rgb(116, 127, 141);"],
-foreignObject[mask^="url(#svg-mask-status-offline"]>.status-3cqfT9  {
+foreignObject[mask^="url(#svg-mask-status-offline"]>.status-3cqfT9 {
     background-color: var(--Offline) !important;
 }
 
@@ -752,7 +751,7 @@ rect[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"],
 
 rect[fill="#747f8d"],
 rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"],
-[mask^="url(#svg-mask-status-offline"]{
+[mask^="url(#svg-mask-status-offline"] {
     fill: var(--Offline) !important;
 }
 
@@ -1167,8 +1166,8 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 .panels-3wFtMD {
     position: relative;
 }
-side-1lrxIh
-.panels-3wFtMD .container-YkUktl button>.contents-3ca1mk svg {
+
+.side-1lrxIh .panels-3wFtMD .container-YkUktl button>.contents-3ca1mk svg {
     height: 0px;
 }
 
@@ -2634,7 +2633,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 
 /* THREADS CHANNEL */
 
-.containerDefault-YUSmu3>.wrapper-NhbLHG.typeThread-2Aqh6X  [class^="mainContent"] .channelName-3KPsGw:before {
+.containerDefault-YUSmu3>.wrapper-NhbLHG.typeThread-2Aqh6X [class^="mainContent"] .channelName-3KPsGw:before {
     content: "";
     margin-right: 0;
 }
@@ -2850,12 +2849,31 @@ div[class^="topSection"] .activityProfile-1712BN.activity-1ythUs:before {
     place-content: center;
 }
 
+.tabBar-ra-EuL,
+.tabBar-2StdUa {
+    background: var(--bg-ui);
+    margin: 5px 0;
+    border-radius: var(--Rounding);
+    place-content: center;
+}
+
 .tabBar-ra-EuL .item-3mHhwr,
 .tabBar-2StdUa>.tabBarItem-3VvT2z {
     display: flex;
     height: auto;
     padding: 5px 10px;
     border: none;
+    margin: 0;
+}
+
+.tabBar-ra-EuL .item-3mHhwr:not(:last-child),
+.tabBar-2StdUa>.tabBarItem-3VvT2z:not(:last-child) {
+    margin-right: 5px;
+}
+
+.tabBar-ra-EuL .item-3mHhwr:last-child,
+.tabBar-2StdUa>.tabBarItem-3VvT2z:last-child {
+    margin-left: 5px;
 }
 
 #app-mount .hljs-comment,
@@ -2940,6 +2958,7 @@ button[role*="switch"][aria-checked=false]:not(#GameActivityToggleBtn):after {
     position: relative;
 }
 
+.wrapper-2PSQCG,
 .icon-3AqZ2e,
 .modal-2LBig1 .listRow-2nO1T6 .listAvatar-1NlAhb,
 .connectedAccountIcon-2szOw- {
@@ -3134,7 +3153,11 @@ a {
     text-align: center;
 }
 
-.embedProvider-1GSN0c {position: relative; z-index: 0; }
+.embedProvider-1GSN0c {
+    position: relative;
+    z-index: 0;
+}
+
 .embedProvider-1GSN0c>a:before,
 .embedProvider-1GSN0c>span:before {
     content: "";
@@ -5001,7 +5024,7 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
     display: none
 }
 
-.userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ, 
+.userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ,
 .userProfileOuterThemed-3EfHmv.userProfileOuter-1K_BYU {
     padding: 0px;
 }
@@ -5252,21 +5275,25 @@ div.selected-3veCBZ:hover .name-2m3Cms {
     color: var(--Primary);
 }
 
-.container-1QtPKm, .input-125oad {
+.container-1QtPKm,
+.input-125oad {
     border-radius: var(--Rounding);
     cursor: pointer;
 }
 
-.container-1QtPKm[style*="background-color: rgb(35, 165, 90)"], .input-125oad[style*="background-color: rgb(35, 165, 90)"] {
+.container-1QtPKm[style*="background-color: rgb(35, 165, 90)"],
+.input-125oad[style*="background-color: rgb(35, 165, 90)"] {
     background-color: var(--ui-success) !important;
 }
 
 
-.container-1QtPKm[style*="background-color: rgb(130, 133, 143)"], .input-125oad[style*="background-color: rgb(130, 133, 143)"] {
+.container-1QtPKm[style*="background-color: rgb(130, 133, 143)"],
+.input-125oad[style*="background-color: rgb(130, 133, 143)"] {
     background-color: var(--darkgrey) !important;
 }
 
-.container-1QtPKm>svg.slider-HJFN2i>rect, .input-125oad>svg.slider-HJFN2i>rect {
+.container-1QtPKm>svg.slider-HJFN2i>rect,
+.input-125oad>svg.slider-HJFN2i>rect {
     rx: var(--StatusRounding);
 }
 
@@ -5278,7 +5305,9 @@ div[style*="background-color: rgb(88, 101, 242);"] {
     background-color: var(--background-modifier-hover) !important;
 }
 
-.nonMediaAttachment-3C_4Pd{ outline: none; }
+.nonMediaAttachment-3C_4Pd {
+    outline: none;
+}
 
 .chat-2ZfjoI>.title-31SJ6t {
     padding-bottom: 12px;
