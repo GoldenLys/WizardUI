@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "27-8";
+    --version: "27-9";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -224,6 +224,7 @@ div[class^=folder-],
     border-radius: var(--Rounding);
 }
 
+.prompt-1sE27N,
 .nowPlayingSidebar-2OFn0o,
 .container-ZMc96U.themed-Hp1KC_,
 .chat-2ZfjoI .title-31SJ6t.container-ZMc96U,
@@ -749,6 +750,7 @@ rect[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"],
     fill: var(--Unavailable) !important;
 }
 
+rect[fill="#80848e"],
 rect[fill="#747f8d"],
 rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"],
 [mask^="url(#svg-mask-status-offline"] {
@@ -1105,6 +1107,7 @@ div[class^="role-"],
 /* DISABLE OFFLINE STATUS */
 
 rect[fill="#82858f"],
+rect[fill="#80848e"],
 rect[fill="rgba(116, 127, 141, 1)"],
 rect[fill="#747f8d"],
 [mask^="url(#svg-mask-status-offline"],
@@ -1233,9 +1236,24 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     mask: none;
 }
 
+.container-YkUktl .avatar-1EWyVD>svg>svg {
+    height: 25px;
+}
+
 .container-YkUktl .avatar-1EWyVD>svg>svg rect {
     x: 14.5;
     y: 12;
+}
+
+.container-YkUktl .avatar-1EWyVD>svg>svg>rect {
+    mask: none;
+    -webkit-mask: none;
+    rx: var(--StatusRounding);
+    ry: var(--StatusRounding);
+    width: 10px;
+    height: 10px;
+    x: 14;
+    y: 4.5;
 }
 
 .container-YkUktl .avatar-1EWyVD svg .pointerEvents-9SZWKj {
@@ -1903,11 +1921,11 @@ div[class^=closedFolderIconWrapper]:before {
 }
 
 .newMessagesBar-1hF-9G {
-    border-radius: 5px;
+    border-radius: var(--Rounding);
     left: 5px;
-    top: 30px;
+    top: 5px;
     right: 5px;
-    background-color: var(--darkgrey5);
+    background-color: var(--bg-ui);
     box-shadow: 0 0 5px var(--darkgrey);
 }
 
@@ -3144,16 +3162,18 @@ a {
     margin-top: 0;
 }
 
-.embed-hKpSrO {
+#app-mount .embed-hKpSrO,
+.gridContainer-1cF_Ic {
     position: relative;
-    max-width: 100%;
+    max-width: 100% !important;
+}
+
+.embedFull-1HGV2S .embedMedia-1mdWSP {
+    place-self: center;
 }
 
 .embedProvider-1GSN0c {
     text-align: center;
-}
-
-.embedProvider-1GSN0c {
     position: relative;
     z-index: 0;
 }
@@ -4414,6 +4434,12 @@ div[class*=profileBadges-] div:last-child {
     padding: 0px 10px;
     border-radius: 0px;
     height: 50px;
+}
+
+#app-mount .newBadge-2NdCeG {
+    background-color: var(--Primary) !important;
+    color: var(--Text);
+    border-radius: var(--Rounding);
 }
 
 .newBadge-1bHewI.badgeSpacing-2uYkGw.textBadge-1fdDPJ {
