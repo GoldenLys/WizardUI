@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "27-9";
+    --version: "27-10";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -570,7 +570,6 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before {
 
 .mentioned-Tre-dv {
     background: transparent;
-    padding-bottom: 5px !important;
 }
 
 .mentioned-Tre-dv:before {
@@ -586,7 +585,6 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before {
 .mentioned-Tre-dv[class^="message"] .mention,
 .mention:not(.desaturate-_Twf3u) {
     border-radius: 5px;
-    padding: 0 5px;
     background-color: var(--grey5) !important;
     color: var(--Text);
     font-weight: bold;
@@ -594,7 +592,6 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before {
 
 .mention.desaturate-_Twf3u {
     border-radius: 5px;
-    padding: 0 5px;
     color: var(--Text);
     font-weight: bold;
 }
@@ -620,9 +617,11 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before {
     border-radius: var(--Rounding);
 }
 
+/* TYPING DOTS
+
 [class^=typing]>svg[class*=dots] {
     display: none;
-}
+} */
 
 .typing-2J1mQU {
     z-index: 100;
@@ -637,6 +636,8 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before {
     -webkit-user-select: none;
     user-select: none;
     background: transparent;
+    -webkit-transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;
 }
 
 .attachButton-_ACFSu {
@@ -767,23 +768,6 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.status-3cqfT9 {
     height: unset;
     top: 0 !important;
     margin: 5px 0 !important;
-}
-
-.group-spacing-16 [class^=divider][class*=hasContent] {
-    margin: 1rem 0;
-}
-
-.group-spacing-16 [class^=divider][class*=hasContent] [class*=unreadPill] {
-    display: none;
-}
-
-.group-spacing-16 .groupStart-3Mlgv1 {
-    margin: 0;
-}
-
-[class^=homeIcon],
-.children-3xh0VB:after {
-    display: none
 }
 
 .guilds-2JjMmN .tutorialContainer-1pL9QS>div[class^=listItem-]>div[class^=listItemWrapper-]>div {
@@ -2442,7 +2426,6 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 
 .chatContent-3KubbW {
     background-color: transparent;
-    padding: 0 0;
 }
 
 /* EMPTY CHANNEL HEADER */
@@ -4436,6 +4419,8 @@ div[class*=profileBadges-] div:last-child {
     height: 50px;
 }
 
+#app-mount .newChannel-3q3LPr,
+#app-mount .newBadge-1LcB6t,
 #app-mount .newBadge-2NdCeG {
     background-color: var(--Primary) !important;
     color: var(--Text);
@@ -4770,9 +4755,17 @@ div[class*=profileBadges-] div:last-child {
     padding-top: 0px !important;
 }
 
-.avatarSpeaking-2pCGrZ {
-    -webkit-box-shadow: none;
-    box-shadow: none;
+.avatarSpeaking-36V2PN {
+    border-radius: var(--Rounding);
+}
+
+.speaking-3K28iH,
+.avatarSpeaking-36V2PN,
+.avatarSpeaking-2pCGrZ,
+.border-2BJQjd.speaking-3RWJBr,
+.border-2Vy6FN.speaking-7QZEkv {
+    -webkit-box-shadow: inset 0 0 0 2px var(--ui-success),inset 0 0 0 2px var(--bg-ui);
+    box-shadow: inset 0 0 0 2px var( --ui-success),inset 0 0 0 2px var(--bg-ui);
 }
 
 .option-ayUoaq:hover {
@@ -5256,11 +5249,6 @@ div.selected-3veCBZ:hover .name-2m3Cms {
 
 .colorable-3rVGna.primaryDark-2UJt1G {
     background-color: var(--bg-chat-elements);
-}
-
-.border-2BJQjd.speaking-3RWJBr {
-    -webkit-box-shadow: inset 0 0 0 2px var(--ui-success);
-    box-shadow: inset 0 0 0 2px var(--ui-success);
 }
 
 .callAvatarMask-fiNMWy>foreignObject,
