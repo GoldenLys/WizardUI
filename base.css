@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "27-10";
+    --version: "27-11";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -345,6 +345,7 @@ div[class^=folder-],
     border-radius: 0px !important;
 }
 
+.children-3xh0VB:after,
 .lockIcon-3t6Ow0,
 .bannerImage-ubW8K-:before,
 .sectionDivider-189lqb,
@@ -4419,6 +4420,7 @@ div[class*=profileBadges-] div:last-child {
     height: 50px;
 }
 
+#app-mount .newBadge-3reGJW,
 #app-mount .newChannel-3q3LPr,
 #app-mount .newBadge-1LcB6t,
 #app-mount .newBadge-2NdCeG {
@@ -5331,4 +5333,8 @@ div[style*="background-color: rgb(88, 101, 242);"] {
     background: var(--bg-ui);
     border-radius: 0;
     max-width: 100%;
+}
+
+#app-mount .textContentFooter-2JnNv8 {
+    background: linear-gradient(180deg, transparent, var(--darkgrey), var(--darkgrey));
 }
