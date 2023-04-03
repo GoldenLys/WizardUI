@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "27-11";
+    --version: "28";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -355,7 +355,7 @@ div[class^=folder-],
 .bg-1QIAus,
 .channelNotice-tO6Tus,
 .overlayToggleIconOff-3hGOmN>g>rect,
-.iconContainer-21RCa3,
+.iconContainer-21RCa3>svg,
 .dots-1BwzZQ,
 #user-settings .contentRegion-3HkfJJ>div>div>main>div>[class^=divider],
 .option-ayUoaq:after,
@@ -536,6 +536,7 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before {
     z-index: 1;
 }
 
+.containerDefault-YUSmu3.selected-2TbFuo .iconContainer-21RCa3:before,
 .containerDefault-YUSmu3.selected-2TbFuo>svg,
 .containerDefault-YUSmu3.selected-2TbFuo .channelName-3KPsGw {
     color: var(--Primary);
@@ -2409,7 +2410,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
     background-color: var(--bg-servers);
 }
 
-.privateChannels-oVe7HL>div>.content-2a4AW9>div[style="height: 8px;"] {
+.privateChannels-oVe7HL>div>.content-yjf30S>div[style="height: 8px;"] {
     height: 0 !important;
 }
 
@@ -2567,14 +2568,17 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
     }
 }
 
-.content-2a4AW9>div[style="height: 16px;"] {
+.content-yjf30S>div[style^="height"]:not([aria-hidden]) {
     display: flex;
     background-color: var(--grey5);
     height: 24px !important;
     align-items: center;
+    margin: 5px 5px;
+    padding: 0 5px;
+    border-radius: var(--Rounding);
 }
 
-.content-2a4AW9>div[style="height: 16px;"]:after {
+.content-yjf30S>div[style^="height"]:not([aria-hidden]):after {
     content: "No category";
     color: var(--Text);
     text-transform: uppercase;
@@ -2588,12 +2592,13 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 }
 
 /* CHANNELS ICONS */
-.containerDefault-YUSmu3 a .channelName-3KPsGw:before {
+.containerDefault-YUSmu3 .iconContainer-21RCa3:before {
     font-family: "Font Awesome 6 Pro";
     font-weight: 100;
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
     line-height: 20px;
+    color: var(--Text);
 }
 
 /*EVENTS CHANNEL */
@@ -2609,40 +2614,47 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 
 /* VOICE CHANNEL */
 
-.containerDefault-YUSmu3>div:not(.wrapper-NhbLHG) [class^="mainContent"] .channelName-3KPsGw:before {
+.containerDefault-YUSmu3>div:not(.wrapper-NhbLHG) [class^="mainContent"] .iconContainer-21RCa3:before {
     content: "\f6a8";
     margin-right: 5px
 }
 
 /* STAGE CHANNEL */
 
-.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"][aria-label="Stage Channel"] .channelName-3KPsGw:before {
+.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"][aria-label="Stage Channel"] .iconContainer-21RCa3:before {
     content: "\f685";
     margin-right: 5px
 }
 
-.containerDefault-YUSmu3>div>.modeConnected-NrO4cP [class^="mainContent"] .channelName-3KPsGw:before,
-.containerDefault-YUSmu3.selected-2TbFuo>.wrapper-NhbLHG [class^="mainContent"] .channelName-3KPsGw:before {
+.containerDefault-YUSmu3>div>.modeConnected-NrO4cP [class^="mainContent"] .iconContainer-21RCa3:before,
+.containerDefault-YUSmu3.selected-2TbFuo>.wrapper-NhbLHG [class^="mainContent"] .iconContainer-21RCa3:before {
     font-weight: 900;
 }
 
 /* TEXT CHANNEL */
 
-.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"] .channelName-3KPsGw:before {
+.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"] .iconContainer-21RCa3:before {
     content: "\f4a6";
+    margin-right: 5px;
+}
+
+/* FORUM CHANNEL */
+
+.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"] .iconContainer-21RCa3[aria-label="Forum"]:before {
+    content: "\f022";
     margin-right: 5px;
 }
 
 /* THREADS CHANNEL */
 
-.containerDefault-YUSmu3>.wrapper-NhbLHG.typeThread-2Aqh6X [class^="mainContent"] .channelName-3KPsGw:before {
+.containerDefault-YUSmu3>.wrapper-NhbLHG.typeThread-2Aqh6X [class^="mainContent"] .iconContainer-21RCa3:before {
     content: "";
     margin-right: 0;
 }
 
 /* ANNOUNCEMENT CHANNEL */
 
-.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"][aria-label$="(announcement channel)"] .channelName-3KPsGw:before {
+.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"][aria-label$="(announcement channel)"] .iconContainer-21RCa3:before {
     content: "\f675";
     margin-right: 5px
 }
@@ -2661,7 +2673,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
     padding: 5px 10px;
     height: auto;
     margin-top: 0px;
-    border-radius: 0 0 var(--Rounding) var(--Rounding);
+    border-radius: 0 0 5px 5px;
     line-height: 15px;
     font-size: 12px;
 }
