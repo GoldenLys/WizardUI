@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "28-2";
+    --version: "28-3";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -536,9 +536,9 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before {
     z-index: 1;
 }
 
-.containerDefault-YUSmu3.selected-2TbFuo .iconContainer-21RCa3:before,
-.containerDefault-YUSmu3.selected-2TbFuo>svg,
-.containerDefault-YUSmu3.selected-2TbFuo .channelName-3KPsGw {
+.sidebar-1tnWFu .containerDefault-YUSmu3.selected-2TbFuo .iconContainer-21RCa3:before,
+.sidebar-1tnWFu .containerDefault-YUSmu3.selected-2TbFuo>svg,
+.sidebar-1tnWFu .containerDefault-YUSmu3.selected-2TbFuo .channelName-3KPsGw {
     color: var(--Primary);
 }
 
@@ -3161,7 +3161,7 @@ a {
 #app-mount .embed-hKpSrO,
 .gridContainer-1cF_Ic {
     position: relative;
-    max-width: 100% !important;
+    max-width: fit-content !important;
 }
 
 .embedFull-1HGV2S .embedMedia-1mdWSP {
