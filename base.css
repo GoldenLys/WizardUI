@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "28";
+    --version: "28-2";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -2568,7 +2568,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
     }
 }
 
-.content-yjf30S>div[style^="height"]:not([aria-hidden]) {
+.sidebar-1tnWFu .content-yjf30S>div[style^="height"]:not([aria-hidden]) {
     display: flex;
     background-color: var(--grey5);
     height: 24px !important;
@@ -2578,7 +2578,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
     border-radius: var(--Rounding);
 }
 
-.content-yjf30S>div[style^="height"]:not([aria-hidden]):after {
+.sidebar-1tnWFu .content-yjf30S>div[style^="height"]:not([aria-hidden]):after {
     content: "No category";
     color: var(--Text);
     text-transform: uppercase;
@@ -2592,7 +2592,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 }
 
 /* CHANNELS ICONS */
-.containerDefault-YUSmu3 .iconContainer-21RCa3:before {
+.sidebar-1tnWFu .containerDefault-YUSmu3 .iconContainer-21RCa3:before {
     font-family: "Font Awesome 6 Pro";
     font-weight: 100;
     -webkit-font-smoothing: antialiased;
@@ -2602,7 +2602,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 }
 
 /*EVENTS CHANNEL */
-.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"][data-list-item-id^="channels___upcoming-events"] .name-28HaxV:before {
+.sidebar-1tnWFu .containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"][data-list-item-id^="channels___upcoming-events"] .name-28HaxV:before {
     font-family: "Font Awesome 6 Pro";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
@@ -2614,47 +2614,47 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 
 /* VOICE CHANNEL */
 
-.containerDefault-YUSmu3>div:not(.wrapper-NhbLHG) [class^="mainContent"] .iconContainer-21RCa3:before {
+.sidebar-1tnWFu .containerDefault-YUSmu3>div:not(.wrapper-NhbLHG) [class^="mainContent"] .iconContainer-21RCa3:before {
     content: "\f6a8";
     margin-right: 5px
 }
 
 /* STAGE CHANNEL */
 
-.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"][aria-label="Stage Channel"] .iconContainer-21RCa3:before {
+.sidebar-1tnWFu .containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"][aria-label="Stage Channel"] .iconContainer-21RCa3:before {
     content: "\f685";
     margin-right: 5px
 }
 
-.containerDefault-YUSmu3>div>.modeConnected-NrO4cP [class^="mainContent"] .iconContainer-21RCa3:before,
-.containerDefault-YUSmu3.selected-2TbFuo>.wrapper-NhbLHG [class^="mainContent"] .iconContainer-21RCa3:before {
+.sidebar-1tnWFu .containerDefault-YUSmu3>div>.modeConnected-NrO4cP [class^="mainContent"] .iconContainer-21RCa3:before,
+.sidebar-1tnWFu .containerDefault-YUSmu3.selected-2TbFuo>.wrapper-NhbLHG [class^="mainContent"] .iconContainer-21RCa3:before {
     font-weight: 900;
 }
 
 /* TEXT CHANNEL */
 
-.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"] .iconContainer-21RCa3:before {
+.sidebar-1tnWFu .containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"] .iconContainer-21RCa3:before {
     content: "\f4a6";
     margin-right: 5px;
 }
 
 /* FORUM CHANNEL */
 
-.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"] .iconContainer-21RCa3[aria-label="Forum"]:before {
+.sidebar-1tnWFu .containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"] .iconContainer-21RCa3[aria-label="Forum"]:before {
     content: "\f022";
     margin-right: 5px;
 }
 
 /* THREADS CHANNEL */
 
-.containerDefault-YUSmu3>.wrapper-NhbLHG.typeThread-2Aqh6X [class^="mainContent"] .iconContainer-21RCa3:before {
+.sidebar-1tnWFu .containerDefault-YUSmu3>.wrapper-NhbLHG.typeThread-2Aqh6X [class^="mainContent"] .iconContainer-21RCa3:before {
     content: "";
     margin-right: 0;
 }
 
 /* ANNOUNCEMENT CHANNEL */
 
-.containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"][aria-label$="(announcement channel)"] .iconContainer-21RCa3:before {
+.sidebar-1tnWFu .containerDefault-YUSmu3>.wrapper-NhbLHG [class^="mainContent"][aria-label$="(announcement channel)"] .iconContainer-21RCa3:before {
     content: "\f675";
     margin-right: 5px
 }
