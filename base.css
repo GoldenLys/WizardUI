@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "28-4";
+    --version: "28-5";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -155,6 +155,9 @@ textarea {
     padding-top: 0;
 }
 
+.titleContainer-3fPic2,
+.header-JUTO-g,
+.messageContainer-3a6gLR,
 .animatedContainer-2laTjx,
 .container-cH6QoY,
 .wrapper-3HVHpV,
@@ -282,6 +285,7 @@ div[class^=folder-],
     background-color: var(--grey5) !important;
 }
 
+.directoryModal-YJsOMv,
 .keyboardShortcutsModal-2CRmCm,
 .autocomplete-3NRXG8,
 .menu-1QACrS,
@@ -1829,16 +1833,19 @@ div[class^=closedFolderIconWrapper]:before {
 
 /* Log Out */
 
-.side-1lrxIh[aria-label] .item-2GWPIy:nth-last-child(4):before {
+.side-1lrxIh[aria-label] .item-2GWPIy[aria-label="Delete Server"]:before,
+.side-1lrxIh[aria-label] .item-2GWPIy[aria-label="Log Out"]:before {
     color: var(--ui-error);
     content: "\f2f5"
 }
 
-.side-1lrxIh[aria-label] .item-2GWPIy:nth-last-child(4)>div>svg {
+.side-1lrxIh[aria-label] .item-2GWPIy[aria-label="Delete Server"]>div>svg,
+.side-1lrxIh[aria-label] .item-2GWPIy[aria-label="Log Out"]>div>svg {
     display: none;
 }
 
-.side-1lrxIh[aria-label] .item-2GWPIy:nth-last-child(4) {
+.side-1lrxIh[aria-label] .item-2GWPIy[aria-label="Delete Server"],
+.side-1lrxIh[aria-label] .item-2GWPIy[aria-label="Log Out"] {
     color: var(--ui-error) !important;
 }
 
@@ -4929,7 +4936,8 @@ div[class*=profileBadges-] div:last-child {
 .bannerUploader-2hBvKz,
 .popoutBanner-3cqRD9,
 .popoutBannerPremium-3i5EEI,
-.popoutNoBannerPremium-25mwJy {
+.popoutNoBannerPremium-25mwJy,
+.panelBanner-2KnOzw {
     transform: scaleX(1.27);
     height: 100%;
     width: 100%;
