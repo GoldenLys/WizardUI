@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "28-6";
+    --version: "29";
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* 00-0 */
     /* MAIN VARIABLES */
@@ -227,6 +227,7 @@ div[class^=folder-],
     border-radius: var(--Rounding);
 }
 
+.chatHeaderBar-31g1mU,
 .prompt-1sE27N,
 .nowPlayingSidebar-2OFn0o,
 .container-ZMc96U.themed-Hp1KC_,
@@ -669,6 +670,7 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before {
     border-color: var(--Text);
 }
 
+.bd-sidebar-header h2,
 .placeholder-1rCBhr,
 .reaction-3vwAF2 [class^=reactionCount],
 .search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root,
