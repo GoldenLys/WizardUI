@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "29-1"; /* 00-0 */
+    --version: "29-2"; /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -638,6 +638,10 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before {
     background: transparent;
     -webkit-transition: all 0s ease-in-out;
     transition: all 0s ease-in-out;
+}
+
+.card-2JNtco .typing-2J1mQU {
+    position: initial;
 }
 
 .attachButton-_ACFSu {
@@ -2539,12 +2543,16 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
 
 .typing-3AH5vK:before, /* NEW */
 .typing-vATlQt::before, /* NEW */
-.typing-1EYCZF:before, /* NEW */
-.typing-2J1mQU:before {
+.typing-1EYCZF:before,
+.typing-2J1mQU>div>.text-3S7XCz>strong:before {
     content: "✒️";
     color: var(--Text);
     -webkit-animation: writing 1.25s ease infinite !important;
     animation: writing 1.25s ease infinite !important;
+}
+
+.typing-2J1mQU>div>.text-3S7XCz>strong:before {
+    margin-right: 5px;
 }
 
 @keyframes writing {
