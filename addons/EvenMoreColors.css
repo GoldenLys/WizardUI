@@ -19,6 +19,20 @@
 .nickname-3P1RuO,
 .title-3CjiSS,
 .userInfoSectionHeader-2mYYun,
-.userProfileInner-1ngKnf .text-lg-semibold-UQkeZc.defaultColor-1EVLSt {
+.userProfileInner-1ngKnf .text-lg-semibold-UQkeZc.defaultColor-1EVLSt,
+#app-mount .isUnread-3Lojb- .content-3spvdd,
+#app-mount .divider-2rZFJK span,
+.tooltipContent-38tm3I,
+.container-1yy5xN>.header-1dhDWV.header-1PtsUu,
+.container-1yy5xN>.description-22d6ux:after,
+.container-30bdan>.inner--CkhGx>div:after,
+.archivedDivider-2dQ9JY,
+.headerText-3MQ6n4>h3>span {
     color: var(--Primary);
+}
+
+.container-1yy5xN>.header-1dhDWV.header-1PtsUu,
+.container-1yy5xN>.description-22d6ux:after,
+.container-30bdan>.inner--CkhGx>div:after {
+    font-weight: 600;
 }
