@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "29-2"; /* 00-0 */
+    --version: "29-3"; /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -63,6 +63,9 @@
 
 .theme-light,
 .theme-dark {
+    --font-primary: var(--font) !important;;
+    --font-display: var(--font) !important;;
+    --font-headline: var(--font) !important;;
     --header-primary: var(--Text);
     --header-secondary: var(--Text);
     --text-normal: var(--Text);
@@ -102,14 +105,16 @@
     --info-warning-foreground: var(--Primary);
     --info-danger-background: rgba(237, 66, 69, 0.1);
     --info-danger-foreground: var(--ui-error);
+    --status-positive: var(--ui-success);
     --status-positive-background: var(--ui-success);
     --status-positive-text: var(--Text);
+    --status-warning: var(--ui-warning);
     --status-warning-background: var(--ui-warning);
+    --status-warning-text: var(--Text);
     --status-danger: var(--ui-error);
     --status-danger-background: var(--ui-error);
     --status-danger-text: var(--Text);
     --focus-primary: var(--Primary);
-    --font-display: var(--font) !important;
     --brand-experiment: var(--Primary);
     --primary-dark-400: var(--Text);
     --brand-500: var(--Primary);
@@ -720,8 +725,7 @@ foreignObject[mask^="url(#svg-mask-status-idle"]>.status-3cqfT9 {
 
 .status-2DiCMd[style="background-color: rgb(240, 71, 71);"],
 foreignObject[mask^="url(#svg-mask-status-dnd"]>.status-3cqfT9,
-.callAvatarStatus-3vMeXZ.voice-3bPYC-,
-.iconBadge-3Mmg92 {
+.callAvatarStatus-3vMeXZ.voice-3bPYC- {
     background-color: var(--Unavailable) !important;
 }
 
@@ -1122,6 +1126,10 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     display: contents;
     x: 0;
     y: 0;
+}
+
+.avatar-3QF_VA[aria-label$=", Offline"]>svg>circle {
+    opacity: 0 !important;
 }
 
 .assetsLargeImageStreamPreview-3peV91,
@@ -2767,12 +2775,12 @@ svg[width="49"][height="40"]>rect {
     border-radius: 2.5px;
 }
 
-.userInfoSection-1gptv0+.userInfoSection-1gptv0,
+.userInfoSection-2u2hir+.userInfoSection-2u2hir,
 .tabBarContainer-sCZC4w {
     border-color: transparent;
 }
 
-.connectedAccount-2NOwd0,
+.connectedAccount-1oLIrm,
 .listRow-2nO1T6,
 .userProfileActivity-sal5no {
     border-radius: 2.5px;
@@ -3555,7 +3563,7 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item-2LIpTv,
     right: 5px !important;
 }
 
-#status-picker>div>.item-1OdjEX:hover {
+#status-picker>div>.item-5ApiZt:hover {
     background-color: var(--darkgrey);
 }
 
@@ -3603,7 +3611,7 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item-2LIpTv,
     color: var(--Online);
 }
 
-.statusItem-2a1giL .description-22_U3B,
+.statusItem-38ArJn .description-1Dd2kv,
 #account-status-picker--online+.separator-1So4YB {
     display: none;
 }
@@ -4193,7 +4201,7 @@ div[class*=profileBadges-] div:last-child {
     opacity: 1.0;
 }
 
-.userInfoSection-1gptv0+.userInfoSection-1gptv0 {
+.userInfoSection-2u2hir+.userInfoSection-2u2hir {
     border: none;
     flex-direction: column;
     margin: 0px;
@@ -4693,7 +4701,7 @@ div[class*=profileBadges-] div:last-child {
     z-index: -1;
 }
 
-.connectedAccount-2NOwd0 {
+.connectedAccount-1oLIrm {
     overflow: hidden;
     position: relative;
     padding: 16px 10px;
@@ -4895,7 +4903,7 @@ div[class*=profileBadges-] div:last-child {
     padding: 6px 10px;
 }
 
-.submenu-1apzyU .statusItem-2a1giL>svg,
+.submenu-3ycVEH .statusItem-38ArJn>svg,
 .menu-2-eHMB .mainStatusIcon-25wiNY {
     width: 20px;
     height: 20px;
@@ -4903,7 +4911,7 @@ div[class*=profileBadges-] div:last-child {
     margin: 0px;
 }
 
-.submenu-1apzyU .statusItem-2a1giL>svg>foreignObject {
+.submenu-3ycVEH .statusItem-38ArJn>svg>foreignObject {
     mask: none;
     -webkit-mask: none;
     width: 10px;
@@ -4913,23 +4921,24 @@ div[class*=profileBadges-] div:last-child {
 }
 
 .menu-2-eHMB .mainStatusIcon-25wiNY>foreignObject {
-    width: 14px;
-    height: 14px;
+    width: 20px;
+    height: 20px;
     x: 0;
     y: 0;
+    -webkit-mask: none;
+    mask: none;
 }
 
 .menu-2-eHMB .mainStatusIcon-25wiNY>foreignObject>.status-2DiCMd,
-.submenu-1apzyU .statusItem-2a1giL>svg>foreignObject>.status-2DiCMd {
+.submenu-3ycVEH .statusItem-38ArJn>svg>foreignObject>.status-2DiCMd {
     background-color: currentColor !important;
 }
-
-.submenu-1apzyU .statusItem-2a1giL>.status-qmUf7L,
-.menu-2-eHMB .mainStatusIcon-25wiNY>.status-qmUf7L {
+.submenu-3ycVEH .statusItem-38ArJn>.status-2xYiEF,
+.menu-2-eHMB .mainStatusIcon-25wiNY>.status-2xYiEF {
     padding-left: 5px;
 }
 
-#account-status-picker.item-1OdjEX>.iconContainer-1-SsTR {
+#account-status-picker.item-5ApiZt>.iconContainer-Ksy8Oj {
     width: 20px;
     height: 20px;
 }
@@ -5224,7 +5233,7 @@ div.selected-3veCBZ:hover .name-2m3Cms {
     margin: 0 0;
 }
 
-.connectedAccountContainerWithMetadata-3NgWeX {
+.connectedAccountContainerWithMetadata-3_IQ7D {
     position: relative;
     width: auto;
     padding: 16px 10px;
@@ -5233,13 +5242,13 @@ div.selected-3veCBZ:hover .name-2m3Cms {
     background-color: var(--bg-ui);
 }
 
-.connectedAccountContainerWithMetadata-3NgWeX>.connectedAccount-2NOwd0 {
+.connectedAccountContainerWithMetadata-3_IQ7D>.connectedAccount-1oLIrm {
     padding: 0;
     position: initial;
     background-color: transparent;
 }
 
-.connectedAccountContainerWithMetadata-3NgWeX>.connectedAccountChildren-2jEgw3 {
+.connectedAccountContainerWithMetadata-3_IQ7D>.connectedAccountChildren-2jEgw3 {
     margin-left: 48px;
 }
 
@@ -5356,4 +5365,16 @@ div[style*="background-color: rgb(88, 101, 242);"] {
 .rem-3kT9wc.botTag-7aX5WZ.botTagOP-3pUTXu {
     border-radius: var(--Rounding);
     margin-top: 0px;
+}
+
+.iconWrapper-2awDjA.clickable-ZD7xvu .count-vTKEhF {
+    border-radius: var(--Rounding);
+    background-color: var(--Primary);
+    padding: 1px 4px;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.iconBadge-3Mmg92 {
+    background-color: var(--ui-success);
 }
