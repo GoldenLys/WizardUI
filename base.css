@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "29-4"; /* 00-0 */
+    --version: "29-5"; /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -5085,12 +5085,6 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
     padding: 5px 10px;
 }
 
-.userProfileInner-1ngKnf:before {
-    margin: 4px 4px 0;
-    background-color: transparent;
-}
-
-
 /* Small profile */
 .userProfileInner-1ngKnf.userProfileInnerThemedWithBanner-25XGmz:before,
 .userProfileInner-1ngKnf.userProfileInnerWithBanner-3CJ1Og:before {
@@ -5385,5 +5379,8 @@ div[style*="background-color: rgb(88, 101, 242);"] {
 
 .flowerStar-2tNFCR>path[fill] {
     fill: var(--ui-warning);
+}
 
+.profilePanel-2VBkh8>div>.userProfileInner-1ngKnf:not(.userProfileModalInner-3dx9L9) {
+    width: auto!important;
 }
