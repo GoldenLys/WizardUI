@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "29-5"; /* 00-0 */
+    --version: "29-6"; /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -5383,4 +5383,9 @@ div[style*="background-color: rgb(88, 101, 242);"] {
 
 .profilePanel-2VBkh8>div>.userProfileInner-1ngKnf:not(.userProfileModalInner-3dx9L9) {
     width: auto!important;
+}
+
+.userProfileInnerThemedPremiumWithoutBanner-lZ9inp.userProfileInner-1ngKnf:before {
+    height: calc(100% - 0px);
+    width: calc(100% - 0px);
 }
