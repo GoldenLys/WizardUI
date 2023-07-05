@@ -75,7 +75,7 @@
     margin-left: 5px;
 }
 
-#app-mount [class*="pill"]:not(.pill-3pRQlO) {
+#app-mount [class*="pill-"]:not(.pill-3pRQlO):not(.pillOnline-345ee0):not([class*=pillMessage-]) {
     transform: rotate(90deg) translateY(-50%);
     height: var(--ServerSize);
     width: 5px;
@@ -83,12 +83,22 @@
     margin-left: -2px;
 }
 
-#app-mount [class*="pill"]:not(.pill-3pRQlO)>span {
+#app-mount [class*="pill-"]:not(.pill-3pRQlO):not(.pillOnline-345ee0):not([class*=pillMessage-])>span {
     width: 5px;
+}
+
+#app-mount .pillMessage-3pHz6R {
+    width: 100% !important;
 }
 
 #app-mount .guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child)>.listItem-3SmSlK {
     position: initial;
     width: var(--ServerSize);
     height: var(--ServerSize);
+}
+
+#app-mount .activityCount-2n5Mj9>.pill-qMtBTq.pillOnline-345ee0+.pill-qMtBTq {
+    transform: none;
+    width: auto;
+    height: auto;
 }
