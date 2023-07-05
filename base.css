@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "29-6"; /* 00-0 */
+    --version: "29-7"; /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -58,6 +58,7 @@
     /* ROUNDING */
     --Rounding: 5px;
     --StatusRounding: 4.5;
+    --AppName: "DISCORD";
     --Watermark: "WizardUI";
 }
 
@@ -447,7 +448,7 @@ div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie,
 }
 
 .wordmark-2u86JB:before {
-    content: "DISCORD";
+    content: var(--AppName);
     font-weight: bold;
     font-size: 15px;
 }
@@ -3467,7 +3468,6 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item-2LIpTv,
     color: var(--ui-success);
 }
 
-
 .passthrough--fbdFR.selected-3jieYB {
     background-color: var(--Primary);
     color: var(--Text);
@@ -5388,4 +5388,40 @@ div[style*="background-color: rgb(88, 101, 242);"] {
 .userProfileInnerThemedPremiumWithoutBanner-lZ9inp.userProfileInner-1ngKnf:before {
     height: calc(100% - 0px);
     width: calc(100% - 0px);
+}
+
+.container-YkUktl .avatar-1EWyVD[aria-label]+.nameTag-sc-gpq .subtext-2HDqJ7>div>.default-rFvAvS {
+    display: inline-flex;
+    align-items: center;
+}
+
+.container-YkUktl .avatar-1EWyVD[aria-label]+.nameTag-sc-gpq .subtext-2HDqJ7>div>.default-rFvAvS:before {
+    content: " ";
+    z-index: 1;
+    position: relative;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border-radius: var(--Rounding);
+}
+
+.container-YkUktl .avatar-1EWyVD[aria-label$=", Online"]+.nameTag-sc-gpq .subtext-2HDqJ7>div>.default-rFvAvS:before {
+    background: var(--Online);
+}
+
+.container-YkUktl .avatar-1EWyVD[aria-label$=", Idle"]+.nameTag-sc-gpq .subtext-2HDqJ7>div>.default-rFvAvS:before {
+    background: var(--Idle);
+}
+
+.container-YkUktl .avatar-1EWyVD[aria-label$=", Do Not Disturb"]+.nameTag-sc-gpq .subtext-2HDqJ7>div>.default-rFvAvS:before {
+    background: var(--Unavailable);
+}
+
+.container-YkUktl .avatar-1EWyVD[aria-label$=", Invisible"]+.nameTag-sc-gpq .subtext-2HDqJ7>div>.default-rFvAvS:before {
+    background: var(--Offline);
+}
+
+path[d="M0.5,0 L0.5,1.5 C0.5,5.65 2.71,9.28 6,11.3 L6,16 L21,16 L21,14 C21,11.34 15.67,10 13,10 C13,10 12.83,10 12.75,10 C8,10 4,6 4,1.5 L4,0 L0.5,0 Z M13,0 C10.790861,0 9,1.790861 9,4 C9,6.209139 10.790861,8 13,8 C15.209139,8 17,6.209139 17,4 C17,1.790861 15.209139,0 13,0 Z"] {
+    display: none;
 }

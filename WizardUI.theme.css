@@ -34,6 +34,8 @@
 *:before,
 *:after {
     /* MAIN VARIABLES */
+    --AppName: "DISCORD";
+    --Watermark: "WizardUI";
     --font: 'Quicksand', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
     --logo: url(https://goldenlys.github.io/WUITG/images/home.png);
