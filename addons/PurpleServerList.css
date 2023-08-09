@@ -22,10 +22,6 @@
     width: calc(100% + 30px);
 }
 
-#app-mount .guilds-2JjMmN [class*=listItem]:not([class*=listItemWrapper]) {
-    padding: 2.5px 0px 2.5px 0px;
-}
-
 #app-mount .guilds-2JjMmN .scrollerBase-1Pkza4 {
     padding: var(--ServerSpacing) 0 !important;
     display: flex;
