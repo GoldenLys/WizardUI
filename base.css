@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "29-9"; /* 00-0 */
+    --version: "29-10"; /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -1261,14 +1261,19 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     opacity: .85;
 }
 
-#app-mount .spoilerText-2G40u0.hidden-2lQZ5q>span {
+#app-mount .spoilerContent-32CqO-.hidden-2lQZ5q>span {
+    color: var(--Text);
     opacity: 1;
     -webkit-filter: blur(3px);
     filter: blur(3px);
     pointer-events: all;
 }
 
-#app-mount .spoilerText-2G40u0 {
+.obscuredTextContentInner-2ytmvF {
+    color: var(--Text);
+}
+
+#app-mount .spoilerContent-32CqO- {
     background-color: transparent;
 }
 
@@ -2266,7 +2271,7 @@ div[class^=pill] {
 #app-mount .guilds-2JjMmN [class*=listItem]:not([class*=listItemWrapper]) {
     margin: var(--ServerSpacing);
     border-radius: 2.5px;
-    padding: 2.5px 0px 2.5px 0px;
+    padding: 0;
 }
 
 .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-3kah-n>.listItem-3SmSlK>div[class^=pill] {
@@ -2286,7 +2291,8 @@ div[class^=pill] {
 
 /* PMs */
 
-div[class^=tutorialContainer] {
+.tutorialContainer-1pL9QS {
+    display: flex;
     order: 0;
 }
 
@@ -2328,11 +2334,10 @@ div[class^=expandedFolderIconWrapper] {
     order: 3;
 }
 
-div[class^=tutorialContainer],
 div[class^=tutorialContainer]+.listItem-3SmSlK {
+    display: flex;
     order: 2;
 }
-
 
 #app-mount .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style]) {
     position: relative;
