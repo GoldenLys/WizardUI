@@ -1,0 +1,91 @@
+@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/selectors.css");
+
+@keyframes RGB_TEXT {
+	0% {
+		color: var(--Primary)
+	}
+
+	51% {
+		color: var(--Color2)
+	}
+
+	to {
+		color: var(--Primary)
+	}
+}
+
+@keyframes RGB_BG {
+	0% {
+		background: var(--Primary)
+	}
+
+	51% {
+		background: var(--Color2)
+	}
+
+	to {
+		background: var(--Primary)
+	}
+}
+
+@keyframes RGB_BG-SHADOW {
+	0% {
+		background: var(--Primary);
+		box-shadow: 0 0 5px var(--Primary)
+	}
+
+	51% {
+		background: var(--Color2);
+		box-shadow: 0 0 5px var(--Color2)
+	}
+
+	to {
+		background: var(--Primary);
+		box-shadow: 0 0 5px var(--Primary)
+	}
+}
+
+@-webkit-keyframes RGB_TEXT {
+	0% {
+		color: var(--Primary)
+	}
+
+	51% {
+		color: var(--Color2)
+	}
+
+	to {
+		color: var(--Primary)
+	}
+}
+
+@-webkit-keyframes RGB_BG {
+	0% {
+		background: var(--Primary)
+	}
+
+	51% {
+		background: var(--Color2)
+	}
+
+	to {
+		background: var(--Primary)
+	}
+}
+
+@-webkit-keyframes RGB_BG-SHADOW {
+	0% {
+		background: var(--Primary);
+		box-shadow: 0 0 5px var(--Primary)
+	}
+
+	51% {
+		background: var(--Color2);
+		box-shadow: 0 0 5px var(--Color2)
+	}
+
+	to {
+		background: var(--Primary);
+		box-shadow: 0 0 5px var(--Primary)
+	}
+}

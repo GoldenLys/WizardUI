@@ -1,0 +1,143 @@
+@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/selectors.css");
+
+@keyframes RGB_TEXT {
+	0% {
+		color: var(--Primary)
+	}
+
+	26% {
+		color: var(--Color2)
+	}
+
+	52% {
+		color: var(--Color3)
+	}
+
+	78% {
+		color: var(--Color4)
+	}
+
+	to {
+		color: var(--Primary)
+	}
+}
+
+@keyframes RGB_BG {
+	0% {
+		background: var(--Primary)
+	}
+
+	26% {
+		background: var(--Color2)
+	}
+
+	52% {
+		background: var(--Color3)
+	}
+
+	78% {
+		background: var(--Color4)
+	}
+
+	to {
+		background: var(--Primary)
+	}
+}
+
+@keyframes RGB_BG-SHADOW {
+	0% {
+		background: var(--Primary);
+		box-shadow: 0 0 5px var(--Primary)
+	}
+
+	26% {
+		background: var(--Color2);
+		box-shadow: 0 0 5px var(--Color2)
+	}
+
+	52% {
+		background: var(--Color3);
+		box-shadow: 0 0 5px var(--Color3)
+	}
+
+	78% {
+		background: var(--Color4);
+		box-shadow: 0 0 5px var(--Color4)
+	}
+
+	to {
+		background: var(--Primary);
+		box-shadow: 0 0 5px var(--Primary)
+	}
+}
+
+@-webkit-keyframes RGB_TEXT {
+	0% {
+		color: var(--Primary)
+	}
+
+	26% {
+		color: var(--Color2)
+	}
+
+	52% {
+		color: var(--Color3)
+	}
+
+	78% {
+		color: var(--Color4)
+	}
+
+	to {
+		color: var(--Primary)
+	}
+}
+
+@-webkit-keyframes RGB_BG {
+	0% {
+		background: var(--Primary)
+	}
+
+	26% {
+		background: var(--Color2)
+	}
+
+	52% {
+		background: var(--Color3)
+	}
+
+	78% {
+		background: var(--Color4)
+	}
+
+	to {
+		background: var(--Primary)
+	}
+}
+
+@-webkit-keyframes RGB_BG-SHADOW {
+	0% {
+		background: var(--Primary);
+		box-shadow: 0 0 5px var(--Primary)
+	}
+
+	26% {
+		background: var(--Color2);
+		box-shadow: 0 0 5px var(--Color2)
+	}
+
+	52% {
+		background: var(--Color3);
+		box-shadow: 0 0 5px var(--Color3)
+	}
+
+	78% {
+		background: var(--Color4);
+		box-shadow: 0 0 5px var(--Color4)
+	}
+
+	to {
+		background: var(--Primary);
+		box-shadow: 0 0 5px var(--Primary)
+	}
+}

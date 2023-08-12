@@ -9,8 +9,8 @@
 *,
 *:before,
 *:after {
-    --build: "B";
-    --version: "30"; /* 00-0 */
+    --build: "R";
+    --version: "1-0"; /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -60,6 +60,15 @@
     --StatusRounding: 4.5;
     --AppName: "DISCORD";
     --Watermark: "WizardUI";
+    /* RGB ADDON */
+    --ColorTime: 2s;
+    --Color2: rgb(0, 225, 255);
+	--Color3: rgb(0 0 0);
+	--Color4: rgb(0 0 0);
+	--Color5: rgb(0 0 0);
+	--Color6: rgb(0 0 0);
+	--Color7: rgb(0 0 0);
+	--Color8: rgb(0 0 0);
 }
 
 .theme-light,

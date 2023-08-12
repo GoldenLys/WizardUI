@@ -1,10 +1,10 @@
 /**
 * @name WizardUI
-* @author NEBULYS#0984
+* @author NEBULYS
 * @authorLink https://github.com/GoldenLys
 * @version BETA
 * @invite SBuYeHh
-* @description An amazing theme with full customization included, made with 💖 by Purple Wizard.
+* @description An amazing fully customizable theme, made with 💖 by NEBULYS.
 * @website https://purplewizard.space/
 */
 
@@ -27,8 +27,8 @@
 /* This is an addon that moves the "user is typing" text to the bottom of the app, like the default discord.
 @import url("https://goldenlys.github.io/WizardUI/addons/UserIsTyping.css"); */
 
-/* This is an addon that recolor most titles in the app with the main theme color.
-@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors.css"); */
+/* This is an addon that recolors most titles in the app with the main theme color or even add RGB if you change the number before the ".css" (with a maximum of 4 for now).
+@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/1.css"); */
 
 *,
 *:before,
@@ -40,7 +40,7 @@
     --Text: rgb(255, 255, 255);
     --logo: url(https://goldenlys.github.io/WUITG/images/home.png);
 
-     /* STATUS VARIABLES */
+    /* STATUS VARIABLES */
     --Online: rgb(0, 255, 6);
     --Idle: rgb(18, 100, 239);
     --Unavailable: rgb(228, 15, 0);
@@ -85,4 +85,14 @@
     /* ROUNDING */
     --Rounding: 5px;
     --StatusRounding: 4.5;
+
+    /* RGB ADDON */
+    --ColorTime: 2s;
+    --Color2: rgb(0, 225, 255);
+    --Color3: rgb(0 0 0);
+    --Color4: rgb(0 0 0);
+    --Color5: rgb(0 0 0);
+    --Color6: rgb(0 0 0);
+    --Color7: rgb(0 0 0);
+    --Color8: rgb(0 0 0);
 }

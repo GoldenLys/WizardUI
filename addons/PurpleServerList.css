@@ -31,6 +31,7 @@
     gap: var(--ServerSpacing);
     flex-wrap: nowrap;
     align-items: center;
+    width: calc(var(--ServerSize) + 15px);
 }
 
 #app-mount .guilds-2JjMmN [class*=listItem]:not([class*=listItemWrapper]) {
