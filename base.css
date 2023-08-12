@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "R";
-    --version: "1-0"; /* 00-0 */
+    --version: "1-1"; /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -276,6 +276,7 @@ div[class^=folder-],
     background-color: transparent !important;
 }
 
+#app-mount .container-3M84ky:not(.playing-1NDSYY) .playButtonContainer-2F2cAR,
 .hoverButtonGroup-2yZIzC,
 #app-mount .checkbox-f1HnKB.checked-1pZh2h {
     background-color: var(--Primary) !important;
@@ -701,12 +702,12 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before {
 
 .reaction-3vwAF2[class*=reactionMe] {
     background-color: var(--Primary);
-    border-color: var(--Primary);
+    border-color: transparent;
 }
 
 .reaction-3vwAF2[class*=reactionMe]:hover {
     background-color: var(--Text);
-    border-color: var(--Primary);
+    border-color: transparent;
     color: var(--Primary);
 }
 
@@ -1475,7 +1476,7 @@ div[class^=circleIconButton-],
 .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])+div[class^=tutorialContainer]+.listItem-3SmSlK div[class^=circleIconButton-],
 div[class^=folderIconWrapper]:not([style]),
 div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);"] {
-    background: var(--Primary) !important;
+    background-color: var(--Primary);
     border-radius: var(--Rounding);
 }
 

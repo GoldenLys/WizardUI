@@ -1,8 +1,31 @@
-.unused_backgrounds_anims {
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz,
+.reaction-3vwAF2[class*=reactionMe],
+#app-mount .container-3M84ky:not(.playing-1NDSYY) .playButtonContainer-2F2cAR,
+#app-mount .container-3M84ky.playing-1NDSYY>div>.ripple-FNGiLO,
+.embedProvider-1GSN0c>a:before, .embedProvider-1GSN0c>span:before,
+.channel-1Shao0 .selected-26oxtA:before,
+div.selected-1-Z6gm.member-2gU6Ar:after,
+div.selected-3veCBZ:before,
+div.wrapper-NhbLHG[class*="modeSelected-"]:before,
+.info-3pQQBb:before,
+.mentioned-Tre-dv:before,
+.closeButton-PCZcma,
+.tutorialContainer-2jwoiB .circleIconButton-1VxDrg,
+.tutorialContainer-2jwoiB+.listItem-3SmSlK .circleIconButton-1VxDrg,
+.progressBar-2yl2pi {
 	animation: RGB_BG var(--ColorTime) linear infinite !important;
 	-webkit-animation: RGB_BG var(--ColorTime) linear infinite !important;
 }
 
+#bd-settings-sidebar .ui-tab-bar-header,
+.header-2Kx1US,
+.name-IbjUBS,
+.membersGroup-2eiWxl>span,
+.inviteDestinationJoined-dZrdzT,
+.optionHeader-27AHfD,
+.sidebar-1tnWFu .containerDefault-YUSmu3.selected-2TbFuo .iconContainer-21RCa3:before,
+.sidebar-1tnWFu .containerDefault-YUSmu3.selected-2TbFuo>svg,
+.sidebar-1tnWFu .containerDefault-YUSmu3.selected-2TbFuo .channelName-3KPsGw,
 .name-3Uvkvr,
 .name-3BUDLf,
 .title-17SveM,
@@ -32,7 +55,9 @@
 .container-1yy5xN>.description-22d6ux:after,
 .container-30bdan>.inner--CkhGx>div:after,
 .archivedDivider-2dQ9JY,
-.headerText-3MQ6n4>h3>span {
+.headerText-3MQ6n4>h3>span,
+.anchor-1X4H4q,
+.users-2JoyGL {
 	animation: RGB_TEXT var(--ColorTime) linear infinite !important;
 	-webkit-animation: RGB_TEXT var(--ColorTime) linear infinite !important;
 }
@@ -40,5 +65,5 @@
 .container-1yy5xN>.header-1dhDWV.header-1PtsUu,
 .container-1yy5xN>.description-22d6ux:after,
 .container-30bdan>.inner--CkhGx>div:after {
-    font-weight: 600;
+	font-weight: 600;
 }

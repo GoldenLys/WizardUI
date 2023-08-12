@@ -24,49 +24,49 @@
 
 @keyframes RGB_BG {
 	0% {
-		background: var(--Primary)
+		background-color: var(--Primary)
 	}
 
 	26% {
-		background: var(--Color2)
+		background-color: var(--Color2)
 	}
 
 	52% {
-		background: var(--Color3)
+		background-color: var(--Color3)
 	}
 
 	78% {
-		background: var(--Color4)
+		background-color: var(--Color4)
 	}
 
 	to {
-		background: var(--Primary)
+		background-color: var(--Primary)
 	}
 }
 
 @keyframes RGB_BG-SHADOW {
 	0% {
-		background: var(--Primary);
+		background-color: var(--Primary);
 		box-shadow: 0 0 5px var(--Primary)
 	}
 
 	26% {
-		background: var(--Color2);
+		background-color: var(--Color2);
 		box-shadow: 0 0 5px var(--Color2)
 	}
 
 	52% {
-		background: var(--Color3);
+		background-color: var(--Color3);
 		box-shadow: 0 0 5px var(--Color3)
 	}
 
 	78% {
-		background: var(--Color4);
+		background-color: var(--Color4);
 		box-shadow: 0 0 5px var(--Color4)
 	}
 
 	to {
-		background: var(--Primary);
+		background-color: var(--Primary);
 		box-shadow: 0 0 5px var(--Primary)
 	}
 }
@@ -95,49 +95,49 @@
 
 @-webkit-keyframes RGB_BG {
 	0% {
-		background: var(--Primary)
+		background-color: var(--Primary)
 	}
 
 	26% {
-		background: var(--Color2)
+		background-color: var(--Color2)
 	}
 
 	52% {
-		background: var(--Color3)
+		background-color: var(--Color3)
 	}
 
 	78% {
-		background: var(--Color4)
+		background-color: var(--Color4)
 	}
 
 	to {
-		background: var(--Primary)
+		background-color: var(--Primary)
 	}
 }
 
 @-webkit-keyframes RGB_BG-SHADOW {
 	0% {
-		background: var(--Primary);
+		background-color: var(--Primary);
 		box-shadow: 0 0 5px var(--Primary)
 	}
 
 	26% {
-		background: var(--Color2);
+		background-color: var(--Color2);
 		box-shadow: 0 0 5px var(--Color2)
 	}
 
 	52% {
-		background: var(--Color3);
+		background-color: var(--Color3);
 		box-shadow: 0 0 5px var(--Color3)
 	}
 
 	78% {
-		background: var(--Color4);
+		background-color: var(--Color4);
 		box-shadow: 0 0 5px var(--Color4)
 	}
 
 	to {
-		background: var(--Primary);
+		background-color: var(--Primary);
 		box-shadow: 0 0 5px var(--Primary)
 	}
 }
