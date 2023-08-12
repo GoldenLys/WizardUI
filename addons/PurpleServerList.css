@@ -16,6 +16,8 @@
     bottom: unset;
     position: absolute !important;
     left: 0;
+    flex-wrap: wrap;
+    place-content: center;
 }
 
 .scrollerWrap-1IAIlv {
@@ -27,12 +29,21 @@
     display: flex;
     flex-direction: column;
     gap: var(--ServerSpacing);
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 #app-mount .guilds-2JjMmN [class*=listItem]:not([class*=listItemWrapper]) {
-    width: var(--ServerSize);
     transform: rotate(90deg);
     position: unset;
+    width: var(--ServerSize);
+}
+
+#app-mount .wrapper-38slSD {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
 }
 
 #app-mount .guilds-2JjMmN .scrollerBase-1Pkza4>div[style]:not(.listItem-2P_4kh) {
@@ -51,32 +62,27 @@
     left: -6px;
 }
 
-#app-mount .guilds-2JjMmN.hidden-10MsGQ + .base-2jDfDU {
+#app-mount .guilds-2JjMmN.hidden-10MsGQ+.base-2jDfDU {
     top: 0 !important;
 }
 
 #app-mount [class*="expandedFolderBackground"] {
     width: var(--ServerSize);
-    left: 5px;
+    left: 7.5px;
     height: calc(100% - 10px);
-    top: auto;
+    top: 10px;
 }
 
 #app-mount .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-38slSD [class^=expandedFolderBackground]:not(.collapsed-uGXEbi)+.listItem-3SmSlK+ul {
     height: auto !important;
 }
 
-#app-mount .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-38slSD [class^=expandedFolderBackground]:not(.collapsed-uGXEbi)+.listItem-3SmSlK+ul>.listItem-3SmSlK {
-    margin-top: -5px;
-    margin-left: 5px;
-}
-
 #app-mount [class*="pill-"]:not(.pill-3pRQlO):not(.pillOnline-345ee0):not([class*=pillMessage-]) {
     transform: rotate(90deg) translateY(-50%);
     height: var(--ServerSize);
     width: 5px;
-    top: calc(var(--ServerSize) / -1 + var(--ServerSize) / 2 - 2.5px) !important;
-    margin-left: -2px;
+    top: calc(var(--ServerSize) / -1 + var(--ServerSize) / 2 - 5px) !important;
+    left: -2px;
 }
 
 #app-mount [class*="pill-"]:not(.pill-3pRQlO):not(.pillOnline-345ee0):not([class*=pillMessage-])>span {
@@ -97,4 +103,11 @@
     transform: none;
     width: auto;
     height: auto;
+}
+
+#app-mount .guilds-2JjMmN [class*=listItem]:not([class*=listItemWrapper])>.wrapper-3XVBev {
+    width: var(--ServerSize);
+    height: var(--ServerSize);
+    top: 0px;
+    bottom: 0px;
 }

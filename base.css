@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "B";
-    --version: "29-10"; /* 00-0 */
+    --version: "30"; /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -52,7 +52,7 @@
     /* SERVER SETTINGS */
     --ServerSize: 45px;
     --ServerColumns: 1;
-    --ServerSpacing: 5px 0px 0px 5px;
+    --ServerSpacing: 3.5px 0px 3.5px 0px;
     --ServerPills: var(--Primary);
     --ServerFoldersColor: var(--Primary);
     /* ROUNDING */
@@ -126,6 +126,7 @@
     --mention-foreground: var(--Text);
     --mention-background: var(--Hover);
     --home-background: transparent;
+    --red-400: var(--ui-error);
 }
 
 #app-mount.appMount-2yBXZl {
@@ -2293,6 +2294,8 @@ div[class^=pill] {
 
 .tutorialContainer-1pL9QS {
     display: flex;
+    place-content: center;
+    flex-wrap: wrap;
     order: 0;
 }
 
@@ -2331,11 +2334,17 @@ div[class^=expandedFolderIconWrapper] {
 
 #app-mount .guilds-2JjMmN .scroller-3X7KbA>div[style*="opacity: 1;"]:not(:first-child) {
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
     order: 3;
 }
 
-div[class^=tutorialContainer]+.listItem-3SmSlK {
+.tutorialContainer-2jwoiB,
+.tutorialContainer-2jwoiB+.listItem-3SmSlK {
     display: flex;
+    flex-wrap: wrap;
+    place-content: center;
     order: 2;
 }
 
@@ -2347,6 +2356,8 @@ div[class^=tutorialContainer]+.listItem-3SmSlK {
     margin: auto 0;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 .guilds-2JjMmN .scroller-3X7KbA>.listItem-3SmSlK:first-child+.listItem-3SmSlK:not([style]),
