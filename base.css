@@ -10,7 +10,7 @@
 *:before,
 *:after {
     --build: "R";
-    --version: "1-1"; /* 00-0 */
+    --version: "1-2"; /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -51,7 +51,6 @@
     --bg-colorprofile: var(--bg-ui);
     /* SERVER SETTINGS */
     --ServerSize: 45px;
-    --ServerColumns: 1;
     --ServerSpacing: 3.5px 0px 3.5px 0px;
     --ServerPills: var(--Primary);
     --ServerFoldersColor: var(--Primary);
@@ -136,6 +135,9 @@
     --mention-background: var(--Hover);
     --home-background: transparent;
     --red-400: var(--ui-error);
+    --yellow-360: var(--ui-warning);
+    --green-360: var(--ui-success);
+    --status-speaking: var(--ui-success);
 }
 
 #app-mount.appMount-2yBXZl {
@@ -234,6 +236,9 @@ div[class^=folder-],
     background-color: var(--bg-chatbox) !important;
 }
 
+.imageUploaderInner-IIRaFr,
+.playButtonContainer-2F2cAR,
+.container-3M84ky,
 .hoverButtonGroup-2yZIzC,
 .wrapper-3Un6-K>svg>foreignObject,
 .callContainer-BGIngG,
@@ -279,7 +284,8 @@ div[class^=folder-],
 #app-mount .container-3M84ky:not(.playing-1NDSYY) .playButtonContainer-2F2cAR,
 .hoverButtonGroup-2yZIzC,
 #app-mount .checkbox-f1HnKB.checked-1pZh2h {
-    background-color: var(--Primary) !important;
+    background-image: none;
+    background-color: var(--Primary);
 }
 
 .addTags-26suzl,
@@ -5412,6 +5418,7 @@ div[style*="background-color: rgb(88, 101, 242);"] {
     font-size: 14px;
 }
 
+.sliderBar-KOK-WE.speaking-SfTXJs,
 .iconBadge-3Mmg92 {
     background-color: var(--ui-success);
 }
@@ -5475,4 +5482,9 @@ div[style*="background-color: rgb(88, 101, 242);"] {
 
 path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.833333 5H2.08333V8.33333H4.16667Z"] {
     fill: var(--Text);
+}
+
+.customizationSection-IGy2fS .avatarUploader-qEFQS2 {
+    top: 10px;
+    left: 10px;
 }

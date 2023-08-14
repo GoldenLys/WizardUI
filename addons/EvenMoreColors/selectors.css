@@ -1,3 +1,6 @@
+.barFill-3RgCsY,
+.lookFilled-1H2Jvj.colorBrand-2M3O3N,
+.hoverButtonGroup-2yZIzC.nonMediaAttachment-3C_4Pd,
 .lookFilled-1H2Jvj.colorPrimary-2-Lusz,
 .reaction-3vwAF2[class*=reactionMe],
 #app-mount .container-3M84ky:not(.playing-1NDSYY) .playButtonContainer-2F2cAR,
@@ -17,6 +20,7 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before,
 	-webkit-animation: RGB_BG var(--ColorTime) linear infinite !important;
 }
 
+.lookLink-13iF2K.colorLink-34zig_,
 #bd-settings-sidebar .ui-tab-bar-header,
 .header-2Kx1US,
 .name-IbjUBS,
@@ -56,7 +60,7 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before,
 .container-30bdan>.inner--CkhGx>div:after,
 .archivedDivider-2dQ9JY,
 .headerText-3MQ6n4>h3>span,
-.anchor-1X4H4q,
+.anchor-1X4H4q:not(.hoverButton-36QWJk),
 .users-2JoyGL {
 	animation: RGB_TEXT var(--ColorTime) linear infinite !important;
 	-webkit-animation: RGB_TEXT var(--ColorTime) linear infinite !important;

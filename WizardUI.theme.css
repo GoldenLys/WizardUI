@@ -78,7 +78,6 @@
 
     /* SERVER SETTINGS */
     --ServerSize: 45px;
-    --ServerColumns: 1;
     --ServerSpacing: 3.5px 0px 3.5px 0px;
     --ServerPills: var(--Primary);
 
