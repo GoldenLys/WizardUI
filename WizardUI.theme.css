@@ -30,9 +30,7 @@
 /* This is an addon that recolors most titles in the app with the main theme color or even add RGB if you change the number before the ".css" (with a maximum of 4 for now).
 @import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/1.css"); */
 
-*,
-*:before,
-*:after {
+:root {
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
     --Watermark: "WizardUI";

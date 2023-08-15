@@ -6,11 +6,9 @@
     src: url('https://goldenlys.github.io/WizardUI/NotoColorEmoji.ttf') format('truetype');
 }
 
-*,
-*:before,
-*:after {
+:root {
     --build: "R";
-    --version: "1-2"; /* 00-0 */
+    --version: "1-3"; /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -347,31 +345,41 @@ div[class^=folder-],
     background-color: var(--Highlighted);
 }
 
-*::-webkit-scrollbar-thumb {
+.thin-RnSY0a::-webkit-scrollbar-thumb,
+.auto-2TJ1RH::-webkit-scrollbar-thumb,
+.scrolling-37kgoT.fade-27X6bG:focus-within::-webkit-scrollbar-thumb,
+.scrollbarDefault-2w-Dyz::-webkit-scrollbar-thumb,
+.auto-1QyTTa::-webkit-scrollbar-thumb {
     border-radius: 2.5px !important;
     background-color: var(--Primary) !important;
     border: 1px solid var(--grey);
 }
 
-.scroller-kQBbkU::-webkit-scrollbar-thumb {
-    border-radius: 2.5px !important;
-    border: 1px solid var(--grey);
+.thin-RnSY0a::-webkit-scrollbar-track,
+.auto-2TJ1RH::-webkit-scrollbar-track,
+.scrolling-37kgoT.fade-27X6bG:focus-within::-webkit-scrollbar-track,
+.scrollbarDefault-2w-Dyz::-webkit-scrollbar-track,
+.auto-1QyTTa::-webkit-scrollbar-track {
+    border: none;
 }
 
-*::-webkit-scrollbar-track,
-.scroller-hE2gWq,
-.markup-eYLPri code,
-.scroller-hE2gWq,
-.wrapper-2RrXDg {
-    border: none !important;
-}
-
-*::-webkit-scrollbar-track-piece {
+.thin-RnSY0a::-webkit-scrollbar-track-piece,
+.auto-2TJ1RH::-webkit-scrollbar-track-piece,
+.scrolling-37kgoT.fade-27X6bG:focus-within::-webkit-scrollbar-track-piece,
+.scrollbarDefault-2w-Dyz::-webkit-scrollbar-track-piece,
+.auto-1QyTTa::-webkit-scrollbar-track-piece {
     background-color: transparent !important;
     border: none !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     border-radius: 0px !important;
+}
+
+.scroller-hE2gWq,
+.markup-eYLPri code,
+.scroller-hE2gWq,
+.wrapper-2RrXDg {
+    border: none !important;
 }
 
 .children-3xh0VB:after,
@@ -1553,11 +1561,11 @@ div[class^=closedFolderIconWrapper]:before {
     border-radius: var(--Rounding);
 }
 
-.info-3pQQBb>*:nth-child(1) {
+.info-3pQQBb>span:nth-child(1) {
     display: inline;
 }
 
-.info-3pQQBb>*:nth-child(1):before {
+.info-3pQQBb>span:nth-child(1):before {
     display: inline-block;
     content: var(--currentVersion);
     color: var(--Text);
@@ -1568,7 +1576,7 @@ div[class^=closedFolderIconWrapper]:before {
     min-width: 75%;
 }
 
-.info-3pQQBb>*:nth-child(1):after {
+.info-3pQQBb>span:nth-child(1):after {
     display: block;
     content: "Customized by Purple Wizard";
     font-size: 12px;
@@ -2589,7 +2597,7 @@ div[class^=expandedFolderIconWrapper] {
 }
 
 .typing-3AH5vK:before, /* NEW */
-.typing-vATlQt::before, /* NEW */
+.typing-vATlQt:before, /* NEW */
 .typing-1EYCZF:before,
 .typing-2J1mQU>div>.text-3S7XCz>strong:first-child:before {
     content: "✒️";
