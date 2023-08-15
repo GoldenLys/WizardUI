@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-32"; /* 00-0 */
+    --version: "1-4"; /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -66,6 +66,8 @@
 	--Color6: rgb(0 0 0);
 	--Color7: rgb(0 0 0);
 	--Color8: rgb(0 0 0);
+    --Color9: rgb(0 0 0);
+	--Color10: rgb(0 0 0);
 }
 
 .theme-light,
@@ -4498,6 +4500,7 @@ div[class*=profileBadges-] div:last-child {
     height: 50px;
 }
 
+#app-mount .newBadge-1hE0w_,
 #app-mount .newBadge-3reGJW,
 #app-mount .newChannel-3q3LPr,
 #app-mount .newBadge-1LcB6t,

@@ -1,0 +1,171 @@
+@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/selectors.css");
+
+@keyframes RGB_TEXT {
+    0% {
+        color: var(--Primary);
+    }
+
+    14% {
+        color: var(--Color2);
+    }
+
+    27% {
+        color: var(--Color3);
+    }
+
+    41% {
+        color: var(--Color4);
+    }
+
+    54% {
+        color: var(--Color5);
+    }
+
+    68% {
+        color: var(--Color6);
+    }
+
+    81% {
+        color: var(--Color7);
+    }
+
+    95% {
+        color: var(--Color8);
+    }
+
+    to {
+        color: var(--Primary);
+    }
+}
+
+@-webkit-keyframes RGB_TEXT {
+    0% {
+        color: var(--Primary);
+    }
+
+    14% {
+        color: var(--Color2);
+    }
+
+    27% {
+        color: var(--Color3);
+    }
+
+    41% {
+        color: var(--Color4);
+    }
+
+    54% {
+        color: var(--Color5);
+    }
+
+    68% {
+        color: var(--Color6);
+    }
+
+    81% {
+        color: var(--Color7);
+    }
+
+    95% {
+        color: var(--Color8);
+    }
+
+    to {
+        color: var(--Primary);
+    }
+}
+
+@keyframes RGB_BG {
+    0% {
+        background-color: var(--Primary);
+        background-image: var(--Primary)
+    }
+
+    14% {
+        background-color: var(--Color2);
+        background-image: var(--Color2)
+    }
+
+    27% {
+        background-color: var(--Color3);
+        background-image: var(--Color3)
+    }
+
+    41% {
+        background-color: var(--Color4);
+        background-image: var(--Color4)
+    }
+
+    54% {
+        background-color: var(--Color5);
+        background-image: var(--Color5)
+    }
+
+    68% {
+        background-color: var(--Color6);
+        background-image: var(--Color6)
+    }
+
+    81% {
+        background-color: var(--Color7);
+        background-image: var(--Color7)
+    }
+
+    95% {
+        background-color: var(--Color8);
+        background-image: var(--Color8)
+    }
+
+    to {
+        background-color: var(--Primary);
+        background-image: var(--Primary)
+    }
+}
+
+@-webkit-keyframes RGB_BG {
+    0% {
+        background-color: var(--Primary);
+        background-image: var(--Primary)
+    }
+
+    14% {
+        background-color: var(--Color2);
+        background-image: var(--Color2)
+    }
+
+    27% {
+        background-color: var(--Color3);
+        background-image: var(--Color3)
+    }
+
+    41% {
+        background-color: var(--Color4);
+        background-image: var(--Color4)
+    }
+
+    54% {
+        background-color: var(--Color5);
+        background-image: var(--Color5)
+    }
+
+    68% {
+        background-color: var(--Color6);
+        background-image: var(--Color6)
+    }
+
+    81% {
+        background-color: var(--Color7);
+        background-image: var(--Color7)
+    }
+
+    95% {
+        background-color: var(--Color8);
+        background-image: var(--Color8)
+    }
+
+    to {
+        background-color: var(--Primary);
+        background-image: var(--Primary)
+    }
+}

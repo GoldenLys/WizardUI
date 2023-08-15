@@ -18,46 +18,6 @@
 	}
 }
 
-@keyframes RGB_BG {
-	0% {
-		background-color: var(--Primary)
-	}
-
-	34% {
-		background-color: var(--Color2)
-	}
-
-	69% {
-		background-color: var(--Color3)
-	}
-
-	to {
-		background-color: var(--Primary)
-	}
-}
-
-@keyframes RGB_BG-SHADOW {
-	0% {
-		background-color: var(--Primary);
-		box-shadow: 0 0 5px var(--Primary)
-	}
-
-	34% {
-		background-color: var(--Color2);
-		box-shadow: 0 0 5px var(--Color2)
-	}
-
-	69% {
-		background-color: var(--Color3);
-		box-shadow: 0 0 5px var(--Color3)
-	}
-
-	to {
-		background-color: var(--Primary);
-		box-shadow: 0 0 5px var(--Primary)
-	}
-}
-
 @-webkit-keyframes RGB_TEXT {
 	0% {
 		color: var(--Primary)
@@ -76,42 +36,46 @@
 	}
 }
 
-@-webkit-keyframes RGB_BG {
-	0% {
-		background-color: var(--Primary)
-	}
-
-	34% {
-		background-color: var(--Color2)
-	}
-
-	69% {
-		background-color: var(--Color3)
-	}
-
-	to {
-		background-color: var(--Primary)
-	}
-}
-
-@-webkit-keyframes RGB_BG-SHADOW {
+@keyframes RGB_BG {
 	0% {
 		background-color: var(--Primary);
-		box-shadow: 0 0 5px var(--Primary)
+		background-image: var(--Primary)
 	}
 
 	34% {
 		background-color: var(--Color2);
-		box-shadow: 0 0 5px var(--Color2)
+		background-image: var(--Color2)
 	}
 
 	69% {
 		background-color: var(--Color3);
-		box-shadow: 0 0 5px var(--Color3)
+		background-image: ar(--Color3)
 	}
 
 	to {
 		background-color: var(--Primary);
-		box-shadow: 0 0 5px var(--Primary)
+		background-image: var(--Primary)
+	}
+}
+
+@-webkit-keyframes RGB_BG {
+	0% {
+		background-color: var(--Primary);
+		background-image: var(--Primary)
+	}
+
+	34% {
+		background-color: var(--Color2);
+		background-image: var(--Color2)
+	}
+
+	69% {
+		background-color: var(--Color3);
+		background-image: ar(--Color3)
+	}
+
+	to {
+		background-color: var(--Primary);
+		background-image: var(--Primary)
 	}
 }

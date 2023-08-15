@@ -1,5 +1,5 @@
 /**
-* @name WizardUI
+* @name ELYSIA - Remastered
 * @author NEBULYS
 * @authorLink https://github.com/GoldenLys
 * @version BETA
@@ -8,12 +8,12 @@
 * @website https://purplewizard.space/
 */
 
+@import url("https://goldenlys.github.io/WizardUI/base.css");
+
 @import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
 
 /* This is an addon that adds the Marianne font.
 @import url("https://goldenlys.github.io/WizardUI/addons/Marianne.css"); */
-
-@import url("https://goldenlys.github.io/WizardUI/base.css");
 
 /* This is an addon that moves the servers to the top with an horizontal width.*/
 @import url("https://goldenlys.github.io/WizardUI/addons/PurpleServerList.css");
@@ -21,22 +21,22 @@
 /* This is a modification for PurpleServerList which replaces the folders icons with letters.
 @import url("https://goldenlys.github.io/WizardUI/addons/LettersInPSL.css"); */
 
-/* This is an addon that makes the members list hidden until you hover it.
-@import url("https://goldenlys.github.io/WizardUI/addons/HoverMembers.css"); */
+/* This is an addon that makes the members list hidden until you hover it. */
+@import url("https://goldenlys.github.io/WizardUI/addons/HoverMembers.css");
 
 /* This is an addon that moves the "user is typing" text to the bottom of the app, like the default discord.
 @import url("https://goldenlys.github.io/WizardUI/addons/UserIsTyping.css"); */
 
-/* This is an addon that recolors alot of elements in the app with the main theme color but you can even add an RGB animated effect if you change the number before the ".css" (with a maximum of 10 colors).
-@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/1.css"); */
+/* This is an addon that recolors alot of elements in the app with the main theme color but you can even add an RGB animated effect if you change the number before the ".css" (with a maximum of 10 colors). */
+@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/2.css");
 
 :root {
     /* MAIN VARIABLES */
-    --AppName: "DISCORD";
-    --Watermark: "WizardUI";
+    --AppName: "ELYSIA";
+    --Watermark: "Remastered";
     --font: 'Quicksand', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
-    --logo: url(https://goldenlys.github.io/WizardUI/images/home.png);
+    --logo: url(https://goldenlys.github.io/WizardUI/images/logos/1.gif);
 
     /* STATUS VARIABLES */
     --Online: rgb(0, 255, 6);
@@ -55,7 +55,7 @@
     --ui-error: rgb(208, 34, 34);
 
     /* THEME COLORS */
-    --Primary: rgb(117 76 205);
+    --Primary: rgb(130, 0, 216);
     --text-link: var(--Primary);
     --Highlighted: rgba(117 76 205 / 5%);
     --MessageHover: transparent;
@@ -64,7 +64,7 @@
     --Selected: rgb(56 33 146);
 
     /* BACKGROUNDS */
-    --background: url(https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg);
+    --background: url(https://goldenlys.github.io/WizardUI/images/backgrounds/elysia.jpg);
     --bg-titlebar: rgba(0, 0, 0, 0.65);
     --bg-servers: rgba(0, 0, 0, 0.65);
     --bg-ui: rgba(0, 0, 0, 0.65);
@@ -84,7 +84,7 @@
     --StatusRounding: 4.5;
 
     /* RGB ADDON */
-    --ColorTime: 2s;
+    --ColorTime: 5s;
     --Color2: rgb(0, 225, 255);
     --Color3: rgb(0 0 0);
     --Color4: rgb(0 0 0);

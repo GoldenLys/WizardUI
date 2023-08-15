@@ -1,0 +1,135 @@
+@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/selectors.css");
+
+@keyframes RGB_TEXT {
+    0% {
+        color: var(--Primary);
+    }
+
+    18% {
+        color: var(--Color2);
+    }
+
+    35% {
+        color: var(--Color3);
+    }
+
+    53% {
+        color: var(--Color4);
+    }
+
+    71% {
+        color: var(--Color5);
+    }
+
+    88% {
+        color: var(--Color6);
+    }
+
+    to {
+        color: var(--Primary);
+    }
+}
+
+@-webkit-keyframes RGB_TEXT {
+    0% {
+        color: var(--Primary);
+    }
+
+    18% {
+        color: var(--Color2);
+    }
+
+    35% {
+        color: var(--Color3);
+    }
+
+    53% {
+        color: var(--Color4);
+    }
+
+    71% {
+        color: var(--Color5);
+    }
+
+    88% {
+        color: var(--Color6);
+    }
+
+    to {
+        color: var(--Primary);
+    }
+}
+
+@keyframes RGB_BG {
+    0% {
+        background-color: var(--Primary);
+        background-image: var(--Primary)
+    }
+
+    18% {
+        background-color: var(--Color2);
+        background-image: var(--Color2)
+    }
+
+    35% {
+        background-color: var(--Color3);
+        background-image: var(--Color3)
+    }
+
+    53% {
+        background-color: var(--Color4);
+        background-image: var(--Color4)
+    }
+
+    71% {
+        background-color: var(--Color5);
+        background-image: var(--Color5)
+    }
+
+    88% {
+        background-color: var(--Color6);
+        background-image: var(--Color6)
+    }
+
+    to {
+        background-color: var(--Primary);
+        background-image: var(--Primary)
+    }
+}
+
+@-webkit-keyframes RGB_BG {
+    0% {
+        background-color: var(--Primary);
+        background-image: var(--Primary)
+    }
+
+    18% {
+        background-color: var(--Color2);
+        background-image: var(--Color2)
+    }
+
+    35% {
+        background-color: var(--Color3);
+        background-image: var(--Color3)
+    }
+
+    53% {
+        background-color: var(--Color4);
+        background-image: var(--Color4)
+    }
+
+    71% {
+        background-color: var(--Color5);
+        background-image: var(--Color5)
+    }
+
+    88% {
+        background-color: var(--Color6);
+        background-image: var(--Color6)
+    }
+
+    to {
+        background-color: var(--Primary);
+        background-image: var(--Primary)
+    }
+}

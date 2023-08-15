@@ -5,16 +5,20 @@
 		color: var(--Primary)
 	}
 
-	26% {
+	21% {
 		color: var(--Color2)
 	}
 
-	52% {
+	42% {
 		color: var(--Color3)
 	}
 
-	78% {
+	63% {
 		color: var(--Color4)
+	}
+
+	84% {
+		color: var(--Color5)
 	}
 
 	to {
@@ -27,16 +31,20 @@
 		color: var(--Primary)
 	}
 
-	26% {
+	21% {
 		color: var(--Color2)
 	}
 
-	52% {
+	42% {
 		color: var(--Color3)
 	}
 
-	78% {
+	63% {
 		color: var(--Color4)
+	}
+
+	84% {
+		color: var(--Color5)
 	}
 
 	to {
@@ -47,53 +55,59 @@
 @keyframes RGB_BG {
 	0% {
 		background-color: var(--Primary);
-		background-image: var(--Primary)
 	}
 
-	26% {
+	21% {
 		background-color: var(--Color2);
 		background-image: var(--Color2)
 	}
 
-	52% {
+	42% {
 		background-color: var(--Color3);
 		background-image: var(--Color3)
 	}
 
-	78% {
+	63% {
 		background-color: var(--Color4);
 		background-image: var(--Color4)
 	}
 
+	84% {
+		background-color: var(--Color5);
+		background-image: var(--Color5)
+	}
+
 	to {
 		background-color: var(--Primary);
-		background-image: var(--Primary)
 	}
 }
 
 @-webkit-keyframes RGB_BG {
 	0% {
 		background-color: var(--Primary);
-		background-image: var(--Primary)
 	}
 
-	26% {
+	21% {
 		background-color: var(--Color2);
 		background-image: var(--Color2)
 	}
 
-	52% {
+	42% {
 		background-color: var(--Color3);
 		background-image: var(--Color3)
 	}
 
-	78% {
+	63% {
 		background-color: var(--Color4);
 		background-image: var(--Color4)
 	}
 
+	84% {
+		background-color: var(--Color5);
+		background-image: var(--Color5)
+	}
+
 	to {
 		background-color: var(--Primary);
-		background-image: var(--Primary)
 	}
 }
