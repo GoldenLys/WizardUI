@@ -2650,7 +2650,6 @@ div[class^=expandedFolderIconWrapper] {
 /* CHANNELS ICONS */
 .sidebar-1tnWFu .containerDefault-YUSmu3 .iconContainer-21RCa3:before {
     font-family: "Font Awesome 6 Free";
-    font-weight: 100;
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
     line-height: 20px;
@@ -2682,14 +2681,7 @@ div[class^=expandedFolderIconWrapper] {
 /* VOICE CHANNEL */
 
 .sidebar-1tnWFu .containerDefault-YUSmu3:not(.wrapper-NhbLHG)>div:not(.wrapper-NhbLHG) .iconContainer-21RCa3:before {
-    content: "\f6a8";
-    margin-right: 5px
-}
-
-/* STAGE CHANNEL */
-
-.sidebar-1tnWFu .containerDefault-YUSmu3>.wrapper-NhbLHG [aria-label="Stage Channel"] .iconContainer-21RCa3:before {
-    content: "\f685";
+    content: "\f590";
     margin-right: 5px
 }
 
@@ -2701,8 +2693,17 @@ div[class^=expandedFolderIconWrapper] {
 /* TEXT CHANNEL */
 
 .sidebar-1tnWFu .containerDefault-YUSmu3>.wrapper-NhbLHG .iconContainer-21RCa3:before {
-    content: "\f4a6";
+    content: "\f27a";
+    font-weight: 100;
     margin-right: 5px;
+}
+
+/* STAGE CHANNEL */
+
+.sidebar-1tnWFu .containerDefault-YUSmu3>.wrapper-NhbLHG .iconContainer-21RCa3[aria-label="Stage"]:before {
+    content: "\f8d7";
+    font-weight: 600;
+    margin-right: 5px
 }
 
 /* FORUM CHANNEL */
@@ -2721,8 +2722,8 @@ div[class^=expandedFolderIconWrapper] {
 
 /* ANNOUNCEMENT CHANNEL */
 
-.sidebar-1tnWFu .containerDefault-YUSmu3>.wrapper-NhbLHG [aria-label$="(announcement channel)"] .iconContainer-21RCa3:before {
-    content: "\f675";
+.sidebar-1tnWFu .containerDefault-YUSmu3>.wrapper-NhbLHG>div>[aria-label$="(announcement channel)"] .iconContainer-21RCa3:before {
+    content: "\f2b4";
     margin-right: 5px
 }
 
