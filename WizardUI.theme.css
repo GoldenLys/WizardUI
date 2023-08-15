@@ -36,7 +36,7 @@
     --Watermark: "WizardUI";
     --font: 'Quicksand', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
-    --logo: url(https://goldenlys.github.io/WUITG/images/home.png);
+    --logo: url(https://goldenlys.github.io/WizardUI/images/home.png);
 
     /* STATUS VARIABLES */
     --Online: rgb(0, 255, 6);
@@ -64,7 +64,7 @@
     --Selected: rgb(56 33 146);
 
     /* BACKGROUNDS */
-    --background: url(https://goldenlys.github.io/WUITG/images/backgrounds/clouds.png);
+    --background: url(https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg);
     --bg-titlebar: rgba(0, 0, 0, 0.65);
     --bg-servers: rgba(0, 0, 0, 0.65);
     --bg-ui: rgba(0, 0, 0, 0.65);
