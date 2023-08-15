@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://purplewizard.space/styles/all.min.css');
+@import url('https://goldenlys.github.io/WizardUI/fa/all.min.css');
 
 @font-face {
     font-family: 'emoji';
@@ -13,7 +13,7 @@
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
-    --logo: url(https://goldenlys.github.io/WUITG/images/home.png);
+    --logo: url(https://goldenlys.github.io/WizardUI/images/home.png);
     /* STATUS VARIABLES */
     --Online: rgb(0, 255, 6);
     --Idle: rgb(18, 100, 239);
@@ -37,7 +37,7 @@
     --Hover: rgba(18, 19, 31, 0.50);
     --Selected: rgba(56, 33, 146);
     /* BACKGROUNDS */
-    --background: url(https://goldenlys.github.io/WUITG/images/backgrounds/clouds.png);
+    --background: url(https://goldenlys.github.io/WizardUI/images/backgrounds/clouds.png);
     --bg-titlebar: rgba(0, 0, 0, 0.65);
     --bg-servers: rgba(0, 0, 0, 0.65);
     --bg-ui: rgba(0, 0, 0, 0.65);
@@ -1182,7 +1182,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 }
 
 .panels-3wFtMD .container-YkUktl button>.contents-3NembX::after {
-    font-family: "Font Awesome 6 Pro";
+    font-family: "Font Awesome 6 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     display: block;
@@ -1344,7 +1344,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     right: 0;
     left: 0;
     display: flex;
-    font-family: "Font Awesome 6 Pro";
+    font-family: "Font Awesome 6 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
@@ -1521,7 +1521,7 @@ div[class^=expandedFolderIconWrapper]>svg {
 
 div[class^=expandedFolderIconWrapper]:before,
 div[class^=closedFolderIconWrapper]:before {
-    font-family: "Font Awesome 6 Pro";
+    font-family: "Font Awesome 6 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     display: block;
@@ -1551,7 +1551,7 @@ div[class^=closedFolderIconWrapper]:before {
 .info-3pQQBb:before {
     display: inline-block;
     color: var(--Text);
-    font-family: 'Font Awesome 6 Pro';
+    font-family: 'Font Awesome 6 Free';
     content: "\f6e8";
     font-size: 10px;
     font-weight: 100;
@@ -1659,7 +1659,7 @@ div[class^=closedFolderIconWrapper]:before {
 #bd-settings-sidebar>span>div>.ui-tab-bar-item:before,
 #bd-settings-sidebar>span>div .bd-changelog-button:before,
 #bd-settings-sidebar+div+.item-2GWPIy:before {
-    font-family: "Font Awesome 6 Pro";
+    font-family: "Font Awesome 6 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     color: var(--Text);
@@ -2518,7 +2518,7 @@ div[class^=expandedFolderIconWrapper] {
 }
 
 .wrapper-1S43wv.clickable-2AoIYN .name-3BUDLf:before {
-    font-family: "Font Awesome 6 Pro";
+    font-family: "Font Awesome 6 Free";
     content: "\f070";
     color: var(--ui-error);
     margin-right: 5px;
@@ -2561,7 +2561,7 @@ div[class^=expandedFolderIconWrapper] {
 .container-1yy5xN>.header-1dhDWV.header-1PtsUu:before,
 .container-1yy5xN>.description-22d6ux:before,
 .container-30bdan>.inner--CkhGx>div:before {
-    font-family: "Font Awesome 6 Pro";
+    font-family: "Font Awesome 6 Free";
     font-weight: 900;
     line-height: 14px;
     font-size: 18px;
@@ -2649,7 +2649,7 @@ div[class^=expandedFolderIconWrapper] {
 
 /* CHANNELS ICONS */
 .sidebar-1tnWFu .containerDefault-YUSmu3 .iconContainer-21RCa3:before {
-    font-family: "Font Awesome 6 Pro";
+    font-family: "Font Awesome 6 Free";
     font-weight: 100;
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
@@ -2659,7 +2659,7 @@ div[class^=expandedFolderIconWrapper] {
 
 /* EVENTS CHANNEL */
 .sidebar-1tnWFu .containerDefault-YUSmu3.wrapper-NhbLHG[data-list-item-id^="channels___upcoming-events"] .name-28HaxV:before {
-    font-family: "Font Awesome 6 Pro";
+    font-family: "Font Awesome 6 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
@@ -2670,7 +2670,7 @@ div[class^=expandedFolderIconWrapper] {
 
 /* SERVER GUIDE */
 
-.sidebar-1tnWFu .containerDefault-YUSmu3.wrapper-NhbLHG[data-list-item-id^="channels___home-tab"] .name-28HaxV:before { font-family: "Font Awesome 6 Pro";
+.sidebar-1tnWFu .containerDefault-YUSmu3.wrapper-NhbLHG[data-list-item-id^="channels___home-tab"] .name-28HaxV:before { font-family: "Font Awesome 6 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
@@ -3127,7 +3127,7 @@ a {
     left: -24px;
     right: 0;
     bottom: 0;
-    font-family: "Font Awesome 6 Pro";
+    font-family: "Font Awesome 6 Free";
     font-weight: 900;
     content: "\f093";
     color: var(--Text);
@@ -3858,7 +3858,7 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item-2LIpTv,
 .guildBadge-U9DBt_.partnered-23cXFN::after,
 .guildBadge-3_UK6z.partnered-23cXFN::after,
 .rowIcon-2tDEcE.partnered-23cXFN::after {
-    font-family: "Font Awesome 6 Pro";
+    font-family: "Font Awesome 6 Free";
     font-weight: 900;
     content: "\f4c6";
     color: var(--Text);
@@ -3868,7 +3868,7 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item-2LIpTv,
 
 .rowIcon-2tDEcE.verified-1Jv_7P::after,
 .guildBadge-3_UK6z.verified-1Jv_7P::after {
-    font-family: "Font Awesome 6 Pro";
+    font-family: "Font Awesome 6 Free";
     font-weight: 900;
     content: "\f4c4";
     color: var(--Text);
@@ -3880,7 +3880,7 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item-2LIpTv,
 .iconBackgroundTierOne-1S68CI::after,
 .iconBackgroundTierTwo-2XoNXD::after,
 .iconBackgroundTierThree-2hfNBO::after {
-    font-family: "Font Awesome 6 Pro";
+    font-family: "Font Awesome 6 Free";
     font-weight: 900;
     content: "";
     color: var(--Text);
@@ -3949,7 +3949,7 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
 
 .bd-switch,
 .container-2nx-BQ {
-    font-family: "Font Awesome 6 Pro";
+    font-family: "Font Awesome 6 Free";
     font-weight: 900;
     color: var(--Text);
     font-size: 15px;
@@ -4171,7 +4171,7 @@ div[class*=profileBadges-] div:last-child {
 .avatarUploaderIndicator-2G-aIZ:after {
     content: "\f302";
     color: var(--Text);
-    font-family: "Font Awesome 6 Pro";
+    font-family: "Font Awesome 6 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     display: block;
@@ -4937,7 +4937,7 @@ div[class*=profileBadges-] div:last-child {
     display: flex;
     place-content: center;
     align-items: center;
-    font-family: "Font Awesome 6 Pro";
+    font-family: "Font Awesome 6 Free";
     font-weight: 600;
     -webkit-font-smoothing: antialiased;
     content: "\f552";
