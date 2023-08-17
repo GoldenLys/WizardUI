@@ -57,10 +57,21 @@
 }
 
 #app-mount .guilds-2JjMmN .target-1eRTCg::before {
+    border-radius: 5px;
     top: 0;
     height: var(--ServerSize);
     width: 4px;
-    left: -6px;
+    left: -3px;
+}
+
+#app-mount .guilds-2JjMmN svg.placeholderMask-2FHNZU>foreignObject {
+    mask: none;
+}
+
+.dragInner-1CUBf_ {
+    width: var(--ServerSize);
+    height: var(--ServerSize);
+    border-radius: var(--Rounding);
 }
 
 #app-mount .guilds-2JjMmN.hidden-10MsGQ+.base-2jDfDU {
@@ -70,8 +81,8 @@
 #app-mount [class*="expandedFolderBackground"] {
     width: var(--ServerSize);
     left: 7.5px;
-    height: calc(100% - 10px);
-    top: 10px;
+    height: calc(100% - 3px);
+    top: 4.5px
 }
 
 #app-mount .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-38slSD [class^=expandedFolderBackground]:not(.collapsed-uGXEbi)+.listItem-3SmSlK+ul {
@@ -111,4 +122,8 @@
     height: var(--ServerSize);
     top: 0px;
     bottom: 0px;
+}
+
+#app-mount .guilds-2JjMmN .wrapper-38slSD ul>[class*=listItem]:not([class*=listItemWrapper]) {
+    margin: 0;
 }

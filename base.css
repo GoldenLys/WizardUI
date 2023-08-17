@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-4"; /* 00-0 */
+    --version: "1-42"; /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -1528,7 +1528,7 @@ div[class^=closedFolderIconWrapper]:before {
     -webkit-font-smoothing: antialiased;
     display: block;
     font-size: 20px;
-    line-height: var(--ServerSize);
+    line-height: calc(var(--ServerSize) - 5px);
     text-align: center;
     color: var(--Text);
 }
@@ -2296,12 +2296,20 @@ div[class^=pill] {
 }
 
 #app-mount .guilds-2JjMmN [class*=listItem]:not([class*=listItemWrapper]) {
-    margin: var(--ServerSpacing);
     border-radius: 2.5px;
     padding: 0;
 }
 
-.guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-3kah-n>.listItem-3SmSlK>div[class^=pill] {
+#app-mount .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style]) [class*=listItem]:not([class*=listItemWrapper]) {
+    margin: var(--ServerSpacing);
+}
+
+#app-mount .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-38slSD>.expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi)+.listItem-3SmSlK {
+    margin: 2.5px 0px 0px 0px;
+}
+
+
+#app-mount .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-38slSD>.listItem-3SmSlK>div[class^=pill] {
     top: 0px;
 }
 
@@ -2319,6 +2327,7 @@ div[class^=pill] {
 /* PMs */
 
 .tutorialContainer-1pL9QS {
+    margin: 10px 0 7px 0;
     display: flex;
     place-content: center;
     flex-wrap: wrap;
@@ -2371,6 +2380,7 @@ div[class^=expandedFolderIconWrapper] {
     display: flex;
     flex-wrap: wrap;
     place-content: center;
+    margin: 3px 0 3px 0;
     order: 2;
 }
 
