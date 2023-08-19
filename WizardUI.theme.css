@@ -57,7 +57,7 @@
     /* THEME COLORS */
     --Primary: rgb(117 76 205);
     --text-link: var(--Primary);
-    --Highlighted: rgba(117 76 205 / 5%);
+    --Highlighted: rgba(117 76 205 / 50%);
     --MessageHover: transparent;
     --Unread: rgb(255 255 255 / 10%);
     --Hover: rgb(18 19 31 / 50%);

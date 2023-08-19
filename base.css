@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-42"; /* 00-0 */
+    --version: "1-43"; /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -1206,7 +1206,6 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 
 .panels-3wFtMD .container-YkUktl button[aria-checked="true"]>.contents-3NembX::after {
     color: var(--ui-error);
-    font-weight: 300;
 }
 
 /* GAME ACTIVITY PLUGIN BUTTON */
