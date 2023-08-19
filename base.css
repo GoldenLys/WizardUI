@@ -1555,7 +1555,7 @@ div[class^=closedFolderIconWrapper]:before {
     font-family: 'Font Awesome 6 Free';
     content: "\f6e8";
     font-size: 10px;
-    font-weight: 100;
+    font-weight: 600;
     margin-right: 5px;
     padding: 3.5px;
     background: var(--Primary);
