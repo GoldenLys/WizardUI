@@ -1,3 +1,9 @@
+.interactive-26HRN_:focus-within,
+.interactive-26HRN_:hover,
+.expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi),
+.bd-minimal .guilds-2JjMmN .wrapper-3kah-n>span:not(.collapsed-uGXEbi),
+#app-mount .expandedFolderBackground-1kSAf6.collapsed-uGXEbi+.listItem-3SmSlK .folderIconWrapper-1oRIZr[style^="background-color: rgba(88, 101, 242, 0.4);"]:before,
+#app-mount .pill-2RsI5Q>.item-2LIpTv,
 #app-mount .newBadge-1hE0w_,
 #app-mount .newBadge-3reGJW,
 #app-mount .newChannel-3q3LPr,
@@ -10,7 +16,8 @@
 .reaction-3vwAF2[class*=reactionMe],
 #app-mount .container-3M84ky:not(.playing-1NDSYY) .playButtonContainer-2F2cAR,
 #app-mount .container-3M84ky.playing-1NDSYY>div>.ripple-FNGiLO,
-.embedProvider-1GSN0c>a:before, .embedProvider-1GSN0c>span:before,
+.embedProvider-1GSN0c>a:before,
+.embedProvider-1GSN0c>span:before,
 .channel-1Shao0 .selected-26oxtA:before,
 div.selected-1-Z6gm.member-2gU6Ar:after,
 div.selected-3veCBZ:before,
@@ -75,4 +82,8 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before,
 .container-1yy5xN>.description-22d6ux:after,
 .container-30bdan>.inner--CkhGx>div:after {
 	font-weight: 600;
+}
+
+#app-mount .expandedFolderBackground-1kSAf6 {
+	opacity: 1;
 }
