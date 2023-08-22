@@ -28,7 +28,7 @@
 @import url("https://goldenlys.github.io/WizardUI/addons/UserIsTyping.css"); */
 
 /* This is an addon that recolors alot of elements in the app with the main theme color but you can even add an RGB animated effect if you change the number before the ".css" (with a maximum of 10 colors). */
-@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/3.css");
+@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/4.css");
 
 :root {
     /* MAIN VARIABLES */
@@ -77,7 +77,6 @@
     
     /* SERVER SETTINGS */
     --ServerSize: 45px;
-    --ServerSpacing: 3.5px 0px 3.5px 0px;
     --ServerPills: var(--Primary);
 
     /* ROUNDING */
@@ -88,8 +87,8 @@
     --ColorTime: 5s;
     --Color2: rgb(89, 78, 255);
     --Color3: rgb(76, 88, 255);
-    --Color4: rgb(229, 255, 0);
-    --Color5: rgb(10, 255, 222);
+    --Color4: rgb(76, 88, 255);
+    --Color5: rgb(0 0 0);
     --Color6: rgb(0 0 0);
     --Color7: rgb(0 0 0);
     --Color8: rgb(0 0 0);

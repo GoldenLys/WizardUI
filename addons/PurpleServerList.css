@@ -25,10 +25,10 @@
 }
 
 #app-mount .guilds-2JjMmN .scrollerBase-1Pkza4 {
-    padding: var(--ServerSpacing) 0 !important;
+    padding: 0 0 !important;
     display: flex;
     flex-direction: column;
-    gap: var(--ServerSpacing);
+    gap: 0px;
     flex-wrap: nowrap;
     align-items: center;
     width: calc(var(--ServerSize) + 15px);
@@ -40,6 +40,10 @@
     width: var(--ServerSize);
 }
 
+#app-mount .guilds-2JjMmN .wrapper-38slSD>.listItem-3SmSlK {
+    margin: 0px !important;
+}
+
 #app-mount .guilds-2JjMmN .tutorialContainer-2jwoiB+.listItem-3SmSlK {
     transform: initial;
 }
@@ -48,7 +52,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    width: var(--ServerSize);
+    margin: 3.5px 0px 3.5px 0px;
 }
 
 #app-mount .guilds-2JjMmN .scrollerBase-1Pkza4>div[style]:not(.listItem-2P_4kh) {
@@ -83,13 +88,13 @@
 }
 
 #app-mount .expandedFolderBackground-1kSAf6 {
-    width: var(--ServerSize);
-    left: 8px;
+    width: calc(var(--ServerSize) + 0px);
+    left: 0px;
     height: calc(100% - 5px);
     top: 3px;
 }
 
-#app-mount .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-38slSD [class^=expandedFolderBackground]:not(.collapsed-uGXEbi)+.listItem-3SmSlK+ul {
+#app-mount .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-38slSD .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi)+.listItem-3SmSlK+ul {
     height: auto !important;
 }
 

@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-46"; /* 00-0 */
+    --version: "1-47"; /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -49,7 +49,6 @@
     --bg-colorprofile: var(--bg-ui);
     /* SERVER SETTINGS */
     --ServerSize: 45px;
-    --ServerSpacing: 3.5px 0px 3.5px 0px;
     --ServerPills: var(--Primary);
     --ServerFoldersColor: var(--Primary);
     /* ROUNDING */
@@ -1503,7 +1502,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);
     mask: none;
 }
 
-div[class^=expandedFolderIconWrapper]>svg {
+.expandedFolderIconWrapper-3RwQpD >svg {
     display: none;
 }
 
@@ -1513,27 +1512,28 @@ div[class^=expandedFolderIconWrapper]>svg {
     background-color: var(--ui-error) !important;
 }
 
-div[class^=expandedFolderIconWrapper]:before,
-div[class^=closedFolderIconWrapper]:before {
+.expandedFolderIconWrapper-3RwQpD:before,
+.closedFolderIconWrapper-3tRb2d:before {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     display: block;
     font-size: 20px;
-    line-height: calc(var(--ServerSize) - 5px);
+    line-height: calc(var(--ServerSize) + 3px);
     text-align: center;
     color: var(--Text);
 }
 
-div[class^=expandedFolderIconWrapper]:before {
+.expandedFolderIconWrapper-3RwQpD:before {
     content: "\f07c";
 }
 
-div[class^=closedFolderIconWrapper] {
-    display: block
+.closedFolderIconWrapper-3tRb2d {
+    display: block;
+    padding: 0;
 }
 
-div[class^=closedFolderIconWrapper]:before {
+.closedFolderIconWrapper-3tRb2d:before {
     content: "\f07b";
 }
 
@@ -2293,7 +2293,7 @@ div[class^=pill] {
 }
 
 #app-mount .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style]) [class*=listItem]:not([class*=listItemWrapper]) {
-    margin: var(--ServerSpacing);
+    margin: 3.5px 0px 3.5px 0px;
 }
 
 #app-mount .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-38slSD>.expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi)+.listItem-3SmSlK {
@@ -2326,12 +2326,11 @@ div[class^=pill] {
     order: 0;
 }
 
-div[class^=expandedFolderIconWrapper] {
+.expandedFolderIconWrapper-3RwQpD {
     width: 100%;
     height: 100%;
 }
-
-[class^=expandedFolderBackground] {
+.expandedFolderBackground-1kSAf6 {
     min-height: var(--ServerSize);
     top: 0;
     left: 0;
@@ -2421,8 +2420,8 @@ div[class^=expandedFolderIconWrapper] {
     height: 100%;
 }
 
-[class^=expandedFolderBackground]:not(.collapsed-uGXEbi)+.listItem-3SmSlK div[class^=folder-],
-[class^=expandedFolderBackground]:not(.collapsed-uGXEbi)+.listItem-3SmSlK div[class^=folderIconWrapper] {
+.expandedFolderIconWrapper-3RwQpD:not(.collapsed-uGXEbi)+.listItem-3SmSlK div[class^=folder-],
+.expandedFolderIconWrapper-3RwQpD:not(.collapsed-uGXEbi)+.listItem-3SmSlK div[class^=folderIconWrapper] {
     background-color: transparent !important;
 }
 
@@ -5528,7 +5527,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     content: "";
     position: absolute;
     z-index: -1;
-    top: 0;
+    top: 0px;
     left: 0;
     width: 100%;
     height: 100%;

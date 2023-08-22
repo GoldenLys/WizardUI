@@ -76,7 +76,6 @@
 
     /* SERVER SETTINGS */
     --ServerSize: 45px;
-    --ServerSpacing: 3.5px 0px 3.5px 0px;
     --ServerPills: var(--Primary);
 
     /* ROUNDING */
