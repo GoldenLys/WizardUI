@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-45"; /* 00-0 */
+    --version: "1-46"; /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -5551,7 +5551,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     filter: none;
 }
 
-.hasReply-2Cr4KE.message-2CShn3:not(:has(.roleMention-11Aaqi[style])):before,
+.hasReply-2Cr4KE.mentioned-Tre-dv:not(:has(.roleMention-11Aaqi[style])):before,
 .mentioned-Tre-dv:before,
 .message-2CShn3 .roleMention-11Aaqi:before {
     content: "";
@@ -5565,7 +5565,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     filter: saturate(var(--saturation-factor, 1));
 }
 
-.hasReply-2Cr4KE.message-2CShn3:not(:has(.roleMention-11Aaqi[style])):after,
+.hasReply-2Cr4KE.mentioned-Tre-dv:not(:has(.roleMention-11Aaqi[style])):after,
 .mentioned-Tre-dv:after,
 .message-2CShn3 .roleMention-11Aaqi:after {
     content: "";
