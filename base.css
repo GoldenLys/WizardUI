@@ -146,6 +146,10 @@
     left: 0;
 }
 
+#app-mount [id^=popout] > [aria-modal=true] > div:only-child:not(.spinner-2ID8f1) {
+    max-height: 78vh !important;
+}
+
 ::-webkit-input-placeholder,
 body,
 button,
