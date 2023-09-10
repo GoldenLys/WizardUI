@@ -186,6 +186,7 @@ textarea {
     padding-top: 0;
 }
 
+.container-3XgAHv,
 .titleContainer-3fPic2,
 .header-JUTO-g,
 .messageContainer-3a6gLR,
@@ -238,7 +239,7 @@ div[class^=folder-],
 }
 
 .container-2IKOsH,
-.container-3XgAHv,
+.container-3XgAHv>.chat-25x62K,
 .container-3wLKDe,
 .callContainer-BGIngG,
 .stageSection-3mAD8V,
@@ -249,6 +250,10 @@ div[class^=folder-],
     background-color: var(--bg-chatbox) !important;
 }
 
+.mainCard-3KBsBI,
+.header-1Uy0p6,
+.sortDropdown-hY93nR,
+.form-25Aujy .submitButton-3B-dZd,
 .imageUploaderInner-IIRaFr,
 .playButtonContainer-2F2cAR,
 .container-3M84ky,
@@ -256,7 +261,6 @@ div[class^=folder-],
 .wrapper-3Un6-K>svg>foreignObject,
 .callContainer-BGIngG,
 .stageSection-3mAD8V,
-.chat-2ZfjoI .chatContent-3KubbW .messagesWrapper-RpOMA3,
 .applicationStore-2nk7Lo>.homeWrapper-L4ors0>.scroller-29cQFV,
 .pageWrapper-2PwDoS {
     border-radius: var(--Rounding);
@@ -265,7 +269,6 @@ div[class^=folder-],
 .chatHeaderBar-31g1mU,
 .prompt-1sE27N,
 .nowPlayingSidebar-2OFn0o,
-.container-ZMc96U.themed-Hp1KC_,
 .chat-2ZfjoI .title-31SJ6t.container-ZMc96U,
 .container-ZMc96U.themed-Hp1KC_,
 .sidebar-1tnWFu>.container-1NXEtd,
@@ -404,6 +407,7 @@ div[class^=folder-],
 .overlayBackground-2aa7wt>.divider-1tWBgZ,
 .segmentContainer-358IfE>.divider-1hrwMv,
 .title-31SJ6t .status-12NUUC>svg,
+.iconWrapper-2awDjA:not(.focusable-1YV_-H)>.icon-2xnN2Y,
 .bg-1QIAus,
 .channelNotice-tO6Tus,
 .overlayToggleIconOff-3hGOmN>g>rect,
@@ -5603,4 +5607,9 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 .messageContent-2t3eCI:has(.roleMention-11Aaqi) .mention:before,
 .messageContent-2t3eCI:has(.roleMention-11Aaqi) .mention:after {
     content: unset !important;
+}
+
+.chat-2ZfjoI.threadSidebarOpen-1LSXvU,
+.container-3XgAHv {
+    border-radius: 0px;
 }
