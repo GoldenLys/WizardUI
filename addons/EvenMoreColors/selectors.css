@@ -87,3 +87,7 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before,
 #app-mount .expandedFolderBackground-1kSAf6 {
 	opacity: 1;
 }
+
+#app-mount .expandedFolderBackground-1kSAf6+.listItem-3SmSlK .folderIconWrapper-1oRIZr {
+	background-color: transparent;
+}

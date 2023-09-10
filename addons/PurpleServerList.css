@@ -1,3 +1,7 @@
+.platform-osx .wrapper-1_HaEi {
+    margin-top: 0px;
+}
+
 #app-mount .app-3xd6d0 .base-2jDfDU {
     top: calc(var(--ServerSize) + 15px) !important;
     position: absolute !important;
@@ -90,8 +94,8 @@
 #app-mount .expandedFolderBackground-1kSAf6 {
     width: calc(var(--ServerSize) + 0px);
     left: 0px;
-    height: calc(100% - 5px);
-    top: 3px;
+    height: calc(100% - 0px);
+    top: 0px;
 }
 
 #app-mount .guilds-2JjMmN .scroller-3X7KbA>div:not([class]):not([style])>.wrapper-38slSD .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi)+.listItem-3SmSlK+ul {

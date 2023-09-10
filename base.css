@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-47"; /* 00-0 */
+    --version: "1-48"; /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -171,8 +171,18 @@ textarea {
     text-rendering: optimizeLegibility
 }
 
+.plateform-osx .layer-86YKbF {
+    top: 0;
+    padding-top: 0;
+}
+
 .platform-win .layer-86YKbF {
     top: 0;
+    padding-top: 0;
+}
+
+.plateform-osx .scroller-3X7KbA,
+.platform-win .scroller-3X7KbA {
     padding-top: 0;
 }
 
@@ -2149,10 +2159,6 @@ div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);
     background-color: var(--grey5);
     color: var(--Primary);
     font-weight: bold;
-}
-
-.platform-win .scroller-3X7KbA {
-    padding-top: 0;
 }
 
 #guild-header-popout .separator-1So4YB,
