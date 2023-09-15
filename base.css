@@ -8,7 +8,8 @@
 
 :root {
     --build: "R";
-    --version: "1-48"; /* 00-0 */
+    --version: "1-49";
+    /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -400,6 +401,7 @@ div[class^=folder-],
     border: none !important;
 }
 
+.overlay-1wSZ6w,
 .children-3xh0VB:after,
 .lockIcon-3t6Ow0,
 .bannerImage-ubW8K-:before,
@@ -4327,19 +4329,88 @@ div[class*=profileBadges-] div:last-child {
     width: 100%;
     height: 100%;
     z-index: 0;
+    background-position-y: top;
+    min-height: 340px;
 }
 
 .accountProfileCard-lbN7n->.userInfo-regn9W {
-    min-height: calc(80px + 16px * 2);
+    padding: 16px 16px 0 112px;
+    min-height: calc(80px + 32px);
 }
 
 .accountProfileCard-lbN7n->.background-3d_SjE {
     border-radius: 5px;
-    background-color: var(--grey5);
+    background-color: transparent;
+    padding: 0px;
 }
 
 .accountProfileCard-lbN7n->.background-3d_SjE>.fieldList-in8WkP {
+    display: flex;
     background-color: transparent;
+    flex-direction: row;
+    gap: 16px 16px;
+    flex-wrap: wrap;
+}
+
+.accountProfileCard-lbN7n->.background-3d_SjE>.fieldList-in8WkP>.field-21XZwa {
+    flex-direction: column;
+    flex: 1 1 calc(50% - 10px);
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: var(--Primary);
+    border-radius: var(--Rounding);
+}
+
+.accountProfileCard-lbN7n->.background-3d_SjE>.fieldList-in8WkP>.field-21XZwa .fieldTitle-2g5r_V {
+    text-align: center;
+    color: var(--Text) !important;
+}
+
+.accountProfileCard-lbN7n->.background-3d_SjE>.fieldList-in8WkP>.field-21XZwa>.constrainedRow-3y91Xf {
+    background: var(--grey);
+    margin-right: 0px;
+    padding: 10px 10px 5px;
+    margin: 3px;
+    border-radius: var(--Rounding);
+}
+
+.accountProfileCard-lbN7n->.background-3d_SjE>.fieldList-in8WkP>.field-21XZwa>.constrainedRow-3y91Xf>div {
+    width: 100%;
+}
+
+.accountProfileCard-lbN7n->.background-3d_SjE>.fieldList-in8WkP>.field-21XZwa>button {
+    background: transparent !important;
+    border-radius: 0 0 var(--Rounding) var(--Rounding);
+}
+
+.accountProfileCard-lbN7n->.background-3d_SjE>.fieldList-in8WkP>.field-21XZwa>.fieldButtonList-28BYbB {
+    display: flex;
+    flex-direction: row;
+}
+
+.accountProfileCard-lbN7n->.background-3d_SjE>.fieldList-in8WkP>.field-21XZwa>.fieldButtonList-28BYbB>button:not(.removeButton-v6eolJ) {
+    flex: 1 1 auto;
+    background: transparent !important;
+}
+
+.accountProfileCard-lbN7n->.background-3d_SjE>.fieldList-in8WkP>.field-21XZwa>.fieldButtonList-28BYbB>button.removeButton-v6eolJ {
+    flex: 1 1 auto;
+}
+
+.accountProfileCard-lbN7n->.background-3d_SjE>.fieldList-in8WkP>.field-21XZwa:hover {
+    background: var(--Text) !important;
+}
+
+.accountProfileCard-lbN7n->.background-3d_SjE>.fieldList-in8WkP>.field-21XZwa:hover>.fieldButtonList-28BYbB>button,
+.accountProfileCard-lbN7n->.background-3d_SjE>.fieldList-in8WkP>.field-21XZwa:hover>button {
+    color: var(--Primary);
+}
+
+.accountProfileCard-lbN7n->.background-3d_SjE>.fieldList-in8WkP>.field-21XZwa.fieldSpacerBottom-3xUCTB,
+.accountProfileCard-lbN7n->.background-3d_SjE>.fieldList-in8WkP>.field-21XZwa.fieldSpacer-cxjVL1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .accountProfileCard-lbN7n->.userInfo-regn9W>.avatar-3mTjvZ {
@@ -5633,4 +5704,21 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 .flowerStarContainer-1QeD-L>svg>path {
     display: none;
+}
+
+#my-account-tab .bannerSVGWrapper-2CLfzN {
+    background-image: var(--background);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#my-account-tab .bannerSVGWrapper-2CLfzN>foreignObject {
+    display: none !important;
 }

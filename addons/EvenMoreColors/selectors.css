@@ -1,3 +1,4 @@
+.accountProfileCard-lbN7n->.background-3d_SjE>.fieldList-in8WkP>.field-21XZwa,
 .flowerStarContainer-1QeD-L>svg,
 .interactive-26HRN_:focus-within,
 .interactive-26HRN_:hover,
@@ -33,6 +34,8 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before,
 	-webkit-animation: RGB_BG var(--ColorTime) linear infinite !important;
 }
 
+.accountProfileCard-lbN7n->.background-3d_SjE>.fieldList-in8WkP>.field-21XZwa:hover>.fieldButtonList-28BYbB>button,
+.accountProfileCard-lbN7n->.background-3d_SjE>.fieldList-in8WkP>.field-21XZwa:hover>button,
 .lookLink-13iF2K.colorLink-34zig_,
 #bd-settings-sidebar .ui-tab-bar-header,
 .header-2Kx1US,
@@ -53,7 +56,6 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before,
 .iconWrapper-2awDjA.clickable-ZD7xvu .icon-2xnN2Y,
 .searchBar-jGtisZ .icon-tZMHgY:not(.clear-2KQ7l1):after,
 .winButton-3UMjdg,
-.fieldTitle-2g5r_V,
 .wordmark-2u86JB:before,
 .userTag-2qPxEZ,
 .headerText-10ez_d,
