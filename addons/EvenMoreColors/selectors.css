@@ -29,7 +29,8 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before,
 .closeButton-PCZcma,
 .tutorialContainer-2jwoiB .circleIconButton-1VxDrg,
 .tutorialContainer-2jwoiB+.listItem-3SmSlK .circleIconButton-1VxDrg,
-.progressBar-2yl2pi {
+.progressBarContainer-E1K7OK, 
+.containerWithMargin-1CVXAM {
 	animation: RGB_BG var(--ColorTime) linear infinite !important;
 	-webkit-animation: RGB_BG var(--ColorTime) linear infinite !important;
 }
@@ -75,7 +76,7 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before,
 .container-30bdan>.inner--CkhGx>div:after,
 .archivedDivider-2dQ9JY,
 .headerText-3MQ6n4>h3>span,
-.anchor-1X4H4q:not(.hoverButton-36QWJk),
+.anchor-1X4H4q:not(.hoverButton-36QWJk):not(.embedLink-1TLNja:before),
 .users-2JoyGL {
 	animation: RGB_TEXT var(--ColorTime) linear infinite !important;
 	-webkit-animation: RGB_TEXT var(--ColorTime) linear infinite !important;

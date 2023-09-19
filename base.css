@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-49";
+    --version: "1-50";
     /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
@@ -138,6 +138,8 @@
     --yellow-360: var(--ui-warning);
     --green-360: var(--ui-success);
     --status-speaking: var(--ui-success);
+    --guild-boosting-blue: var(--Primary);
+    --guild-boosting-purple: var(--Text);
 }
 
 #app-mount.appMount-2yBXZl {
@@ -401,6 +403,8 @@ div[class^=folder-],
     border: none !important;
 }
 
+.chat-2ZfjoI>.title-31SJ6t>.upperContainer-2DCPUA>.children-3xh0VB>.iconWrapper-2awDjA>svg,
+.banner-1AB1xq,
 .overlay-1wSZ6w,
 .children-3xh0VB:after,
 .lockIcon-3t6Ow0,
@@ -434,7 +438,8 @@ a[href="https://support.discord.com"],
 .chat-2ZfjoI>section.title-31SJ6t>.children-3xh0VB>.iconWrapper-2awDjA,
 .buttons-uaqb-5 .button-ejjZWC>.button-3BaQ4X:not([class*=translateButton-]),
 div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie,
-.arrow-2HswgU.icon-3zI3d2 {
+.arrow-2HswgU.icon-3zI3d2,
+.container-2giAcK:after {
     display: none;
 }
 
@@ -850,7 +855,7 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.status-3cqfT9 {
 }
 
 .userPopoutOuter-1OHwPL,
-.userProfileInner-1ngKnf:not(.userProfileModalInner-3dx9L9) {
+.userProfileInner-1ngKnf:not(.userProfileModalInner-3dx9L9):not(.userCardInner-3c42YR) {
     position: relative;
     background-color: var(--grey);
     width: 360px !important;
@@ -1703,16 +1708,22 @@ div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);
     content: "\f21b"
 }
 
+/* Family Centre */
+
+.sidebar-nqHbhN .item-2GWPIy[aria-controls="family-center-tab"]:before {
+    content: "\e533"
+}
+
 /* Authorized Apps */
 
 .sidebar-nqHbhN .item-2GWPIy[aria-controls="authorized-apps-tab"]:before {
-    content: "\f336"
+    content: "\f058"
 }
 
 /* Devices */
 
 .sidebar-nqHbhN .item-2GWPIy[aria-controls="sessions-tab"]:before {
-    content: "\f87a"
+    content: "\f109"
 }
 
 /* Connections */
@@ -1776,7 +1787,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);
 /* Accessibility */
 
 .sidebar-nqHbhN .item-2GWPIy[aria-controls="accessibility-tab"]:before {
-    content: "\f4bc"
+    content: "\f4be"
 }
 
 /* Voice & Video */
@@ -1840,13 +1851,13 @@ div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);
 /* Registered Games */
 
 .sidebar-nqHbhN .item-2GWPIy[aria-controls="game-activity-tab"]:before {
-    content: "\f8bc"
+    content: "\f11b"
 }
 
 /* Game Overlay */
 
 .sidebar-nqHbhN .item-2GWPIy[aria-controls="overlay-tab"]:before {
-    content: "\f856"
+    content: "\f2d2"
 }
 
 /* BD Settings */
@@ -2111,15 +2122,13 @@ div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);
 }
 
 .wrapper-1HIH0j {
-    padding: 0 0 15px;
+    position: relative;
+    padding: 6px 0px;
     width: 100%;
 }
 
 .wrapper-1HIH0j>.header-3anOjb {
-    background-color: var(--grey5);
-    border-radius: 5px 5px 0 0;
-    padding: 10px 5px 10px;
-    text-align: center;
+    display: none;
 }
 
 .wrapper-1HIH0j>.content-1r-J1r {
@@ -2556,6 +2565,15 @@ div[class^=pill] {
 
 .avatar-3FKimL {
     border-radius: 2.5px;
+}
+
+.overlap-1yhayD {
+    margin: -1px 0px -4px -8px;
+}
+
+.overlap-1yhayD .avatar-3FKimL {
+    border-radius: var(--Rounding);
+    border: none;
 }
 
 .topic-11NuQZ.expandable-3CaLeS {
@@ -4673,6 +4691,13 @@ div[class*=profileBadges-] div:last-child {
 
 .inviteSplash-2nkLRX {
     margin: 0;
+    z-index: -1;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 [style*="background-color: rgb(114, 137, 218)"],
@@ -4982,10 +5007,6 @@ div[class*=profileBadges-] div:last-child {
     border-top: 2.5px solid var(--grey5);
 }
 
-.progressBar-2yl2pi {
-    background: var(--Primary);
-}
-
 .resizeHandle-PBRzPC {
     width: 0px;
 }
@@ -5223,7 +5244,7 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
 }
 
 .userProfileOuterThemed-2BgJCM.userPopoutOuter-1OHwPL,
-.userProfileOuterThemed-2BgJCM.userProfileOuter-2tQwNf {
+.userProfileOuterThemed-2BgJCM.userProfileOuter-2tQwNf:not(.userCardOuter-1au0HV) {
     padding: 0px;
 }
 
@@ -5255,7 +5276,7 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
     width: calc(100% - 0px);
 }
 
-.userProfileInner-1ngKnf:before {
+.userProfileInner-1ngKnf:not(.userCardInner-3c42YR):before {
     background-color: var(--bg-colorprofile);
 }
 
@@ -5529,7 +5550,7 @@ div[style*="background-color: rgb(88, 101, 242);"] {
     width: auto !important;
 }
 
-.userProfileInnerThemedPremiumWithoutBanner-lZ9inp.userProfileInner-1ngKnf:before {
+.userProfileInnerThemedPremiumWithoutBanner-lZ9inp.userProfileInner-1ngKnf:not(.userCardInner-3c42YR):before {
     height: calc(100% - 0px);
     width: calc(100% - 0px);
 }
@@ -5706,6 +5727,22 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     display: none;
 }
 
+.tooltipContent-38tm3I .guildIconContainer-3QvE6w, 
+.tooltipContent-38tm3I .guildIconContainer-3QvE6w>div,
+.tooltipContent-38tm3I  .flowerStarContainer-1QeD-L, 
+.tooltipContent-38tm3I  .flowerStarContainer-1QeD-L>svg {
+    height: 18px;
+    width: 18px;
+    min-width: 18px;
+    min-height: 18px;
+    display: flex;
+}
+
+.flowerStarContainer-1QeD-L>.childContainer-U_a6Yh>svg {
+    width: 14px;
+    height: 14px;
+}
+
 #my-account-tab .bannerSVGWrapper-2CLfzN {
     background-image: var(--background);
     background-size: cover;
@@ -5721,4 +5758,42 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 #my-account-tab .bannerSVGWrapper-2CLfzN>foreignObject {
     display: none !important;
+}
+
+.searchResultsWrap-5RVOkx {
+    background-color: var(--bg-ui);
+}
+
+.searchResult-O9NDji, .searchHeader-1r_ZSh {
+    background-color: var(--bg-chat-elements);
+}
+
+.progressBarContainer-E1K7OK,
+.containerWithMargin-1CVXAM {
+    background-color: var(--Primary);
+    border-radius: var(--Rounding);
+    margin: 5px 8px
+}
+
+.progressBar-3fV-Dd,
+.progressBar-3tBeH7 {
+    height: 6px;
+    margin-top: 0px;
+    border-radius: 2px;
+}
+
+.progressBar-3tBeH7[style*="background-color"],
+.progressBarContainer-1efroK {
+    background-color: transparent !important;
+}
+
+.bar-H6j3_Q {
+    border-radius: 2px;
+    height: 6px;
+}
+
+.voiceUser-3nRK-K>.content-1Tgc42 {
+    border: 4px solid var(--background-secondary);
+    background-color: var(--background-secondary);
+    border-radius: var(--Rounding);
 }
