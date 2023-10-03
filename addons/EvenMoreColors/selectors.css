@@ -92,6 +92,7 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before,
 	opacity: 1;
 }
 
-#app-mount .expandedFolderBackground-1kSAf6+.listItem-3SmSlK .folderIconWrapper-1oRIZr {
+#app-mount .expandedFolderBackground-1kSAf6+.listItem-3SmSlK .folderIconWrapper-1oRIZr,
+#app-mount .flowerStarContainer-1QeD-L {
 	background-color: transparent;
 }
