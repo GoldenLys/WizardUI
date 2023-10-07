@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-51";
+    --version: "1-52";
     /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
@@ -1247,6 +1247,10 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     font-weight: 300;
 }
 
+.panels-3wFtMD .container-YkUktl button>.contents-3NembX>svg {
+    display: none;
+}
+
 /* MUTE BUTTON */
 .panels-3wFtMD .container-YkUktl button:nth-last-child(3)>.contents-3NembX::after {
     content: "\f3c9";
@@ -1269,7 +1273,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     bottom: 2.5px;
 }
 
-.container-YkUktl .avatarWrapper-1B9FTW {
+.panels-3wFtMD>.container-YkUktl>.avatarWrapper-1B9FTW {
     margin: .5px 5px 0 0;
     min-width: 152px;
 }
@@ -5826,4 +5830,26 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 .labelContainer-35-WEd {
     position: relative;
+}
+
+.bar-wDIGjg {
+    background-color: var(--grey);
+    padding: 2px 5px;
+    border-radius: var(--Rounding);
+    margin-bottom: 4px;
+}
+
+.shop-3sIaH8 .heroBanner-15dNeS .bannerTitle-suxdlR {
+    font-size: 0px;
+    line-height: 0px;
+}
+
+.shop-3sIaH8 .heroBanner-15dNeS .bannerTitle-suxdlR:before {
+    content: "Ready for a new scam?";
+    font-size: 44px;
+    line-height: 42px;
+}
+
+.heroDescription-2QJJDj>* {
+    margin-right: 15px;
 }
