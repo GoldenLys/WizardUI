@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-52";
+    --version: "1-53";
     /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
@@ -3275,10 +3275,6 @@ a {
 .gridContainer-1cF_Ic {
     position: relative;
     max-width: fit-content !important;
-}
-
-.embedFull-1HGV2S .embedMedia-1mdWSP {
-    place-self: center;
 }
 
 .embedProvider-1GSN0c {
