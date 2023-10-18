@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-54";
+    --version: "1-55";
     /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
@@ -437,7 +437,7 @@ div[class^=guildSeparator],
 .form-3qe0Ni>.wrapper-2SplAX,
 div[class^=tutorialContainer]>.listItem-3SmSlK svg mask,
 a[href="https://support.discord.com"],
-.wordmark-2u86JB svg,
+.wordmark-3wYFg6 svg,
 .chat-9g_3Xj>section.title-5wgnIa .children-3xh0VB>.iconWrapper-2awDjA,
 .buttons-uaqb-5 .button-ejjZWC>.button-3BaQ4X:not([class*=translateButton-]),
 div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie,
@@ -502,13 +502,13 @@ div[class^=tutorialContainer]+.listItem-3SmSlK .pill-1NRFie,
     color: var(--Text);
 }
 
-.wordmark-2u86JB:before {
+.wordmark-3wYFg6:before {
     content: var(--AppName);
     font-weight: bold;
     font-size: 15px;
 }
 
-.wordmark-2u86JB:after {
+.wordmark-3wYFg6:after {
     content: var(--Watermark);
     margin-left: 5px;
     font-weight: normal;
@@ -623,12 +623,12 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before {
     background-color: var(--ui-error);
 }
 
-.withFrame-2dL45i {
+.withFrame-1sEfxu {
     height: unset;
     margin-top: unset;
 }
 
-.titleBar-1it3bQ {
+.titleBar-3AIemB {
     background: var(--bg-titlebar);
     height: 32px;
     line-height: 32px;
