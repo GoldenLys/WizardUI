@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-55";
+    --version: "1-56";
     /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
@@ -613,13 +613,13 @@ div.wrapper-NhbLHG[class*="modeSelected-"]:before {
     background: var(--Primary)
 }
 
-.winButton-3UMjdg {
+.winButton-3SigSb {
     top: 0;
     width: 48px;
     height: 32px;
 }
 
-.winButtonClose-3Q8ZH5:hover {
+.winButtonClose-23zAIt:hover {
     background-color: var(--ui-error);
 }
 
@@ -5847,4 +5847,31 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 .heroDescription-2QJJDj>* {
     margin-right: 15px;
+}
+
+.winButtonMinMax-nT2Irc.winButton-3SigSb>svg,
+.winButtonClose-23zAIt.winButton-3SigSb>svg {
+    display: none;
+}
+
+.winButtonMinMax-nT2Irc.winButton-3SigSb:after,
+.winButtonClose-23zAIt.winButton-3SigSb:after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.winButtonMinMax-nT2Irc+.winButtonMinMax-nT2Irc.winButton-3SigSb:after {
+    content: "\f068";
+}
+
+.winButtonClose-23zAIt+.winButtonMinMax-nT2Irc.winButton-3SigSb:after {
+    content: "\f065";
+}
+
+.winButtonClose-23zAIt.winButton-3SigSb:after {
+    content: "\f00d";
 }
