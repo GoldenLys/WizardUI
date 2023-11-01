@@ -32,7 +32,7 @@ div.link__95dc0[class*="modeSelected-"]:before,
 .tutorialContainer__890ea+.listItem_fa7b36 .circleIconButton_d8df29,
 .progressBarContainer__82ad7, 
 .containerWithMargin__7d380,
-.containerDefault__3187b>.wrapper__7bcde.modeUnread_f74c03:before {
+.containerDefault__3187b>.wrapper__7bcde.modeSelected__487d6:before {
 	animation: RGB_BG var(--ColorTime) linear infinite !important;
 	-webkit-animation: RGB_BG var(--ColorTime) linear infinite !important;
 }
