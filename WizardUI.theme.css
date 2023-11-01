@@ -59,7 +59,7 @@
     --text-link: var(--Primary);
     --Highlighted: rgba(117 76 205 / 50%);
     --MessageHover: transparent;
-    --Unread: rgb(255 255 255 / 10%);
+    --Unread: rgb(255 255 255);
     --Hover: rgb(18 19 31 / 50%);
     --Selected: rgb(56 33 146);
 
