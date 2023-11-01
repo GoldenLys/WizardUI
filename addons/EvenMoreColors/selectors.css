@@ -24,13 +24,17 @@
 .channel_c21703 .selected_d94cf9:before,
 div.selected__9800b.member_aa4760:after,
 div.selected-3veCBZ:before,
-div.link__95dc0[class*="modeSelected-"]:before,
+div.link__95dc0[class*="modeSelected_"]:before, {
+	animation: RGB_BG var(--ColorTime) linear infinite !important;
+	-webkit-animation: RGB_BG var(--ColorTime) linear infinite !important;
+}
+
 .info__755e1:before,
 .mentioned__58017:before,
 .closeButton__34341,
 .tutorialContainer__890ea .circleIconButton_d8df29,
 .tutorialContainer__890ea+.listItem_fa7b36 .circleIconButton_d8df29,
-.progressBarContainer__82ad7, 
+.progressBarContainer__82ad7,
 .containerWithMargin__7d380,
 .containerDefault__3187b>.wrapper__7bcde.modeSelected__487d6:before {
 	animation: RGB_BG var(--ColorTime) linear infinite !important;
@@ -62,7 +66,11 @@ div.link__95dc0[class*="modeSelected-"]:before,
 .wordmark__0d178:before,
 .userTag__4ca14,
 .headerText__94c22,
-.bd-sidebar-header h2,
+.bd-sidebar-header h2 {
+	animation: RGB_TEXT var(--ColorTime) linear infinite !important;
+	-webkit-animation: RGB_TEXT var(--ColorTime) linear infinite !important;
+}
+
 .title__3e421,
 .title__317f4,
 .h5__884a2,
