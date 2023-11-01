@@ -3,7 +3,7 @@
 }
 
 #app-mount .app_de4237 .base__3e6af {
-    top: calc(var(--ServerSize) + 15px) !important;
+    top: calc(var(--ServerSize) + 18px) !important;
     position: absolute !important;
     left: 0 !important;
     right: 0;
@@ -15,8 +15,8 @@
     transform-origin: top left;
     transform: rotate(-90deg);
     height: 100vw !important;
-    width: calc(var(--ServerSize) + 15px);
-    top: calc(var(--ServerSize) + 15px);
+    width: calc(var(--ServerSize) + 18px);
+    top: calc(var(--ServerSize) + 18px);
     bottom: unset;
     position: absolute !important;
     left: 0;
@@ -35,7 +35,7 @@
     gap: 0px;
     flex-wrap: nowrap;
     align-items: center;
-    width: calc(var(--ServerSize) + 15px);
+    width: calc(var(--ServerSize) + 18px);
 }
 
 #app-mount .guilds__2b93a [class*=listItem]:not([class*=listItemWrapper]) {
