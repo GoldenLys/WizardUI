@@ -1,18 +1,18 @@
 /* ROLE NAME */
-.membersGroup-2YoqY- {
+.membersGroup__85843 {
     height: 0px;
     padding: 0px;
     transition: all 250ms ease, padding 100ms ease;
     -webkit-transition: all 250ms ease, padding 100ms ease;
 }
 
-.chat-9g_3Xj .container-2vWgD2 .membersGroup-2YoqY- {
+.chat__52833 .container_b2ce9c .membersGroup__85843 {
     opacity: 0;
     transition: all 2s ease;
     text-align: center;
 }
 
-.chat-9g_3Xj .container-2vWgD2 .membersWrap-3GwLFp:hover .membersGroup-2YoqY- {
+.chat__52833 .container_b2ce9c .membersWrap__90226:hover .membersGroup__85843 {
     transition: all 2s ease;
     opacity: 1;
     height: 26px;
@@ -20,37 +20,37 @@
 }
 
 /* MOVING THE MEMBERS LIST TO THE RIGHT */
-.chat-9g_3Xj .container-2vWgD2 {
+.chat__52833 .container_b2ce9c {
     width: 60px;
     transition: all 500ms ease;
     -webkit-transition: all 500ms ease;
 }
 
-.chat-9g_3Xj .container-2vWgD2:hover {
+.chat__52833 .container_b2ce9c:hover {
     width: 265px;
 }
 
 /* MEMBERS LIST CONTENT */
-.chat-9g_3Xj .container-2vWgD2 .members-2y1nVj {
+.chat__52833 .container_b2ce9c .members__9f47b {
     width: 265px;
     overflow: hidden;
     flex: 0 1 auto;
 }
 
-.chat-9g_3Xj .container-2vWgD2 .membersWrap-3GwLFp:hover {
+.chat__52833 .container_b2ce9c .membersWrap__90226:hover {
     overflow: auto;
 }
 
 /* MOVING USER DETAILS */
 
-.chat-9g_3Xj .container-2vWgD2 .members-2y1nVj .member-2gU6Ar .content-1U25dZ {
+.chat__52833 .container_b2ce9c .members__9f47b .member_aa4760 .content_a6999d {
     -webkit-transform: translateX(220px);
     transform: translateX(220px);
     transition: all 750ms ease;
     -webkit-transition: all 750ms ease;
 }
 
-.chat-9g_3Xj .container-2vWgD2:hover .members-2y1nVj .member-2gU6Ar .content-1U25dZ {
+.chat__52833 .container_b2ce9c:hover .members__9f47b .member_aa4760 .content_a6999d {
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
 }
