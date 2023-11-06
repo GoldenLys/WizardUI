@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-63";
+    --version: "1-64";
     /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
@@ -5885,4 +5885,13 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 .winButtonClose__73489.winButton__88672:after {
     content: "\f00d";
+}
+
+.cozy_f5c119 .timestamp_cdbd93.alt__6c563, .compact__54ecc .timestamp_cdbd93 {
+    display: inline-flex;
+}
+
+.compact__54ecc .timestamp_cdbd93:not(.timestampInline__470e0, 
+.compact__54ecc .timestampVisibleOnHover_e8cc6d) time::after {
+    content: "";
 }
