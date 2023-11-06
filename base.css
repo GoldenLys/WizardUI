@@ -1248,7 +1248,6 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 .panels__58331 .container_ca50b9 button:nth-last-child(4)>.contents_fb6220::after {
     content: "\f11b" !important;
     color: var(--Text);
-    font-weight: 900;
 }
 
 .panels__58331 .container_ca50b9 button[aria-label^=Enable]:nth-last-child(4)>.contents_fb6220::after {
