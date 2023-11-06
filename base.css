@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-64";
+    --version: "1-65";
     /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
@@ -1246,7 +1246,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 
 /* GAME ACTIVITY PLUGIN BUTTON */
 .panels__58331 .container_ca50b9 button:nth-last-child(4)>.contents_fb6220::after {
-    content: "\f8bc" !important;
+    content: "\f11b" !important;
     color: var(--Text);
     font-weight: 900;
 }
@@ -1277,7 +1277,6 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 
 .panels__58331>.container_ca50b9>.avatarWrapper_ba5175 {
     margin: .5px 5px 0 0;
-    min-width: 152px;
 }
 
 .container_ca50b9 .avatar_f8541f,
