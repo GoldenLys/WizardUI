@@ -1,0 +1,100 @@
+/**
+* @name WizardUI
+* @author NEBULYS
+* @authorLink https://github.com/GoldenLys
+* @version RELEASE
+* @invite SBuYeHh
+* @description An amazing fully customizable theme, made with 💖 by NEBULYS.
+* @website https://purplewizard.space/
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
+
+/* This is an addon that adds the Marianne font.
+@import url("https://goldenlys.github.io/WizardUI/addons/Marianne.css"); */
+
+@import url("https://goldenlys.github.io/WizardUI/base.css");
+
+/* This is an addon that moves the servers to the top with an horizontal width.*/
+@import url("https://goldenlys.github.io/WizardUI/addons/PurpleServerList.css");
+
+/* This is a modification for PurpleServerList which replaces the folders icons with letters.
+@import url("https://goldenlys.github.io/WizardUI/addons/LettersInPSL.css"); */
+
+/* This is an addon that makes the members list hidden until you hover it.
+@import url("https://goldenlys.github.io/WizardUI/addons/HoverMembers.css"); */
+
+/* This is an addon that moves the "user is typing" text to the bottom of the app, like the default discord.
+@import url("https://goldenlys.github.io/WizardUI/addons/UserIsTyping.css"); */
+
+/* This is an addon that recolors alot of elements in the app with the main theme color but you can even add an RGB animated effect if you change the number before the ".css" (with a maximum of 10 colors).
+@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/1.css"); */
+
+:root {
+    /* MAIN VARIABLES */
+    --AppName: "Call of Duty®:";
+    --Watermark: "Modern Warfare® 3";
+    --font: 'Quicksand', 'emoji', sans-serif;
+    --Text: rgb(255, 255, 255);
+    --logo: url(https://goldenlys.github.io/WizardUI/images/logos/20.jpg);
+
+    /* STATUS VARIABLES */
+    --Online: rgb(0, 255, 6);
+    --Idle: rgb(18, 100, 239);
+    --Unavailable: rgb(228, 15, 0);
+    --Offline: rgb(90, 95, 100);
+    --Streaming: rgb(110, 0, 196);
+
+    /* UI COLOR VARIABLES */
+    --grey: rgb(68, 68, 68);
+    --grey5: rgba(68, 68, 68, .75);
+    --darkgrey: rgb(34, 34, 34); 
+    --darkgrey5: rgba(34, 34, 34, .75);
+    --ui-success: rgb(69, 208, 34);
+    --ui-warning: rgb(238, 165, 30);
+    --ui-error: rgb(208, 34, 34);
+
+    /* THEME COLORS */
+    --Primary: rgb(255, 19, 19);
+    --text-link: var(--Primary);
+    --Highlighted: rgb(255 19 19 / 50%);
+    --MessageHover: transparent;
+    --Unread: rgba(255, 27, 27, 0.404);
+    --Hover: rgb(18 19 31 / 50%);
+    --Selected: rgb(78, 3, 3);
+
+    /* BACKGROUNDS */
+    --background: url(https://goldenlys.github.io/WizardUI/images/backgrounds/MW3.jpg);
+    --bg-titlebar: rgb(0 0 0);
+    --bg-servers: rgb(0 0 0);
+    --bg-ui: rgb(0 0 0);
+    --bg-chatbox: transparent;
+    --bg-sendmessage: rgb(0 0 0);
+    --bg-members: rgb(0 0 0);
+    --bg-chat-elements: rgb(0 0 0);
+    --bg-colorprofile: rgb(0 0 0);
+
+    /* SERVER SETTINGS */
+    --ServerSize: 45px;
+    --ServerPills: var(--Primary);
+
+    /* ROUNDING */
+    --Rounding: 0;
+    --StatusRounding: 0;
+
+    /* RGB ADDON */
+    --ColorTime: 0s;
+    --Color2: rgb(0 0 0);
+    --Color3: rgb(0 0 0);
+    --Color4: rgb(0 0 0);
+    --Color5: rgb(0 0 0);
+    --Color6: rgb(0 0 0);
+    --Color7: rgb(0 0 0);
+    --Color8: rgb(0 0 0);
+    --Color9: rgb(0 0 0);
+    --Color10: rgb(0 0 0);
+}
+
+.guilds__2b93a .tutorialContainer__890ea>div[class^=listItem_]>div[class^=listItemWrapper_]>div {
+    background-size: cover;
+}
