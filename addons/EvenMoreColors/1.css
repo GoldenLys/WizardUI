@@ -27,7 +27,8 @@
 .container-1yy5xN>.description-22d6ux:after,
 .container-30bdan>.inner--CkhGx>div:after,
 .archivedDivider-2dQ9JY,
-.headerText-3MQ6n4>h3>span {
+.headerText-3MQ6n4>h3>span,
+.wordmark__0d178:before {
     color: var(--Primary);
 }
 

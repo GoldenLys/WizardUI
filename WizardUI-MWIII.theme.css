@@ -1,5 +1,5 @@
 /**
-* @name WizardUI
+* @name WizardUI - MWIII
 * @author NEBULYS
 * @authorLink https://github.com/GoldenLys
 * @version RELEASE
@@ -32,8 +32,8 @@
 
 :root {
     /* MAIN VARIABLES */
-    --AppName: "Call of Duty®:";
-    --Watermark: "Modern Warfare® 3";
+    --AppName: "Call of Duty";
+    --Watermark: "Modern Warfare 3";
     --font: 'Quicksand', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
     --logo: url(https://goldenlys.github.io/WizardUI/images/logos/20.jpg);
@@ -65,14 +65,14 @@
 
     /* BACKGROUNDS */
     --background: url(https://goldenlys.github.io/WizardUI/images/backgrounds/MW3.jpg);
-    --bg-titlebar: rgb(0 0 0);
-    --bg-servers: rgb(0 0 0);
-    --bg-ui: rgb(0 0 0);
+    --bg-titlebar: rgb(0 0 0 / 75%);
+    --bg-servers: rgb(0 0 0 / 75%);
+    --bg-ui: rgb(0 0 0 / 75%);
     --bg-chatbox: transparent;
-    --bg-sendmessage: rgb(0 0 0);
-    --bg-members: rgb(0 0 0);
-    --bg-chat-elements: rgb(0 0 0);
-    --bg-colorprofile: rgb(0 0 0);
+    --bg-sendmessage: rgb(0 0 0 / 75%);
+    --bg-members: rgb(0 0 0 / 75%);
+    --bg-chat-elements: rgb(0 0 0 / 65%);
+    --bg-colorprofile: rgb(0 0 0 / 75%);
 
     /* SERVER SETTINGS */
     --ServerSize: 45px;
