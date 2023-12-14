@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-66";
+    --version: "1-67";
     /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
@@ -141,6 +141,7 @@
     --status-speaking: var(--ui-success);
     --guild-boosting-blue: var(--Primary);
     --guild-boosting-purple: var(--Text);
+    --text-link: var(--Primary);
 }
 
 #app-mount.appMount_fae9dd {
@@ -258,6 +259,9 @@ div[class^=folder_],
     background-color: var(--bg-chatbox) !important;
 }
 
+.pill_f055c3.tag__40098,
+.tagsButton_e96762,
+.sortDropdown_ec3016,
 .mainCard__8a660,
 .header-1Uy0p6,
 .sortDropdown-hY93nR,
@@ -348,6 +352,7 @@ div[class^=folder_],
     border-bottom-color: var(--darkgrey) !important;
 }
 
+.chat__1d65d:before,
 .footerSeparator__57d95,
 .rootWithShadow__073a7,
 .animatedContainer__341f6,
@@ -443,6 +448,7 @@ a[href="https://support.discord.com"],
 .wordmark__0d178 svg,
 .chat__52833>section.title_b7d661 .children__32014>.iconWrapper_af9215,
 .buttons_ce5b56 .buttonContainer__8b164>.button_afdfd9:not([class*=translateButton_]):not(.emojiButton__8ff6a),
+.buttons_ce5b56>.container__5eb17>.container__5eb17>.button_afdfd9,
 div[class^=tutorialContainer]+.listItem_fa7b36 .pill__13f64,
 .arrow_cb03b8.icon_ef4486,
 .container__4f639:after {
@@ -5931,4 +5937,28 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     border: none;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.sortDropdown_ec3016 {
+    margin-bottom: 0px;
+}
+
+.tagListInner__6097c {
+    gap: 4px;
+}
+
+.tagsButton_e96762 {
+    margin-left: 4px;
+}
+
+.sortDropdown_ec3016 {
+    margin-right: 4px;
+}
+
+.sortDropdown_ec3016+.divider__0a999 {
+    display: none;
+}
+
+.container__8ee50.header_ca85b3 {
+    margin: 0 8px 0 0;
 }
