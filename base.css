@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-67";
+    --version: "1-68";
     /* 00-0 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
@@ -2572,6 +2572,10 @@ div[class^=pill] {
     content: "\f070";
     color: var(--ui-error);
     margin-right: 5px;
+}
+
+.wrapper__9c483.clickable_dbdd2a svg>path {
+    display: none;
 }
 
 .wrapper__9c483.clickable_dbdd2a:not([class*=collapsed]) .name__590d6:before {
