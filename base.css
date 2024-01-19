@@ -8,8 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-69";
-    /* 00-0 */
+    --version: "1-70"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -278,7 +277,9 @@ div[class^=folder_],
     border-radius: var(--Rounding);
 }
 
-.container__5c7e7>.themed_b152d4,
+.container_def45c>.container__11d72,
+.container__11d72.themed_b152d4,
+.chatHeaderBar_c1df53,
 .resizeHandle_f1a098,
 .channelRow__96673,
 .chatHeaderBar__28ee6,
@@ -992,6 +993,11 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.status__1c26d {
     justify-content: center;
 }
 
+.userProfileInner__8065b .scroller__83262 {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
 .member-permdiv[class^="role_"] {
     border-radius: 0px;
 }
@@ -1091,8 +1097,7 @@ path[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"],
     fill: var(--ui-error);
 }
 
-div[class^="role_"]:first-of-type,
-div[class^="role_"]:last-of-type {
+div[class^="role_"]:first-of-type{
     min-width: calc(100% - 0px);
     margin: 0px 0px 5px;
     border-radius: 0px;
@@ -1276,10 +1281,6 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 /* OPTIONS BUTTON */
 .panels__58331 .container_ca50b9 button:nth-last-child(1)>.contents_fb6220::after {
     content: "\f085";
-}
-
-.panels__58331>.container_ca50b9>.avatarWrapper_ba5175 {
-    margin: .5px 5px 0 0;
 }
 
 .container_ca50b9 .avatar_f8541f,
@@ -2182,6 +2183,12 @@ div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);
     border-radius: 5px;
 }
 
+.channelInfo_b7ab2e {
+    background: var(--grey5);
+    padding: 0 5px;
+    border-radius: var(--Rounding);
+}
+
 .channelInfo_b7ab2e>.wrapper__5848b {
     height: 28px;
     border-radius: var(--Rounding);
@@ -2865,13 +2872,17 @@ path[fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"],
 path[fill="#7289da"] {
     fill: var(--ui-success) !important;
 }
-.panels__58331>.container_ca50b9,
+
 .panels__58331>.container_ca50b9 {
     position: relative;
     background-color: var(--bg-ui);
     height: 50px;
     padding: 0 5px 0 5px !important;
     margin: 0;
+}
+
+.panels__58331>.container_ca50b9>div.flex_f5fbb7 { 
+    margin-left: auto;
 }
 
 .panels__58331 .container_d667ff {
@@ -5994,4 +6005,12 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 .container__8ee50.header_ca85b3 {
     margin: 0 8px 0 0;
+}
+
+.container_def45c {
+    border-radius: 0px;
+}
+
+.menu__5cf7f {
+    max-width: 100%;
 }

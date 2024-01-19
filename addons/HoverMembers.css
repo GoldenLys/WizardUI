@@ -42,15 +42,23 @@
 }
 
 /* MOVING USER DETAILS */
-
 .chat__52833 .container_b2ce9c .members__9f47b .member_aa4760 .content_a6999d {
     -webkit-transform: translateX(220px);
     transform: translateX(220px);
     transition: all 750ms ease;
     -webkit-transition: all 750ms ease;
 }
-
 .chat__52833 .container_b2ce9c:hover .members__9f47b .member_aa4760 .content_a6999d {
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
+}
+
+
+.chat__52833>.content__1a4fe>.membersWrap__90226 {
+    background: var(--bg-members);
+    min-width: 265px;
+}
+
+.chat__52833>.content__1a4fe>.membersWrap__90226>.members__9f47b {
+    min-width: 265px;
 }
