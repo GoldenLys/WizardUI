@@ -24,11 +24,13 @@
 .channel_c21703 .selected_d94cf9:before,
 div.selected__9800b.member_aa4760:after,
 div.selected-3veCBZ:before,
-div.link__95dc0[class*="modeSelected_"]:before, {
+div.link__95dc0[class*="modeSelected_"]:before {
 	animation: RGB_BG var(--ColorTime) linear infinite !important;
 	-webkit-animation: RGB_BG var(--ColorTime) linear infinite !important;
 }
 
+.guilds__2b93a .scroller__3d071>div:not([class]):not([style])+div[class^=tutorialContainer]+.listItem_fa7b36 div[class^=circleIconButton_],
+div[class^=circleIconButton_], .guilds__2b93a .scroller__3d071>div:not([class]):not([style])+div[class^=tutorialContainer] div[class^=circleIconButton_],
 .info__755e1:before,
 .mentioned__58017:before,
 .closeButton__34341,
