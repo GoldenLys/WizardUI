@@ -2184,15 +2184,14 @@ div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);
 }
 
 .channelInfo_b7ab2e {
-    background: var(--grey5);
-    padding: 0 5px;
+    background: var(--grey);
+    padding: 0 0;
     border-radius: var(--Rounding);
 }
 
 .channelInfo_b7ab2e>.wrapper__5848b {
     height: 28px;
     border-radius: var(--Rounding);
-    background-color: var(--grey5);
 }
 
 .users__65981,
@@ -5486,11 +5485,6 @@ div.selected-3veCBZ:hover .name__02dbd {
     margin-left: 48px;
 }
 
-.container__8ee50 {
-    border-radius: var(--Rounding);
-    margin: 8px auto;
-}
-
 #app-mount .tags_e6c42a>.pill_f055c3,
 #app-mount .tags__3a78e>.pill_f055c3 {
     transform: none;
@@ -6001,10 +5995,6 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 .sortDropdown_ec3016+.divider__0a999 {
     display: none;
-}
-
-.container__8ee50.header_ca85b3 {
-    margin: 0 8px 0 0;
 }
 
 .container_def45c {
