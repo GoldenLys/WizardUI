@@ -1,4 +1,4 @@
-An amazing fully customizable theme and the spiritual successor of ELYSIA, the theme comes with multiple addons like an animated RGB addon for example.
+An amazing fully customizable theme and the direct successor of ELYSIA, the theme comes with multiple addons like animated RGB elements or an horizontal server list for example.
 
 ### WizardUI Preview
 ![Default](https://purplewizard.space/images/WIZARDUI/1.jpg)
