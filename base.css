@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-70"; /* 0-00 */
+    --version: "1-71"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -2185,7 +2185,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);
 
 .channelInfo_b7ab2e {
     background: var(--grey);
-    padding: 0 0;
+    padding: 0 2px;
     border-radius: var(--Rounding);
 }
 
@@ -2807,10 +2807,22 @@ div[class^=pill] {
     text-align: center;
     padding: 5px 10px;
     height: auto;
-    margin-top: 0px;
-    border-radius: 0 0 5px 5px;
+    margin-top: 8px;
+    border-radius: 0;
     line-height: 15px;
     font-size: 12px;
+}
+
+#app-mount .divider_b9338f span.unreadPill__715fc {
+    background-color: var(--ui-error);
+}
+
+#app-mount .divider_b9338f span:last-child {
+    border-bottom-right-radius: 5px;
+}
+
+#app-mount .divider_b9338f span:first-child {
+    border-bottom-left-radius: 5px;
 }
 
 ul>.listItem_fa7b36>div[class^=pill] {
@@ -5802,6 +5814,10 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     height: 14px;
 }
 
+.flowerStarContainer_d8d14b>.childContainer__4e664>svg>path {
+    fill: var(--Text);
+}
+
 #my-account-tab .bannerSVGWrapper__3e7b0 {
     background-image: var(--background);
     background-size: cover;
@@ -5973,6 +5989,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     border-radius: var(--Rounding);
     background-color: var(--grey5);
     border: none;
+    margin-top: 5px;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -6003,4 +6020,22 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 .menu__5cf7f {
     max-width: 100%;
+}
+
+.header__104ca .guildIconV2Container__53cdb {
+    display: flex;
+    margin: 0 5px;
+    justify-content: center;
+    order: 2;
+}
+
+.header__104ca .headerChildren__7cd0b {
+    order: 0;
+    margin: 0 5px;
+}
+
+.header__104ca .name_c08dbc {
+    order: 1;
+    justify-content: center;
+    flex: 0 1 auto;
 }
