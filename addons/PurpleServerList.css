@@ -70,8 +70,8 @@
 }
 
 #app-mount .guilds__2b93a .target__47b05::before {
-    border-radius: 5px;
-    top: 0;
+    border-radius: var(--Rounding);
+    top: 15px;
     height: var(--ServerSize);
     width: 4px;
     left: -3px;
