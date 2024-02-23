@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-71"; /* 0-00 */
+    --version: "1-72"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -1515,11 +1515,6 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     right: 0;
     bottom: 0;
     border-radius: var(--Rounding);
-}
-
-.guilds__2b93a .listItem_fa7b36 {
-    width: unset;
-    margin: 0;
 }
 
 .liveSmall_ca35ec {
