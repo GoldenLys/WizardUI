@@ -104,11 +104,11 @@
 }
 
 #app-mount .guilds__2b93a .scroller__3d071 {
-    overflow: visible !important;
+    overflow: visible scroll !important;
 }
 
 #app-mount .guilds__2b93a .scroller__3d071>div:not([class]):not([style])>.wrapper_ed1dea .expandedFolderBackground__1bec6:not(.collapsed__0a270)+.listItem_fa7b36+ul {
-    height: visible !important;
+    height: auto !important;
 }
 
 #app-mount [class*="pill_"]:not(.pill_f055c3):not(.pillOnline_e904a3):not([class*=pillMessage_]) {

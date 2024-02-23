@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-72"; /* 0-00 */
+    --version: "1-73"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
