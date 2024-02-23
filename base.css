@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-73"; /* 0-00 */
+    --version: "1-74"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -2363,7 +2363,7 @@ div[class^=pill] {
 /* PMs */
 
 .tutorialContainer__890ea {
-    margin: 10px 0 7px 0;
+    margin: 6px 0 6px 0;
     display: flex;
     place-content: center;
     flex-wrap: wrap;
@@ -2416,7 +2416,6 @@ div[class^=pill] {
     display: flex;
     flex-wrap: wrap;
     place-content: center;
-    margin: 3px 0 3px 0;
     order: 2;
 }
 
@@ -2427,7 +2426,6 @@ div[class^=pill] {
     display: flex;
     margin: auto 0;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
 }

@@ -49,6 +49,15 @@
     margin: 0;
 }
 
+
+#app-mount .guilds__2b93a .tutorialContainer_dc6fde,
+#app-mount .guilds__2b93a .tutorialContainer_dc6fde+.listItem_fa7b36 {
+    width: auto;
+    place-content: center;
+    flex-wrap: wrap;
+    margin: 3px 0 6px 0;
+}
+
 #app-mount .guilds__2b93a .wrapper_ed1dea>.listItem_fa7b36 {
     margin: 0px !important;
 }
@@ -104,7 +113,9 @@
 }
 
 #app-mount .guilds__2b93a .scroller__3d071 {
-    overflow: visible scroll !important;
+    width: calc(var(--ServerSize) + 18px);
+    display: flex;
+    flex-direction: column;
 }
 
 #app-mount .guilds__2b93a .scroller__3d071>div:not([class]):not([style])>.wrapper_ed1dea .expandedFolderBackground__1bec6:not(.collapsed__0a270)+.listItem_fa7b36+ul {
@@ -152,4 +163,11 @@
 
 #app-mount .guilds__2b93a .scroller__3d071>div[style*="opacity: 1;"]:not(:first-child) {
     margin: 3px 0 3px 0;
+}
+
+#app-mount .guilds__2b93a .scroller__3d071>div:not([class]):not([style]) {
+    place-content: center;
+    flex: 1 1 auto;
+    margin: 6px 0px;
+    border-radius: var(--Rounding);
 }
