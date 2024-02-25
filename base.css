@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-74"; /* 0-00 */
+    --version: "1-75"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -6031,4 +6031,29 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     order: 1;
     justify-content: center;
     flex: 0 1 auto;
+}
+
+.typeThread__2f91c.wrapper__7bcde {
+    overflow: visible;
+    padding: 0 5px 0 0px;
+}
+
+.typeThread__2f91c .unread__48cf4 {
+    display: block;
+    background-color: transparent;
+    box-shadow: none;
+    width: calc(100% + 36px);
+    border-radius: var(--Rounding);
+    overflow: hidden;
+}
+
+.typeThread__2f91c .unread__48cf4:before {
+    position: relative;
+    display: block;
+    content: "";
+    height: 100%;
+    width: 2px;
+    margin-top: 0;
+    background-color: var(--Unread);
+    box-shadow: 1px 0px 10px 1px var(--Unread);
 }
