@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-75"; /* 0-00 */
+    --version: "1-76"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -130,6 +130,7 @@
     --input-background: var(--grey);
     --profile-body-background-color: transparent;
     --text-brand: var(--Primary);
+    --brand-experiment-80a: var(--Primary);
     --mention-foreground: var(--Text);
     --mention-background: var(--Hover);
     --home-background: transparent;
@@ -841,10 +842,6 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.status__1c26d {
     height: unset;
     top: 0 !important;
     margin: 5px 0 !important;
-}
-
-.group-spacing-16 .divider__8cf56 {
-    height: 20px;
 }
 
 .guilds__2b93a .tutorialContainer__890ea>div[class^=listItem_]>div[class^=listItemWrapper_]>div {
@@ -2492,10 +2489,6 @@ div[class^=pill] {
     background-color: var(--bg-servers);
 }
 
-.privateChannels__93473>div>.content__23cab>div[style="height: 8px;"] {
-    height: 0 !important;
-}
-
 .nowPlayingColumn_f5023f {
     border-radius: 0 5px 0 0;
     border-bottom: none;
@@ -2800,7 +2793,7 @@ div[class^=pill] {
     text-align: center;
     padding: 5px 10px;
     height: auto;
-    margin-top: 8px;
+    margin-top: 0px;
     border-radius: 0;
     line-height: 15px;
     font-size: 12px;
@@ -2887,6 +2880,10 @@ path[fill="#7289da"] {
 
 .panels__58331>.container_ca50b9>div.flex_f5fbb7 { 
     margin-left: auto;
+}
+
+.panels__58331>.container_ca50b9>div.flex_f5fbb7 .lottieIcon__9d8ab {
+    display: none!important;
 }
 
 .panels__58331 .container_d667ff {
@@ -5899,17 +5896,6 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     margin-bottom: 4px;
 }
 
-.shop-3sIaH8 .heroBanner-15dNeS .bannerTitle-suxdlR {
-    font-size: 0px;
-    line-height: 0px;
-}
-
-.shop-3sIaH8 .heroBanner-15dNeS .bannerTitle-suxdlR:before {
-    content: "Ready for a new scam?";
-    font-size: 44px;
-    line-height: 42px;
-}
-
 .heroDescription-2QJJDj>* {
     margin-right: 15px;
 }
@@ -6056,4 +6042,8 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     margin-top: 0;
     background-color: var(--Unread);
     box-shadow: 1px 0px 10px 1px var(--Unread);
+}
+
+.spine__88e6d, .spineBorder_bdec8b {
+    left: 27.5px;
 }
