@@ -6047,3 +6047,8 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 .spine__88e6d, .spineBorder__52981 {
     left: 27.5px;
 }
+
+.segmentContainer__51d3d>.divider__4595d {
+    height: 1px;
+    margin: 0 !important;
+}
