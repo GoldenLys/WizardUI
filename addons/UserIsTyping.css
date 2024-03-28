@@ -7,11 +7,11 @@
     display: block;
 }
 
-.chat__52833[class*=channelTextAreaDisabled] .textArea__74543>.placeholder__4bea5:after {
+.chat__52833[class*=channelTextAreaDisabled] .textArea_a86690>.placeholder__443e5:after {
     content: "You do not have permission to send messages in this channel.";
 }
 
-.jumpToPresentBar__0ff7f {
+.jumpToPresentBar__69174 {
     bottom: 5px;
     left: 5px;
     right: 5px;
