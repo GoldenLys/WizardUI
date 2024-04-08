@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-78"; /* 0-00 */
+    --version: "1-79"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -866,13 +866,19 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.status__1c26d {
     box-shadow: 1px 0px 10px 1px var(--Unread);
 }
 
-.userPopoutOuter__3884e,
-.userProfileInner__61cc1:not(.userProfileModalInner__99b1e):not(.userCardInner__4fd8f) {
+.userPopoutOuter__3884e {
     position: relative;
     background-color: var(--grey);
-    width: 360px !important;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.userProfileInner__61cc1:not(.userProfileModalInner__99b1e):not(.userCardInner__4fd8f) {
+    position: relative;
+    background-color: transparent;
     border-radius: 5px;
 }
+
 
 .userProfileInner__61cc1 .avatarWrapper__0cd44 {
     display: block;
@@ -925,7 +931,7 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.status__1c26d {
     position: relative;
     padding-bottom: 0px;
     border-top: 2px solid var(--Primary);
-    margin: 0px 0px 0px;
+    margin: 24px 0px 0px;
     border-radius: 0px;
     background-color: var(--bg-ui);
 }
@@ -993,6 +999,7 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.status__1c26d {
 .userProfileInner__61cc1 .scroller_f9a667 {
     padding-left: 5px !important;
     padding-right: 5px !important;
+    overflow: hidden auto!important;
 }
 
 .member-permdiv[class^="role_"] {
@@ -4117,12 +4124,6 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
     color: var(--Primary);
 }
 
-.userProfileInner__61cc1:not(.userProfileModalInner__99b1e) .premiumIconWrapper__7793e,
-.userProfileInner__61cc1:not(.userProfileModalInner__99b1e) .pencilContainer_ae6d25 {
-    z-index: 2;
-    transform: scaleX(0.8);
-}
-
 .userProfileInner__61cc1 .banner-2boKnS:after {
     z-index: 1;
     content: "";
@@ -4205,31 +4206,6 @@ div[class^=folderIconWrapper],
     background-color: var(--grey5);
 }
 
-div[class*=profileBadges_] {
-    position: absolute;
-    z-index: 2;
-    top: 60px;
-    display: flex;
-    right: 10px;
-    column-gap: 5px;
-    padding: 0px;
-    border-radius: var(--Rounding);
-    justify-content: left;
-    min-height: 30px;
-    align-content: center;
-    background-color: var(--bg-ui);
-}
-
-div[class*=profileBadges_] a:first-child,
-div[class*=profileBadges_] div:first-child {
-    padding-left: 5px;
-}
-
-div[class*=profileBadges_] a:last-child,
-div[class*=profileBadges_] div:last-child {
-    padding-right: 5px;
-}
-
 .userProfileInner__61cc1>.headerTop-3GPUSF.headerText-1-WmDq {
     padding-left: 96px;
     max-width: calc(100% - 96px);
@@ -4310,21 +4286,6 @@ div[class*=profileBadges_] div:last-child {
     height: 80px;
 }
 
-.userProfileInner__61cc1 .popoutBanner__3fbe8,
-.userProfileInner__61cc1 .popoutBannerPremium__84487 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: .75;
-    border-radius: 5px;
-}
-
-.userProfileInner__61cc1 .bannerSVGWrapper__8a38c .popoutBanner__3fbe8 {
-    transform: scaleY(2);
-}
-
 .userProfileInner__61cc1 .popoutBannerPremium__84487 {
     opacity: 1.0;
 }
@@ -4369,6 +4330,10 @@ div[class*=profileBadges_] div:last-child {
 .accountProfileCard__744d8>div {
     position: relative;
     z-index: 1;
+}
+
+.popoutBanner__3fbe8 {
+    display: none;
 }
 
 .accountProfileCard__744d8 .settingsBanner__01382 {
@@ -5205,30 +5170,6 @@ div[class*=profileBadges_] div:last-child {
 
 .userPopoutInner-PA9zkU {
     background: transparent;
-    padding-top: 60px;
-}
-
-.bannerUploader_b90917,
-.popoutBanner__3fbe8,
-.popoutBannerPremium__84487,
-.popoutNoBannerPremium__587cf,
-.panelBanner__7d7e2 {
-    transform: scaleX(1.27);
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    background-size: cover;
-    background-position: center;
-}
-
-.avatarUploaderPremium-2v2k2d,
-div[class*=avatarPositionNormal_],
-div[class*=avatarPositionPremium_],
-.avatarPositionPremiumBanner_f3acc4,
-.avatarPositionPremiumNoBanner__8beba {
-    top: 10px;
-    left: 10px;
 }
 
 .avatar-2OC07D {
@@ -5236,7 +5177,7 @@ div[class*=avatarPositionPremium_],
     background-color: var(--bg-ui);
 }
 
-.avatarHoverTarget-l77PhT {
+.avatarHoverTarget__9b4a9 {
     position: relative;
 }
 
@@ -5304,7 +5245,7 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
     display: none
 }
 
-.bannerSVGWrapper__8a38c>mask {
+.bannerSVGWrapper__8a38c>mask>circle {
     display: none
 }
 
@@ -5315,11 +5256,6 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
 
 .userProfileModalInner__99b1e .avatar-1YsFQ1>svg>circle {
     display: none;
-}
-
-.userProfileInner__61cc1:not(.userProfileModalInner__99b1e) .bannerSVGWrapper__8a38c {
-    min-height: 100px !important;
-    height: 100px;
 }
 
 .userProfileInner__61cc1 .section-3FmfOT {
@@ -5341,8 +5277,11 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
     width: calc(100% - 0px);
 }
 
-.userProfileInner__61cc1:not(.userCardInner__4fd8f):before {
+.userProfileInner__61cc1:before {
     background-color: var(--bg-colorprofile);
+    border-radius: 5px;
+    height: calc(100%);
+    width: calc(100%);
 }
 
 .userProfileInner__61cc1 .wrapper-1VLyxH circle,
@@ -5362,10 +5301,6 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
 
 .repliedMessage__636d2:before {
     border-color: var(--Primary);
-}
-
-.customizationSection__0f57e {
-    width: 360px;
 }
 
 .customizationSection__0f57e .userProfileInnerThemedWithBanner__2152d:before,
@@ -5456,7 +5391,7 @@ div.selected-3veCBZ:hover .name_f842e4 {
     display: none !important;
 }
 
-.avatarDecorationHint-GIo7Yh {
+.avatarDecorationHint__04b99 {
     border-radius: var(--Rounding) !important;
 }
 
@@ -6055,4 +5990,8 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 .wrapper_c899da {
     display: none!important;
+}
+
+.roundedBanner__16aa6 {
+    border-radius: 0px;
 }
