@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-79"; /* 0-00 */
+    --version: "1-79-2"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -5986,10 +5986,6 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 .segmentContainer__51d3d>.divider__4595d {
     height: 1px;
     margin: 0 !important;
-}
-
-.wrapper_c899da {
-    display: none!important;
 }
 
 .roundedBanner__16aa6 {
