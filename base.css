@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-79-2"; /* 0-00 */
+    --version: "1-80"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -836,12 +836,6 @@ rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"],
 [mask^="url(#svg-mask-status-streaming"],
 foreignObject[mask^="url(#svg-mask-status-streaming"]>.status__1c26d {
     fill: var(--Streaming) !important;
-}
-
-[class^=divider] {
-    height: unset;
-    top: 0 !important;
-    margin: 5px 0 !important;
 }
 
 .guilds__2b93a .tutorialContainer_b06ae6>div[class^=listItem_]>div[class^=listItemWrapper_]>div {
@@ -2794,28 +2788,18 @@ div[class^=pill] {
 }
 
 #app-mount .divider__855e3 span {
-    position: unset;
     background-color: var(--bg-chat-elements);
     color: var(--Text);
     text-align: center;
     padding: 5px 10px;
-    height: auto;
     margin-top: 0px;
-    border-radius: 0;
+    border-radius: 5px;
     line-height: 15px;
     font-size: 12px;
 }
 
 #app-mount .divider__855e3 span.unreadPill__1b4fa {
     background-color: var(--ui-error);
-}
-
-#app-mount .divider__855e3 span:last-child {
-    border-bottom-right-radius: 5px;
-}
-
-#app-mount .divider__855e3 span:first-child {
-    border-bottom-left-radius: 5px;
 }
 
 ul>.listItem__48528>div[class^=pill] {
@@ -5294,9 +5278,8 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
     border-top: none;
 }
 
-.divider__855e3,
-.divider-_0um2u {
-    border-top: 2px solid var(--bg-chat-elements);
+.divider__855e3 {
+    border-top: 0px solid var(--bg-chat-elements);
 }
 
 .repliedMessage__636d2:before {
@@ -5860,15 +5843,6 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 .winButtonClose__6396d.winButton_f17fb6:after {
     content: "\f00d";
-}
-
-.cozy_f5c119 .timestamp_c79dd2.alt__6c563, .compact_eda3c8 .timestamp_c79dd2 {
-    display: inline-flex;
-}
-
-.compact_eda3c8 .timestamp_c79dd2:not(.timestampInline__430cf, 
-.compact_eda3c8 .timestampVisibleOnHover__1679f) time::after {
-    content: "";
 }
 
 .newMosaicStyle_ed53d8 .textContainer__65f57 {
