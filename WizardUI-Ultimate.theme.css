@@ -18,6 +18,9 @@
 /* This is an addon that moves the servers to the top with an horizontal width.*/
 @import url("https://goldenlys.github.io/WizardUI/addons/PurpleServerList.css");
 
+/* An extension of PurpleServerList where the sidebar is moved to the top and the server list shifts accordingly.
+@import url("https://goldenlys.github.io/WizardUI/addons/TopSidebarShift.css"); */
+
 /* This is a modification for PurpleServerList which replaces the folders icons with letters.
 @import url("https://goldenlys.github.io/WizardUI/addons/LettersInPSL.css"); */
 
