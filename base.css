@@ -8,7 +8,7 @@
 
 :root {
     --build: "R";
-    --version: "1-81"; /* 0-00 */
+    --version: "1-82"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version) " " var(--build);
     /* MAIN VARIABLES */
     --font: 'Inter', 'emoji', sans-serif;
@@ -454,7 +454,10 @@ a[href="https://support.discord.com"],
 .buttons__7ecff>.container_f96a95>.container_f96a95>.button__581d0,
 div[class^=tutorialContainer]+.listItem__48528 .pill__13f64,
 .arrow_cb03b8.icon__3aa8e,
-.container_bc43c1:after {
+.container_bc43c1:after,
+.form_d8a4a1:before, 
+.form_d8a4a1:after,
+.titleWrapper_d6133e+.divider_bdb894 {
     display: none;
 }
 

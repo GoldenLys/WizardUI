@@ -1,5 +1,6 @@
 #app-mount .guilds__2b93a {
     left: 265px;
+    height: calc(100vw - 265px) !important;
 }
 
 #app-mount .sidebar_e031be {
