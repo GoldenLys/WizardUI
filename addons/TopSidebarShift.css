@@ -11,6 +11,7 @@
 }
 
 #app-mount .sidebar_e031be+div,
-#app-mount .sidebar_e031be+main {
+#app-mount .sidebar_e031be+main,
+.notice_a687ab {
     margin-left: 265px;
 }
