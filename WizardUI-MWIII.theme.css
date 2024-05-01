@@ -76,10 +76,12 @@
     --bg-members: rgb(0 0 0 / 75%);
     --bg-chat-elements: rgb(0 0 0 / 65%);
     --bg-colorprofile: rgb(0 0 0 / 75%);
+    --bg-alt-message: transparent;
 
     /* SERVER SETTINGS */
     --ServerSize: 45px;
     --ServerPills: var(--Primary);
+    --ServerFoldersColor: var(--Primary);
 
     /* ROUNDING */
     --Rounding: 0;
