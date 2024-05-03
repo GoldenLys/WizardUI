@@ -7,26 +7,14 @@
 }
 
 :root {
-    --version: "1-84"; /* 0-00 */
+    --version: "1-85"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
+    --AppName: "DISCORD";
+    --Watermark: "WizardUI";
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
     --logo: url(https://goldenlys.github.io/WizardUI/images/home.png);
-    /* STATUS VARIABLES */
-    --Online: rgb(0, 255, 6);
-    --Idle: rgb(18, 100, 239);
-    --Unavailable: rgb(228, 15, 0);
-    --Offline: rgb(90, 95, 100);
-    --Streaming: rgb(110, 0, 196);
-    /* UI COLOR VARIABLES */
-    --grey: rgb(18, 19, 31);
-    --grey5: rgba(18, 19, 31, .75);
-    --darkgrey: rgb(10, 10, 20);
-    --darkgrey5: rgba(10, 10, 20, .75);
-    --ui-success: rgb(69, 208, 34);
-    --ui-warning: rgb(238, 165, 30);
-    --ui-error: rgb(208, 34, 34);
     /* THEME COLORS */
     --Primary: rgb(50, 10, 200);
     --text-link: var(--Primary);
@@ -35,6 +23,12 @@
     --Unread: rgba(255, 255, 255, 0.10);
     --Hover: rgba(18, 19, 31, 0.50);
     --Selected: rgba(56, 33, 146);
+    /* STATUS VARIABLES */
+    --Online: rgb(0, 255, 6);
+    --Idle: rgb(18, 100, 239);
+    --Unavailable: rgb(228, 15, 0);
+    --Offline: rgb(90, 95, 100);
+    --Streaming: rgb(110, 0, 196);
     /* BACKGROUNDS */
     --background: url(https://goldenlys.github.io/WizardUI/images/backgrounds/clouds.png);
     --bg-titlebar: rgba(0, 0, 0, 0.65);
@@ -47,6 +41,14 @@
     --bg-settings: var(--darkgrey);
     --bg-colorprofile: var(--bg-ui);
     --bg-alt-message: transparent;
+    /* UI COLOR VARIABLES */
+    --grey: rgb(18, 19, 31);
+    --grey5: rgba(18, 19, 31, .75);
+    --darkgrey: rgb(10, 10, 20);
+    --darkgrey5: rgba(10, 10, 20, .75);
+    --ui-success: rgb(69, 208, 34);
+    --ui-warning: rgb(238, 165, 30);
+    --ui-error: rgb(208, 34, 34);
     /* SERVER SETTINGS */
     --ServerSize: 45px;
     --ServerPills: var(--Primary);
@@ -54,8 +56,7 @@
     /* ROUNDING */
     --Rounding: 5px;
     --StatusRounding: 4.5;
-    --AppName: "DISCORD";
-    --Watermark: "WizardUI";
+    --AvatarRounding: var(--Rounding);
     /* RGB ADDON */
     --ColorTime: 2s;
     --Color2: rgb(0, 225, 255);
@@ -1295,7 +1296,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 .container_debb33 .avatar_f8541f,
 .container_debb33 .avatar_f8541f foreignObject,
 .container_debb33 .avatar_f8541f .avatarStack-3vfSFa {
-    border-radius: var(--Rounding);
+    border-radius: var(--AvatarRounding);
     width: 40px !important;
     height: 40px !important;
     -webkit-mask: none;

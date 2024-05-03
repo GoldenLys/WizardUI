@@ -82,11 +82,13 @@
     /* SERVER SETTINGS */
     --ServerSize: 45px;
     --ServerPills: var(--Primary);
-
+    --ServerFoldersColor: var(--Primary);
+    
     /* ROUNDING */
     --Rounding: 5px;
     --StatusRounding: 4.5;
-    --ServerFoldersColor: var(--Primary);
+    --AvatarRounding: var(--Rounding);
+    
 
     /* RGB ADDON */
     --ColorTime: 5s;
