@@ -272,7 +272,6 @@ div[class^=folder_],
 .playButtonContainer_bf2199,
 .container_ce813c,
 .hoverButtonGroup__304b2,
-.wrapper__3ed10>svg>foreignObject,
 .callContainer__486b0,
 .stageSection-3mAD8V,
 .applicationStore__444b9>.homeWrapper_d63773>.scroller__244e5,
@@ -4144,7 +4143,6 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
 .acronym_fb7739,
 .iconActiveMedium__24185,
 .wrapper-1VLyxH,
-.wrapper__3ed10,
 .avatarWrapper__0cd44,
 .avatarWrapper-3y0KZ1,
 .avatarWrapper-1-5NA0,
@@ -5995,7 +5993,12 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     position: absolute;
     top: 10px;
     right: 45px;
-    border-radius: var(--Rounding);
+    border-radius: var(--AvatarRounding);
+}
+
+.wrapper__3ed10>svg>foreignObject,
+.wrapper__3ed10 {
+    border-radius: var(--AvatarRounding);
 }
 
 .userProfileInnerThemedNonPremium_b64fb4 .avatarPositionNormal_ba6daa+.profileBadges__1f2ab {
