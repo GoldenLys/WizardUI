@@ -60,6 +60,7 @@
     /* THEME COLORS */
     --Primary: rgb(130, 0, 216);
     --text-link: var(--Primary);
+    --text-shadow: rgb(0 0 0);
     --Highlighted: rgba(117 76 205 / 5%);
     --MessageHover: transparent;
     --Unread: rgb(255 255 255);

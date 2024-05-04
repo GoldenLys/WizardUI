@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-85"; /* 0-00 */
+    --version: "1-86"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -18,6 +18,7 @@
     /* THEME COLORS */
     --Primary: rgb(50, 10, 200);
     --text-link: var(--Primary);
+    --text-shadow: rgb(0 0 0);
     --Highlighted: rgba(50, 10, 200, .5);
     --MessageHover: transparent;
     --Unread: rgba(255, 255, 255, 0.10);
@@ -99,8 +100,8 @@
     --modal-footer-background: var(--darkgrey);
     --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
     --background-message-hover: var(--MessageHover);
-    --background-mentioned: hsl(var(--white-300-hsl)/0.1);
-    --background-mentioned-hover: hsl(var(--white-300-hsl)/0.08);
+    --background-mentioned: var(--Unread);
+    --background-mentioned-hover: var(--Hover);
     --scrollbar-thin-thumb: var(--Primary);
     --scrollbar-thin-track: transparent;
     --scrollbar-auto-thumb: var(--Primary);
@@ -125,6 +126,15 @@
     --status-danger-text: var(--Text);
     --focus-primary: var(--Primary);
     --brand-experiment: var(--Primary);
+    --brand-experiment-100: var(--Primary);
+    --brand-experiment-200: var(--Primary);
+    --brand-experiment-300: var(--Primary);
+    --brand-experiment-400: var(--Primary);
+    --brand-experiment-500: var(--Primary);
+    --brand-experiment-600: var(--Primary);
+    --brand-experiment-700: var(--Primary);
+    --brand-experiment-800: var(--Primary);
+    --brand-experiment-900: var(--Primary);
     --primary-dark-400: var(--Text);
     --brand-500: var(--Primary);
     --control-brand-foreground: var(--Primary);
@@ -249,6 +259,8 @@ div[class^=folder_],
     background-color: transparent !important;
 }
 
+.container__03ec9, 
+.header__71942,
 .container_b92032,
 .applicationStore__444b9,
 .shop_b31ed2,
@@ -877,7 +889,7 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.status__1c26d {
     background-image: none;
     border-radius: 5px;
     overflow: hidden;
-    text-shadow: black 0px 0px 2.5px;
+    text-shadow: var(--text-shadow) 0px 0px 2.5px;
 }
 
 
@@ -1669,7 +1681,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);
     line-height: 16px !important;
     text-transform: uppercase !important;
     color: var(--Primary) !important;
-    text-shadow: 0 0 2.5px var(--Primary);
+    text-shadow: var(--text-shadow) 0px 0px 2.5px;
 }
 
 #bd-settings-sidebar .ui-tab-bar-header {
@@ -2697,11 +2709,15 @@ div[class^=pill] {
     margin: 5px 5px;
     padding: 0 5px;
     border-radius: var(--Rounding);
+    color: var(--Text);
+}
+
+.sidebar_e031be .content__690c5>div[aria-hidden]+div[style^="height"]:not([aria-hidden]) {
+    display: none;
 }
 
 .sidebar_e031be .content__690c5>div[style^="height"]:not([aria-hidden]):after {
     content: "No category";
-    color: var(--Text);
     text-transform: uppercase;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -2710,6 +2726,10 @@ div[class^=pill] {
     line-height: 16px;
     font-weight: 600;
     padding: 0 5px;
+}
+
+.sidebar_e031be .content__690c5>div[aria-hidden]+div[style^="height"]:not([aria-hidden]):after {
+    content: none;
 }
 
 /* CHANNELS ICONS */
@@ -3532,7 +3552,7 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item_f9d377,
 }
 
 .channelSettingButtons__6695b {
-    background-color: var(--grey5);
+    background-color: var(--bg-chat-elements);
     padding: 5px 10px;
     margin: 10px -16px 0px -16px;
 }
@@ -4139,26 +4159,30 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
     margin: 0 2.5px;
 }
 
-.avatarUploaderInner-1dBiHs,
 .acronym_fb7739,
 .iconActiveMedium__24185,
 .wrapper-1VLyxH,
+.icon__11cf1,
+div[class^=folderIconWrapper],
+.wrapper__9916c,
+.wrapper__8436d,
+.wrapperSimple__9e2b0 {
+    border-radius: var(--Rounding);
+}
+
+.avatarUploaderInner-1dBiHs,
+.iconActiveMedium__24185,
 .avatarWrapper__0cd44,
 .avatarWrapper-3y0KZ1,
 .avatarWrapper-1-5NA0,
-.icon__11cf1,
 .avatar__08316,
 .avatar-b5OQ1N,
-div[class^=folderIconWrapper],
 .avatarHintInner-2kMTo4,
 .avatar-b5OQ1N,
 .avatar__777a6,
 .avatar-22FtUu,
-.wrapper__9916c,
-.wrapper__8436d,
-.avatar__08316,
-.wrapperSimple__9e2b0 {
-    border-radius: var(--Rounding);
+.avatar__08316 {
+    border-radius: var(--AvatarRounding);
 }
 
 .separator_fc3370 {
@@ -4171,7 +4195,6 @@ div[class^=folderIconWrapper],
     background-color: transparent;
     border: none;
     min-height: 90px;
-    text-shadow: 0 0 5px var(--darkgrey);
 }
 
 .avatar-3QF_VA,
@@ -4647,6 +4670,7 @@ div[class^=folderIconWrapper],
 .name__27f04.container__43554{
     display: inline-flex;
     line-height: 24px;
+    text-shadow: 0 0 2.5px var(--text-shadow);
 }
 
 .input-2g-os5.error-8r7mjf {
@@ -5667,6 +5691,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     position: absolute;
     inset: 0;
     background-color: var(--background-mentioned);
+    opacity: 0.15;
     z-index: -1;
     filter: saturate(var(--saturation-factor, 1));
     border-radius: var(--Rounding);
@@ -6043,4 +6068,12 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 .messageListItem__050f9:nth-child(2n) {
     background-color: var(--bg-alt-message);
+}
+
+.name_c3d448 {
+    text-shadow: var(--text-shadow) 0px 0px 2.5px;
+}
+
+.desaturate-user-colors .desaturateUserColors_eb6bd2 {
+    filter: none;
 }

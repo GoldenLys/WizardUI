@@ -96,6 +96,14 @@ div[class^=circleIconButton_], .guilds__2b93a .scroller__3d071>div:not([class]):
 	-webkit-animation: RGB_TEXT var(--ColorTime) linear infinite !important;
 }
 
+.sidebar_e031be .containerDefault_ae2ea4.selected__11b62 .iconContainer__6a580:before, 
+.sidebar_e031be .containerDefault_ae2ea4.selected__11b62>svg,
+.sidebar_e031be .containerDefault_ae2ea4.selected__11b62 .channelName-3KPsGw,
+.sidebar_e031be .content__690c5>div[style^="height"]:not([aria-hidden]) {
+	animation: RGB_TEXT var(--ColorTime) linear infinite !important;
+	-webkit-animation: RGB_TEXT var(--ColorTime) linear infinite !important;
+}
+
 .container_b03b4b>.header__4080b.header__6f020,
 .container_b03b4b>.description__57d03:after,
 .container__41e05>.inner__4350a>div:after {
