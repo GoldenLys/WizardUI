@@ -2383,14 +2383,12 @@ div[class^=pill] {
     height: var(--ServerSize);
 }
 
-/* PMs */
-
 .tutorialContainer_b06ae6 {
     margin: 6px 0 6px 0;
     display: flex;
     place-content: center;
     flex-wrap: wrap;
-    order: 0;
+    order: 1;
 }
 
 .expandedFolderIconWrapper__324c1 {
@@ -2444,7 +2442,7 @@ div[class^=pill] {
 
 #app-mount .guilds__2b93a .scroller_de945b>div:not([class]):not([style]) {
     position: relative;
-    order: 3;
+    order: 4;
     height: auto;
     display: flex;
     margin: auto 0;
