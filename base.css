@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-86"; /* 0-00 */
+    --version: "1-87"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -857,7 +857,9 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.status__1c26d {
 .guilds__2b93a .tutorialContainer_b06ae6>div[class^=listItem_]>div[class^=listItemWrapper_]>div {
     border-radius: var(--Rounding);
     background-image: var(--logo);
-    background-size: calc(var(--ServerSize) - 1px);
+    max-height: calc(var(--ServerSize) - 1px);
+    max-width: calc(var(--ServerSize) - 1px);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: var(--ServerSize);
