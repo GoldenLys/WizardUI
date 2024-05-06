@@ -76,6 +76,7 @@
     --bg-sendmessage: rgba(0, 0, 0, 0.65);
     --bg-members: rgba(0, 0, 0, 0.65);
     --bg-chat-elements: rgba(0, 0, 0, 0.5);
+    --bg-settings: var(--darkgrey);
     --bg-colorprofile: rgba(0, 0, 0, 0.5);
     --bg-alt-message: transparent;
 
