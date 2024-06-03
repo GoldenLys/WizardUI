@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-87"; /* 0-00 */
+    --version: "1-88"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -2935,11 +2935,15 @@ svg[width="49"][height="40"]>rect {
 }
 
 .connectedAccount__75282,
+.userProfileActivity-sal5no {
+    background-color: var(--bg-ui);
+}
+
+.connectedAccount__75282,
 .listRow__50619,
 .userProfileActivity-sal5no {
     border-radius: 2.5px;
     border: none;
-    background-color: var(--bg-ui);
     padding: 6px 12px;
 }
 
@@ -4177,7 +4181,7 @@ div[class^=folderIconWrapper],
 .avatarWrapper-1-5NA0,
 .avatar__08316,
 .avatar-b5OQ1N,
-.avatarHintInner-2kMTo4,
+.avatarHintInner_c8ddb1,
 .avatar-b5OQ1N,
 .avatar__777a6,
 .avatar-22FtUu,
@@ -5230,11 +5234,6 @@ foreignObject[mask="url(#svg-mask-avatar-status-round-32)"],
     -webkit-mask: none;
 }
 
-.avatarHint__15059>foreignObject>.avatarHintInner-3gk_Yx {
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
 div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges_]::before {
     content: "";
     display: block;
@@ -6018,7 +6017,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     position: absolute;
     top: 10px;
     right: 45px;
-    border-radius: var(--AvatarRounding);
+    border-radius: 5px;
 }
 
 .wrapper__3ed10>svg>foreignObject,
@@ -6076,4 +6075,9 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 .desaturate-user-colors .desaturateUserColors_eb6bd2 {
     filter: none;
+}
+
+.answer__07489 {
+    background-color: var(--bg-ui);
+    border-radius: var(--Rounding);
 }
