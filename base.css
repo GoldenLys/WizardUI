@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-88"; /* 0-00 */
+    --version: "1-89"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -226,7 +226,7 @@ div[class^=folder_],
 .pageWrapper_c182d3,
 .container__7e23c,
 .panels__58331,
-.applicationStore__444b9,
+.mainPageScroller_a3deff
 .scroller__244e5,
 .header__119bc,
 .scroller_a9a4b4,
@@ -255,21 +255,27 @@ div[class^=folder_],
 .selected__37292,
 .header__71942,
 .members__573eb,
-.container_bd15da {
+.container_bd15da,
+.shopScroll_caa423,
+.pageWrapper__18871,
+.applicationStore__444b9 .container__26baa.themed_b152d4,
+.mainPageScroller_a3deff,
+.shop_b31ed2  .container__26baa.themed_b152d4 {
     background-color: transparent !important;
 }
 
 .container__03ec9, 
 .header__71942,
 .container_b92032,
-.applicationStore__444b9,
 .shop_b31ed2,
 .chatContent_f087cb>.messagesWrapper_add28b,
 .callContainer__486b0,
 .stageSection-3mAD8V,
 .tabBody_a90ea8 .peopleColumn__0c784,
 .applicationStore__444b9>.homeWrapper_d63773>.scroller__244e5,
-.pageWrapper_c182d3 {
+.pageWrapper_c182d3,
+.scroller_a9a4b4,
+.applicationStore__444b9 {
     background-color: var(--bg-chatbox) !important;
 }
 
