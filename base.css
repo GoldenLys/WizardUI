@@ -4393,22 +4393,26 @@ div[class^=folderIconWrapper],
     flex-wrap: wrap;
 }
 
+.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd div:not(.field__69fa0),
 .accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd>.field__69fa0 {
     flex-direction: column;
     flex: 1 1 calc(50% - 10px);
     padding: 0px;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
+}
+
+.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd .field__69fa0 {
     background: var(--Primary);
     border-radius: var(--Rounding);
 }
 
-.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd>.field__69fa0 .fieldTitle_f182ed {
+.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd .field__69fa0 .fieldTitle_f182ed {
     text-align: center;
     color: var(--Text) !important;
 }
 
-.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd>.field__69fa0>.constrainedRow__72f7a {
+.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd .field__69fa0>.constrainedRow__72f7a {
     background: var(--grey);
     margin-right: 0px;
     padding: 10px 10px 5px;
@@ -4416,40 +4420,40 @@ div[class^=folderIconWrapper],
     border-radius: var(--Rounding);
 }
 
-.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd>.field__69fa0>.constrainedRow__72f7a>div {
+.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd .field__69fa0>.constrainedRow__72f7a>div {
     width: 100%;
 }
 
-.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd>.field__69fa0>button {
+.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd .field__69fa0>button {
     background: transparent !important;
     border-radius: 0 0 var(--Rounding) var(--Rounding);
 }
 
-.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd>.field__69fa0>.fieldButtonList_fd9518 {
+.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd .field__69fa0>.fieldButtonList_fd9518 {
     display: flex;
     flex-direction: row;
 }
 
-.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd>.field__69fa0>.fieldButtonList_fd9518>button:not(.removeButton_dcb1e3) {
+.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd .field__69fa0>.fieldButtonList_fd9518>button:not(.removeButton_dcb1e3) {
     flex: 1 1 auto;
     background: transparent !important;
 }
 
-.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd>.field__69fa0>.fieldButtonList_fd9518>button.removeButton_dcb1e3 {
+.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd .field__69fa0>.fieldButtonList_fd9518>button.removeButton_dcb1e3 {
     flex: 1 1 auto;
 }
 
-.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd>.field__69fa0:hover {
+.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd .field__69fa0:hover {
     background: var(--Text) !important;
 }
 
-.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd>.field__69fa0:hover>.fieldButtonList_fd9518>button,
-.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd>.field__69fa0:hover>button {
+.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd .field__69fa0:hover>.fieldButtonList_fd9518>button,
+.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd .field__69fa0:hover>button {
     color: var(--Primary);
 }
 
-.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd>.field__69fa0.fieldSpacerBottom__2f849,
-.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd>.field__69fa0.fieldSpacer__0fa7b {
+.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd .field__69fa0.fieldSpacerBottom__2f849,
+.accountProfileCard__744d8>.background__4e802>.fieldList__4e6dd .field__69fa0.fieldSpacer__0fa7b {
     margin-bottom: 0px;
     margin-top: 0px;
 }
