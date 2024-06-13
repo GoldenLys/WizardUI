@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-90"; /* 0-00 */
+    --version: "1-91"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -279,6 +279,8 @@ div[class^=folder_],
     background-color: var(--bg-chatbox) !important;
 }
 
+.rippleContainer__25799,
+.ripple__74f0d,
 .baseShapeRound__42b79,
 .pill_f055c3.tag__40098,
 .tagsButton__34537,
@@ -5410,7 +5412,11 @@ div.selected-3veCBZ:hover .name_f842e4 {
     padding: 0 0 !important;
 }
 
-.guilds__2b93a .tutorialContainer_b06ae6>div[class^=listItem_]>div[class^=listItemWrapper_]>div>svg {
+.guilds__2b93a .tutorialContainer_b06ae6>div[class^=listItem_]>div[class^=listItemWrapper_]>div .wrapper_a6f950.selected_b420e6 .childWrapper__760c6 {
+    background: transparent !important;
+}
+
+.guilds__2b93a .tutorialContainer_b06ae6>div[class^=listItem_]>div[class^=listItemWrapper_]>div .wrapper_a6f950.selected_b420e6 .childWrapper__760c6 svg {
     visibility: hidden !important;
 }
 
@@ -6067,4 +6073,8 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 .answer__07489 {
     background-color: var(--bg-ui);
     border-radius: var(--Rounding);
+}
+
+.playing__0754e .volumeButtonIcon__99a56 {
+    color: var(--Text);
 }
