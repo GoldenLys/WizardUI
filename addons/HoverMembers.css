@@ -1,18 +1,18 @@
 /* ROLE NAME */
-.membersGroup_cad095 {
+.membersGroup_cbd271 {
     height: 0px;
     padding: 0px;
     transition: all 250ms ease, padding 100ms ease;
     -webkit-transition: all 250ms ease, padding 100ms ease;
 }
 
-.chat__52833 .container_f79ab4 .membersGroup_cad095 {
+.chat_a7d72e .container_cbd271 .membersGroup_cbd271 {
     opacity: 0;
     transition: all 2s ease;
     text-align: center;
 }
 
-.chat__52833 .container_f79ab4 .membersWrap__5ca6b:hover .membersGroup_cad095 {
+.chat_a7d72e .container_cbd271 .membersWrap_cbd271:hover .membersGroup_cbd271 {
     transition: all 2s ease;
     opacity: 1;
     height: 26px;
@@ -20,45 +20,45 @@
 }
 
 /* MOVING THE MEMBERS LIST TO THE RIGHT */
-.chat__52833 .container_f79ab4 {
+.chat_a7d72e .container_cbd271 {
     width: 60px;
     transition: all 500ms ease;
     -webkit-transition: all 500ms ease;
 }
 
-.chat__52833 .container_f79ab4:hover {
+.chat_a7d72e .container_cbd271:hover {
     width: 265px;
 }
 
 /* MEMBERS LIST CONTENT */
-.chat__52833 .container_f79ab4 .members__573eb {
+.chat_a7d72e .container_cbd271 .members_cbd271 {
     width: 265px;
     overflow: hidden;
     flex: 0 1 auto;
 }
 
-.chat__52833 .container_f79ab4 .membersWrap__5ca6b:hover {
+.chat_a7d72e .container_cbd271 .membersWrap_cbd271:hover {
     overflow: auto;
 }
 
 /* MOVING USER DETAILS */
-.chat__52833 .container_f79ab4 .members__573eb .member_aa4760 .content_e8a0d1 {
+.chat_a7d72e .container_cbd271 .members_cbd271 .member_a31c43 .content_e9f61e {
     -webkit-transform: translateX(220px);
     transform: translateX(220px);
     transition: all 750ms ease;
     -webkit-transition: all 750ms ease;
 }
-.chat__52833 .container_f79ab4:hover .members__573eb .member_aa4760 .content_e8a0d1 {
+.chat_a7d72e .container_cbd271:hover .members_cbd271 .member_a31c43 .content_e9f61e {
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
 }
 
 
-.chat__52833>.content__01e65>.membersWrap__5ca6b {
+.chat_a7d72e>.content_a7d72e>.membersWrap_cbd271 {
     background: var(--bg-members);
     min-width: 265px;
 }
 
-.chat__52833>.content__01e65>.membersWrap__5ca6b>.members__573eb {
+.chat_a7d72e>.content_a7d72e>.membersWrap_cbd271>.members_cbd271 {
     min-width: 265px;
 }

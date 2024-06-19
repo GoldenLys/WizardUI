@@ -1,17 +1,17 @@
-#app-mount .guilds__2b93a {
+#app-mount .guilds_a4d4d9 {
     left: 265px;
     height: calc(100vw - 265px) !important;
 }
 
-#app-mount .sidebar_e031be {
+#app-mount .sidebar_a4d4d9 {
     position: fixed;
     top: 32px;
     bottom: 0;
     left: 0px;
 }
 
-#app-mount .sidebar_e031be+div,
-#app-mount .sidebar_e031be+main,
-.notice_a687ab {
+#app-mount .sidebar_a4d4d9+div,
+#app-mount .sidebar_a4d4d9+main,
+.notice_a50047 {
     margin-left: 265px;
 }
