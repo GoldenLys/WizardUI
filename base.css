@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-92"; /* 0-00 */
+    --version: "1-93"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -6080,4 +6080,50 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 .playing_d6cb89 .volumeButtonIcon_d6cb89 {
     color: var(--Text);
+}
+
+/* 2024-03_simplified_profile_phase_one bugfix */
+
+.root_c83b44>div:not(.pill_f9575e) .button_edead5,
+#app-mount .pill_f9575e, #app-mount .pill_c83b44 {
+    text-align: center;
+    min-width: unset;
+    margin: 0px 0px 5px;
+    border-radius: 0px;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 5%);
+    color: var(--Text);
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.root_c83b44>div:not(.pill_f9575e) .button_edead5 {
+    width: 100%;
+}
+
+.root_c83b44 .role_f9575e.pill_f9575e:first-child {
+    min-width: calc(100% - 0px) !important;
+}
+
+.root_c83b44 .role_f9575e.pill_f9575e:not(:first-child) {
+    min-width: calc(33.333% - 0px)!important;
+}
+
+.role_f9575e>:first-child {
+    position: initial !important;
+}
+
+.roleRemoveButton_f9575e {
+    border-radius: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(90deg, rgba(200, 200, 200, 10%), transparent, rgba(200, 200, 200, 10%));
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
