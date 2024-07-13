@@ -441,6 +441,7 @@ div[class^=folder_],
     border: none !important;
 }
 
+.unreadPillCap_c2654d,
 .chat_a7d72e .title_a7d72e>.upperContainer_e44302>.children_e44302>.iconWrapper_e44302>svg,
 .banner_d29eee,
 .overlay_cd377c,
@@ -468,7 +469,6 @@ div[class^=folder_],
 .guildIcon_bc7085,
 .form_a7d72e:before,
 div[class^=guildSeparator],
-.unreadPillCap_fc5f50,
 .form_a7d72e>.wrapper_faf5ab,
 div[class^=tutorialContainer]>.listItem_c96c45 svg mask,
 a[href="https://support.discord.com"],
