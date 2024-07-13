@@ -123,7 +123,7 @@
     height: auto !important;
 }
 
-#app-mount [class*="pill_"]:not(.pill_c993da):not(.pill_f9575e):not(.pillOnline_dc6abe):not([class*=pillMessage_]) {
+#app-mount .pill_a5ad63 {
     transform: rotate(90deg) translateY(-50%);
     height: var(--ServerSize);
     width: 5px;
@@ -131,8 +131,11 @@
     left: -2px;
 }
 
-#app-mount [class*="pill_"]:not(.pill_c993da):not(.pillOnline_dc6abe):not([class*=pillMessage_])>span {
+#app-mount .pill_a5ad63>span {
+    margin-left: 0;
     width: 5px;
+    border-radius: var(--Rounding);
+    height: var(--ServerSize) !important;
 }
 
 #app-mount .pillMessage_dc6abe {

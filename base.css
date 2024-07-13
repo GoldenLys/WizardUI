@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-95"; /* 0-00 */
+    --version: "1-96"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -4176,8 +4176,10 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
 .iconActiveMedium_f11207,
 .wrapper-1VLyxH,
 .icon__11cf1,
+.icon_f90abb,
 div[class^=folderIconWrapper],
 .wrapper_c5f96a,
+.wrapper_f90abb,
 .wrapper__8436d,
 .wrapperSimple_c5f96a {
     border-radius: var(--Rounding);
