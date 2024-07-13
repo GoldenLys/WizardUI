@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-96"; /* 0-00 */
+    --version: "1-97"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -304,7 +304,7 @@ div[class^=folder_],
 }
 
 .container_d1c246>.container_e44302,
-.container_e44302.themed_e44302,
+.container_fc4f04.themed_fc4f04,
 .chatHeaderBar_e2f46e,
 .resizeHandle_d1c246,
 .channelRow_f04d06,
@@ -442,7 +442,8 @@ div[class^=folder_],
 }
 
 .unreadPillCap_c2654d,
-.chat_a7d72e .title_a7d72e>.upperContainer_e44302>.children_e44302>.iconWrapper_e44302>svg,
+#app-mount .chat_a7d72e > .subtitleContainer_a7d72e > section > .upperContainer_fc4f04 > .children_fc4f04 > .iconWrapper_fc4f04 > svg,
+#app-mount .chat_a7d72e > .subtitleContainer_a7d72e > section > .upperContainer_fc4f04 > .children_fc4f04 > .divider_fc4f04,
 .banner_d29eee,
 .overlay_cd377c,
 .children_e44302:after,
