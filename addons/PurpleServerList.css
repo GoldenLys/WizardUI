@@ -123,6 +123,7 @@
     height: auto !important;
 }
 
+#app-mount .guilds_a4d4d9 .listItem_c96c45 .pill_f9623d,
 #app-mount .pill_a5ad63 {
     transform: rotate(90deg) translateY(-50%);
     height: var(--ServerSize);
@@ -131,6 +132,7 @@
     left: -2px;
 }
 
+#app-mount .guilds_a4d4d9 .listItem_c96c45 .pill_f9623d>span,
 #app-mount .pill_a5ad63>span {
     margin-left: 0;
     width: 5px;
