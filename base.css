@@ -2847,9 +2847,15 @@ ul>.listItem_c96c45>div[class^=pill] {
     top: 0px;
 }
 
+.callAvatarMask_db83a2>foreignObject {
+    -webkit-mask: none;
+    mask: none;
+}
+
 .avatarUploaderInner-yEhTv5,
 .avatarUploaderIndicator-2G-aIZ,
-.voiceAvatar_a5cd29 {
+.voiceAvatar_db83a2,
+.border_db83a2 {
     border-radius: 5px;
 }
 
