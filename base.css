@@ -482,7 +482,8 @@ div[class^=tutorialContainer]+.listItem_c96c45 .pill_db6521,
 .container_c75f85:after,
 .form_a7d72e:before, 
 .form_a7d72e:after,
-.titleWrapper_e44302+.divider_e44302 {
+.titleWrapper_e44302+.divider_e44302,
+.children_fc4f04:after {
     display: none;
 }
 
@@ -6151,4 +6152,10 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     left: 0;
     right: 0;
     bottom: 0;
+}
+
+.wrapperAudio_f72aac {
+    background-color: var(--bg-chat-elements);
+    border: none;
+    border-radius: var(--Rounding);
 }
