@@ -177,14 +177,3 @@
     margin: 6px 0px;
     border-radius: var(--Rounding);
 }
-
-/* 2024-03_simplified_profile_phase_one bugfix */
-
-#app-mount .pill_c83b44, #app-mount .pill_f9575e  {
-    display: flex;
-    transform: none !important;
-    height: unset !important;
-    width: unset !important;
-    top: unset !important;
-    left: unset !important;
-}

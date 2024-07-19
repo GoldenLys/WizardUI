@@ -15,7 +15,7 @@
 .barFill_c7a159,
 .lookFilled_dd4f85.colorBrand_dd4f85,
 .hoverButtonGroup__304b2.nonMediaAttachment_ef83c1,
-.lookFilled_dd4f85.colorPrimary_dd4f85,
+.lookFilled_dd4f85.colorPrimary_dd4f85:not(:hover),
 .reaction_ec6b19[class*=reactionMe],
 .reaction_f61c73[class*=reactionMe],
 #app-mount .container_d6cb89:not(.playing_d6cb89) .playButtonContainer_d6cb89,
@@ -30,6 +30,7 @@ div.link_d8bfb3[class*="modeSelected_"]:before {
 	-webkit-animation: RGB_BG var(--ColorTime) linear infinite !important;
 }
 
+.viewFullBio_fc5c48,
 .notice_a50047,
 .guilds_a4d4d9 .scroller_fea3ef>div:not([class]):not([style])+div[class^=tutorialContainer]+.listItem_c96c45 div[class^=circleIconButton_],
 div[class^=circleIconButton_], .guilds_a4d4d9 .scroller_fea3ef>div:not([class]):not([style])+div[class^=tutorialContainer] div[class^=circleIconButton_],
