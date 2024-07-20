@@ -32,8 +32,8 @@ div.link_d8bfb3[class*="modeSelected_"]:before {
 
 .userProfileInner_c69a7b .section_d7a21f>.markup_f8f345:before,
 .userProfileInner_c69a7b .section_d7a21f>.markup_f8f345:after,
-.descriptionClamp_fc5c48 .markup_f8f345:before, 
-.descriptionClamp_fc5c48 .markup_f8f345:after,
+.descriptionClamp_fc5c48:before,
+.descriptionClamp_fc5c48:after,
 .viewFullBio_fc5c48,
 .notice_a50047,
 .guilds_a4d4d9 .scroller_fea3ef>div:not([class]):not([style])+div[class^=tutorialContainer]+.listItem_c96c45 div[class^=circleIconButton_],
