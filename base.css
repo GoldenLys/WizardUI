@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-99"; /* 0-00 */
+    --version: "1-100"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -6202,28 +6202,50 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     border-radius: var(--Rounding);
 }
 
+.descriptionClamp_fc5c48 {
+    padding: 10px 0px;
+}
 
-.descriptionClamp_fc5c48 .markup_f8f345:before,
-.descriptionClamp_fc5c48 .markup_f8f345:after {
+.userProfileInner_c69a7b .section_d7a21f>.markup_f8f345:before,
+.userProfileInner_c69a7b .section_d7a21f>.markup_f8f345:after,
+.descriptionClamp_fc5c48:before,
+.descriptionClamp_fc5c48:after {
     content: '';
     display: block;
     width: 100%;
     height: 2px;
     border-radius: var(--Rounding);
     background-color: var(--Primary);
-    margin: 10px 0;
+    margin: 0px 0px;
 }
 
+.userProfileInner_c69a7b .section_d7a21f>.markup_f8f345:before,
+.descriptionClamp_fc5c48:before {
+    margin-bottom: 10px;
+}
+
+.userProfileInner_c69a7b .section_d7a21f>.markup_f8f345:after,
+.descriptionClamp_fc5c48.maxBioHeight_fc5c48:after {
+    margin-top: 22px;
+}
+
+.descriptionClamp_fc5c48:not(.maxBioHeight_fc5c48):after  {
+    margin-top: 10px;
+}
+
+.userProfileInner_c69a7b .section_d7a21f>.markup_f8f345:after,
 .descriptionClamp_fc5c48 .markup_f8f345:after {
     margin-top: 15px;
 }
 
 .viewFullBio_fc5c48 {
-    margin: 0px 0px 5px;
     background-color: var(--Primary);
     color: var(--Text);
-    width: 100%;
-    height: var(--custom-button-button-sm-height);
+    width: auto;
+    margin: -24px auto 5px;
+    border-radius: var(--Rounding);
+    padding: 0px 5px;
+    height: 24px;
 }
 
 .viewFullBio_fc5c48 .contents_dd4f85>div {
@@ -6239,7 +6261,13 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 }
 
 .maxBioHeight_fc5c48 {
+    display: flex;
     max-height: unset;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer_b07019 {
