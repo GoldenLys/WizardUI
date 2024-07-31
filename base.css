@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-100"; /* 0-00 */
+    --version: "1-101"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -1082,26 +1082,12 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.status_c7d26b {
     bottom: 0;
 }
 
-.roleRemoveButton_f9575e{
-    position: initial;
-}
-
 .roleCircle_a26d7b,
 .roleCircle_f9575e,
 .sidebar_c25c6d [class^=role_]:after,
 .member-perms .member-perm .perm-circle {
-    border-radius: 0px;
-    width: 100%;
-    height: 100%;
     padding: 0;
     margin: 0;
-    background-image: linear-gradient(90deg, rgba(200, 200, 200, 10%), transparent, rgba(200, 200, 200, 10%));
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
 }
 
 .roleName_e4010c,
@@ -6132,12 +6118,16 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     border: none;
 }
 
+.root_c83b44 {
+    gap: 5px;
+}
+
 .root_c83b44 .role_f9575e.pill_f9575e:first-child {
     min-width: calc(100% - 0px) !important;
 }
 
 .root_c83b44 .role_f9575e.pill_f9575e:not(:first-child) {
-    min-width: calc(33.333% - 0px)!important;
+    min-width: calc(33.333% - 10px)!important;
 }
 
 .postEnrollmentBackground_c3427e {
@@ -6156,18 +6146,24 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 }
 
 .roleRemoveButton_f9575e {
+    position: initial;
     border-radius: 0px;
-    width: 100%;
-    height: 100%;
     padding: 0;
     margin: 0;
-    background-image: linear-gradient(90deg, rgba(200, 200, 200, 10%), transparent, rgba(200, 200, 200, 10%));
     opacity: 0.5;
+}
+
+.roleRemoveButton_f9575e .roleCircle_a26d7b::before {
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    opacity: 0.2;
+    border-radius: var(--Rounding);
+    z-index: -1;
 }
 
 .showMoreButton_c83b44 {
