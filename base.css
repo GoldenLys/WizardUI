@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-101"; /* 0-00 */
+    --version: "1-102"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -475,8 +475,7 @@ div[class^=tutorialContainer]>.listItem_c96c45 svg mask,
 a[href="https://support.discord.com"],
 .wordmark_a934d8 svg,
 .chat_a7d72e>section.title_a7d72e .children_fc4f04>.iconWrapper_fc4f04,
-.buttons_d0696b .buttonContainer_d0696b>.button_dd4f85:not([class*=translateButton_]):not(.emojiButton_d91a75),
-.buttons_d0696b>.container_dfb455>.container_dfb455>.button_dd4f85,
+.buttons_d0696b .buttonContainer_d0696b>.button_dd4f85:not(.emojiButton_d91a75)>div:not(.translateButton_DhP9x8),
 div[class^=tutorialContainer]+.listItem_c96c45 .pill_db6521,
 .arrow_d64d50.icon_a08117,
 .container_c75f85:after,
