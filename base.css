@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-102"; /* 0-00 */
+    --version: "1-103"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -4695,7 +4695,7 @@ div[class^=folderIconWrapper],
     background-color: var(--bg-ui);
 }
 
-.name_a08117.container_cc72c1{
+.name_a08117.container_a5ad5c {
     display: inline-flex;
     line-height: 24px;
     text-shadow: 0 0 2.5px var(--text-shadow);
