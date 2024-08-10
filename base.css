@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-103"; /* 0-00 */
+    --version: "1-104"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -482,8 +482,15 @@ div[class^=tutorialContainer]+.listItem_c96c45 .pill_db6521,
 .form_a7d72e:before, 
 .form_a7d72e:after,
 .titleWrapper_fc4f04+.divider_fc4f04,
-.children_fc4f04:after {
+.children_fc4f04:after,
+.lottieIcon_f73ef7,
+.lottieIcon_f73ef7 svg {
     display: none;
+}
+
+.lottieIcon_f73ef7,
+.lottieIcon_f73ef7 svg {
+    display: none!important;
 }
 
 .sidebar_a4d4d9.listContent-2_qb-y div:not(.selected-37j_iU)>div .wrapper_d8bfb3,
@@ -2350,10 +2357,6 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
     position: relative;
 }
 
-div[class^=pill] {
-    border-radius: 2.5px;
-}
-
 .guilds_a4d4d9 .scroller_fea3ef>div:not([class]):not([style])::-webkit-scrollbar {
     width: .75rem;
 }
@@ -2917,10 +2920,6 @@ path[fill="#7289da"] {
 
 .panels_a4d4d9>.container_b2ca13>div.flex_bba380 { 
     margin-left: auto;
-}
-
-.panels_a4d4d9>.container_b2ca13>div.flex_bba380 .lottieIcon_f73ef7 {
-    display: none!important;
 }
 
 .panels_a4d4d9 .container_adcaac {

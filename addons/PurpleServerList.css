@@ -125,11 +125,11 @@
 
 #app-mount .guilds_a4d4d9 .listItem_c96c45 .pill_f9623d,
 #app-mount .pill_a5ad63 {
-    transform: rotate(90deg) translateY(-50%);
+    transform: rotate(90deg) translateY(0%);
     height: var(--ServerSize);
     width: 5px;
     top: calc(var(--ServerSize) / -1 + var(--ServerSize) / 2 - 5px) !important;
-    left: -2px;
+    left: calc(50% - 3px);
 }
 
 #app-mount .guilds_a4d4d9 .listItem_c96c45 .pill_f9623d>span,
@@ -138,6 +138,10 @@
     width: 5px;
     border-radius: var(--Rounding);
     height: var(--ServerSize) !important;
+}
+
+#app-mount .pill_a5ad63>span:not([style*="height: 40px;"]) {
+    height: calc(var(--ServerSize) * 0.85) !important;
 }
 
 #app-mount .pillMessage_dc6abe {
