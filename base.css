@@ -1354,7 +1354,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     opacity: .85;
 }
 
-#app-mount .spoilerContent_a3d0f7.hidden_a3d0f7>.obscuredTextContent_a3d0f7>.obscuredTextContentInner_a3d0f7 span {
+#app-mount .spoilerContent_aa9639.hidden_aa9639>.obscuredTextContent_aa9639>.obscuredTextContentInner_aa9639 span {
     color: var(--Text);
     opacity: 1;
     -webkit-filter: blur(3px);
@@ -1362,11 +1362,11 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     pointer-events: all;
 }
 
-.obscuredTextContentInner_a3d0f7 {
+.obscuredTextContentInner_aa9639 {
     color: var(--Text);
 }
 
-#app-mount .spoilerContent_a3d0f7 {
+#app-mount .spoilerContent_aa9639 {
     background-color: transparent;
 }
 
