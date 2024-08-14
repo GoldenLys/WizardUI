@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-105"; /* 0-00 */
+    --version: "1-106"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -4426,6 +4426,7 @@ div[class^=folderIconWrapper],
     padding: 10px 10px 5px;
     margin: 3px;
     border-radius: var(--Rounding);
+    overflow: visible;
 }
 
 .accountProfileCard_b69b77>.background_b69b77>.fieldList_b69b77 .field_b69b77>.constrainedRow_b69b77>div {
