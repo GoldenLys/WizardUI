@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-106"; /* 0-00 */
+    --version: "1-107"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -2541,8 +2541,20 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 }
 
 .chatContent_a7d72e .container_c2668b .description_c2668b {
+    display: flex;
     text-align: center;
     opacity: 0.85;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chatContent_a7d72e .container_c2668b .description_c2668b>.container_dc0b54 {
+    display: flex;
+    order: 2;
+    width: 100%;
+    justify-content: center;
 }
 
 .guilds_a4d4d9 .scroller_fea3ef>div:not([class]):not([style])>.wrapper_bc7085 ul>.listItem_c96c45 svg {
@@ -2592,7 +2604,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
     margin-right: 5px;
 }
 
-.wrapper_a08117.clickable_a08117 svg>path {
+.wrapper_a08117.clickable_a08117>.mainContent_a08117>svg>path {
     display: none;
 }
 
@@ -2626,7 +2638,8 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 .container_c2668b>.header_c2668b:not(.header_e378b3),
 .iconWrapper_e378b3,
 .container_f9902b>.inner_f9902b>div>.titleName_f9902b,
-.container_f9902b>.inner_f9902b>div>.subtitle_f9902b {
+.container_f9902b>.inner_f9902b>div>.subtitle_f9902b,
+.container_c2668b>.description_c2668b>h3 {
     display: none;
 }
 
