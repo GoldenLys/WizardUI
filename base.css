@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-108"; /* 0-00 */
+    --version: "1-109"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -441,6 +441,7 @@ div[class^=folder_],
     border: none !important;
 }
 
+.channelAppLauncher_df39bd,
 .unreadPillCap_c2654d,
 #app-mount .chat_a7d72e > .subtitleContainer_a7d72e > section > .upperContainer_fc4f04 > .children_fc4f04 > .iconWrapper_fc4f04 > svg,
 #app-mount .chat_a7d72e > .subtitleContainer_a7d72e > section > .upperContainer_fc4f04 > .children_fc4f04 > .divider_fc4f04,
@@ -2848,7 +2849,6 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 }
 
 #app-mount .divider_d5deea span.unreadPill_c2654d {
-    position: static;
     background-color: var(--ui-error);
 }
 
