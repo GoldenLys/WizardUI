@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-109"; /* 0-00 */
+    --version: "1-110"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -263,7 +263,8 @@ div[class^=folder_],
 .mainPageScroller_ed2e7b,
 .shop_e77fa3  .container_fc4f04.themed_fc4f04,
 .scroller_c47fa9,
-.container_bf550a {
+.container_bf550a,
+.container_d1c246 {
     background-color: transparent !important;
 }
 
@@ -366,6 +367,7 @@ div[class^=folder_],
     background-color: var(--grey5) !important;
 }
 
+.container_b385c8,
 .directoryModal-YJsOMv,
 .keyboardShortcutsModal_ad95dc,
 .autocomplete_bcc24e,
@@ -1688,7 +1690,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);
 .optionHeader-27AHfD {
     font-size: 15px !important;
     font-weight: bold !important;
-    text-align: center !important;
+    /*text-align: center !important;*/
     line-height: 16px !important;
     text-transform: uppercase !important;
     color: var(--Primary) !important;
@@ -2849,6 +2851,10 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 }
 
 #app-mount .divider_d5deea span.unreadPill_c2654d {
+    top: -14px;
+    left: auto;
+    right: auto;
+    border-radius: 5px 5px 0 0;
     background-color: var(--ui-error);
 }
 
@@ -4183,14 +4189,6 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
     height: 100%;
 }
 
-.userProfileInner_c69a7b[aria-label="Purple Wizard"] .banner-2boKnS:after {
-    background: center / cover no-repeat url(https://purplewizard.space/WizardUI/animation1.gif);
-}
-
-.userProfileInner_c69a7b[aria-label="Yuuki"] .banner-2boKnS:after {
-    background: center / cover no-repeat url(https://goldenlys.github.io/WUITG/images/banners/monokuma-laughter.gif);
-}
-
 .avatars_f1044f>.avatar_ccc074 {
     margin: 0 2.5px;
 }
@@ -5099,10 +5097,6 @@ div[class^=folderIconWrapper],
 
 .container_c75f85>.divider__0c76f {
     border-top: 2.5px solid var(--grey5);
-}
-
-.resizeHandle_d1c246 {
-    width: 0px;
 }
 
 .tile_dc5fc4 {
@@ -6308,4 +6302,13 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 .votePercentageBar_cf2c85 {
     background-color: var(--Primary);
     opacity: 0.35;
+}
+
+.wrapper_a71a1c .inviteDestinationJoined_a71a1c, .wrapper_a71a1c .infoTitle_bf4cdc {
+    display: flex;
+    justify-content: center;
+}
+
+.group-spacing-16 .divider_d5deea.beforeGroup_d5deea {
+    margin-top: 5px;
 }
