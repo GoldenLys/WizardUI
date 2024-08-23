@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-111"; /* 0-00 */
+    --version: "1-112"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -403,6 +403,14 @@ div[class^=folder_],
 }
 
 ::selection {
+    background-color: var(--Highlighted);
+}
+
+::-webkit-selection {
+    background-color: var(--Highlighted);
+}
+
+::-moz-selection {
     background-color: var(--Highlighted);
 }
 
@@ -2994,6 +3002,10 @@ svg[width="49"][height="40"]>rect {
     flex-direction: row;
 }
 
+.connections_c2dcc6 {
+    margin-top: 0px;
+}
+
 .infoScroller-1QMpon {
     padding: 0 20px !important;
 }
@@ -4383,6 +4395,13 @@ div[class^=folderIconWrapper],
 .accountProfileCard_b69b77>div {
     position: relative;
     z-index: 1;
+}
+
+.header_b07019>svg[viewBox="0 0 300 105"]>foreignObject,
+.userProfileInner_c69a7b>header>svg[viewBox="0 0 600 210"]>foreignObject,
+.accountProfileCard_b69b77>svg[viewBox="0 0 660 100"]>foreignObject {
+    mask: none;
+    -webkit-mask: none;
 }
 
 .popoutBanner_c3e427 {
