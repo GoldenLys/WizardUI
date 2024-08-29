@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-112"; /* 0-00 */
+    --version: "1-113"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -2821,7 +2821,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 }
 
 /* FORUM CHANNEL */
-.sidebar_a4d4d9 .containerDefault_f6f816 .link_d8bfb3 .iconContainer_d8bfb3[aria-label="Forum"]:before {
+.sidebar_a4d4d9 .containerDefault_f6f816 .link_d8bfb3 .iconContainer_d8bfb3[aria-label^="Forum"]:before {
     content: "\f022";
     margin-right: 5px;
 }
@@ -4835,6 +4835,7 @@ div[class^=folderIconWrapper],
     border-color: var(--ui-error) !important;
 }
 
+.custom-profile-theme .themeColor_f9d37d.primary_f9d37d:hover,
 .lookFilled_dd4f85.colorBrand_dd4f85:hover,
 .lookFilled_dd4f85.colorPrimary_dd4f85:active,
 .lookFilled_dd4f85.colorPrimary_dd4f85:hover {
@@ -6179,11 +6180,31 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     z-index: -1;
 }
 
+
 .roleRemoveButton_f9575e {
     position: initial;
     border-radius: 0px;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.role_f9575e.pill_f9575e:hover .roleRemoveButton_f9575e .roleCircle_a26d7b {
+    margin: 0px 0px 0px 0px;
+}
+
+.role_f9575e.pill_f9575e:hover .roleRemoveButton_f9575e .roleRemoveIcon_f9575e {
+    position: static;
+    margin: -12px 0px 0px 0px;
+    padding: 1px 1px 1px 1px;
+}
+
+.roleRemoveIcon_f9575e>path {
+    fill: var(--Text);
 }
 
 .roleRemoveButton_f9575e .roleCircle_a26d7b::before {
@@ -6334,4 +6355,17 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 .group-spacing-16 .divider_d5deea.beforeGroup_d5deea {
     margin-top: 5px;
+}
+
+#app-mount .layerContainer_cd0de5>div.layer_cd0de5[style*="left: -61px;"] {
+    left: 5px !important;
+}
+
+.stickyHeader_bd05f1 {
+    background-color: var(--darkgrey) !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: var(--Rounding);
 }
