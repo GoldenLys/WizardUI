@@ -17,4 +17,4 @@ An amazing fully customizable theme and the direct successor of ELYSIA, the them
 > ### Useful links
 > - Find more theme configs [here](https://theme.nebulys.eu/)
 > - Support and FAQ is only on the [official WizardUI server](https://discord.gg/SBuYeHh)
-> - My personnal [website](https://nebulys.eu)
+> - My personal [website](https://nebulys.eu)
