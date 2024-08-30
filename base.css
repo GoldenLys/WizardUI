@@ -77,6 +77,7 @@
     --rs-offline-color: var(--Offline)!important;
     --rs-streaming-color: var(--Streaming)!important;
     --rs-invisible-color: var(--Offline)!important;
+    --rs-avatar-shape: var(--AvatarRounding)!important;
 }
 
 .theme-light,
