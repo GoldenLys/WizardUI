@@ -87,7 +87,6 @@
 
     /* ROUNDING */
     --Rounding: 0;
-    --StatusRounding: 0;
     --AvatarRounding: var(--Rounding);
 
     /* RGB ADDON */

@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-115"; /* 0-00 */
+    --version: "1-116"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -56,7 +56,6 @@
     --ServerFoldersColor: var(--Primary);
     /* ROUNDING */
     --Rounding: 5px;
-    --StatusRounding: 4.5;
     --AvatarRounding: var(--Rounding);
     /* RGB ADDON */
     --ColorTime: 2s;
@@ -1342,10 +1341,6 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     mask: none;
 }
 
-.panels_a4d4d9 .container_b2ca13 .avatar_b2ca13>svg>svg>rect {
-    display: none;
-}
-
 .container_b2ca13 .avatar_b2ca13 svg .pointerEvents-9SZWKj {
     x: 30;
     y: 30;
@@ -1457,8 +1452,6 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 .chat_a7d72e>[class^="title"] .status__2a4a6>svg>rect {
     width: 100%;
     height: 100%;
-    rx: var(--StatusRounding);
-    ry: var(--StatusRounding);
     -webkit-mask: none;
     mask: none;
 }
@@ -5558,11 +5551,6 @@ div.selected-3veCBZ:hover .name_f9647d {
 .container_cebd1c[style*="background-color: rgb(130, 133, 143)"],
 .input_cebd1c[style*="background-color: rgb(130, 133, 143)"] {
     background-color: var(--darkgrey) !important;
-}
-
-.container_cebd1c>svg.slider_cebd1c>rect,
-.input_cebd1c>svg.slider_cebd1c>rect {
-    rx: var(--StatusRounding);
 }
 
 div[style*="background-color: rgb(88, 101, 242);"] {
