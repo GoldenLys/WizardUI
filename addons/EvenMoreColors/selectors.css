@@ -96,7 +96,7 @@ div[class^=circleIconButton_], .guilds_a4d4d9 .scroller_fea3ef>div:not([class]):
 .container_f9902b>.inner_f9902b>div:after,
 .archivedDivider-2dQ9JY,
 .headerText-3MQ6n4>h3>span,
-.anchor_af404b:not(.hoverButton_be4802):not(.embedLink_ad0b71:before),
+.anchor_af404b:not(.hoverButton_be4802),
 .users_a5bc92 {
 	animation: RGB_TEXT var(--ColorTime) linear infinite !important;
 	-webkit-animation: RGB_TEXT var(--ColorTime) linear infinite !important;
