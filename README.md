@@ -1,19 +1,20 @@
+# WizardUI
+
 An amazing fully customizable theme and the direct successor of ELYSIA, the theme comes with multiple addons like animated RGB elements or an horizontal server list for example.
 
-### WizardUI Preview
-![Default](https://nebulys.eu/images/WIZARDUI/1.jpg)
+## WizardUI Preview
+![WizardUI - Default](https://nebulys.eu/images/WIZARDUI/1.jpg)
 
-# Custom configs available in our community
+## Some examples of custom configs available on my website
 ### WizardUI - ELYSIA Remastered
 ![Elysia Remastered](https://nebulys.eu/images/WIZARDUI/2.jpg)
 ### WizardUI - Pro Edition
-![Default](https://nebulys.eu/images/WIZARDUI/3.jpg)
+![WizardUI - Pro](https://nebulys.eu/images/WIZARDUI/3.jpg)
 ### WizardUI - Ultimate Edition
-![Default](https://nebulys.eu/images/WIZARDUI/4.jpg)
+![WizardUI - Ultimate](https://nebulys.eu/images/WIZARDUI/4.jpg)
 
-Find more theme configs [here](https://theme.nebulys.eu/)
-
-[Official support server](https://discord.gg/SBuYeHh)
-
-[Official website](https://nebulys.eu)
-
+> [!TIP] 
+> ### Useful links
+> - Find more theme configs [here](https://theme.nebulys.eu/)
+> - Support and FAQ is only on the [official WizardUI server](https://discord.gg/SBuYeHh)
+> - My personnal [website](https://nebulys.eu)
