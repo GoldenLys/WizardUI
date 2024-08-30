@@ -1,3 +1,26 @@
+/**
+ * @name RadialStatus
+ * @author Gibbu
+ * @version 2.0.0
+ * @invite ZHthyCw
+ * @description Changes the status icons to wrap around the avatar. Shape can be changed inside the theme file.
+ * @source https://github.com/DiscordStyles/RadialStatus
+ * @website https://www.gibbu.me
+*/
+
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+
+:root {
+    --rs-small-spacing: 2px;
+    --rs-medium-spacing: 3px;
+    --rs-large-spacing: 4px;
+    --rs-small-width: 2px;
+    --rs-medium-width: 3px;
+    --rs-large-width: 4px;
+    --rs-avatar-shape: 50%;
+    --rs-phone-visible: block;
+}
+
 #app-mount .wrapper_c51b4e[style*="32px"] rect {
     x: -10;
     y: -15;
