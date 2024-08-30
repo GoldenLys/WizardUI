@@ -21,7 +21,12 @@
     --rs-phone-visible: block;
 }
 
-#app-mount .wrapper_c51b4e[style*="32px"] rect {
+#app-mount .panels_a4d4d9>.container_b2ca13 .wrapper_c51b4e[style*="32px"]>svg>rect {
     x: -10;
     y: -15;
+}
+
+#app-mount .panels_a4d4d9>.container_b2ca13 .wrapper_c51b4e[style*="32px"]>svg>svg>rectrect {
+    width: 100%;   
+    height: 100%;  
 }

@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-114"; /* 0-00 */
+    --version: "1-115"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -1337,8 +1337,6 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 .container_b2ca13 .avatar_b2ca13 foreignObject,
 .container_b2ca13 .avatar_b2ca13 .avatarStack-3vfSFa {
     border-radius: var(--AvatarRounding);
-    width: 40px !important;
-    height: 40px !important;
     -webkit-mask: none;
     mask: none;
 }
@@ -6386,11 +6384,6 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 .mediaBarInteraction_d12f5a:hover .mediaBarGrabber_d12f5a {
     transform: scale(1);
     background-color: var(--Text);
-}
-
-#app-mount .panels_a4d4d9>.container_b2ca13 .wrapper_c51b4e[style*="32px"]>svg>rect {
-    width: 100%;   
-    height: 100%;  
 }
 
 .panels_a4d4d9>.container_b2ca13 .avatarWrapper_b2ca13 {
