@@ -3577,7 +3577,7 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item_c4cd66,
 
 .wrapper_c4cd66 {
     max-height: var(--ServerSize);
-    top: 7.5px;
+    top: 0px;
     left: 0px;
 }
 
