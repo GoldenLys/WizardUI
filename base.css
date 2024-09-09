@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-116"; /* 0-00 */
+    --version: "1-117"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -921,6 +921,11 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.status_c7d26b {
     text-shadow: var(--text-shadow) 0px 0px 2.5px;
 }
 
+.userProfileInner_c69a7b .header_a823cd>svg>foreignObject,
+.userProfileInner_c69a7b .header_b8cc6d>svg>foreignObject {
+    mask: none;
+    -webkit-mask: none;
+}
 
 .userProfileInner_c69a7b .avatarWrapper_f89da9 {
     display: block;
