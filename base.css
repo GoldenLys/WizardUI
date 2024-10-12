@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-118"; /* 0-00 */
+    --version: "1-119"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -4215,6 +4215,7 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
     margin: 0 2.5px;
 }
 
+.childWrapperNoHoverBg_f90abb,
 .acronym_fb7739,
 .iconActiveMedium_a64689,
 .wrapper-1VLyxH,
@@ -4241,6 +4242,10 @@ div[class^=folderIconWrapper],
 .avatar-22FtUu,
 .avatar_f9f2ca {
     border-radius: var(--AvatarRounding);
+}
+
+.childWrapperNoHoverBg_f90abb {
+    background-color: var(--grey);
 }
 
 .separator_cd82a7 {
