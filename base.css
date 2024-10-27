@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-119"; /* 0-00 */
+    --version: "1-120"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -6169,9 +6169,8 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 }
 
 .role_f9575e>:first-child {
-    z-index: -1;
+    z-index: 0;
 }
-
 
 .roleRemoveButton_f9575e {
     position: initial;
