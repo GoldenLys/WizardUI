@@ -7,7 +7,7 @@
     display: block;
 }
 
-.chat_a7d72e[class*=channelTextAreaDisabled] .textArea_d0696b>.placeholder__443e5:after {
+.chat_a7d72e[class*=channelTextAreaDisabled] .textArea_bdf0de>.placeholder__443e5:after {
     content: "You do not have permission to send messages in this channel.";
 }
 
