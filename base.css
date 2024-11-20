@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-121"; /* 0-00 */
+    --version: "1-122"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -6386,4 +6386,24 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 .footer_aa1bff {
     background: transparent;
+}
+
+.navList_af5dbb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navItem_af5dbb:not(:last-child) {
+    width: 50%;
+}
+
+.navItem_af5dbb:last-child {
+    width: 100%;
+    margin-left: 0;
+}
+
+.inner_c69a7b.fullSize_c69a7b>header>.mask_d5fdb1>mask {
+    display: none;
 }
