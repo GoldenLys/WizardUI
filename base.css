@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-123"; /* 0-00 */
+    --version: "1-124"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -77,6 +77,10 @@
     --rs-streaming-color: var(--Streaming)!important;
     --rs-invisible-color: var(--Offline)!important;
     --rs-avatar-shape: var(--AvatarRounding)!important;
+
+    /* REVERT BUTTONS ADDON */
+    --Show_GIF_Button: none;
+    --Show_Sticker_Button: none;
 }
 
 .theme-light,
