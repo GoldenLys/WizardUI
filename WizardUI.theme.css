@@ -13,7 +13,7 @@
 /* 
     Marianne.css
 
-  This is an addon that adds the Marianne font.
+  This is an addon that adds the Marianne font, you need to change the font variable below to 'Marianne' to see it.
 
 @import url("https://goldenlys.github.io/WizardUI/addons/Marianne.css"); 
 */
@@ -29,6 +29,7 @@
 
 /* 
     TopSidebarShift.css
+    - requires: PurpleServerList
 
   An extension of PurpleServerList where the sidebar is moved to the top and the server list shifts accordingly.
 
@@ -36,11 +37,22 @@
 */
 
 /* 
-    LettersInPSL.css"
+    LettersInPSL.css
+    -  requires: PurpleServerList
 
   This is a modification for PurpleServerList which replaces the folders icons with letters.
 
 @import url("https://goldenlys.github.io/WizardUI/addons/LettersInPSL.css"); 
+*/
+
+/* 
+    AlternateFoldersInPSL.css 
+    - requires: PurpleServerList, LettersInPSL (optionnal)
+
+  This addon modifies the view of closed folders in PurpleServerList, to make it show the folder icon at the top
+  and the first and second server inside that folder, this is also compatible with the LettersInPSL addon.
+
+@import url("https://goldenlys.github.io/WizardUI/addons/AlternateFoldersInPSL.css");
 */
 
 /* 
@@ -60,21 +72,20 @@
 */
 
 /* 
-    EvenMoreColors/ NUMBER from 1-10 .css
+    EvenMoreColors/[number from 1 to 10].css
 
   This is an addon that recolors alot of elements in the app with the main theme color but you can even add an RGB animated effect if you change the number before the ".css" (with a maximum of 10 colors).
 
-  @import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/1.css"); 
+@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/1.css"); 
 */
 
 /* 
     RevertChatButtons.css 
 
-  Description:
   This addon reverts the GIF and Sticker buttons in the Discord chat toolbar to their classic positions and alignment. 
   It restores the layout for users who prefer the original setup, with customizable variables for button visibility.
 
-  @import url("https://goldenlys.github.io/WizardUI/addons/RevertChatButtons.css"); 
+@import url("https://goldenlys.github.io/WizardUI/addons/RevertChatButtons.css"); 
 */
 
 :root {
