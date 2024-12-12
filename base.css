@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-128"; /* 0-00 */
+    --version: "1-129"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -516,7 +516,7 @@ div[class^=tutorialContainer]+.listItem_c96c45 .pill_db6521,
     border-radius: 0;
 }
 
-.metadata_b52bef {
+.metadata_f46c86 {
     color: var(--text-muted);
 }
 
@@ -554,7 +554,7 @@ div[class^=tutorialContainer]+.listItem_c96c45 .pill_db6521,
     content: "Write a message...";
 }
 
-.attachment_b52bef {
+.fileWrapper_f46c86 {
     border-radius: 5px;
     border-color: var(--bg-chat-elements);
     background-color: var(--bg-chat-elements);
@@ -3184,7 +3184,7 @@ div[class^="topSection"] .activityProfile_c1d9fd.activity__20c1e:before {
     background-color: var(--darkgrey) !important;
 }
 
-.filenameLinkWrapper_b52bef,
+.filenameLinkWrapper_f46c86,
 .message_ddcc45 .username_f9f2ca.clickable_f9f2ca {
     font-weight: bold;
 }
@@ -4667,7 +4667,7 @@ div[class^=folderIconWrapper],
     border-bottom-left-radius: var(--Rounding);
 }
 
-.cooldownWrapper_d7ebeb {
+.cooldownWrapper_f85cd6 {
     color: var(--Text) !important;
 }
 
@@ -5930,6 +5930,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     border-top-right-radius: 0px
 }
 
+.file_f46c86,
 .newMosaicStyle_d8e2d0 .codeView_d8e2d0 {
     background-color: var(--bg-chat-elements);
     border: none;
@@ -6106,8 +6107,6 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 .playing_d6cb89 .volumeButtonIcon_d6cb89 {
     color: var(--Text);
 }
-
-/* 2024-03_simplified_profile_phase_one bugfix */
 
 .root_e6f2d0>div:not(.pill_f9575e) .button_edead5,
 #app-mount .pill_f9575e, #app-mount .pill_e6f2d0 {
