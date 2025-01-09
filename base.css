@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-129"; /* 0-00 */
+    --version: "1-130"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -581,6 +581,10 @@ div[class^=tutorialContainer]+.listItem_c96c45 .pill_db6521,
 .sidebar_a4d4d9 {
     width: 265px;
     border-radius: 0 !important;
+}
+
+html:not(.visual-refresh) .sidebar_a4d4d9:not(.hidden_a4d4d9) {
+    width: 265px !important;
 }
 
 .bannerImage_fd6364,
@@ -4838,7 +4842,7 @@ div[class^=folderIconWrapper],
 .lookFilled_dd4f85.colorBrand_dd4f85:hover,
 .lookFilled_dd4f85.colorPrimary_dd4f85:active,
 .lookFilled_dd4f85.colorPrimary_dd4f85:hover {
-    background-color: white;
+    background-color: white !important;
     color: var(--Primary);
 }
 
