@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-131"; /* 0-00 */
+    --version: "1-132"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -1596,8 +1596,9 @@ div[class^=circleIconButton_],
 .guilds_a4d4d9 .scroller_fea3ef>div:not([class]):not([style])+div[class^=tutorialContainer] div[class^=circleIconButton_],
 .guilds_a4d4d9 .scroller_fea3ef>div:not([class]):not([style])+div[class^=tutorialContainer]+.listItem_c96c45 div[class^=circleIconButton_],
 div[class^=folderIconWrapper]:not([style])>.closedFolderIconWrapper_bc7085,
-div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);"] {
-    background-color: var(--Primary);
+div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);"],
+div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"] {
+    background-color: var(--Primary) !important;
     border-radius: var(--Rounding);
 }
 
