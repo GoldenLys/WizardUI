@@ -122,6 +122,7 @@
 
 #app-mount .guilds_a4d4d9 .scroller_fea3ef>div:not([class]):not([style])>.wrapper_bc7085 .expandedFolderBackground_bc7085:not(.collapsed_bc7085)+.listItem_c96c45+ul {
     height: auto !important;
+    overflow: visible !important;
 }
 
 #app-mount .guilds_a4d4d9 .listItem_c96c45 .pill_f9623d,

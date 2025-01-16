@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-132"; /* 0-00 */
+    --version: "1-133"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -4677,13 +4677,18 @@ div[class^=folderIconWrapper],
 }
 
 .searchBar_e0840f {
-    background: var(--bg-sendmessage);
+    background: transparent;
     place-content: center;
     place-items: center;
     margin: 0px;
     padding: 0px 10px;
     border-radius: 0px;
     height: 50px;
+}
+
+.searchBar_e0840f:active,
+.searchBar_e0840f:hover {
+    background: var(--bg-sendmessage);
 }
 
 #app-mount .newBadge_d331f1,
