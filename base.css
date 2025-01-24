@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-133"; /* 0-00 */
+    --version: "1-134"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -4867,7 +4867,7 @@ div[class^=folderIconWrapper],
     transform: scale(1.066666);
 }
 
-.timestamp_f9f2ca:not(.timestampInline_f9f2ca, .timestampVisibleOnHover_f9f2ca) time::after {
+.timestamp_f9f2ca:not(.timestampInline_f9f2ca, .timestampVisibleOnHover_f9f2ca, .vc-reply-timestamp) time::after {
     content: " (" attr(aria-label) ")";
     color: var(--text-muted);
     font-size: 0.625rem;
