@@ -4,12 +4,12 @@
 .headerText_c47fa9,
 .nameTag_b2ca13>div:first-child>div,
 .guildNameText_a6ae3c,
-.sidebar_a4d4d9 .content_eed6a8>div[style^="height"]:not([aria-hidden]):after,
+.sidebar_c48ade .content_eed6a8>div[style^="height"]:not([aria-hidden]):after,
 .iconWrapper_e44302.clickable_e44302 .icon_e44302,
 .searchBar_a46bef .icon_a46bef:not(.clear_effbe2):after,
-.winButton_a934d8,
+.winButton__421ed,
 .fieldTitle_b69b77,
-.wordmark_a934d8:before,
+.wordmark__421ed:before,
 .userTag_b69b77,
 .headerText_a0,
 .bd-sidebar-header h2,
@@ -28,7 +28,7 @@
 .container_f9902b>.inner_f9902b>div:after,
 .archivedDivider-2dQ9JY,
 .headerText-3MQ6n4>h3>span,
-.wordmark_a934d8:before {
+.wordmark__421ed:before {
     color: var(--Primary);
 }
 
