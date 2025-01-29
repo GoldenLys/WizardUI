@@ -1,13 +1,13 @@
-#app-mount .buttons_bdf0de .buttonContainer_bdf0de>.button_dd4f85[aria-label~="GIF"]>div {
+#app-mount .buttons__74017 .buttonContainer__74017>.button__201d5[aria-label~="GIF"]>div {
     display: var(--Show_GIF_Button);
 }
 
-#app-mount .buttons_bdf0de .buttonContainer_bdf0de>.button_dd4f85[aria-label~="GIF"] {
+#app-mount .buttons__74017 .buttonContainer__74017>.button__201d5[aria-label~="GIF"] {
     padding: 4px;
     margin-left: 4px;
     margin-right: 4px; 
 }
 
-#app-mount .buttons_bdf0de .buttonContainer_bdf0de>.button_dd4f85[aria-label~="sticker"]>div {
+#app-mount .buttons__74017 .buttonContainer__74017>.button__201d5[aria-label~="sticker"]>div {
     display: var(--Show_Sticker_Button);
 }

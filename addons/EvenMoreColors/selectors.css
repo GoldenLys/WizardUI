@@ -60,9 +60,9 @@ div[class^=circleIconButton_], .guilds_c48ade .scroller_ef3116>div:not([class]):
 .membersGroup_c8ffbb>span,
 .inviteDestinationJoined_a71a1c,
 .optionHeader-27AHfD,
-.sidebar_c48ade .containerDefault_c69b6d.selected_f6f816 .iconContainer_d8bfb3:before,
-.sidebar_c48ade .containerDefault_c69b6d.selected_f6f816>svg,
-.sidebar_c48ade .containerDefault_c69b6d.selected_f6f816 .channelName-3KPsGw,
+.sidebar_c48ade .containerDefault_c69b6d.selected_c69b6d .iconContainer__2ea32:before,
+.sidebar_c48ade .containerDefault_c69b6d.selected_c69b6d>svg,
+.sidebar_c48ade .containerDefault_c69b6d.selected_c69b6d .channelName-3KPsGw,
 .name_fd6364,
 .name_a08117,
 .name_a08117,
@@ -103,9 +103,9 @@ div[class^=circleIconButton_], .guilds_c48ade .scroller_ef3116>div:not([class]):
 	-webkit-animation: RGB_TEXT var(--ColorTime) linear infinite !important;
 }
 
-.sidebar_c48ade .containerDefault_c69b6d.selected_f6f816 .iconContainer_d8bfb3:before, 
-.sidebar_c48ade .containerDefault_c69b6d.selected_f6f816>svg,
-.sidebar_c48ade .containerDefault_c69b6d.selected_f6f816 .channelName-3KPsGw,
+.sidebar_c48ade .containerDefault_c69b6d.selected_c69b6d .iconContainer__2ea32:before, 
+.sidebar_c48ade .containerDefault_c69b6d.selected_c69b6d>svg,
+.sidebar_c48ade .containerDefault_c69b6d.selected_c69b6d .channelName-3KPsGw,
 .sidebar_c48ade .content_eed6a8>div[style^="height"]:not([aria-hidden]) {
 	animation: RGB_TEXT var(--ColorTime) linear infinite !important;
 	-webkit-animation: RGB_TEXT var(--ColorTime) linear infinite !important;
