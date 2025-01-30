@@ -1,4 +1,4 @@
-.platform-osx .wrapper_fea3ef {
+.platform-osx .wrapper_ef3116 {
     margin-top: 0px;
 }
 
@@ -95,13 +95,13 @@
     mask: none;
 }
 
-.dragInner_f734d8 {
+.dragInner__87847 {
     width: var(--ServerSize);
     height: var(--ServerSize);
     border-radius: var(--Rounding);
 }
 
-#app-mount .guilds_c48ade.hidden_fea3ef+.base_c48ade {
+#app-mount .guilds_c48ade.hidden_ef3116+.base_c48ade {
     top: 0 !important;
 }
 
@@ -120,7 +120,7 @@
     flex-direction: column;
 }
 
-#app-mount .guilds_c48ade .scroller_ef3116>div:not([class]):not([style])>.wrapper__48112 .expandedFolderBackground__48112:not(.collapsed_bc7085)+.listItem__650eb+ul {
+#app-mount .guilds_c48ade .scroller_ef3116>div:not([class]):not([style])>.wrapper__48112 .expandedFolderBackground__48112:not(.collapsed__48112)+.listItem__650eb+ul {
     height: auto !important;
     overflow: visible !important;
 }
@@ -156,7 +156,7 @@
     height: var(--ServerSize);
 }
 
-#app-mount .activityCount_f9c402>.pill_dc6abe.pillOnline_dc6abe+.pill_dc6abe {
+#app-mount .activityCount_fa285e>.pill_dc6abe.pillOnline_dc6abe+.pill_dc6abe {
     transform: none;
     width: auto;
     height: auto;
