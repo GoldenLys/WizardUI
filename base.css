@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-137"; /* 0-00 */
+    --version: "1-138"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -21,7 +21,7 @@
     --text-shadow: rgb(0 0 0);
     --Highlighted: rgba(50, 10, 200, .5);
     --MessageHover: transparent;
-    --Unread: rgba(255, 255, 255, 0.10);
+    --Unread: rgb(253 151 65);
     --Hover: rgba(18, 19, 31, 0.50);
     --Selected: rgba(56, 33, 146);
     /* STATUS VARIABLES */
@@ -42,6 +42,7 @@
     --bg-settings: var(--darkgrey);
     --bg-colorprofile: var(--bg-ui);
     --bg-alt-message: transparent;
+    --bg-unread: rgb(253 151 65 / 70%);
     /* UI COLOR VARIABLES */
     --grey: rgb(18, 19, 31);
     --grey5: rgba(18, 19, 31, .75);
@@ -77,7 +78,6 @@
     --rs-streaming-color: var(--Streaming)!important;
     --rs-invisible-color: var(--Offline)!important;
     --rs-avatar-shape: var(--AvatarRounding)!important;
-
     /* REVERT BUTTONS ADDON */
     --Show_GIF_Button: none;
     --Show_Sticker_Button: none;
@@ -112,7 +112,7 @@
     --modal-footer-background: var(--darkgrey);
     --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
     --background-message-hover: var(--MessageHover);
-    --background-mentioned: var(--Unread);
+    --background-mentioned: var(--bg-unread);
     --background-mentioned-hover: var(--Hover);
     --scrollbar-thin-thumb: var(--Primary);
     --scrollbar-thin-track: transparent;
@@ -274,7 +274,6 @@ div[class^=folder_],
 .container__133bf,
 .shopScroll__6db1d,
 .pageWrapper__6db1d,
-.applicationStore_f07d62 .container__9293f.themed__9293f,
 .mainPageScroller_ca1a02,
 .shop__6db1d  .container__9293f.themed__9293f,
 .scroller__99e7c,
@@ -468,8 +467,8 @@ div[class^=folder_],
 
 .channelAppLauncher_e6e74f,
 .unreadPillCap__908e2,
-#app-mount .chat_f75fb0 > .subtitleContainer_f75fb0 > section > .uppercontainer__9293f > .children__9293f > .iconWrapper__9293f > svg,
-#app-mount .chat_f75fb0 > .subtitleContainer_f75fb0 > section > .uppercontainer__9293f > .children__9293f > .divider__9293f,
+#app-mount .chat_f75fb0 > .subtitleContainer_f75fb0 > section > .upperContainer__9293f > div.children__9293f > div.iconWrapper__9293f > svg,
+#app-mount .chat_f75fb0 > .subtitleContainer_f75fb0 > section > .upperContainer__9293f > div.children__9293f > div.divider__9293f,
 .banner__183e8,
 .overlay_fe70ca,
 .lockIcon__2666b,
@@ -1218,7 +1217,9 @@ div[class^="role_"],
 
 #app-mount .member-1q7VfX .tag-1YGWN9,
 #app-mount .isUnread__908e2 .content__908e2 {
+    position: relative;
     color: var(--Text);
+    border-radius: 0 0 5px 5px;
 }
 
 .note_c90ad7,
@@ -1618,10 +1619,10 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
     display: none;
 }
 
-.numberBadge__40d6f {
+.numberBadge__2b1f5 {
     border-radius: 2.5px;
     padding-right: 0px !important;
-    background-color: var(--ui-error) !important;
+    background-color: var(--bg-unread) !important;
 }
 
 .expandedFolderIconWrapper__48112:before,
@@ -2240,7 +2241,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
 
 .channelInfo_c69b6d {
     background: var(--grey);
-    padding: 0 2px;
+    padding: 0 0px;
     border-radius: var(--Rounding);
 }
 
@@ -2874,17 +2875,47 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 }
 
 #app-mount .divider__5126c span.unreadPill__908e2 {
-    top: -14px;
+    height: 15px;
+    top: -15px;
     left: auto;
     right: auto;
     border-radius: 5px 5px 0 0;
-    background-color: var(--ui-error);
+    background-color: var(--bg-chat-elements);
+    color: var(--Text);
+    padding: 5px 10px;
+    min-width: 120px;
+}
+
+#app-mount .divider__5126c span.unreadPill__908e2.endCap__908e2 {
+    border-radius: 5px;
 }
 
 .divider__5126c.isUnread__908e2  {
     display: flex;
-    border-top: 1px solid var(--ui-error);
     align-items: flex-start;
+}
+
+#app-mount .isUnread__908e2 .content__908e2::before,
+#app-mount .isUnread__908e2 .content__908e2::after {
+    display: flex;
+    content: "";
+    position: absolute;
+    transform: translateY(-50%);
+    width: 1000%;
+    top: 50%;
+    height: 1px;
+    background-color: var(--Unread);
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#app-mount .isUnread__908e2 .content__908e2::before {
+  left: calc(-1000% - 10px);
+}
+
+#app-mount .isUnread__908e2 .content__908e2::after {
+    left: calc(100% + 10px);
 }
 
 ul>.listItem__650eb>div[class^=pill] {
@@ -4848,12 +4879,12 @@ div[class^=folderIconWrapper],
     color: var(--Primary);
 }
 
-#my-account-tab>div>div:nth-child(1)>div.sectionTitle__7bffb>h2 {
+#my-account-tab>.settingsPage_f131e9>h3 {
     font-size: 0px;
     line-height: 0px;
 }
 
-#my-account-tab>div>div:nth-child(1)>div.sectionTitle__7bffb>h2:before {
+#my-account-tab>.settingsPage_f131e9>h3:before {
     content: "Show me your ID sir.";
     font-size: 20px;
     line-height: 24px;
@@ -5366,7 +5397,7 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
 }
 
 .divider__5126c {
-    border-top: 0px solid var(--bg-chat-elements);
+    border-color: transparent;
 }
 
 .repliedMessage_c19a55:before {
@@ -5565,7 +5596,7 @@ div[style*="background-color: rgb(88, 101, 242);"] {
     outline: none;
 }
 
-.chat_f75fb0>.title_f75fb0 {
+.chat_f75fb0 .title_f75fb0.container__9293f {
     padding-bottom: 12px;
 }
 
@@ -5717,7 +5748,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     content: "";
     position: absolute;
     inset: 0;
-    background-color: var(--background-mentioned);
+    background-color: var(--Primary);
     opacity: 0.15;
     z-index: -1;
     filter: saturate(var(--saturation-factor, 1));

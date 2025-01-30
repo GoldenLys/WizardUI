@@ -118,7 +118,7 @@
     --text-shadow: rgb(0 0 0);
     --Highlighted: rgba(117 76 205 / 50%);
     --MessageHover: transparent;
-    --Unread: rgb(255 255 255);
+    --Unread: rgb(173, 16, 16);
     --Hover: rgb(18 19 31 / 50%);
     --Selected: rgb(56 33 146);
 
@@ -134,6 +134,7 @@
     --bg-settings: var(--darkgrey);
     --bg-colorprofile: rgba(0, 0, 0, 0.5);
     --bg-alt-message: transparent;
+    --bg-unread: rgba(173, 16, 16, 0.7);
 
     /* SERVER SETTINGS */
     --ServerSize: 45px;

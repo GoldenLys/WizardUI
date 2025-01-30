@@ -8,30 +8,83 @@
 * @website https://purplewizard.space/
 */
 
-@import url("https://goldenlys.github.io/WizardUI/base.css");
-
 @import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
 
-/* This is an addon that adds the Marianne font.
-@import url("https://goldenlys.github.io/WizardUI/addons/Marianne.css"); */
+/* 
+    Marianne.css
 
-/* This is an addon that moves the servers to the top with an horizontal width.*/
+  This is an addon that adds the Marianne font, you need to change the font variable below to 'Marianne' to see it.
+
+@import url("https://goldenlys.github.io/WizardUI/addons/Marianne.css"); 
+*/
+
+@import url("https://goldenlys.github.io/WizardUI/base.css");
+
+/* 
+    PurpleServerList.css
+
+  This is an addon that moves the servers to the top with an horizontal width.
+*/
 @import url("https://goldenlys.github.io/WizardUI/addons/PurpleServerList.css");
 
-/* An extension of PurpleServerList where the sidebar is moved to the top and the server list shifts accordingly.
-@import url("https://goldenlys.github.io/WizardUI/addons/TopSidebarShift.css"); */
+/* 
+    TopSidebarShift.css
+    - requires: PurpleServerList
 
-/* This is a modification for PurpleServerList which replaces the folders icons with letters.
-@import url("https://goldenlys.github.io/WizardUI/addons/LettersInPSL.css"); */
+  An extension of PurpleServerList where the sidebar is moved to the top and the server list shifts accordingly.
 
-/* This is an addon that makes the members list hidden until you hover it. */
-@import url("https://goldenlys.github.io/WizardUI/addons/HoverMembers.css");
+@import url("https://goldenlys.github.io/WizardUI/addons/TopSidebarShift.css"); 
+*/
 
-/* This is an addon that moves the "user is typing" text to the bottom of the app, like the default discord.
-@import url("https://goldenlys.github.io/WizardUI/addons/UserIsTyping.css"); */
+/* 
+    LettersInPSL.css
+    -  requires: PurpleServerList
 
-/* This is an addon that recolors alot of elements in the app with the main theme color but you can even add an RGB animated effect if you change the number before the ".css" (with a maximum of 10 colors). */
-@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/2.css");
+  This is a modification for PurpleServerList which replaces the folders icons with letters.
+
+@import url("https://goldenlys.github.io/WizardUI/addons/LettersInPSL.css"); 
+*/
+
+/* 
+    AlternateFoldersInPSL.css 
+    - requires: PurpleServerList, LettersInPSL (optionnal)
+
+  This addon modifies the view of closed folders in PurpleServerList, to make it show the folder icon at the top
+  and the first and second server inside that folder, this is also compatible with the LettersInPSL addon.
+
+@import url("https://goldenlys.github.io/WizardUI/addons/AlternateFoldersInPSL.css");
+*/
+
+/* 
+    HoverMembers.css
+
+  This is an addon that makes the members list hidden until you hover it.
+*/
+@import url("https://goldenlys.github.io/WizardUI/addons/HoverMembers.css"); 
+
+/* 
+    UserIsTyping.css
+
+  This is an addon that moves the "user is typing" text to the bottom of the app, like the default discord.
+
+@import url("https://goldenlys.github.io/WizardUI/addons/UserIsTyping.css"); 
+*/
+
+/* 
+    EvenMoreColors/[number from 1 to 10].css
+
+  This is an addon that recolors alot of elements in the app with the main theme color but you can even add an RGB animated effect if you change the number before the ".css" (with a maximum of 10 colors).
+*/
+@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/2.css"); 
+
+/* 
+    RevertChatButtons.css 
+
+  This addon reverts the GIF and Sticker buttons in the Discord chat toolbar to their classic positions and alignment. 
+  It restores the layout for users who prefer the original setup, with customizable variables for button visibility.
+
+@import url("https://goldenlys.github.io/WizardUI/addons/RevertChatButtons.css"); 
+*/
 
 :root {
     /* MAIN VARIABLES */
@@ -63,7 +116,7 @@
     --text-shadow: rgb(0 0 0);
     --Highlighted: rgba(117 76 205 / 5%);
     --MessageHover: transparent;
-    --Unread: rgb(255 255 255);
+    --Unread: rgb(173 16 16);
     --Hover: rgb(18 19 31 / 50%);
     --Selected: rgb(56 33 146);
 
@@ -79,6 +132,7 @@
     --bg-settings: var(--darkgrey);
     --bg-colorprofile: rgba(0, 0, 0, 0.5);
     --bg-alt-message: transparent;
+    --bg-unread: rgb(173 16 16 / 70%);
 
     /* SERVER SETTINGS */
     --ServerSize: 45px;
@@ -100,4 +154,14 @@
     --Color8: rgb(0 0 0);
     --Color9: rgb(0 0 0);
     --Color10: rgb(0 0 0);
+
+    /* 
+        REVERT BUTTONS ADDON 
+
+      Choose between 'none' or 'flex'
+      none will disable / hide the button and flex will make it appear again
+    
+    */
+    --Show_GIF_Button: none; 
+    --Show_Sticker_Button: none; 
 }

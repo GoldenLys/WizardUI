@@ -47,7 +47,7 @@
     --text-shadow: rgb(0 0 0);
     --Highlighted: var(--Primary);
     --MessageHover: var(--grey5);
-    --Unread: rgb(253 151 65);
+    --Unread: rgb(173, 16, 16);
     --Hover: rgb(104 76 255 / 35%);
     --Selected: rgb(104 76 255 / 15%);
 
@@ -70,6 +70,7 @@
     --bg-settings: var(--bg-ui);
     --bg-colorprofile: rgb(38 40 64 / 50%);
     --bg-alt-message: transparent;
+    --bg-unread: rgb(173, 16, 16 / 70%);
 
     /* UI COLOR VARIABLES */
     --grey: rgb(39 44 52);
@@ -101,4 +102,14 @@
     --Color8: rgb(0 0 0);
     --Color9: rgb(0 0 0);
     --Color10: rgb(0 0 0);
+    
+    /* 
+        REVERT BUTTONS ADDON 
+
+      Choose between 'none' or 'flex'
+      none will disable / hide the button and flex will make it appear again
+    
+    */
+    --Show_GIF_Button: none; 
+    --Show_Sticker_Button: none; 
 }
