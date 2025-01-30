@@ -41,7 +41,7 @@ div.link__2ea32[class*="modeSelected_"]:before {
 div[class^=circleIconButton_], .guilds_c48ade .scroller_ef3116>div:not([class]):not([style])+div[class^=tutorialContainer] div[class^=circleIconButton_],
 .info__2debe:before,
 .mentioned__5126c:before,
-.mentioned__5126c:after,
+.hasReply_c19a55.mentioned__5126c:not(:has(.roleMention__75297[style]))::after,
 .closeButton_c2b141,
 .tutorialContainer__1f388 .circleIconButton__5bc7e,
 .tutorialContainer__1f388+.listItem__650eb .circleIconButton__5bc7e,

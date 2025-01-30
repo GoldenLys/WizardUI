@@ -21,7 +21,7 @@
     --text-shadow: rgb(0 0 0);
     --Highlighted: rgba(50, 10, 200, .5);
     --MessageHover: transparent;
-    --Unread: rgb(253 151 65);
+    --Unread: rgb(173 16 16);
     --Hover: rgba(18, 19, 31, 0.50);
     --Selected: rgba(56, 33, 146);
     /* STATUS VARIABLES */
@@ -42,7 +42,7 @@
     --bg-settings: var(--darkgrey);
     --bg-colorprofile: var(--bg-ui);
     --bg-alt-message: transparent;
-    --bg-unread: rgb(253 151 65 / 70%);
+    --bg-unread: rgb(173 16 16 / 70%);
     /* UI COLOR VARIABLES */
     --grey: rgb(18, 19, 31);
     --grey5: rgba(18, 19, 31, .75);
