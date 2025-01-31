@@ -138,7 +138,7 @@
 #app-mount .pill__1f388>span {
     margin-left: 0;
     width: 5px;
-    border-radius: var(--Rounding);
+    border-radius: 5px;
     height: var(--ServerSize) !important;
 }
 
