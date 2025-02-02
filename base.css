@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-139"; /* 0-00 */
+    --version: "1-140"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -923,7 +923,6 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.status_a423bd {
     position: relative;
     background-color: var(--grey);
     border-radius: 5px;
-    overflow: hidden;
 }
 
 .inner_c0bea0:not(.userProfileModalInner_c69a7b):not(.userCardInner_c69a7b) {
@@ -931,7 +930,6 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.status_a423bd {
     background-color: transparent;
     background-image: none;
     border-radius: 5px;
-    overflow: hidden;
     text-shadow: var(--text-shadow) 0px 0px 2.5px;
 }
 
@@ -2880,15 +2878,21 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 }
 
 #app-mount .divider__5126c span.unreadPill__908e2 {
-    height: 15px;
-    top: -15px;
+    display: block;
+    min-height: 15px;
+    top: -25px;
     left: auto;
     right: auto;
     border-radius: 5px 5px 0 0;
     background-color: var(--bg-chat-elements);
     color: var(--Text);
     padding: 5px 10px;
-    min-width: 120px;
+}
+
+#app-mount .isUnread__908e2 .content__908e2,
+#app-mount .divider__5126c span.unreadPill__908e2 {
+    box-sizing: content-box;
+    min-width: 130px;
 }
 
 #app-mount .divider__5126c span.unreadPill__908e2.endCap__908e2 {
@@ -2898,6 +2902,10 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 .divider__5126c.isUnread__908e2  {
     display: flex;
     align-items: flex-start;
+}
+
+#app-mount .divider__5126c.isUnread__908e2>.content__908e2+span.unreadPill__908e2.endCap__908e2 {
+    border-radius: 5px 5px 0 0;
 }
 
 #app-mount .isUnread__908e2 .content__908e2::before,
