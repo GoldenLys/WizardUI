@@ -2807,7 +2807,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 
 /* VOICE CHANNEL */
 
-.sidebar_c48ade .containerDefault_c69b6d .typeVoice__2ea32 .iconContainer__2ea32:before {
+.sidebar_c48ade .containerDefault_c69b6d .link__2ea32 .iconContainer__2ea32[aria-label$="Voice icon"]:before {
     content: "\f590";
     margin-right: 5px
 }
@@ -2879,8 +2879,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 
 #app-mount .divider__5126c span.unreadPill__908e2 {
     display: block;
-    min-height: 15px;
-    top: -25px;
+    top: -15px;
     left: auto;
     right: auto;
     border-radius: 5px 5px 0 0;
