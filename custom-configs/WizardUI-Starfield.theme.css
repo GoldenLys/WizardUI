@@ -1,5 +1,5 @@
 /**
-* @name WizardUI
+* @name WizardUI - Starfield
 * @author NEBULYS
 * @authorLink https://github.com/GoldenLys
 * @version RELEASE
@@ -8,7 +8,7 @@
 * @website https://nebulys.eu/
 */
 
-@import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* 
     Marianne.css
@@ -59,9 +59,9 @@
     HoverMembers.css
 
   This is an addon that makes the members list hidden until you hover it.
-
-@import url("https://goldenlys.github.io/WizardUI/addons/HoverMembers.css"); 
 */
+@import url("https://goldenlys.github.io/WizardUI/addons/HoverMembers.css"); 
+
 
 /* 
     UserIsTyping.css
@@ -75,9 +75,8 @@
     EvenMoreColors/[number from 1 to 10].css
 
   This is an addon that recolors alot of elements in the app with the main theme color but you can even add an RGB animated effect if you change the number before the ".css" (with a maximum of 10 colors).
-
-@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/1.css"); 
 */
+@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/5.css"); 
 
 /* 
     RevertChatButtons.css 
@@ -90,73 +89,73 @@
 
 :root {
     /* MAIN VARIABLES */
-    --AppName: "DISCORD";
-    --Watermark: "WizardUI";
-    --font: 'Quicksand', 'emoji', sans-serif;
+    --AppName: "Starfield";
+    --Watermark: "Constellation Edition";
+    --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
-    --logo: url(https://goldenlys.github.io/WizardUI/images/home.png);
+    --logo: url(https://goldenlys.github.io/WizardUI/images/logos/19.jpg);
+
+    /* THEME COLORS */
+    --Primary: rgb(47, 76, 121);
+    --text-link: var(--Primary);
+    --text-shadow: rgb(0 0 0);
+    --Highlighted: var(--Primary);
+    --MessageHover: rgb(4 15 32 / 75%);
+    --Unread: rgb(255 27 27);
+    --Hover: rgba(47 76 121 / 50%);
+    --Selected: rgba(47 76 121 / 35%);
 
     /* STATUS VARIABLES */
     --Online: rgb(0, 255, 6);
-    --Idle: rgb(18, 100, 239);
+    --Idle: rgb(245, 176, 49);
     --Unavailable: rgb(228, 15, 0);
     --Offline: rgb(90, 95, 100);
     --Streaming: rgb(110, 0, 196);
 
-    /* UI COLOR VARIABLES */
-    --grey: rgb(18, 19, 31);
-    --grey5: rgba(18, 19, 31, .75);
-    --darkgrey: rgb(10, 10, 20);
-    --darkgrey5: rgba(10, 10, 20, .75);
-    --ui-success: rgb(69, 208, 34);
-    --ui-warning: rgb(238, 165, 30);
-    --ui-error: rgb(208, 34, 34);
-
-    /* THEME COLORS */
-    --Primary: rgb(117 76 205);
-    --text-link: var(--Primary);
-    --text-shadow: rgb(0 0 0);
-    --Highlighted: rgba(117 76 205 / 50%);
-    --MessageHover: transparent;
-    --Unread: rgb(173, 16, 16);
-    --Hover: rgb(18 19 31 / 50%);
-    --Selected: rgb(56 33 146);
-
     /* BACKGROUNDS */
-    --background: url(https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg);
-    --bg-titlebar: rgba(0, 0, 0, 0.65);
-    --bg-servers: rgba(0, 0, 0, 0.65);
-    --bg-ui: rgba(0, 0, 0, 0.65);
-    --bg-chatbox: rgba(0, 0, 0, 0.5);
-    --bg-sendmessage: rgba(0, 0, 0, 0.65);
-    --bg-members: rgba(0, 0, 0, 0.65);
-    --bg-chat-elements: rgba(0, 0, 0, 0.5);
-    --bg-settings: var(--darkgrey);
-    --bg-colorprofile: rgba(0, 0, 0, 0.5);
+    --background: url(https://goldenlys.github.io/WizardUI/images/backgrounds/Starfield.jpg);
+    --bg-ui: rgb(11 25 43 / 85%);
+    --bg-titlebar: var(--bg-ui);
+    --bg-servers: var(--bg-ui);
+    --bg-chatbox: rgb(11 25 43 / 65%);
+    --bg-sendmessage: var(--bg-ui);
+    --bg-members: var(--bg-ui);
+    --bg-chat-elements: var(--grey5);
+    --bg-settings: var(--bg-ui);
+    --bg-colorprofile: rgb(38 40 64 / 50%);
     --bg-alt-message: transparent;
-    --bg-unread: rgba(173, 16, 16, 0.7);
+    --bg-unread: rgb(255 27 27 / 70%);
+
+    /* UI COLOR VARIABLES */
+    --grey: rgb(11 25 43);
+    --grey5: rgb(11 25 43 / 75%);
+    --darkgrey: rgb(4 15 32);
+    --darkgrey5: rgb(4 15 32 / 75%);
+    --ui-success: rgb(69 208 34);
+    --ui-warning: rgb(238 165 30);
+    --ui-error: rgb(208 34 34);
 
     /* SERVER SETTINGS */
     --ServerSize: 45px;
+    --ServerSpacing: 5px 0px 0px 5px;
     --ServerPills: var(--Primary);
-    --ServerFoldersColor: var(--Primary);
 
     /* ROUNDING */
     --Rounding: 5px;
     --AvatarRounding: var(--Rounding);
 
     /* RGB ADDON */
-    --ColorTime: 2s;
-    --Color2: rgb(0, 225, 255);
-    --Color3: rgb(0 0 0);
-    --Color4: rgb(0 0 0);
-    --Color5: rgb(0 0 0);
+    --ColorTime: 15s;
+    --Color2: rgb(47, 76, 121);
+    --Color3: rgb(215, 171, 97);
+    --Color4: rgb(224, 98, 54);
+    --Color5: rgb(200, 35, 55);
     --Color6: rgb(0 0 0);
     --Color7: rgb(0 0 0);
     --Color8: rgb(0 0 0);
     --Color9: rgb(0 0 0);
     --Color10: rgb(0 0 0);
-
+      
     /* 
         REVERT BUTTONS ADDON 
 

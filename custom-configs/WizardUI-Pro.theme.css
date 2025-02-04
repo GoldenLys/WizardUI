@@ -1,14 +1,14 @@
 /**
-* @name WizardUI
+* @name WizardUI - Pro Edition
 * @author NEBULYS
 * @authorLink https://github.com/GoldenLys
 * @version RELEASE
 * @invite SBuYeHh
-* @description An amazing modular and fully customizable theme, made with 💖 by NEBULYS.
+* @description An amazing fully customizable theme, made with 💖 by NEBULYS.
 * @website https://nebulys.eu/
 */
 
-@import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* 
     Marianne.css
@@ -17,7 +17,6 @@
 
 @import url("https://goldenlys.github.io/WizardUI/addons/Marianne.css"); 
 */
-
 @import url("https://goldenlys.github.io/WizardUI/base.css");
 
 /* 
@@ -33,8 +32,8 @@
 
   An extension of PurpleServerList where the sidebar is moved to the top and the server list shifts accordingly.
 
-@import url("https://goldenlys.github.io/WizardUI/addons/TopSidebarShift.css"); 
 */
+@import url("https://goldenlys.github.io/WizardUI/addons/TopSidebarShift.css"); 
 
 /* 
     LettersInPSL.css
@@ -52,16 +51,16 @@
   This addon modifies the view of closed folders in PurpleServerList, to make it show the folder icon at the top
   and the first and second server inside that folder, this is also compatible with the LettersInPSL addon.
 
-@import url("https://goldenlys.github.io/WizardUI/addons/AlternateFoldersInPSL.css");
 */
+@import url("https://goldenlys.github.io/WizardUI/addons/AlternateFoldersInPSL.css");
 
 /* 
     HoverMembers.css
 
   This is an addon that makes the members list hidden until you hover it.
 
-@import url("https://goldenlys.github.io/WizardUI/addons/HoverMembers.css"); 
 */
+@import url("https://goldenlys.github.io/WizardUI/addons/HoverMembers.css");
 
 /* 
     UserIsTyping.css
@@ -76,8 +75,8 @@
 
   This is an addon that recolors alot of elements in the app with the main theme color but you can even add an RGB animated effect if you change the number before the ".css" (with a maximum of 10 colors).
 
-@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/1.css"); 
 */
+@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/2.css");
 
 /* 
     RevertChatButtons.css 
@@ -90,63 +89,63 @@
 
 :root {
     /* MAIN VARIABLES */
-    --AppName: "DISCORD";
-    --Watermark: "WizardUI";
-    --font: 'Quicksand', 'emoji', sans-serif;
-    --Text: rgb(255, 255, 255);
-    --logo: url(https://goldenlys.github.io/WizardUI/images/home.png);
+    --AppName: "WizardUI";
+    --Watermark: "Pro Edition";
+    --font: 'Source Sans Pro', 'emoji', sans-serif;
+    --Text: #F8F8F2;
+    --logo: url(https://goldenlys.github.io/WizardUI/images/logos/2.png);
+
+    /* THEME COLORS */
+    --Primary: rgb(149, 128, 255);
+    --text-link: var(--Primary);
+    --text-shadow: rgb(0 0 0);
+    --Highlighted: var(--Primary);
+    --MessageHover: var(--grey5);
+    --Unread: rgb(173 16 16);
+    --Hover: rgb(255 255 255 / 15%);
+    --Selected: rgb(149 128 255 / 35%);
 
     /* STATUS VARIABLES */
-    --Online: rgb(0, 255, 6);
-    --Idle: rgb(18, 100, 239);
-    --Unavailable: rgb(228, 15, 0);
+    --Online: #8AFF80;
+    --Idle: #99FFEE;
+    --Unavailable: #FF9580;
     --Offline: rgb(90, 95, 100);
-    --Streaming: rgb(110, 0, 196);
+    --Streaming: #AA99FF;
+
+    /* BACKGROUNDS */
+    --background: #22212C;
+    --bg-titlebar: #1d1e26;
+    --bg-servers: #1d1e26;
+    --bg-ui: #1d1e26;
+    --bg-chatbox: #2a2c37;
+    --bg-sendmessage: var(--darkgrey5);
+    --bg-members: var(--bg-ui);;
+    --bg-chat-elements: var(--grey5);
+    --bg-settings: var(--bg-ui);
+    --bg-colorprofile: rgb(29 30 38 / 50%);
+    --bg-alt-message: transparent;
+    --bg-unread: rgb(173 16 16 / 70%);
 
     /* UI COLOR VARIABLES */
-    --grey: rgb(18, 19, 31);
-    --grey5: rgba(18, 19, 31, .75);
-    --darkgrey: rgb(10, 10, 20);
-    --darkgrey5: rgba(10, 10, 20, .75);
+    --grey: rgb(80 76 103);
+    --grey5: rgb(80 76 103 / 75%);
+    --darkgrey: rgb(34 33 44);
+    --darkgrey5: rgb(34 33 44 / 75%);
     --ui-success: rgb(69, 208, 34);
     --ui-warning: rgb(238, 165, 30);
     --ui-error: rgb(208, 34, 34);
-
-    /* THEME COLORS */
-    --Primary: rgb(117 76 205);
-    --text-link: var(--Primary);
-    --text-shadow: rgb(0 0 0);
-    --Highlighted: rgba(117 76 205 / 50%);
-    --MessageHover: transparent;
-    --Unread: rgb(173, 16, 16);
-    --Hover: rgb(18 19 31 / 50%);
-    --Selected: rgb(56 33 146);
-
-    /* BACKGROUNDS */
-    --background: url(https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg);
-    --bg-titlebar: rgba(0, 0, 0, 0.65);
-    --bg-servers: rgba(0, 0, 0, 0.65);
-    --bg-ui: rgba(0, 0, 0, 0.65);
-    --bg-chatbox: rgba(0, 0, 0, 0.5);
-    --bg-sendmessage: rgba(0, 0, 0, 0.65);
-    --bg-members: rgba(0, 0, 0, 0.65);
-    --bg-chat-elements: rgba(0, 0, 0, 0.5);
-    --bg-settings: var(--darkgrey);
-    --bg-colorprofile: rgba(0, 0, 0, 0.5);
-    --bg-alt-message: transparent;
-    --bg-unread: rgba(173, 16, 16, 0.7);
 
     /* SERVER SETTINGS */
     --ServerSize: 45px;
     --ServerPills: var(--Primary);
     --ServerFoldersColor: var(--Primary);
-
+    
     /* ROUNDING */
     --Rounding: 5px;
     --AvatarRounding: var(--Rounding);
 
     /* RGB ADDON */
-    --ColorTime: 2s;
+    --ColorTime: 5s;
     --Color2: rgb(0, 225, 255);
     --Color3: rgb(0 0 0);
     --Color4: rgb(0 0 0);
@@ -156,7 +155,7 @@
     --Color8: rgb(0 0 0);
     --Color9: rgb(0 0 0);
     --Color10: rgb(0 0 0);
-
+           
     /* 
         REVERT BUTTONS ADDON 
 
