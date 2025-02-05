@@ -52,6 +52,7 @@ div[class^=circleIconButton_], .guilds_c48ade .scroller_ef3116>div:not([class]):
 	-webkit-animation: RGB_BG var(--ColorTime) linear infinite !important;
 }
 
+.caret__9293f+span+.titleWrapper__9293f:before,
 .accountProfileCard__1fed1>.background__1fed1>.fieldList__1fed1>.field__1fed1:hover>.fieldButtonList__1fed1>button,
 .accountProfileCard__1fed1>.background__1fed1>.fieldList__1fed1>.field__1fed1:hover>button,
 .lookLink__201d5.colorLink__201d5,
