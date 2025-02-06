@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-141"; /* 0-00 */
+    --version: "1-142"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -1341,19 +1341,19 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     display: none;
 }
 
-/* MUTE BUTTON */
-.panels_c48ade .container__37e49 button:nth-last-child(3)>.contents__201d5::after {
-    content: "\f3c9";
-}
-
 /* DEAFEN BUTTON */
-.panels_c48ade .container__37e49 button:nth-last-child(2)>.contents__201d5::after {
+.panels_c48ade .container__37e49 button:nth-last-of-type(2)>.contents__201d5::after {
     content: "\f590";
 }
 
 /* OPTIONS BUTTON */
 .panels_c48ade .container__37e49 button:nth-last-child(1)>.contents__201d5::after {
     content: "\f085";
+}
+
+/* MUTE BUTTON */
+.panels_c48ade .container__37e49 .micButtonParent__37e49>button>.contents__201d5::after {
+    content: "\f3c9";
 }
 
 .container__37e49 .avatar__37e49,
