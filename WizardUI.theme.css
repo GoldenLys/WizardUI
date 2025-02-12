@@ -2,7 +2,7 @@
 * @name WizardUI
 * @author NEBULYS
 * @authorLink https://github.com/GoldenLys
-* @version RELEASE
+* @version 1.1
 * @invite SBuYeHh
 * @description An amazing modular and fully customizable theme, made with 💖 by NEBULYS.
 * @website https://nebulys.eu/
@@ -79,15 +79,6 @@
 @import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/1.css"); 
 */
 
-/* 
-    RevertChatButtons.css 
-
-  This addon reverts the GIF and Sticker buttons in the Discord chat toolbar to their classic positions and alignment. 
-  It restores the layout for users who prefer the original setup, with customizable variables for button visibility.
-
-@import url("https://goldenlys.github.io/WizardUI/addons/RevertChatButtons.css"); 
-*/
-
 :root {
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -95,6 +86,7 @@
     --font: 'Quicksand', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
     --logo: url(https://goldenlys.github.io/WizardUI/images/home.png);
+    --sendmessage-text-lines: 8;
 
     /* STATUS VARIABLES */
     --Online: rgb(0, 255, 6);
@@ -158,12 +150,13 @@
     --Color10: rgb(0 0 0);
 
     /* 
-        REVERT BUTTONS ADDON 
+        SHOWN BUTTONS IN THE MESSSAGE BOX
 
       Choose between 'none' or 'flex'
       none will disable / hide the button and flex will make it appear again
     
     */
+    --Show_Gift_Button: none;
     --Show_GIF_Button: none; 
     --Show_Sticker_Button: none; 
 }
