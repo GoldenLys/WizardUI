@@ -6530,7 +6530,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 .textArea__74017 {
     height: auto !important;
-    max-height: calc(12px +(22px* 10));
+    max-height: calc(12px + 22px * var(--sendmessage-text-lines));
     overflow-y: auto;
     order: 1;
 }
