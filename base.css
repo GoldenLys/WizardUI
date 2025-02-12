@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-2"; /* 0-00 */
+    --version: "1-21"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -83,6 +83,7 @@
     --Show_Gift_Button: none;
     --Show_GIF_Button: none;
     --Show_Sticker_Button: none;
+    --Show_Apps_Button: flex;
 }
 
 .theme-light,
@@ -6571,6 +6572,10 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 .buttons__74017 .buttonContainer__74017.expression-picker-chat-input-button>.button__201d5[aria-label~="sticker"] {
     display: var(--Show_Sticker_Button);
+}
+
+.channelAppLauncher_e6e74f .buttonContainer_e6e74f>.button_e6e74f {
+    display: var(--Show_Apps_Button);
 }
 
 .rowDivider_cb32c7 {

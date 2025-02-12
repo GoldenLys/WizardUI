@@ -157,4 +157,5 @@
     --Show_Gift_Button: none;
     --Show_GIF_Button: none; 
     --Show_Sticker_Button: none; 
+    --Show_Apps_Button: flex;
 }
