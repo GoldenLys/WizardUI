@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-21"; /* 0-00 */
+    --version: "1-22"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
