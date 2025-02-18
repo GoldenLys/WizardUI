@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-23"; /* 0-00 */
+    --version: "1-24"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -902,13 +902,18 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.status_a423bd {
 .guilds_c48ade .tutorialContainer__1f388>div[class^=listItem_]>div[class^=listItemWrapper_]>div {
     border-radius: var(--Rounding);
     background-image: var(--logo);
-    max-height: calc(var(--ServerSize) - 1px);
-    max-width: calc(var(--ServerSize) - 1px);
+    max-height: calc(var(--ServerSize) - 0px);
+    max-width: calc(var(--ServerSize) - 0px);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: var(--ServerSize);
     height: var(--ServerSize);
+}
+
+.circleIconButton__5bc7e {
+    width: 100%;
+    height: 100%;
 }
 
 .unread__2ea32 {
@@ -2523,10 +2528,6 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 .expandedFolderIconWrapper__48112:not(.collapsed__48112)+.listItem__650eb div[class^=folder_],
 .expandedFolderIconWrapper__48112:not(.collapsed__48112)+.listItem__650eb div[class^=folderIconWrapper] {
     background-color: transparent !important;
-}
-
-.unreadMentionsBar_ef3116 {
-    display: none;
 }
 
 .autocomplete__13533.autocomplete-3l_oCd .wrapper-1VLyxH>svg>rect {
@@ -6663,4 +6664,9 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     border-radius: 5px;
     border: none;
     background-color: var(--bg-ui);
+}
+
+svg>foreignObject[mask="url(#svg-mask-squircle)"] {
+    mask: none;
+    -webkit-mask: none;
 }
