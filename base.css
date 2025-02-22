@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-25"; /* 0-00 */
+    --version: "1-26"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -318,6 +318,7 @@ div[class^=folder_],
     border-radius: var(--Rounding);
 }
 
+.content__37e49,
 .container_6sXIoE,
 .container__01ae2>.container__9293f,
 .container__9293f.themed__9293f,
@@ -1353,7 +1354,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 
 /* DEAFEN BUTTON */
 .panels_c48ade .container__37e49 button:nth-last-of-type(2)>.contents__201d5::after {
-    content: "\f590";
+    content: "\f58f";
 }
 
 /* OPTIONS BUTTON */
