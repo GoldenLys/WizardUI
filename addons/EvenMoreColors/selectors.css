@@ -30,6 +30,8 @@ div.link__2ea32[class*="modeSelected_"]:before {
 	-webkit-animation: RGB_BG var(--ColorTime) linear infinite !important;
 }
 
+.bd-addon-views .bd-view-button.selected,
+.bd-button-filled.bd-button-color-brand,
 .dragInner__87847,
 .rowDivider_cb32c7,
 .channelAttachmentArea_b77158+.divider__908e2,

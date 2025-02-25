@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-26"; /* 0-00 */
+    --version: "1-27"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -4133,8 +4133,14 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
 }
 
 .bd-button,
-.bd-addon-views .bd-view-button.selected {
+.bd-addon-views .bd-view-button.selected,
+.bd-button-filled.bd-button-color-brand {
     background-color: var(--Primary);
+}
+
+.bd-button:hover,
+.bd-button-filled.bd-button-color-brand:hover {
+    opacity: 0.75;
 }
 
 .bd-button.bd-button-danger {
@@ -4812,6 +4818,7 @@ div[class^=folderIconWrapper],
     transform: none !important;
 }
 
+.theme-dark .bd-addon-store-card,
 .lookFilled-1GseHa.select-1Ia3hD,
 .itemCard__7e549.wrapper__00943,
 .wrapper_d5f3cd,
@@ -6667,4 +6674,16 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     mask: none;
     -webkit-mask: none;
+}
+
+.bd-addon-store-card-tag {
+    background: var(--darkgrey5);
+    border: 1px solid transparent;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.bd-addon-store-card-badge {
+    background: var(--ui-error);
+    border-radius: 5px;
 }
