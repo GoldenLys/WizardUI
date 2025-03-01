@@ -83,10 +83,6 @@
     width: var(--ServerSize);
 }
 
-.target_d144f8 {
-    flex: 1 0 100%;
-}
-
 #app-mount .guilds_c48ade .target_d144f8::before {
     border-radius: var(--Rounding);
     top: 15px;

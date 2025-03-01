@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-27"; /* 0-00 */
+    --version: "1-28"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -604,7 +604,7 @@ html:not(.visual-refresh) .sidebar_c48ade:not(.hidden_c48ade) {
 
 .bannerImage_f37cb1,
 .bannerImg_f37cb1 {
-    width: 260px;
+    width: 265px;
 }
 
 .animatedcontainer_f37cb1,
