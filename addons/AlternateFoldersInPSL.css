@@ -1,7 +1,7 @@
 .closedFolderIconWrapper__48112:before {
     position: relative;
     width: 100%;
-    height: calc(var(--ServerSize) / 2);
+    height: 16px;
     font-size: 16px;
     line-height: 16px;
 }
