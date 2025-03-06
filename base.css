@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-29"; /* 0-00 */
+    --version: "1-30"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -1647,8 +1647,8 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     display: block;
-    font-size: 20px;
-    line-height: calc(var(--ServerSize) + 3px);
+    font-size: 16px;
+    line-height: calc(var(--ServerSize) / 2);
     text-align: center;
     color: var(--Text);
 }
@@ -2424,7 +2424,6 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 
 .guilds_c48ade svg[width="48"],
 .guilds_c48ade [class*=guildsError_],
-.guilds_c48ade div[class^=folder_],
 .bd-minimal .guilds_c48ade [class*=guildsError_],
 .bd-minimal .guilds_c48ade svg[width="48"] {
     width: var(--ServerSize);
@@ -2449,9 +2448,6 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 .expandedFolderIconWrapper__48112 {
     width: 100%;
     height: 100%;
-}
-
-.expandedFolderBackground__48112 {
     min-height: var(--ServerSize);
     top: 0;
     left: 0;
@@ -4929,7 +4925,8 @@ div[class^=folderIconWrapper],
 }
 
 .guilds_c48ade svg[width="48"]>foreignObject>.wrapper__6e9f8 {
-    transform: scale(1.06666666);
+    overflow: hidden;
+    transform: scale(1.0);
     transform-origin: 0px 0px;
 }
 
