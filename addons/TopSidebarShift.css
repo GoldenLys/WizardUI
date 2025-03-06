@@ -10,8 +10,8 @@
     left: 0px;
 }
 
-#app-mount .sidebar_c48ade+div,
-#app-mount .sidebar_c48ade+main,
+#app-mount .sidebar_c48ade+.chat_f75fb0,
+#app-mount .sidebar_c48ade+div+.chat_f75fb0,
 .notice__6e2b9 {
     margin-left: 265px;
 }
