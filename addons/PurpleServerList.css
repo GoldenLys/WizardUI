@@ -1,3 +1,8 @@
+:root {
+    --guildbar-avatar-size: var(--ServerSize);
+    --guildbar-folder-size: var(--ServerSize);
+}
+
 .platform-osx .wrapper_ef3116 {
     margin-top: 0px;
 }
@@ -141,8 +146,8 @@
     height: var(--ServerSize) !important;
 }
 
-#app-mount .pill__1f388>span:not([style*="height: 40px;"]) {
-    height: calc(var(--ServerSize) * 0.85) !important;
+#app-mount .guilds_c48ade .listItem__650eb .pill_e5445c>span:not([style*="height: 40px;"]) {
+    height: calc(var(--ServerSize) * 0.5) !important;
 }
 
 #app-mount .pillMessage_dc6abe {

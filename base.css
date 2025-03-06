@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-28"; /* 0-00 */
+    --version: "1-29"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -1625,6 +1625,8 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
 
 .wrapper_cc5dd2>svg>foreignObject,
 .wrapper__8436d>svg>foreignObject {
+    width: 100%;
+    height: 100%;
     -webkit-mask: none;
     mask: none;
 }
@@ -2421,14 +2423,19 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 }
 
 .guilds_c48ade svg[width="48"],
-.guilds_c48ade .wrapper__6e9f8,
 .guilds_c48ade [class*=guildsError_],
 .guilds_c48ade div[class^=folder_],
-.bd-minimal .guilds_c48ade .wrapper__6e9f8,
 .bd-minimal .guilds_c48ade [class*=guildsError_],
 .bd-minimal .guilds_c48ade svg[width="48"] {
     width: var(--ServerSize);
     height: var(--ServerSize);
+}
+
+.icon__6e9f8,
+.guilds_c48ade .wrapper__6e9f8,
+.bd-minimal .guilds_c48ade .wrapper__6e9f8 {
+    width: 100%;
+    height: 100%;
 }
 
 .tutorialContainer__1f388 {
@@ -3292,7 +3299,6 @@ button[role*="switch"][aria-checked=false]:not(#GameActivityToggleBtn):after {
 }
 
 .wrapper__6e9f8,
-.icon__6e9f8,
 .modal-2LBig1 .listRow__9d78f .listAvatar-1NlAhb,
 .connectedAccountIcon_e6abe8 {
     width: var(--ServerSize);
@@ -4266,7 +4272,6 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
 .acronym_fb7739,
 .iconActiveMedium_f34534,
 .wrapper-1VLyxH,
-.icon__6e9f8,
 .icon__6e9f8,
 div[class^=folderIconWrapper],
 .wrapper__6e9f8,
