@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-31"; /* 0-00 */
+    --version: "1-32"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -645,13 +645,22 @@ div.link__2ea32[class*="modeSelected_"]:before {
     bottom: 0;
 }
 
+.selected__91a9d .childContainer__91a9d {
+    background-color: transparent;
+}
+
 .channel__972a0 .selected_bf202d:before,
 div.selected-3veCBZ:before {
     position: absolute;
     display: block;
     top: 5px;
-    right: 5px;
-    bottom: 0;
+    right: -2px;
+    bottom: 5px;
+}
+
+.channel__972a0 .selected_bf202d:after {
+    background: var(--Primary);
+    opacity: 0.15;
 }
 
 div.selected__91a9d.member_c8ffbb:after {
@@ -1553,6 +1562,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     color: var(--Text);
 }
 
+.channel__972a0 .selected_bf202d:after,
 .containerDefault_c69b6d>.wrapper__2ea32:before {
     content: "";
     position: absolute;
@@ -2182,7 +2192,8 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
 }
 
 .selected__91a9d.member_c8ffbb:before {
-    background: transparent;
+    background: var(--Primary);
+    border-radius: 5px;
     opacity: 0.15;
     content: "";
     display: block;
@@ -2863,6 +2874,13 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
     content: "\f0f3";
     font-weight: 100;
     margin-right: 5px
+}
+
+/* LOCKED CHANNEL */
+.sidebar_c48ade .containerDefault_c69b6d .link__2ea32 .iconContainer__2ea32[aria-label~="(Locked)"]:before {
+    content: "\f023";
+    font-weight: 600;
+    margin-right: 5px;
 }
 
 .username_c19a55 {
@@ -6696,4 +6714,18 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
 
 #app-mount .guilds_c48ade .listItem__650eb .pill_e5445c>span[style*="height: 8px;"] {
     background-color: var(--Unread);
+}
+
+.buttonSection__1405b {
+    background-color: var(--darkgrey);
+    border: none;
+    border-radius: 5px;
+}
+
+.centerButton_f1ceac {
+    border-radius: 5px;
+}
+
+.status_f910d0 {
+    border-radius: var(--Rounding);
 }
