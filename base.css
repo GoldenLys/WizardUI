@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-30"; /* 0-00 */
+    --version: "1-31"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -6688,4 +6688,8 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
 .bd-addon-store-card-badge {
     background: var(--ui-error);
     border-radius: 5px;
+}
+
+#app-mount .guilds_c48ade .listItem__650eb .pill_e5445c>span[style*="height: 8px;"] {
+    background-color: var(--Unread);
 }
