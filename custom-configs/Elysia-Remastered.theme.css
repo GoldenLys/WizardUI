@@ -2,7 +2,7 @@
 * @name ELYSIA - Remastered
 * @author NEBULYS
 * @authorLink https://github.com/GoldenLys
-* @version 1.1
+* @version 1.2
 * @invite SBuYeHh
 * @description An amazing fully customizable theme, made with 💖 by NEBULYS.
 * @website https://nebulys.eu/
@@ -110,7 +110,6 @@
     --MessageHover: transparent;
     --Unread: rgb(173 16 16);
     --Hover: rgb(18 19 31 / 50%);
-    --Selected: rgb(56 33 146);
 
     /* BACKGROUNDS */
     --background: url(https://goldenlys.github.io/WizardUI/images/backgrounds/elysia.jpg);
@@ -124,7 +123,6 @@
     --bg-settings: var(--darkgrey);
     --bg-colorprofile: rgba(0, 0, 0, 0.5);
     --bg-alt-message: transparent;
-    --bg-unread: rgb(173 16 16 / 70%);
 
     /* SERVER SETTINGS */
     --ServerSize: 45px;

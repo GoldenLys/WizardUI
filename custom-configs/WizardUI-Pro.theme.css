@@ -2,7 +2,7 @@
 * @name WizardUI - Pro Edition
 * @author NEBULYS
 * @authorLink https://github.com/GoldenLys
-* @version 1.1
+* @version 1.2
 * @invite SBuYeHh
 * @description An amazing fully customizable theme, made with 💖 by NEBULYS.
 * @website https://nebulys.eu/
@@ -96,7 +96,6 @@
     --MessageHover: var(--grey5);
     --Unread: rgb(173 16 16);
     --Hover: rgb(255 255 255 / 15%);
-    --Selected: rgb(149 128 255 / 35%);
 
     /* STATUS VARIABLES */
     --Online: #8AFF80;
@@ -117,7 +116,6 @@
     --bg-settings: var(--bg-ui);
     --bg-colorprofile: rgb(29 30 38 / 50%);
     --bg-alt-message: transparent;
-    --bg-unread: rgb(173 16 16 / 70%);
 
     /* UI COLOR VARIABLES */
     --grey: rgb(80 76 103);

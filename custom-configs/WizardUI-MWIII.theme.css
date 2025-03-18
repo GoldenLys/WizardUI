@@ -2,7 +2,7 @@
 * @name WizardUI - MWIII
 * @author NEBULYS
 * @authorLink https://github.com/GoldenLys
-* @version 1.1
+* @version 1.2
 * @invite SBuYeHh
 * @description An amazing modular and fully customizable theme, made with 💖 by NEBULYS.
 * @website https://nebulys.eu/
@@ -112,7 +112,6 @@
     --MessageHover: transparent;
     --Unread: rgb(255 27 27);
     --Hover: rgb(18 19 31 / 50%);
-    --Selected: rgb(78, 3, 3);
 
     /* BACKGROUNDS */
     --background: url(https://goldenlys.github.io/WizardUI/images/backgrounds/MW3.jpg);
@@ -126,7 +125,6 @@
     --bg-settings: var(--darkgrey);
     --bg-colorprofile: rgb(0 0 0 / 75%);
     --bg-alt-message: transparent;
-    --bg-unread: rgb(255 27 27 / 70%);
 
     /* SERVER SETTINGS */
     --ServerSize: 45px;

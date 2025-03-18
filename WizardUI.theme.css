@@ -2,7 +2,7 @@
 * @name WizardUI
 * @author NEBULYS
 * @authorLink https://github.com/GoldenLys
-* @version 1.1
+* @version 1.2
 * @invite SBuYeHh
 * @description An amazing modular and fully customizable theme, made with 💖 by NEBULYS.
 * @website https://nebulys.eu/
@@ -112,7 +112,6 @@
     --MessageHover: transparent;
     --Unread: rgb(173, 16, 16);
     --Hover: rgb(18 19 31 / 50%);
-    --Selected: rgb(56 33 146);
 
     /* BACKGROUNDS */
     --background: url(https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg);
@@ -126,7 +125,6 @@
     --bg-settings: var(--darkgrey);
     --bg-colorprofile: rgba(0, 0, 0, 0.5);
     --bg-alt-message: transparent;
-    --bg-unread: rgba(173, 16, 16, 0.7);
 
     /* SERVER SETTINGS */
     --ServerSize: 45px;
