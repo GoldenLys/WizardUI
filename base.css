@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-41"; /* 0-00 */
+    --version: "1-42"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -330,6 +330,7 @@ div[class^=folder_],
 .nowPlayingSidebar-2OFn0o,
 .chat_f75fb0 .title_f75fb0.container__9293f,
 .sidebar_c48ade>.container__2637a,
+.visual-refresh .container__2637a,
 .privateChannels__35e86,
 .stackedBars__74017,
 .callContainer_cb9592 {
@@ -354,6 +355,8 @@ div[class^=folder_],
     border-radius: 5px;
 }
 
+.visual-refresh .searchBar__97492,
+.visual-refresh .container_c8ffbb,
 .visual-refresh .chat_f75fb0[data-has-border=true],
 .container__34c2c,
 .modal__7f8f5,
