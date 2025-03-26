@@ -72,8 +72,7 @@
 
 :root {
     /* MAIN VARIABLES */
-    --AppName: "DISCORD";
-    --Watermark: "WizardUI";
+    --Watermark: "- WizardUI v" var(--version);
     --font: 'Quicksand', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
     --logo: url(https://goldenlys.github.io/WizardUI/images/home.png);

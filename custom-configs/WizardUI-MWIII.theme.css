@@ -2,7 +2,7 @@
 * @name WizardUI - MWIII
 * @author NEBULYS
 * @authorLink https://github.com/GoldenLys
-* @version 1.2
+* @version 1.3
 * @invite SBuYeHh
 * @description An amazing modular and fully customizable theme, made with 💖 by NEBULYS.
 * @website https://nebulys.eu/
@@ -72,8 +72,7 @@
 
 :root {
     /* MAIN VARIABLES */
-    --AppName: "Call of Duty";
-    --Watermark: "Modern Warfare 3";
+    --Watermark: "- Call of Duty Modern Warfare 3";
     --font: 'Quicksand', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
     --logo: url(https://goldenlys.github.io/WizardUI/images/logos/20.jpg);

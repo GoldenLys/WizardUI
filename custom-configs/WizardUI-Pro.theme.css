@@ -2,7 +2,7 @@
 * @name WizardUI - Pro Edition
 * @author NEBULYS
 * @authorLink https://github.com/GoldenLys
-* @version 1.2
+* @version 1.3
 * @invite SBuYeHh
 * @description An amazing fully customizable theme, made with 💖 by NEBULYS.
 * @website https://nebulys.eu/
@@ -72,8 +72,7 @@
 
 :root {
     /* MAIN VARIABLES */
-    --AppName: "WizardUI";
-    --Watermark: "Pro Edition";
+    --Watermark: "- WizardUI Pro Edition";
     --font: 'Source Sans Pro', 'emoji', sans-serif;
     --Text: #F8F8F2;
     --logo: url(https://goldenlys.github.io/WizardUI/images/logos/2.png);
