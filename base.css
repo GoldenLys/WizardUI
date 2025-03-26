@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-43"; /* 0-00 */
+    --version: "1-44"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
@@ -1446,16 +1446,20 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 
 /* SEARCH BAR */
 
-.search__49676 {
+.visual-refresh .search__49676 {
     margin: 0
 }
 
-.search__97492 .DraftEditor-root .public-DraftEditorPlaceholder-root {
+.visual-refresh .search__97492 .DraftEditor-root {
+    padding: 0;
+}
+
+.visual-refresh .search__97492 .DraftEditor-root .public-DraftEditorPlaceholder-root {
     display: none
 }
 
-.search__97492[class*=open] .DraftEditor-root .public-DraftEditorPlaceholder-root,
-.search__97492[class*=open] .DraftEditor-root .public-DraftStyleDefault-block {
+.visual-refresh .search__97492[class*=open] .DraftEditor-root .public-DraftEditorPlaceholder-root,
+.visual-refresh .search__97492[class*=open] .DraftEditor-root .public-DraftStyleDefault-block {
     display: block;
 }
 

@@ -3,7 +3,7 @@
     width: 100%;
     height: 16px;
     font-size: 16px;
-    line-height: calc(var(--ServerSize) / 2);
+    line-height: calc(var(--ServerSize) / 3);
 }
 
 .closedFolderIconWrapper__48112 {
@@ -19,4 +19,5 @@
 .closedFolderIconWrapper__48112 .guildIcon__48112:nth-child(1),
 .closedFolderIconWrapper__48112 .guildIcon__48112:nth-child(2)  {
     display: flex;
+    border-radius: var(--Rounding) !important;
 }
