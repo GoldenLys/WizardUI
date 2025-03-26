@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://goldenlys.github.io/WizardUI/fa/css/all.min.css');
 
+@font-face {
+    font-family: 'emoji';
+    src: url('https://goldenlys.github.io/WizardUI/fonts/NotoColorEmoji.ttf') format('truetype');
+}
+
 :root {
-    --version: "1-40"; /* 0-00 */
+    --version: "1-41"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
     --Watermark: "WizardUI";
-    --font: 'Inter', sans-serif;
+    --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
     --logo: url(https://goldenlys.github.io/WizardUI/images/home.png);
     --sendmessage-text-lines: 8;
@@ -79,8 +84,10 @@
     --Show_Apps_Button: flex;
 }
 
-.theme-light,
-.theme-dark {
+.visual-refresh.theme-light,
+.visual-refresh .theme-light,
+.visual-refresh.theme-darker,
+.visual-refresh .theme-darker {
     --font-primary: var(--font) !important;
     --font-display: var(--font) !important;
     --font-headline: var(--font) !important;
@@ -167,6 +174,7 @@
     --guildbar-avatar-size: var(--ServerSize);
     --guildbar-folder-size: var(--ServerSize);
     --channel-icon: var(--Text);
+    --border-faint: transparent;
 }
 
 #app-mount.appMount__51fd7 {
@@ -346,6 +354,7 @@ div[class^=folder_],
     border-radius: 5px;
 }
 
+.visual-refresh .chat_f75fb0[data-has-border=true],
 .container__34c2c,
 .modal__7f8f5,
 .clickable_f37cb1 .header_f37cb1 {
@@ -1445,7 +1454,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     display: block;
 }
 
-.searchBar__97492 {
+.visual-refresh .searchBar__97492 {
     background-color: transparent;
     width: unset;
     border-radius: 0 !important;
@@ -1453,11 +1462,11 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     padding: 0;
 }
 
-.searchBar__97492 .icon__97492 {
+.visual-refresh .searchBar__97492 .icon__97492 {
     position: relative;
 }
 
-.searchBar__97492 .icon__97492:not(.clear_fea832):after {
+.visual-refresh .searchBar__97492 .icon__97492:not(.clear_fea832):after {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -1475,7 +1484,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     align-items: center;
 }
 
-.searchBar__97492 .icon__97492 svg:first-child {
+.visual-refresh .searchBar__97492 .icon__97492 svg:first-child {
     display: none
 }
 
@@ -2473,7 +2482,6 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 }
 
 .item__58105 {
-    background-color: inherit;
     margin-left: 0px;
 }
 
@@ -2482,7 +2490,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
     display: flex;
     flex-wrap: wrap;
     place-content: center;
-    order: 3;
+    order: 0;
 }
 
 .tutorialContainer__650eb,
@@ -2571,6 +2579,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
     height: 40px;
 }
 
+.visual-refresh .chatContent_f75fb0,
 .chatContent_f75fb0 {
     background-color: transparent;
 }
@@ -6689,6 +6698,10 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     border-radius: 5px;
 }
 
+#app-mount .guilds_c48ade .listItem__650eb .pill_e5445c>span {
+    background-color: var(--Primary);
+}
+
 #app-mount .guilds_c48ade .listItem__650eb .pill_e5445c>span[style*="height: 8px;"] {
     background-color: var(--Unread);
 }
@@ -6734,4 +6747,17 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
 
 .visual-refresh .sidebarListRounded_c48ade {
     border-top-left-radius: 0;
+}
+
+.visual-refresh .buttons__74017 {
+    gap: 0px;
+}
+
+.searchBar__97492 .icon__97492 {
+    width: 24px;
+    height: auto;
+}
+
+.visual-refresh .search__49676 {
+    margin: 0;
 }
