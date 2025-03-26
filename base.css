@@ -83,10 +83,15 @@
     --Show_Apps_Button: flex;
 }
 
-.visual-refresh.theme-light,
-.visual-refresh .theme-light,
+
+.visual-refresh.theme-midnight,
+.visual-refresh .theme-midnight,
 .visual-refresh.theme-darker,
-.visual-refresh .theme-darker {
+.visual-refresh .theme-darker,
+.visual-refresh.theme-dark,
+.visual-refresh .theme-dark,
+.visual-refresh.theme-light,
+.visual-refresh .theme-light {
     --font-primary: var(--font) !important;
     --font-display: var(--font) !important;
     --font-headline: var(--font) !important;
@@ -356,6 +361,9 @@ div[class^=folder_],
     border-radius: 5px;
 }
 
+.visual-refresh.theme-midnight .content_f75fb0,
+.visual-refresh.theme-midnight .subtitleContainer_f75fb0,
+.visual-refresh .container__133bf,
 .visual-refresh .sidebarList_c48ade,
 .visual-refresh .pill_a2c9e8,
 .visual-refresh .panels_c48ade,
