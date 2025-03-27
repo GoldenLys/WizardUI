@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-46"; /* 0-00 */
+    --version: "1-47"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -6806,4 +6806,8 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
 
 .visual-refresh .folder__48112.hover__48112 .expandedFolderIconWrapper__48112 {
     background-color: transparent;
+}
+
+.visual-refresh .isExpanded__48112 .folderIcon__48112 {
+   margin-bottom: 0px;
 }
