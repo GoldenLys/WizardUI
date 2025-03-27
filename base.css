@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-45"; /* 0-00 */
+    --version: "1-46"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -82,7 +82,6 @@
     --Show_Sticker_Button: none;
     --Show_Apps_Button: flex;
 }
-
 
 .visual-refresh.theme-midnight,
 .visual-refresh .theme-midnight,
@@ -309,6 +308,8 @@ div[class^=folder_],
     background-color: var(--bg-chatbox) !important;
 }
 
+.visual-refresh .container__91a9d,
+.visual-refresh .container__0f2e8,
 .reactionBtn__23977.forceShow__23977,
 .rippleContainer_a8e786,
 .ripple_a8e786,
@@ -343,6 +344,7 @@ div[class^=folder_],
     background-color: var(--bg-ui) !important;
 }
 
+.chatContent_f75fb0+.membersWrap_c8ffbb,
 .container_c8ffbb,
 .nowPlayingColumn__133bf {
     background-color: var(--bg-members);
@@ -361,6 +363,9 @@ div[class^=folder_],
     border-radius: 5px;
 }
 
+.visual-refresh .menu_c1e9c4,
+.contentPreview__9a337,
+.visual-refresh .container__7641b,
 .visual-refresh.theme-midnight .content_f75fb0,
 .visual-refresh.theme-midnight .subtitleContainer_f75fb0,
 .visual-refresh .container__133bf,
@@ -506,6 +511,7 @@ div[class^=folder_],
     border: none !important;
 }
 
+.visual-refresh .sidebar_c48ade:after,
 .channelAppLauncher_e6e74f,
 .unreadPillCap__908e2,
 #app-mount .chat_f75fb0 > .subtitleContainer_f75fb0 > section > .upperContainer__9293f > div.children__9293f > div.iconWrapper__9293f > svg,
@@ -644,6 +650,7 @@ div[class^=tutorialContainer]+.listItem__650eb .pill__5bc7e,
 }
 
 .containerDefault__29444>div:hover,
+.containerDefault_c69b6d>div:hover,
 .link__2ea32:hover>.wrapper__2ea32 {
     border-radius: var(--Rounding);
     background-color: var(--Hover);
@@ -1354,13 +1361,13 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 }
 
 /* GAME ACTIVITY PLUGIN BUTTON */
-.panels_c48ade .container__37e49 button:nth-last-child(4)>.contents__201d5::after {
+.panels_c48ade .container__37e49 button:nth-last-of-type()>.contents__201d5::after {
     content: "\f11b" !important;
     color: var(--Text);
     font-weight: 900;
 }
 
-.panels_c48ade .container__37e49 button[aria-label^=Enable]:nth-last-child(4)>.contents__201d5::after {
+.panels_c48ade .container__37e49 button[aria-label^=Enable]:nth-last-of-type()>.contents__201d5::after {
     color: var(--ui-error);
 }
 
@@ -1374,7 +1381,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 }
 
 /* OPTIONS BUTTON */
-.panels_c48ade .container__37e49 button:nth-last-child(1)>.contents__201d5::after {
+.panels_c48ade .container__37e49 button:nth-last-of-type(1)>.contents__201d5::after {
     content: "\f085";
 }
 
@@ -1582,6 +1589,7 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     right: 0;
     bottom: 0;
     border-radius: 5px;
+    z-index: -1;
 }
 
 .containerDefault_c69b6d>.wrapper__2ea32.modeUnreadImportant__2ea32:before {
@@ -4815,10 +4823,6 @@ div[class^=folderIconWrapper],
     column-gap: 5px;
 }
 
-.chatContent_f75fb0+.membersWrap_c8ffbb {
-    background-color: var(--bg-ui);
-}
-
 .name__29444.container__13cf1 {
     display: inline-flex;
     line-height: 24px;
@@ -6045,10 +6049,6 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     margin-right: 5px;
 }
 
-.sortDropdown_f369db {
-    margin-bottom: 0px;
-}
-
 .tagListInner_f369db {
     gap: 4px;
 }
@@ -6057,8 +6057,13 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     margin-left: 4px;
 }
 
+.visual-refresh .sortDropdown_f369db, .visual-refresh .tagsButton_f369db {
+    border: none;
+}
+
 .sortDropdown_f369db {
     margin-right: 4px;
+    margin-bottom: 0px;
 }
 
 .sortDropdown_f369db+.divider_f369db {
@@ -6769,6 +6774,7 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
 .visual-refresh .stack_dbd263 {
     height: auto !important;
     padding: 5px 0 !important;
+    overflow: visible !important;
 }
 
 .visual-refresh .sidebarListRounded_c48ade {
@@ -6791,4 +6797,13 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
 .visual-refresh .mainCard_f369db {
     background: var(--bg-ui);
     border: none;
+}
+
+.visual-refresh .expandedFolderIconWrapper__48112 {
+    border-radius: var(--Rounding);
+    margin: 0;
+}
+
+.visual-refresh .folder__48112.hover__48112 .expandedFolderIconWrapper__48112 {
+    background-color: transparent;
 }
