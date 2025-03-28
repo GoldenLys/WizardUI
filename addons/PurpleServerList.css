@@ -32,8 +32,9 @@
 #app-mount .guilds_c48ade [class*=listItem]:not([class*=listItemWrapper]) {
     transform: rotate(90deg);
     position: unset;
-    width: var(--ServerSize);
+    width: 100%;
     height: var(--ServerSize);
+    overflow: visible;
 }
 
 #app-mount .guilds_c48ade .listItem__650eb {
@@ -62,7 +63,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: var(--ServerSize);
+    width: 100%;
+    overflow: visible;
 }
 
 #app-mount .wrapper__48112:not(.isExpanded__48112) {
@@ -70,13 +72,10 @@
 }
 
 .visual-refresh .stack_dbd263 {
-    width: auto;
+    width: cal100% - 5px);
+    );
     flex: 1 1 auto;
     justify-content: center;
-}
-
-#app-mount .guilds_c48ade .scrollerBase_d125d2>div[style]:not(.listItem__650eb) {
-    height: auto !important;
 }
 
 #app-mount [class*="guildSeparator"] {
@@ -107,7 +106,7 @@
 
 #app-mount .expandedFolderBackground__48112 {
     width: calc(var(--ServerSize) + 5px);
-    left: -2.5px;
+    left: auto;
     height: calc(100% - 0px);
     top: 0px;
 }
@@ -133,16 +132,12 @@
     transform: rotate(90deg) translateY(0%);
     height: var(--ServerSize);
     width: 5px;
-    top: calc(var(--ServerSize) / -1 + var(--ServerSize) / 2 - 5px) !important;
+    top: calc(var(--ServerSize) / -1 + var(--ServerSize) / 2 - 7px) !important;
     left: calc(50% - 3px);
 }
 
 #app-mount .guilds_c48ade div.stack_dbd263>.wrapper__48112 .listItem__650eb .pill_e5445c {
-    top: calc(var(--ServerSize) / -1 + var(--ServerSize) / 2 - 7.5px) !important;
-}
-
-#app-mount .guilds_c48ade div.stack_dbd263>.wrapper__48112 .listItem__650eb .pill_e5445c {
-    top: calc(var(--ServerSize) / -1 + var(--ServerSize) / 2 - 7.5px) !important;
+    top: calc(var(--ServerSize) / -1 + var(--ServerSize) / 2 - 7px) !important;
 }
 
 #app-mount .guilds_c48ade .listItem__650eb .pill_e5445c>span,

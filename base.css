@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-47"; /* 0-00 */
+    --version: "1-48"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -6774,7 +6774,6 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
 .visual-refresh .stack_dbd263 {
     height: auto !important;
     padding: 5px 0 !important;
-    overflow: visible !important;
 }
 
 .visual-refresh .sidebarListRounded_c48ade {
