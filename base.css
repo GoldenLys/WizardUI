@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-48"; /* 0-00 */
+    --version: "1-49"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -179,6 +179,7 @@
     --channel-icon: var(--Text);
     --border-faint: transparent;
     --text-tertiary: var(--Text);
+    --checkbox-background-checked: var(--Primary);
 }
 
 #app-mount.appMount__51fd7 {
@@ -6796,6 +6797,11 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
 .visual-refresh .mainCard_f369db {
     background: var(--bg-ui);
     border: none;
+}
+
+.visual-refresh .container_faa96b:hover,
+.visual-refresh .container_faa96b.isOpen_faa96b {
+    background-color: var(--Hover);
 }
 
 .visual-refresh .expandedFolderIconWrapper__48112 {
