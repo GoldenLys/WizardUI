@@ -42,48 +42,6 @@
     }
 }
 
-@-webkit-keyframes RGB_TEXT {
-    0% {
-        color: var(--Primary);
-    }
-
-    12% {
-        color: var(--Color2);
-    }
-
-    24% {
-        color: var(--Color3);
-    }
-
-    36% {
-        color: var(--Color4);
-    }
-
-    48% {
-        color: var(--Color5);
-    }
-
-    61% {
-        color: var(--Color6);
-    }
-
-    73% {
-        color: var(--Color7);
-    }
-
-    85% {
-        color: var(--Color8);
-    }
-
-    97% {
-        color: var(--Color9);
-    }
-
-    to {
-        color: var(--Primary);
-    }
-}
-
 @keyframes RGB_BG {
     0% {
         background-color: var(--Primary);
@@ -136,54 +94,64 @@
     }
 }
 
-@-webkit-keyframes RGB_BG {
+@keyframes RGB_BG_TEXT {
     0% {
         background-color: var(--Primary);
-        background-image: var(--Primary)
+        background-image: var(--Primary);
+        color: var(--Primary);
     }
 
     12% {
         background-color: var(--Color2);
-        background-image: var(--Color2)
+        background-image: var(--Color2);
+        color: var(--Color2);
     }
 
     24% {
         background-color: var(--Color3);
-        background-image: var(--Color3)
+        background-image: var(--Color3);
+        color: var(--Color3);
     }
 
     36% {
         background-color: var(--Color4);
-        background-image: var(--Color4)
+        background-image: var(--Color4);
+        color: var(--Color4);
     }
 
     48% {
         background-color: var(--Color5);
-        background-image: var(--Color5)
+        background-image: var(--Color5);
+        color: var(--Color5);
     }
 
     61% {
         background-color: var(--Color6);
-        background-image: var(--Color6)
+        background-image: var(--Color6);
+        color: var(--Color6);
     }
 
     73% {
         background-color: var(--Color7);
-        background-image: var(--Color7)
+        background-image: var(--Color7);
+        color: var(--Color7);
     }
 
     85% {
         background-color: var(--Color8);
-        background-image: var(--Color8)
+        background-image: var(--Color8);
+        color: var(--Color8);
     }
 
     97% {
         background-color: var(--Color9);
-        background-image: var(--Color9)
+        background-image: var(--Color9);
+        color: var(--Color9);
     }
 
     to {
         background-color: var(--Primary);
-        background-image: var(--Primary)
+        background-image: var(--Primary);
+        color: var(--Primary);
     }
 }

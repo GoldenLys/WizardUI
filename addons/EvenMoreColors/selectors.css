@@ -5,8 +5,7 @@
 .expandedFolderBackground__48112:not(.collapsed__48112),
 .bd-minimal .guilds_c48ade.wrapper__8436d>span:not(.collapsed__48112),
 #app-mount .expandedFolderBackground__48112.collapsed__48112+.listItem__650eb .folderIconWrapper__48112[style^="background-color: rgba(88, 101, 242, 0.4);"]:before,
-#app-mount .pill__1f388>.item__58105,
-#app-mount .pill_e5445c>.item__58105,
+#app-mount .guilds_c48ade .listItem__650eb .pill_e5445c>span:not([style*="height: 8px;"]),
 #app-mount .newBadge_faa96b,
 #app-mount .newBadge-3reGJW,
 #app-mount .newChannel__599fa,
@@ -116,6 +115,11 @@ div[class^=circleIconButton_], .guilds_c48ade .scroller_ef3116>div:not([class]):
 .sidebar_c48ade .content__99f8c>div[style^="height"]:not([aria-hidden]) {
 	animation: RGB_TEXT var(--ColorTime) linear infinite !important;
 	-webkit-animation: RGB_TEXT var(--ColorTime) linear infinite !important;
+}
+
+#app-mount .pill__1f388>.item__58105:not([style*="height: 8px;"]) {
+	animation: RGB_BG_TEXT var(--ColorTime) linear infinite !important;
+	-webkit-animation: RGB_BG_TEXT var(--ColorTime) linear infinite !important;
 }
 
 .container__00de6>.header__00de6.header__7e6bb,

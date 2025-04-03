@@ -18,24 +18,6 @@
 	}
 }
 
-@-webkit-keyframes RGB_TEXT {
-	0% {
-		color: var(--Primary)
-	}
-
-	34% {
-		color: var(--Color2)
-	}
-
-	69% {
-		color: var(--Color3)
-	}
-
-	to {
-		color: var(--Primary)
-	}
-}
-
 @keyframes RGB_BG {
 	0% {
 		background-color: var(--Primary);
@@ -58,24 +40,28 @@
 	}
 }
 
-@-webkit-keyframes RGB_BG {
+@keyframes RGB_BG_TEXT {
 	0% {
 		background-color: var(--Primary);
-		background-image: var(--Primary)
+		background-image: var(--Primary);
+		color: var(--Primary)
 	}
 
 	34% {
 		background-color: var(--Color2);
-		background-image: var(--Color2)
+		background-image: var(--Color2);
+		color: var(--Color2)
 	}
 
 	69% {
 		background-color: var(--Color3);
-		background-image: ar(--Color3)
+		background-image: ar(--Color3);
+		color: var(--Color3)
 	}
 
 	to {
 		background-color: var(--Primary);
-		background-image: var(--Primary)
+		background-image: var(--Primary);
+		color: var(--Primary)
 	}
 }
