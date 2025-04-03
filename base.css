@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-49"; /* 0-00 */
+    --version: "1-51"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -180,6 +180,10 @@
     --border-faint: transparent;
     --text-tertiary: var(--Text);
     --checkbox-background-checked: var(--Primary);
+    --icon-tertiary: var(--Text);
+    --icon-default: var(--Text);
+    --bg-brand: var(--Primary);
+    --checkbox-border-checked: var(--Primary);
 }
 
 #app-mount.appMount__51fd7 {
@@ -234,6 +238,9 @@ textarea {
     padding-top: 0;
 }
 
+.visual-refresh .pageBody__41ed7,
+.visual-refresh .header__0b563,
+.visual-refresh .footer__214dc,
 .visual-refresh .tabBody__133bf,
 .scroller__244e5,
 .container_c48ade,
@@ -294,6 +301,7 @@ div[class^=folder_],
     background-color: transparent !important;
 }
 
+.visual-refresh .container__0b563, 
 .container__0b563, 
 .header__0b563,
 .container_f369db,
@@ -512,6 +520,7 @@ div[class^=folder_],
     border: none !important;
 }
 
+.visual-refresh .dot__9293f,
 .visual-refresh .sidebar_c48ade:after,
 .channelAppLauncher_e6e74f,
 .unreadPillCap__908e2,
@@ -2289,7 +2298,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
 }
 
 .visual-refresh .wrapper__260e1 {
-    background-color: var(--bg-ui);
+    background-color: var(--darkgrey5);
     border: none;
     color: var(--Text);
     height: 28px;
@@ -2299,17 +2308,16 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
 .visual-refresh .users__260e1,
 .visual-refresh .total__260e1 {
     color: var(--Text);
-    width: 28px;
+    width: auto;
     height: 28px;
     line-height: 28px;
     background-color: transparent;
-    padding: 0 5px;
+    padding: 0 10px;
     border-radius: 0px;
 }
 
 .visual-refresh .users__260e1 {
     margin-right: 0;
-    background-color: var(--grey5);
     color: var(--Primary);
     font-weight: bold;
 }
@@ -6815,4 +6823,52 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
 
 .visual-refresh .isExpanded__48112 .folderIcon__48112 {
    margin-bottom: 0px;
+}
+
+.visual-refresh .container__0f2e8 {
+    background: var(--darkgrey5);
+    border-color: transparent;
+}
+
+.visual-refresh .bottomBar__0f481 {
+    background-color: var(--bg-ui);
+    border-radius: var(--Rounding);
+    border-color: transparent;
+}
+
+.visual-refresh .optionButtonWrapper__270d7,
+.visual-refresh .button__201d5 {
+    border-radius: var(--Rounding);
+}
+
+.visual-refresh .optionButtonWrapper__270d7.selected__270d7 {
+    background-color: var(--bg-chat-elements);
+}
+
+.visual-refresh .textBadge__2b1f5 {
+    background-color: var(--darkgrey5) !important;
+    border-radius: var(--Rounding);
+    border-color: transparent;
+}
+
+.shop__6db1d .discordLogo__80679+.titleWrapper__9293f>h1 {
+    font-size: 0px;
+    line-height: 0px;
+}
+
+.shop__6db1d .discordLogo__80679+.titleWrapper__9293f>h1:before {
+    content: "Scam Shop";
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+a.link__972a0[href="/shop"] .name__20a53 {
+    font-size: 0px;
+    line-height: 0px;
+}
+
+a.link__972a0[href="/shop"] .name__20a53:before {
+    content: "Scam Shop";
+    font-size: 16px;
+    line-height: 20px;
 }

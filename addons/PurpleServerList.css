@@ -17,7 +17,7 @@
     transform: rotate(-90deg);
     height: 100vw !important;
     width: calc(var(--ServerSize) + 20px);
-    top: calc(var(--ServerSize) + 20px + var(--custom-app-top-bar-height));
+    top: calc(var(--ServerSize) + 20px + 36px);
     bottom: unset;
     position: fixed !important;
     left: 0;
@@ -72,8 +72,7 @@
 }
 
 .visual-refresh .stack_dbd263 {
-    width: cal100% - 5px);
-    );
+    width: calc(100% - 5px);
     flex: 1 1 auto;
     justify-content: center;
 }
