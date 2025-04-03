@@ -116,7 +116,7 @@
     --ui-error: rgb(208 34 34);
 
     /* SERVER SETTINGS */
-    --ServerSize: 45px;
+    --ServerSize: 55px;
     --ServerSpacing: 5px 0px 0px 5px;
     --ServerPills: var(--Primary);
 
