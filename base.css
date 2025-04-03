@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-51"; /* 0-00 */
+    --version: "1-52"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -184,6 +184,10 @@
     --icon-default: var(--Text);
     --bg-brand: var(--Primary);
     --checkbox-border-checked: var(--Primary);
+    --button-outline-danger-text-hover: var(--ui-error);
+    --button-outline-danger-text: var(--ui-error);
+    --brand-360: var(--Primary);
+    --button-positive-background: var(--ui-success);
 }
 
 #app-mount.appMount__51fd7 {
@@ -605,6 +609,9 @@ div[class^=tutorialContainer]+.listItem__650eb .pill__5bc7e,
     content: "Write a message...";
 }
 
+.visual-refresh .container__9271d,
+.visual-refresh .container_f69538,
+.visual-refresh .container__0be77,
 .fileWrapper__0ccae {
     border-radius: 5px;
     border-color: var(--bg-chat-elements);
@@ -6198,11 +6205,6 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     border-radius: 0px;
 }
 
-.container__0be77 {
-    border-radius: var(--Rounding);
-    background-color: var(--bg-chat-elements);
-}
-
 .answersContainer__4c520 {
     grid-gap: 5px;
     gap: 5px;
@@ -6738,12 +6740,18 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     border-radius: 5px;
 }
 
+.item__58105 {
+    color: var(--Text);
+}
+
 #app-mount .guilds_c48ade .listItem__650eb .pill_e5445c>span {
     background-color: var(--Primary);
+    color: var(--Primary);
 }
 
 #app-mount .guilds_c48ade .listItem__650eb .pill_e5445c>span[style*="height: 8px;"] {
     background-color: var(--Unread);
+    color: var(--Unread);
 }
 
 .buttonSection__1405b {
@@ -6871,4 +6879,12 @@ a.link__972a0[href="/shop"] .name__20a53:before {
     content: "Scam Shop";
     font-size: 16px;
     line-height: 20px;
+}
+
+.bd-addon-store {
+    display: flex;
+    gap: 20px clamp(8px, 2vw, 20px);
+    margin: 10px 0;
+    flex-wrap: wrap;
+    justify-content: center;
 }

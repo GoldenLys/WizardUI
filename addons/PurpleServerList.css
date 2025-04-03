@@ -72,7 +72,7 @@
 }
 
 .visual-refresh .stack_dbd263 {
-    width: calc(100% - 5px);
+    width: calc(100% - 0px);
     flex: 1 1 auto;
     justify-content: center;
 }
@@ -104,14 +104,14 @@
 }
 
 #app-mount .expandedFolderBackground__48112 {
-    width: calc(var(--ServerSize) + 5px);
+    width: calc(var(--ServerSize) + 10px);
     left: auto;
     height: calc(100% - 0px);
     top: 0px;
 }
 
 #app-mount .guilds_c48ade .scroller_ef3116 {
-    width: calc(var(--ServerSize) + 18px);
+    width: calc(var(--ServerSize) + 20px);
     height: 100% !important;
     display: flex;
     flex-direction: column;
@@ -126,29 +126,41 @@
     overflow: visible !important;
 }
 
+#app-mount .guilds_c48ade .scroller_ef3116>div[style*="opacity: 1;"]:not(:first-child)>.listItem__650eb>.pill_ed9a5f,
 #app-mount .guilds_c48ade .listItem__650eb .pill_e5445c,
 #app-mount .pill__1f388 {
     transform: rotate(90deg) translateY(0%);
     height: var(--ServerSize);
-    width: 5px;
-    top: calc(var(--ServerSize) / -1 + var(--ServerSize) / 2 - 7px) !important;
-    left: calc(50% - 3px);
+    width: 10px;
+    top: calc(var(--ServerSize) / -1 + var(--ServerSize) / 2 - 5px) !important;
+    left: calc(50% - 5px);
+    display: flex;
+    justify-content: center;
 }
 
 #app-mount .guilds_c48ade div.stack_dbd263>.wrapper__48112 .listItem__650eb .pill_e5445c {
-    top: calc(var(--ServerSize) / -1 + var(--ServerSize) / 2 - 7px) !important;
+    top: calc(var(--ServerSize) / -1 + var(--ServerSize) / 2 - 5px) !important;
 }
 
+#app-mount .guilds_c48ade .scroller_ef3116>div[style*="opacity: 1;"]:not(:first-child)>.listItem__650eb>.pill_ed9a5f>span,
 #app-mount .guilds_c48ade .listItem__650eb .pill_e5445c>span,
 #app-mount .pill__1f388>span {
     margin-left: 0;
     width: 5px;
+    border-radius: 50%;
+    height: 5px!important;
+    box-shadow: 0px 0px 10px 1px currentColor;  
+}
+
+#app-mount .guilds_c48ade .listItem__650eb .pill_e5445c>span[style*="height: 8px;"] {
     border-radius: 5px;
-    height: var(--ServerSize) !important;
+    box-shadow: 0px 0px 0px 0px currentColor;  
 }
 
 #app-mount .guilds_c48ade .listItem__650eb .pill_e5445c>span:not([style*="height: 40px;"]) {
     height: calc(var(--ServerSize) * 0.5) !important;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 0px currentColor;  
 }
 
 #app-mount .pillMessage_dc6abe {
