@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-53"; /* 0-00 */
+    --version: "1-54"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -242,6 +242,8 @@ textarea {
     padding-top: 0;
 }
 
+.visual-refresh .shop__08415,
+.visual-refresh .homeWrapper__0920e,
 .visual-refresh .pageBody__41ed7,
 .visual-refresh .header__0b563,
 .visual-refresh .footer__214dc,
@@ -298,7 +300,6 @@ div[class^=folder_],
 .shopScroll__6db1d,
 .pageWrapper__6db1d,
 .mainPageScroller_ca1a02,
-.shop__6db1d  .container__9293f.themed__9293f,
 .scroller__99e7c,
 .container__7d20c,
 .container__01ae2 {
@@ -309,7 +310,6 @@ div[class^=folder_],
 .container__0b563, 
 .header__0b563,
 .container_f369db,
-.shop__6db1d,
 .chatContent_f75fb0>.messagesWrapper__36d07,
 .callContainer__722ff,
 .stageSection-3mAD8V,
@@ -348,6 +348,7 @@ div[class^=folder_],
 .channelRow_e4503a,
 .prompt__5d7c9,
 .nowPlayingSidebar-2OFn0o,
+.shop__6db1d  .container__9293f.themed__9293f,
 .chat_f75fb0 .title_f75fb0.container__9293f,
 .sidebar_c48ade>.container__2637a,
 .visual-refresh .container__2637a,
@@ -376,6 +377,7 @@ div[class^=folder_],
     border-radius: 5px;
 }
 
+.visual-refresh .homeWrapper__0920e,
 .visual-refresh .menu_c1e9c4,
 .contentPreview__9a337,
 .visual-refresh .container__7641b,
@@ -6887,4 +6889,26 @@ a.link__972a0[href="/shop"] .name__20a53:before {
     margin: 10px 0;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.visual-refresh .header_c0e32c {
+    border-radius: 5px 5px 0 0;
+    background-color: var(--bg-ui);
+    border-color: transparent;
+}
+
+.visual-refresh .shop__6db1d,
+.visual-refresh .messagesPopoutWrap__45690,
+.visual-refresh .header__45690,
+.visual-refresh .inspector_aeaaeb,
+.visual-refresh .wrapper__14245,
+.visual-refresh .wrapper__4e6ce,
+.visual-refresh .emojiPicker_c0e32c {
+    background-color: var(--bg-ui);
+    border-color: transparent;
+}
+
+.visual-refresh .messageGroupWrapper__45690 {
+    background-color: var(--darkgrey5);
+    border-color: transparent;
 }
