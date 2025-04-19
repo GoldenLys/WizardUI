@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-54"; /* 0-00 */
+    --version: "1-55"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -1366,10 +1366,6 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     height: 0px;
 }
 
-.panels_c48ade .container__37e49 button>.contents__201d5 svg path {
-    display: none;
-}
-
 .panels_c48ade .container__37e49 button[aria-checked="true"]>.contents__201d5::after {
     color: var(--ui-error);
 }
@@ -1380,32 +1376,32 @@ rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
 }
 
 /* GAME ACTIVITY PLUGIN BUTTON */
-.panels_c48ade .container__37e49 button:nth-last-of-type()>.contents__201d5::after {
+.panels_c48ade .container__37e49 .button__67645[aria-label$="Game Activity"]>.contents__201d5::after {
     content: "\f11b" !important;
     color: var(--Text);
     font-weight: 900;
 }
 
-.panels_c48ade .container__37e49 button[aria-label^=Enable]:nth-last-of-type()>.contents__201d5::after {
+.panels_c48ade .container__37e49 .button__67645[aria-label$="Game Activity"]>.contents__201d5::after {
     color: var(--ui-error);
 }
 
-.panels_c48ade .container__37e49 button>.contents__201d5>svg {
+.panels_c48ade .container__37e49 .button__67645>.contents__201d5>svg {
     display: none;
 }
 
 /* DEAFEN BUTTON */
-.panels_c48ade .container__37e49 button:nth-last-of-type(2)>.contents__201d5::after {
+.panels_c48ade .container__37e49 .button__67645:nth-last-of-type(2)>.contents__201d5::after {
     content: "\f58f";
 }
 
 /* OPTIONS BUTTON */
-.panels_c48ade .container__37e49 button:nth-last-of-type(1)>.contents__201d5::after {
+.panels_c48ade .container__37e49 .button__67645:nth-last-of-type(1)>.contents__201d5::after {
     content: "\f085";
 }
 
 /* MUTE BUTTON */
-.panels_c48ade .container__37e49 .micButtonParent__37e49>button>.contents__201d5::after {
+.panels_c48ade .container__37e49 .micButtonParent__37e49>.button__67645>.contents__201d5::after {
     content: "\f3c9";
 }
 
