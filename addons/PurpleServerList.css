@@ -126,7 +126,7 @@
     overflow: visible !important;
 }
 
-#app-mount .guilds_c48ade .scroller_ef3116>div[style*="opacity: 1;"]:not(:first-child)>.listItem__650eb>.pill_ed9a5f,
+#app-mount .guilds_c48ade .scroller_ef3116>div#guild-list-unread-dms .listItem__650eb>.pill_ed9a5f,
 #app-mount .guilds_c48ade .listItem__650eb .pill_e5445c,
 #app-mount .pill__1f388 {
     transform: rotate(90deg) translateY(0%);
@@ -142,7 +142,7 @@
     top: calc(var(--ServerSize) / -1 + var(--ServerSize) / 2 - 5px) !important;
 }
 
-#app-mount .guilds_c48ade .scroller_ef3116>div[style*="opacity: 1;"]:not(:first-child)>.listItem__650eb>.pill_ed9a5f>span,
+#app-mount .guilds_c48ade .scroller_ef3116>div#guild-list-unread-dms .listItem__650eb>.pill_ed9a5f>span,
 #app-mount .guilds_c48ade .listItem__650eb .pill_e5445c>span,
 #app-mount .pill__1f388>span {
     margin-left: 0;

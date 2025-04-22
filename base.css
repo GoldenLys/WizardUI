@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-55"; /* 0-00 */
+    --version: "1-56"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -310,7 +310,7 @@ div[class^=folder_],
 .container__0b563, 
 .header__0b563,
 .container_f369db,
-.chatContent_f75fb0>.messagesWrapper__36d07,
+.visual-refresh .chatContent_f75fb0,
 .callContainer__722ff,
 .stageSection-3mAD8V,
 .tabBody__133bf .peopleColumn__133bf,
@@ -340,6 +340,7 @@ div[class^=folder_],
     border-radius: var(--Rounding);
 }
 
+.visual-refresh .searchResultsWrap_a9e706,
 .content__37e49,
 .container_6sXIoE,
 .container__01ae2>.container__9293f,
@@ -377,6 +378,7 @@ div[class^=folder_],
     border-radius: 5px;
 }
 
+.visual-refresh .searchResultsWrap_a9e706,
 .visual-refresh .homeWrapper__0920e,
 .visual-refresh .menu_c1e9c4,
 .contentPreview__9a337,
@@ -2608,11 +2610,6 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 .nowPlayingColumn__133bf .gameIcon__5dec7 {
     width: 40px;
     height: 40px;
-}
-
-.visual-refresh .chatContent_f75fb0,
-.chatContent_f75fb0 {
-    background-color: transparent;
 }
 
 /* EMPTY CHANNEL HEADER */
@@ -5923,12 +5920,10 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     display: none !important;
 }
 
-.searchResultsWrap_a9e706 {
-    background-color: var(--bg-ui);
-}
-
-.searchResult__02a39, .searchHeader_f3b986 {
+.visual-refresh .searchResult__02a39,
+.visual-refresh .searchHeader_f3b986 {
     background-color: var(--bg-chat-elements);
+    border: none;
 }
 
 .progressBarContainer_baf530,
@@ -6907,4 +6902,8 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 .visual-refresh .messageGroupWrapper__45690 {
     background-color: var(--darkgrey5);
     border-color: transparent;
+}
+
+.bd-addon-list .bd-footer .bd-links {
+    gap: 10px;
 }
