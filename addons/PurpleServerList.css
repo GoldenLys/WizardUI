@@ -71,7 +71,7 @@
     height: var(--ServerSize);
 }
 
-.visual-refresh .stack_dbd263 {
+.visual-refresh .stack_dbd263[aria-label="Servers"] {
     width: calc(100% - 0px);
     flex: 1 1 auto;
     justify-content: center;
