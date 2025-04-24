@@ -71,7 +71,7 @@
     height: var(--ServerSize);
 }
 
-.visual-refresh .stack_dbd263[aria-label="Servers"] {
+#app-mount .guilds_c48ade .scroller_ef3116 .stack_dbd263:not([id]) {
     width: calc(100% - 0px);
     flex: 1 1 auto;
     justify-content: center;
