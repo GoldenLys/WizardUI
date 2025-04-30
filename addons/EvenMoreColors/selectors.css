@@ -2,9 +2,6 @@
 .flowerStarContainer__3e3b0>svg,
 .interactive_bf202d:focus-within,
 .interactive_bf202d:hover,
-.expandedFolderBackground__48112:not(.collapsed__48112),
-.bd-minimal .guilds_c48ade.wrapper__8436d>span:not(.collapsed__48112),
-#app-mount .expandedFolderBackground__48112.collapsed__48112+.listItem__650eb .folderIconWrapper__48112[style^="background-color: rgba(88, 101, 242, 0.4);"]:before,
 #app-mount .guilds_c48ade .listItem__650eb .pill_e5445c>span:not([style*="height: 8px;"]),
 #app-mount .newBadge_faa96b,
 #app-mount .newBadge-3reGJW,
@@ -129,11 +126,6 @@ div[class^=circleIconButton_], .guilds_c48ade .scroller_ef3116>div:not([class]):
 	font-weight: 600;
 }
 
-#app-mount .expandedFolderBackground__48112 {
-	opacity: 1;
-}
-
-#app-mount .expandedFolderBackground__48112+.listItem__650eb .folderIconWrapper__48112,
 #app-mount .flowerStarContainer__3e3b0 {
 	background-color: transparent;
 }

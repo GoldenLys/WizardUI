@@ -40,8 +40,7 @@
     AlternateFoldersInPSL.css 
     - requires: PurpleServerList, LettersInPSL (optionnal)
 
-  This addon modifies the view of closed folders in PurpleServerList, to make it show the folder icon at the top
-  and the first and second server inside that folder, this is also compatible with the LettersInPSL addon.
+  This addon modifies the view of closed folders in PurpleServerList, to make it show the 4 servers inside a folder in a 2x2 grid.
 
 @import url("https://goldenlys.github.io/WizardUI/addons/AlternateFoldersInPSL.css");
 */
