@@ -1,143 +1,148 @@
-.folderHeader__48112[data-dnd-name^="A"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="a"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderPreviewWrapper__48112:before {
+    font-size: 0.75rem;
+    color: var(--Text);
+}
+
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="A"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="a"] .folderPreviewWrapper__48112:before {
     content: "A";
 }
 
-.folderHeader__48112[data-dnd-name^="B"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="b"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="B"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="b"] .folderPreviewWrapper__48112:before {
     content: "B";
 }
 
-.folderHeader__48112[data-dnd-name^="C"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="c"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="C"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="c"] .folderPreviewWrapper__48112:before {
     content: "C";
 }
 
-.folderHeader__48112[data-dnd-name^="D"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="d"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="D"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="d"] .folderPreviewWrapper__48112:before {
     content: "D";
 }
 
-.folderHeader__48112[data-dnd-name^="E"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="e"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="E"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="e"] .folderPreviewWrapper__48112:before {
     content: "E";
 }
 
-.folderHeader__48112[data-dnd-name^="F"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="f"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="F"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="f"] .folderPreviewWrapper__48112:before {
     content: "F";
 }
 
-.folderHeader__48112[data-dnd-name^="G"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="g"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="G"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="g"] .folderPreviewWrapper__48112:before {
     content: "G";
 }
 
-.folderHeader__48112[data-dnd-name^="H"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="h"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="H"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="h"] .folderPreviewWrapper__48112:before {
     content: "H";
 }
 
-.folderHeader__48112[data-dnd-name^="I"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="i"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="I"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="i"] .folderPreviewWrapper__48112:before {
     content: "I";
 }
 
-.folderHeader__48112[data-dnd-name^="J"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="j"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="J"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="j"] .folderPreviewWrapper__48112:before {
     content: "J";
 }
 
-.folderHeader__48112[data-dnd-name^="K"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="k"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="K"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="k"] .folderPreviewWrapper__48112:before {
     content: "K";
 }
 
-.folderHeader__48112[data-dnd-name^="L"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="l"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="L"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="l"] .folderPreviewWrapper__48112:before {
     content: "L";
 }
 
-.folderHeader__48112[data-dnd-name^="M"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="m"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="M"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="m"] .folderPreviewWrapper__48112:before {
     content: "M";
 }
 
-.folderHeader__48112[data-dnd-name^="N"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="n"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="N"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="n"] .folderPreviewWrapper__48112:before {
     content: "N";
 }
 
-.folderHeader__48112[data-dnd-name^="O"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="o"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="O"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="o"] .folderPreviewWrapper__48112:before {
     content: "O";
 }
 
-.folderHeader__48112[data-dnd-name^="P"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="p"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="P"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="p"] .folderPreviewWrapper__48112:before {
     content: "P";
 }
 
-.folderHeader__48112[data-dnd-name^="Q"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="q"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="Q"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="q"] .folderPreviewWrapper__48112:before {
     content: "Q";
 }
 
-.folderHeader__48112[data-dnd-name^="R"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="r"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="R"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="r"] .folderPreviewWrapper__48112:before {
     content: "R";
 }
 
-.folderHeader__48112[data-dnd-name^="S"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="s"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="S"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="s"] .folderPreviewWrapper__48112:before {
     content: "S";
 }
 
-.folderHeader__48112[data-dnd-name^="T"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="t"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="T"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="t"] .folderPreviewWrapper__48112:before {
     content: "T";
 }
 
-.folderHeader__48112[data-dnd-name^="U"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="u"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="U"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="u"] .folderPreviewWrapper__48112:before {
     content: "U";
 }
 
-.folderHeader__48112[data-dnd-name^="V"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="v"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="V"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="v"] .folderPreviewWrapper__48112:before {
     content: "V";
 }
 
-.folderHeader__48112[data-dnd-name^="W"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="w"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="W"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="w"] .folderPreviewWrapper__48112:before {
     content: "W";
 }
 
-.folderHeader__48112[data-dnd-name^="X"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="x"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="X"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="x"] .folderPreviewWrapper__48112:before {
     content: "X";
 }
 
-.folderHeader__48112[data-dnd-name^="Y"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="y"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="Y"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="y"] .folderPreviewWrapper__48112:before {
     content: "Y";
 }
 
-.folderHeader__48112[data-dnd-name^="Z"] .closedFolderIconWrapper__48112:before, .folderHeader__48112[data-dnd-name^="z"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="Z"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="z"] .folderPreviewWrapper__48112:before {
     content: "Z";
 }
 
-.folderHeader__48112[data-dnd-name^="0"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="0"] .folderPreviewWrapper__48112:before {
     content: "0";
 }
 
-.folderHeader__48112[data-dnd-name^="1"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="1"] .folderPreviewWrapper__48112:before {
     content: "1";
 }
 
-.folderHeader__48112[data-dnd-name^="2"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="2"] .folderPreviewWrapper__48112:before {
     content: "2";
 }
 
-.folderHeader__48112[data-dnd-name^="3"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="3"] .folderPreviewWrapper__48112:before {
     content: "3";
 }
 
-.folderHeader__48112[data-dnd-name^="4"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="4"] .folderPreviewWrapper__48112:before {
     content: "4";
 }
 
-.folderHeader__48112[data-dnd-name^="5"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="5"] .folderPreviewWrapper__48112:before {
     content: "5";
 }
 
-.folderHeader__48112[data-dnd-name^="6"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="6"] .folderPreviewWrapper__48112:before {
     content: "6";
 }
 
-.folderHeader__48112[data-dnd-name^="7"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="7"] .folderPreviewWrapper__48112:before {
     content: "7";
 }
 
-.folderHeader__48112[data-dnd-name^="8"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="8"] .folderPreviewWrapper__48112:before {
     content: "8";
 }
 
-.folderHeader__48112[data-dnd-name^="9"] .closedFolderIconWrapper__48112:before {
+.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="9"] .folderPreviewWrapper__48112:before {
     content: "9";
 }

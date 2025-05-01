@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-59"; /* 0-00 */
+    --version: "1-60"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -1706,8 +1706,11 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
     font-size: 1.25rem;
     line-height: calc(var(--ServerSize) / 2 + 0px);
     text-align: center;
-    color: var(
-    --Text);
+    color: var(--Text);
+}
+
+.folderPreview__48112 {
+    gap: 10px 2px;
 }
 
 .info__2debe>.colorMuted_c9946a,
