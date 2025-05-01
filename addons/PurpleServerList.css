@@ -107,7 +107,6 @@
     background-color: var(--custom-folder-color);
     opacity: 0.6;
     border-radius: var(--Rounding);
-    width: calc(var(--ServerSize) + 10px);
     left: auto;
     height: calc(100% - 0px);
     top: 0px;
@@ -280,4 +279,8 @@
 .visual-refresh .wrapper_cc5dd2[style="width: 48px; height: 48px;"] {
     width: var(--ServerSize) !important;
     height: var(--ServerSize) !important;
+}
+
+.folderGroup__48112.isExpanded__48112 .folderPreviewWrapper__48112 {
+    margin-top: 6px;
 }
