@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-60"; /* 0-00 */
+    --version: "1-61"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -383,6 +383,7 @@ div[class^=folder_],
     border-radius: 5px;
 }
 
+.visual-refresh .container__01ae2,
 .winButtonsWithDivider_c38106:before,
 .visual-refresh .searchResultsWrap_a9e706,
 .visual-refresh .homeWrapper__0920e,
@@ -1703,7 +1704,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     display: block;
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: calc(var(--ServerSize) / 2 + 0px);
     text-align: center;
     color: var(--Text);
@@ -6778,13 +6779,13 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
 
 .visual-refresh .bottomBar__0f481 {
     background-color: var(--bg-ui);
-    border-radius: var(--Rounding);
+    border-radius: 5px;
     border-color: transparent;
 }
 
 .visual-refresh .optionButtonWrapper__270d7,
 .visual-refresh .button__201d5 {
-    border-radius: var(--Rounding);
+    border-radius: 5px;
 }
 
 .visual-refresh .optionButtonWrapper__270d7.selected__270d7 {
