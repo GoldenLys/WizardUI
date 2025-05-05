@@ -1,5 +1,5 @@
 /**
-* @name WizardUI _Code
+* @name WizardUI Midnight Hunt
 * @author NEBULYS
 * @authorLink https://github.com/GoldenLys
 * @version 1.3
@@ -81,12 +81,12 @@
     --sendmessage-text-lines: 6;
 
     /* THEME COLORS */
-    --Primary: #b888e3;
+    --Primary: #7562c9;
     --text-link: var(--Primary);
     --Highlighted: var(--Primary);
     --MessageHover: var(--grey5);
-    --Unread: rgb(173 16 16);
-    --Hover: rgb(255 255 255 / 15%);
+    --Unread: rgb(194, 18, 18);
+    --Hover: #24283d;
 
     /* STATUS VARIABLES */
     --Online: #8AFF80;
@@ -96,26 +96,26 @@
     --Streaming: #AA99FF;
 
     /* BACKGROUNDS */
-    --background: #14121b;
-    --bg-titlebar: #181621;
-    --bg-servers: #181621;
-    --bg-sendmessage: #181621;
-    --bg-ui: #181621;
-    --bg-chatbox: #232030;
+    --background: #0b0d0f;
+    --bg-titlebar: #0b0d0f;
+    --bg-servers: #131a20;
+    --bg-sendmessage: #0a0d10;
+    --bg-ui: #0a0d10;
+    --bg-chatbox: #0b0d0f;
     --bg-members: var(--bg-ui);
-    --bg-chat-elements: rgb(80 76 103 / 35%);
+    --bg-chat-elements: #131a20;
     --bg-settings: var(--bg-ui);
     --bg-colorprofile: rgb(29 30 38 / 50%);
     --bg-alt-message: transparent;
 
     /* UI COLOR VARIABLES */
-    --grey: rgb(80 76 103);
-    --grey5: rgb(80 76 103 / 75%);
-    --darkgrey: rgb(34 33 44);
-    --darkgrey5: rgb(34 33 44 / 75%);
-    --ui-success: rgb(69, 208, 34);
-    --ui-warning: rgb(238, 165, 30);
-    --ui-error: rgb(208, 34, 34);
+    --grey: rgb(64, 88, 108);
+    --grey5: rgb(64 88 108 / 75%);
+    --darkgrey: rgb(33, 46, 56);
+    --darkgrey5: rgb(33 46 56 / 75%);
+    --ui-success: rgb(129, 248, 100);
+    --ui-warning: rgb(245, 181, 64);
+    --ui-error: rgb(241, 69, 69);
 
     /* SERVER SETTINGS */
     --ServerSize: 50px;
