@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Bedstead';
+    src:url('../fonts/Bedstead.ttf.woff') format('woff'),
+        url('../fonts/Bedstead.ttf.svg#Bedstead') format('svg'),
+        url('../fonts/Bedstead.ttf.eot'),
+        url('../fonts/Bedstead.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
