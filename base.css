@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-61"; /* 0-00 */
+    --version: "1-62"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -326,7 +326,6 @@ div[class^=folder_],
     background-color: var(--bg-chatbox) !important;
 }
 
-.visual-refresh .container__91a9d,
 .visual-refresh .container__0f2e8,
 .reactionBtn__23977.forceShow__23977,
 .rippleContainer_a8e786,
@@ -374,6 +373,7 @@ div[class^=folder_],
     background-color: var(--bg-sendmessage) !important;
 }
 
+.visual-refresh .container__91a9d,
 .icon_bd6d20,
 .tagsButton_f369db,
 .pill_a2c9e8.tag_f369db,
@@ -680,7 +680,7 @@ div[class^=tutorialContainer]+.listItem__650eb .pill__5bc7e,
 .containerDefault__29444>div:hover,
 .containerDefault_c69b6d>div:hover,
 .link__2ea32:hover>.wrapper__2ea32 {
-    border-radius: var(--Rounding);
+    border-radius: 5px;
     background-color: var(--Hover);
 }
 
@@ -1711,7 +1711,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
 }
 
 .folderPreview__48112 {
-    gap: 10px 2px;
+    gap: 100px 2px;
 }
 
 .info__2debe>.colorMuted_c9946a,

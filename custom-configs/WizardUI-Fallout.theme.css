@@ -1,0 +1,88 @@
+/**
+* @name WizardUI - Fallout Edition
+* @author NEBULYS
+* @authorLink https://github.com/GoldenLys
+* @version 1.43
+* @invite SBuYeHh
+* @description An amazing modular and fully customizable theme, made with 💖 by NEBULYS.
+* @website https://nebulys.eu/themegen
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+@import url("https://goldenlys.github.io/WizardUI/base.css");
+
+@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/5.css"); 
+
+:root {
+    /* GENERAL */
+    --AppName: "Robco Industries";
+    --Watermark: "(TM) 2075-2077 Termlink";
+    --font: "Share Tech Mono", "emoji", sans-serif;
+    --logo: url("https://goldenlys.github.io/WizardUI/images/logos/24.png");
+    --sendmessage-text-lines: 8;
+
+    /* COLORS */
+    --Primary: #7deb7d;
+    --Text: #d4f1d6;
+    --text-shadow: #142214;
+    --Highlighted:  #7deb7d80;
+    --MessageHover: #29292900;
+    --Unread: #788a78;
+
+    /* STATUS */
+    --Online: #8aff80;
+    --Idle: #99ffee;
+    --Unavailable: #ff9580;
+    --Offline: #5a5f64;
+    --Streaming: #aa99ff;
+
+    /* UI */
+    --grey: #2b392a;
+    --grey5: #2b392abf;
+    --darkgrey: #191a25;
+    --darkgrey5: #191a25bf;
+    --ui-success: #45d022;
+    --ui-warning: #eea51e;
+    --ui-error: #d02222;
+    --Hover: #29292980;
+
+    /* BACKGROUNDS */
+    --bg-titlebar: #0a220aa6;
+    --bg-servers: #0a220aa6;
+    --bg-ui: #000000a6;
+    --bg-chatbox: #00000080;
+    --bg-sendmessage: #0a220aa6;
+    --bg-members: #0a220aa6;
+    --bg-chat-elements: #2b392a80;
+    --bg-settings: #0a220abf;
+    --bg-colorprofile: #0a220a80;
+    --bg-alt-message: #00000000;
+    --background: url("https://goldenlys.github.io/WizardUI/images/backgrounds/fallout.jpg");
+
+    /* RGB */
+    --ColorTime: 5s;
+    --Color2: #000000;
+    --Color3: #000000;
+    --Color4: #000000;
+    --Color5: #000000;
+    --Color6: #000000;
+    --Color7: #000000;
+    --Color8: #000000;
+    --Color9: #000000;
+    --Color10: #000000;
+
+    /* MISCS */
+    --ServerSize: 45px;
+    --ServerPills: var(--Primary);
+    --ServerFoldersColor: var(--Primary);
+    --Rounding: 5px;
+    --AvatarRounding: 5px;
+    --Show_Gift_Button: none;
+    --Show_GIF_Button: none;
+    --Show_Sticker_Button: none;
+    --Show_Apps_Button: flex;
+}
+
+
+/* Theme generated using WizardUI Theme Generator v1.43 */
