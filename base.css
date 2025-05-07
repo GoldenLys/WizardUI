@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-63"; /* 0-00 */
+    --version: "1-64"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -2267,7 +2267,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
 }
 
 .membersGroup_c8ffbb>span {
-    display: block;
+    display: flex;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -2782,12 +2782,10 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 
 .sidebar_c48ade .content__99f8c>div[style^="height"]:not([aria-hidden]) {
     display: flex;
-    background-color: var(--grey5);
     height: 24px !important;
     align-items: center;
     margin: 5px 5px;
     padding: 0 5px;
-    border-radius: 5px;
     color: var(--Text);
 }
 
@@ -3079,6 +3077,7 @@ path[fill="#7289da"] {
 .visual-refresh .panels_c48ade {
     left: 0px;
     bottom: 0px;
+    border-radius: 0px;
 }
 
 .panels_c48ade>.container__37e49 {

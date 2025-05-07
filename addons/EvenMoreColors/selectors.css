@@ -61,7 +61,6 @@ div[class^=circleIconButton_], .guilds_c48ade .scroller_ef3116>div:not([class]):
 #bd-settings-sidebar .ui-tab-bar-header,
 .header-2Kx1US,
 .name-IbjUBS,
-.membersGroup_c8ffbb>span,
 .inviteDestinationJoined_d5f3cd,
 .optionHeader-27AHfD,
 .sidebar_c48ade .containerDefault_c69b6d.selected_c69b6d .iconContainer__2ea32:before,
@@ -86,6 +85,7 @@ div[class^=circleIconButton_], .guilds_c48ade .scroller_ef3116>div:not([class]):
 	-webkit-animation: RGB_TEXT var(--ColorTime) linear infinite !important;
 }
 
+.membersGroup_c8ffbb>span,
 .title_b717a1,
 .title_ace4f5,
 .h5_b717a1,
