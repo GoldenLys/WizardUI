@@ -2579,7 +2579,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--bg-servers);
+    background: var(--bg-servers);
 }
 
 .nowPlayingColumn__133bf {
