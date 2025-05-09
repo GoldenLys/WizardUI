@@ -43,8 +43,8 @@
   This addon modifies the view of closed folders in PurpleServerList, to make it show the folder icon at the top
   and the first and second server inside that folder, this is also compatible with the LettersInPSL addon.
 
+  @import url("https://goldenlys.github.io/WizardUI/addons/AlternateFoldersInPSL.css");
 */
-@import url("https://goldenlys.github.io/WizardUI/addons/AlternateFoldersInPSL.css");
 
 /* 
     HoverMembers.css
@@ -156,4 +156,15 @@
 
 #my-account-tab>.settingsPage_f131e9>h3:before {
   content: 'Grand Theft Auto IV is Coming May 26 2026, mark your calendars!';
+}
+
+.guilds_c48ade .tutorialContainer__1f388 > div[class^=listItem_] > div[class^=listItemWrapper_] > div {
+  background-color: var(--Primary);
+  animation: RGB_BG var(--ColorTime) linear infinite !important;
+	-webkit-animation: RGB_BG var(--ColorTime) linear infinite !important;
+  background-image: none;
+  -webkit-mask: var(--logo) no-repeat center / contain;
+          mask: var(--logo) no-repeat center / contain;
+  -webkit-mask-mode: alpha;
+          mask-mode: alpha;
 }

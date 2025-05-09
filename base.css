@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-66"; /* 0-00 */
+    --version: "1-67"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -1706,7 +1706,8 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
     -webkit-font-smoothing: antialiased;
     display: block;
     font-size: 1rem;
-    line-height: calc(var(--ServerSize) / 2 + 0px);
+    margin-top: -2px;
+    line-height: calc(var(--ServerSize) / 2 + -2px);
     text-align: center;
     color: var(--Text);
 }
@@ -6901,6 +6902,10 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 
 .folderPreviewGuildIcon__48112{
     border-radius: var(--Rounding) !important;
+}
+
+.folderGroup__48112 {
+    --custom-folder-preview-guild-size: calc((var(--ServerSize) - var(--custom-folder-preview-padding)* 2 - var(--custom-folder-preview-gap)) / 2 - 1.5px); 
 }
 
 .wrapper_cc5dd2 {
