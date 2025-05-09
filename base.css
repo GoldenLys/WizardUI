@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-67"; /* 0-00 */
+    --version: "1-68"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -40,6 +40,7 @@
     --bg-chat-elements: var(--grey5);
     --bg-settings: var(--darkgrey);
     --bg-colorprofile: var(--bg-ui);
+    --bg-user-area: var(--bg-ui);
     --bg-alt-message: transparent;
     /* UI COLOR VARIABLES */
     --grey: rgb(18, 19, 31);
@@ -3085,7 +3086,7 @@ path[fill="#7289da"] {
 
 .panels_c48ade>.container__37e49 {
     position: relative;
-    background-color: var(--bg-ui);
+    background-color: var(--bg-user-area);
     height: 50px;
     padding: 0 5px 0 5px !important;
     margin: 0;
@@ -6917,10 +6918,6 @@ a.link__972a0[href="/shop"] .name__20a53:before {
     contain: initial;
 }
 
-#app-mount .folderGroup__48112:not([style]) {
-    --custom-folder-color: var(--Primary);
-}
-
 #guild-list-unread-dms>div:not([class])[style*="height: 40px;"] {
     height: var(--ServerSize) !important;
 }
@@ -6943,4 +6940,8 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 
 #app-mount .chat_f75fb0 > .subtitleContainer_f75fb0 > section > .upperContainer__9293f > div.children__9293f > div.iconWrapper__9293f {
     display: none;
+}
+
+.folderGroup__48112:not([style~="--custom-folder-color"]) {
+    --custom-folder-color: var(--ServerFoldersColor);
 }
