@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-65"; /* 0-00 */
+    --version: "1-66"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -98,9 +98,9 @@
     --header-primary: var(--Text);
     --header-secondary: var(--Text);
     --text-normal: var(--Text);
+    --text-secondary: var(--Text);
     --text-muted: rgba(255, 255, 255, .65);
     --text-positive: var(--ui-success);
-    --channels-default: var(--Text);
     --channeltextarea-background: var(--grey);
     --interactive-normal: var(--Text);
     --interactive-hover: var(--Text);
@@ -191,6 +191,7 @@
     --button-positive-background: var(--ui-success);
     --background-base-low: var(--bg-ui);
     --background-surface-highest: var(--darkgrey);
+    --channels-default: var(--Text);
 }
 
 #app-mount.appMount__51fd7 {
@@ -1779,13 +1780,14 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
 .header-2Kx1US,
 .name-IbjUBS,
 .membersGroup_c8ffbb>span,
+.container__13cf1,
 .inviteDestinationJoined_d5f3cd,
 .optionHeader-27AHfD {
     font-size: 15px !important;
     font-weight: bold !important;
     line-height: 16px !important;
     text-transform: uppercase !important;
-    color: var(--Primary) !important;
+    color: var(--Primary);
     text-shadow: var(--text-shadow) 0px 0px 2.5px;
 }
 
@@ -3217,18 +3219,8 @@ div[class^="topSection"] .activityProfile_c1d9fd.activity__20c1e:before {
 
 .tabBar__133bf,
 .tabBar-2hXqzU {
-    background: var(--bg-ui);
+    background: transdparent;
     margin: 5px 0;
-    border-radius: var(--Rounding);
-    place-content: center;
-}
-
-.tabBar__133bf,
-.tabBar-2hXqzU {
-    background: var(--bg-ui);
-    margin: 5px 0;
-    border-radius: var(--Rounding);
-    place-content: center;
 }
 
 .tabBar__133bf .item__133bf,
@@ -6763,6 +6755,11 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     border: none;
 }
 
+.visual-refresh .side_b3f026 .themed_b3f026.selected_b3f026.item_b3f026, 
+.visual-refresh .topPill_b3f026 .themed_b3f026.selected_b3f026.item_b3f026 {
+    background-color: var(--Hover);
+}
+
 .visual-refresh .container_faa96b:hover,
 .visual-refresh .container_faa96b.isOpen_faa96b {
     background-color: var(--Hover);
@@ -6937,4 +6934,8 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 
 .folderButton__48112 {
     border-radius: var(--Rounding);
+}
+
+#app-mount .chat_f75fb0 > .subtitleContainer_f75fb0 > section > .upperContainer__9293f > div.children__9293f > div.iconWrapper__9293f {
+    display: none;
 }
