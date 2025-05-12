@@ -85,7 +85,7 @@
     --Highlighted: var(--Primary);
     --MessageHover: var(--grey5);
     --Unread: rgb(194, 18, 18);
-    --Hover: rgba(255, 255, 255, 0.05);
+    --Hover: rgb(40 55 92 / 25%);
 
     /* STATUS VARIABLES */
     --Online: #8AFF80;
@@ -100,12 +100,13 @@
     --bg-servers: linear-gradient(53deg, #237287 23.91%, #246C84 33.21%, #265F7C 42.51%, #274F72 51.8%, #284367 61.1%, #283A5F 70.4%, #28375C 79.7%);;
     --bg-sendmessage: transparent;
     --bg-ui: rgb(40 55 92 / 80%);
-    --bg-chatbox: #4d006327;
+    --bg-chatbox: rgb(40 55 92 / 35%);
     --bg-members: var(--bg-ui);
     --bg-chat-elements: rgba(40, 55, 92, 0.65);
     --bg-settings: var(--bg-ui);
     --bg-colorprofile: rgb(29 30 38 / 50%);
     --bg-alt-message: transparent;
+    --bg-user-area: transparent;
 
     /* UI COLOR VARIABLES */
     --grey: rgb(94, 64, 108);
@@ -150,10 +151,6 @@
     --Show_Apps_Button: none;
 }
 
-.panels_c48ade>.container__37e49 {
-  background-color: transparent;
-}
-
 #my-account-tab>.settingsPage_f131e9>h3:before {
   content: 'Grand Theft Auto IV is Coming May 26 2026, mark your calendars!';
 }
@@ -164,7 +161,5 @@
 	-webkit-animation: RGB_BG var(--ColorTime) linear infinite !important;
   background-image: none;
   -webkit-mask: var(--logo) no-repeat center / contain;
-          mask: var(--logo) no-repeat center / contain;
-  -webkit-mask-mode: alpha;
-          mask-mode: alpha;
+  mask: var(--logo) no-repeat center / contain;
 }
