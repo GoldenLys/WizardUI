@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "1-68"; /* 0-00 */
+    --version: "1-69"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -923,6 +923,7 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.status_a423bd {
     background-color: var(--Streaming) !important;
 }
 
+rect[fill="#43a25a"],
 rect[fill="#23a55a"],
 rect[fill="#3ba55c"],
 rect[fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"],
@@ -930,6 +931,7 @@ rect[fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"],
     fill: var(--Online) !important;
 }
 
+rect[fill="#ca9654"],
 rect[fill="#f0b232"],
 rect[fill="#faa61a"],
 rect[fill="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"],
@@ -937,6 +939,7 @@ rect[fill="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"],
     fill: var(--Idle) !important;
 }
 
+rect[fill="#d83a42"],
 rect[fill="#f23f43"],
 rect[fill="#ed4245"],
 rect[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"],
@@ -944,12 +947,20 @@ rect[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"],
     fill: var(--Unavailable) !important;
 }
 
+/* DISABLE OFFLINE STATUS */
+
+rect[fill="#82838b"],  
+rect[fill="#82858f"],
 rect[fill="#80848e"],
+rect[fill="rgba(116, 127, 141, 1)"],
 rect[fill="#747f8d"],
-rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"],
-[mask^="url(#svg-mask-status-offline"] {
-    fill: var(--Offline) !important;
+[mask^="url(#svg-mask-status-offline"],
+rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
+    fill: transparent !important;
+    stroke: transparent !important;
+    mask: none !important;
 }
+
 
 rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"],
 [mask^="url(#svg-mask-status-streaming"],
@@ -1310,19 +1321,6 @@ div[class^="role_"],
 .note_c90ad7>textarea:focus::placeholder {
     background-color: transparent;
     color: var(--Text);
-}
-
-/* DISABLE OFFLINE STATUS */
-
-rect[fill="#82858f"],
-rect[fill="#80848e"],
-rect[fill="rgba(116, 127, 141, 1)"],
-rect[fill="#747f8d"],
-[mask^="url(#svg-mask-status-offline"],
-rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
-    fill: transparent !important;
-    stroke: transparent !important;
-    mask: none !important;
 }
 
 .inner_c0bea0 .footer-3naVBw {
@@ -1715,6 +1713,8 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
 
 .folderPreview__48112 {
     gap: 100px 2px;
+    height: calc(var(--ServerSize) - 8px);
+    width: calc(var(--ServerSize) - 8px);
 }
 
 .info__2debe>.colorMuted_c9946a,
@@ -3082,6 +3082,7 @@ path[fill="#7289da"] {
     left: 0px;
     bottom: 0px;
     border-radius: 0px;
+    width: 100%;
 }
 
 .panels_c48ade>.container__37e49 {
@@ -6897,8 +6898,9 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 
 .folderPreviewWrapper__48112 {
     border-radius: 0;
-    height: calc(var(--guildbar-folder-size) - 0px);
-    width: calc(var(--guildbar-folder-size) - 0px);
+    height: calc(var(--guildbar-folder-size) * 1px);
+    width: calc(var(--guildbar-folder-size) * 1px);
+    background-color: transparent !important;
 }
 
 .folderPreviewGuildIcon__48112{
@@ -6906,7 +6908,7 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 }
 
 .folderGroup__48112 {
-    --custom-folder-preview-guild-size: calc((var(--ServerSize) - var(--custom-folder-preview-padding)* 2 - var(--custom-folder-preview-gap)) / 2 - 1.5px); 
+    --custom-folder-preview-guild-size: calc((var(--ServerSize) - 8px - 2px) / 2 - 2px); 
 }
 
 .wrapper_cc5dd2 {
@@ -6934,8 +6936,13 @@ a.link__972a0[href="/shop"] .name__20a53:before {
     border: none;
 }
 
-.folderButton__48112 {
+.folderButton__48112, .folderButtonInner__48112 {
     border-radius: var(--Rounding);
+}
+
+.folderButton__48112 {
+    --custom-preview-background: color-mix(in srgb, var(--custom-folder-color), transparent 60%);
+    background-color: var(--custom-preview-background, var(--bg-mod-subtle));
 }
 
 #app-mount .chat_f75fb0 > .subtitleContainer_f75fb0 > section > .upperContainer__9293f > div.children__9293f > div.iconWrapper__9293f {

@@ -17,7 +17,7 @@
     transform: rotate(-90deg);
     height: 100vw !important;
     width: calc(var(--ServerSize) + 20px);
-    top: calc(var(--ServerSize) + 20px + 36px);
+    top: calc(var(--ServerSize) + 20px + 32px);
     bottom: unset;
     position: fixed !important;
     left: 0;

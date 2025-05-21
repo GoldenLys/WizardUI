@@ -1,5 +1,6 @@
 .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderPreviewWrapper__48112:before {
     content: "";
+    display: none;
 }
 
 .folderPreview__48112 {
