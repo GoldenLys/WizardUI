@@ -66,6 +66,11 @@
     height: var(--ServerSize);
 }
 
+#app-mount  .folderHeader__48112 {
+    height: var(--ServerSize);
+    width: var(--ServerSize);
+}
+
 #app-mount .guilds_c48ade .scroller_ef3116 .stack_dbd263:not([id]) {
     width: calc(100% - 0px);
     flex: 1 1 auto;
@@ -102,10 +107,11 @@
     background-color: var(--custom-folder-color);
     opacity: 0.6;
     border-radius: var(--Rounding);
-    left: 4px;
+    left: auto;
     height: calc(100% - 0px);
     width: var(--ServerSize);
-    top: 4px;
+    top: 0px;
+    border: none;
 }
 
 #app-mount .guilds_c48ade .scroller_ef3116 {

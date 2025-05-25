@@ -6930,8 +6930,8 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 }
 
 .wrapper_cc5dd2 {
-    height: var(--guildbar-folder-size) !important;
-    width: var(--guildbar-folder-size) !important;
+    height: var(--ServerSize) !important;
+    width: var(--ServerSize) !important;
 }
 
 .wrapper_cc5dd2>svg {
