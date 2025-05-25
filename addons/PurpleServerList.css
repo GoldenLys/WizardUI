@@ -1,8 +1,3 @@
-:root {
-    --guildbar-avatar-size: var(--ServerSize);
-    --guildbar-folder-size: var(--ServerSize);
-}
-
 .platform-osx .wrapper_ef3116 {
     margin-top: 0px;
 }
@@ -107,9 +102,10 @@
     background-color: var(--custom-folder-color);
     opacity: 0.6;
     border-radius: var(--Rounding);
-    left: auto;
+    left: 4px;
     height: calc(100% - 0px);
-    top: 0px;
+    width: var(--ServerSize);
+    top: 4px;
 }
 
 #app-mount .guilds_c48ade .scroller_ef3116 {
