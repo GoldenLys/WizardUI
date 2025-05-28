@@ -192,6 +192,7 @@
     --background-surface-highest: var(--darkgrey);
     --channels-default: var(--Text);
     --user-profile-overlay-background: var(--darkgrey);
+    --brand-530: var(--Primary);
 }
 
 #app-mount.appMount__51fd7 {

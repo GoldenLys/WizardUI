@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Aurebesh';
+    src: url('../fonts/Aurebesh.woff2') format('opentype');
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: 'Aurebesh';
+    src: url('../fonts/Aurebesh.woff2') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Aurebesh';
+    src: url('../fonts/Aurebesh.woff2') format('opentype');
+    font-weight: lighter;
+}
