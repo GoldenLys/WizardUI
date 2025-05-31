@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-72"; /* 0-00 */
+    --version: "2025-73"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -164,7 +164,7 @@
     --text-brand: var(--Primary);
     --brand-experiment-80a: var(--Primary);
     --mention-foreground: var(--Text);
-    --mention-background: var(--Hover);
+    --mention-background: var(--grey5);
     --home-background: transparent;
     --red-400: var(--ui-error);
     --yellow-360: var(--ui-warning);
@@ -6978,4 +6978,10 @@ a.link__972a0[href="/shop"] .name__20a53:before {
     background-color: var(--bg-ui);
     border-radius: 5px;
     border: none;
+}
+
+.guildTagContainer__63ed3 {
+    border: none;
+    border-radius: var(--Rounding);
+    background-color: var(--darkgrey5);
 }
