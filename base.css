@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-71"; /* 0-00 */
+    --version: "2025-72"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -247,6 +247,8 @@ textarea {
     padding-top: 0;
 }
 
+.visual-refresh .wrapper__14245,
+.visual-refresh .emojiPicker_c0e32c,
 .visual-refresh .wrapper_d852db,
 .scroller__53543,
 .visual-refresh .shop__08415,
@@ -6855,9 +6857,7 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 .visual-refresh .messagesPopoutWrap__45690,
 .visual-refresh .header__45690,
 .visual-refresh .inspector_aeaaeb,
-.visual-refresh .wrapper__14245,
-.visual-refresh .wrapper__4e6ce,
-.visual-refresh .emojiPicker_c0e32c {
+.visual-refresh .wrapper__4e6ce {
     background-color: var(--bg-ui);
     border-color: transparent;
 }
@@ -6972,4 +6972,10 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 
 .folderGroup__48112:not([style~="--custom-folder-color"]) {
     --custom-folder-color: var(--ServerFoldersColor);
+}
+
+.visual-refresh .contentWrapper__08434 {
+    background-color: var(--bg-ui);
+    border-radius: 5px;
+    border: none;
 }
