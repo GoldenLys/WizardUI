@@ -15,3 +15,9 @@
     src: url('../fonts/Aurebesh.woff2') format('opentype');
     font-weight: lighter;
 }
+
+@font-face {
+    font-family: 'Aurebesh Target';
+    src: url('../fonts/StayOnTarget-Regular.ttf') format('opentype');
+    font-weight: normal;
+}
