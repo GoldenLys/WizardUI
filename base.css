@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-73"; /* 0-00 */
+    --version: "2025-74"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -852,7 +852,6 @@ div.link__2ea32[class*="modeSelected_"]:before {
 .visual-refresh .reaction_f8896c {
     background-color: transparent;
     border-radius: var(--Rounding);
-    padding: 2px 0;
 }
 
 .visual-refresh .reaction__23977:hover,
@@ -2858,6 +2857,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 }
 
 /* VOICE CHANNEL */
+.sidebar_c48ade .containerDefault_c69b6d .link__2ea32 .iconContainer__2ea32[aria-label$="Voice (Limited) icon"]:before,
 .sidebar_c48ade .containerDefault_c69b6d .link__2ea32 .iconContainer__2ea32[aria-label$="Voice icon"]:before {
     content: "\f590";
     margin-right: 5px
@@ -2876,7 +2876,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 }
 
 /* STAGE CHANNEL */
-.sidebar_c48ade .containerDefault_c69b6d .link__2ea32[aria-label$="(Stage channel)"] .iconContainer__2ea32:before  {
+.sidebar_c48ade .containerDefault_c69b6d .link__2ea32 .iconContainer__2ea32[aria-label$="Stage icon"]:before {
     content: "\f8d7";
     font-weight: 600;
     margin-right: 5px
@@ -6984,4 +6984,22 @@ a.link__972a0[href="/shop"] .name__20a53:before {
     border: none;
     border-radius: var(--Rounding);
     background-color: var(--darkgrey5);
+}
+
+.highlighted__5126c, .replying__5126c {
+    background-color: var(--bg-chat-elements);
+}
+
+.replying__5126c:before {
+    background-color: var(--Primary);
+}
+
+.reaction__23977 .emoji {
+    height: 1.65rem;
+    width: 1.65rem;
+    margin: 0px 0px;
+}
+
+.reactionInner__23977 {
+    padding: .075rem .150rem;
 }
