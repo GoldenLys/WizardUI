@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-74"; /* 0-00 */
+    --version: "2025-75"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -248,7 +248,6 @@ textarea {
 }
 
 .visual-refresh .wrapper__14245,
-.visual-refresh .emojiPicker_c0e32c,
 .visual-refresh .wrapper_d852db,
 .scroller__53543,
 .visual-refresh .shop__08415,
@@ -316,6 +315,7 @@ div[class^=folder_],
     background-color: transparent !important;
 }
 
+.visual-refresh .chat_f75fb0>.scrollerBase_d125d2,
 .visual-refresh .container__0b563, 
 .container__0b563, 
 .header__0b563,
@@ -6012,7 +6012,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     border-top-right-radius: 0px
 }
 
-.file__0ccae,
+.visual-refresh .file__0ccae,
 .newMosaicStyle__4d95d .codeView__4d95d {
     background-color: var(--bg-chat-elements);
     border: none;
@@ -6848,7 +6848,19 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 }
 
 .visual-refresh .header_c0e32c {
+    background-color: var(--bg-ui);
     border-radius: 5px 5px 0 0;
+    border-color: transparent;
+}
+
+.visual-refresh .expressionPickerPositionLayer__74017 .header_c0e32c {
+    background-color: transparent;
+    border-radius: 5px 5px 0 0;
+    border-color: transparent;
+}
+
+.visual-refresh .emojiPicker_c0e32c {
+    border-radius: 5px;
     background-color: var(--bg-ui);
     border-color: transparent;
 }
@@ -7002,4 +7014,10 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 
 .reactionInner__23977 {
     padding: .075rem .150rem;
+}
+
+.visual-refresh .row_d13feb {
+    background-color: var(--bg-chat-elements);
+    border-radius: 5px;
+    border: none;
 }
