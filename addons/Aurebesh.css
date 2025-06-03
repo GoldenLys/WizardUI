@@ -1,89 +1,85 @@
 @font-face {
     font-family: 'Aurebesh';
-    src: url('../fonts/FTAurebesh-Thin.woff2') format('opentype');
+    src: url('../fonts/FTAurebesh-Thin.woff2') format('woff2');
     font-weight: 100;
 }
 
 @font-face {
     font-family: 'Aurebesh';
-    src: url('../fonts/FTAurebesh-UltraLight.woff2') format('opentype');
+    src: url('../fonts/FTAurebesh-UltraLight.woff2') format('woff2');
     font-weight: 200;
 }
 
 @font-face {
     font-family: 'Aurebesh';
-    src: url('../fonts/FTAurebesh-Light.woff2') format('opentype');
+    src: url('../fonts/FTAurebesh-Light.woff2') format('woff2');
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'Aurebesh';
-    src: url('../fonts/FTAurebesh-Regular.woff2') format('opentype');
+    src: url('../fonts/FTAurebesh-Regular.woff2') format('woff2');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Aurebesh';
-    src: url('../fonts/FTAurebesh-Medium.woff2') format('opentype');
+    src: url('../fonts/FTAurebesh-Medium.woff2') format('woff2');
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'Aurebesh';
-    src: url('../fonts/FTAurebesh-SemiBold.woff2') format('opentype');
+    src: url('../fonts/FTAurebesh-SemiBold.woff2') format('woff2');
     font-weight: 600;
 }
 
 @font-face {
     font-family: 'Aurebesh';
-    src: url('../fonts/FTAurebesh-Bold.woff2') format('opentype');
+    src: url('../fonts/FTAurebesh-Bold.woff2') format('woff2');
     font-weight: 700;
 }
 
 @font-face {
     font-family: 'Aurebesh';
-    src: url('../fonts/FTAurebesh-ExtraBold.woff2') format('opentype');
+    src: url('../fonts/FTAurebesh-ExtraBold.woff2') format('woff2');
     font-weight: 800;
 }
 
 @font-face {
     font-family: 'Aurebesh';
-    src: url('../fonts/FTAurebesh-Black.woff2') format('opentype');
+    src: url('../fonts/FTAurebesh-Black.woff2') format('woff2');
     font-weight: 900;
 }
 
 @font-face {
     font-family: 'Aurebesh';
-    src: url('../fonts/FTAurebesh-Thin.woff2') format('opentype');
+    src: url('../fonts/FTAurebesh-Thin.woff2') format('woff2');
     font-weight: lighter;
 }
 
 @font-face {
     font-family: 'Aurebesh';
-    src: url('../fonts/FTAurebesh-Light.woff2') format('opentype');
+    src: url('../fonts/FTAurebesh-Light.woff2') format('woff2');
     font-weight: light;
 }
 
 @font-face {
     font-family: 'Aurebesh';
-    src: url('../fonts/FTAurebesh-Regular.woff2') format('opentype');
+    src: url('../fonts/FTAurebesh-Regular.woff2') format('woff2');
     font-weight: normal;
-}
-
-@font-face {
-    font-family: 'Aurebesh';
-    src: url('../fonts/FTAurebesh-Bold.woff2') format('opentype');
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: 'Aurebesh';
-    src: url('../fonts/FTAurebesh-Black.woff2') format('opentype');
-    font-weight: bolder;
 }
 
 @font-face {
     font-family: 'Aurebesh Target';
     src: url('../fonts/StayOnTarget-Regular.ttf') format('truetype');
     font-weight: normal;
+}
+
+@font-face {
+    font-family: 'auretech';
+    src: url('../fonts/auretech.woff2') format('woff2'),
+         url('../fonts/auretech.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }

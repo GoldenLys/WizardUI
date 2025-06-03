@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-75"; /* 0-00 */
+    --version: "2025-76"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -189,6 +189,10 @@
     --brand-360: var(--Primary);
     --button-positive-background: var(--ui-success);
     --background-base-low: var(--bg-ui);
+    --background-mod-subtle: var(--bg-ui);
+    --background-mod-normal: var(--darkgrey);
+    --redesign-button-overlay-alpha-background: var(--bg-ui);
+    --redesign-button-overlay-alpha-pressed-background: var(--darkgrey);
     --background-surface-highest: var(--darkgrey);
     --channels-default: var(--Text);
     --user-profile-overlay-background: var(--darkgrey);
@@ -7020,4 +7024,21 @@ a.link__972a0[href="/shop"] .name__20a53:before {
     background-color: var(--bg-chat-elements);
     border-radius: 5px;
     border: none;
+}
+
+.visual-refresh .header__34c2c {
+    background-color: var(--bg-chat-elements) !important;
+    top: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.hoverButton__06ab4.selected__06ab4, .hoverButton__06ab4:hover, .keyboard-mode .hoverButton__06ab4:focus {
+    background-color: var(--Text);
+    color: var(--Primary);
+}
+
+.animatedContainer_f37cb1 {
+    background-color: transparent;
+    box-shadow: none;  
 }
