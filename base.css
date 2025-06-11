@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-76"; /* 0-00 */
+    --version: "2025-77"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -6300,21 +6300,18 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     border: none;
 }
 
-.wrapperAudio_cf09d8.newMosaicStyle_cf09d8 {
-    border-radius: 5px;
-    padding: 0px;
-}
-
-.wrapperAudio_cf09d8 {
+.visual-refresh .wrapperAudio_cf09d8 {
     background-color: var(--bg-chat-elements);
     border: none;
+    border-radius: 5px;
+    padding: 0px;
 }
 
 .wrapperAudio_cf09d8>.audioMetadata_cf09d8 {
     padding: 10px 10px 0px 10px;
 }
 
-.audioControls_cf09d8 {
+.visual-refresh .audioControls_cf09d8 {
     background-color: var(--bg-chat-elements);
     border-radius: 0px 0px var(--Rounding) var(--Rounding);
 }
