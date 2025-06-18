@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-77"; /* 0-00 */
+    --version: "2025-78"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -2819,9 +2819,9 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: bold;
     line-height: 16px;
-    font-weight: 600;
     padding: 0 5px;
 }
 
@@ -3108,6 +3108,7 @@ path[fill="#7289da"] {
     height: 50px;
     padding: 0 5px 0 5px !important;
     margin: 0;
+    gap: 0px;
 }
 
 .panels_c48ade>.container__37e49 .lottieIcon__5eb9b:not(.buttonIcon_e131a9),
@@ -7038,4 +7039,15 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 .animatedContainer_f37cb1 {
     background-color: transparent;
     box-shadow: none;  
+}
+
+:where(.visual-refresh) .tooltipPrimary__382e7,
+.visual-refresh .popout__76f04 {
+    border-radius: var(--Rounding);
+    background-color: var(--darkgrey);
+    border: none;
+}
+
+:where(.visual-refresh) .tooltipPrimary__382e7 .tooltipPointer__382e7 {
+    border-top-color: var(--darkgrey);
 }
