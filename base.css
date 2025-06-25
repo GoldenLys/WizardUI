@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-78"; /* 0-00 */
+    --version: "2025-79"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -3746,8 +3746,6 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item__58105,
 .recentMentionsPopout__95796 .header_ab6641 .tab_ab6641 {
     border-radius: 0;
     margin: 0;
-    height: 100%;
-    width: 50%;
     text-transform: uppercase;
 }
 
@@ -6433,6 +6431,11 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 .votePercentageBar__4c520 {
     background-color: var(--Primary);
     opacity: 0.35;
+}
+
+.victorStyles_a1443c .votePercentageBar__4c520 {
+    background-color: var(--ui-success);
+    opacity: 0.85;
 }
 
 .wrapper_d5f3cd .inviteDestinationJoined_d5f3cd, .wrapper_d5f3cd .infoTitle_ae2544 {
