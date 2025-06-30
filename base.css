@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-79"; /* 0-00 */
+    --version: "2025-80"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -98,6 +98,7 @@
     --blurple-50: var(--Primary);
     --header-primary: var(--Text);
     --header-secondary: var(--Text);
+    --text-default: var(--Text);
     --text-normal: var(--Text);
     --text-secondary: var(--Text);
     --text-muted: rgba(255, 255, 255, .65);
