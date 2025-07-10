@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-80"; /* 0-00 */
+    --version: "2025-81"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -1722,8 +1722,6 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
     display: flex;
     align-content: flex-start;
     gap: 100px 0.25rem;
-    height: calc(var(--ServerSize) - 8px);
-    width: calc(var(--ServerSize) - 8px);
 }
 
 .folderGroup__48112.isExpanded__48112 .folderPreviewWrapper__48112 .folderPreviewGuildIcon__48112 {
