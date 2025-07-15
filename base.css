@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-81"; /* 0-00 */
+    --version: "2025-82"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -252,6 +252,7 @@ textarea {
     padding-top: 0;
 }
 
+.visual-refresh .chatContent_f75fb0,
 .visual-refresh .wrapper__14245,
 .visual-refresh .wrapper_d852db,
 .scroller__53543,
@@ -325,7 +326,7 @@ div[class^=folder_],
 .container__0b563, 
 .header__0b563,
 .container_f369db,
-.visual-refresh .chatContent_f75fb0,
+.visual-refresh .chatContent_f75fb0>.messagesWrapper__36d07,
 .callContainer__722ff,
 .stageSection-3mAD8V,
 .tabBody__133bf .peopleColumn__133bf,
@@ -353,7 +354,7 @@ div[class^=folder_],
 .pageWrapper_a3a4ce {
     border-radius: var(--Rounding);
 }
-
+.visual-refresh .container__2637a>.container_f37cb1, .visual-refresh .container__2637a>.scroller__629e4,
 .visual-refresh .searchResultsWrap_a9e706,
 .content__37e49,
 .container_6sXIoE,
@@ -366,7 +367,6 @@ div[class^=folder_],
 .shop__6db1d  .container__9293f.themed__9293f,
 .chat_f75fb0 .title_f75fb0.container__9293f,
 .sidebar_c48ade>.container__2637a,
-.visual-refresh .container__2637a,
 .privateChannels__35e86,
 .stackedBars__74017,
 .callContainer_cb9592 {
@@ -545,6 +545,7 @@ div[class^=folder_],
     border: none !important;
 }
 
+.activityInviteEducation_b88801,
 .visual-refresh .dot__9293f,
 .visual-refresh .sidebar_c48ade:after,
 .channelAppLauncher_e6e74f,
@@ -2149,7 +2150,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
     padding: 0;
 }
 
-.container__2637a[aria-label^="Wizard Tower"]:before {
+.container__2637a[aria-label^="Wizard Tower"] .container_f37cb1:before {
     content: "";
     position: absolute;
     top: 0;
@@ -2169,7 +2170,6 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
 }
 
 .container__2637a[aria-label^="Wizard Tower"] .header_f37cb1:after,
-.container__2637a[aria-label^="Wizard Tower"] .container_f37cb1:before,
 .container__2637a[aria-label^="Wizard Tower"] .container_f37cb1:after {
     content: '';
     position: absolute;
@@ -2192,15 +2192,9 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
 
 .container__2637a[aria-label^="Wizard Tower"] .container_f37cb1:after {
     content: var(--currentVersion);
-    text-align: center;
-    left: 0%;
 }
 
-.container__2637a[aria-label^="Test Server"] #channels {
-    margin-top: 85px;
-}
-
-.container__2637a[aria-label^="Test Server"]:before {
+.container__2637a[aria-label^="Wizard Testing Ground"] .container_f37cb1:before{
     content: "";
     position: absolute;
     top: 0;
@@ -2208,11 +2202,19 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
     right: 0;
     height: 135px;
     background: center / cover no-repeat url(https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg);
-    -webkit-filter: blur(2.5px);
-    filter: blur(2.5px);
+    opacity: 0.7;
 }
 
-.container__2637a[aria-label^="Test Server"] .header_f37cb1:after {
+.container__2637a[aria-label^="Wizard Testing Ground"] .container_f37cb1 {
+    padding-bottom: 85px;
+}
+
+.container__2637a[aria-label^="Wizard Testing Ground"] .header_f37cb1 {
+    background-color: transparent !important;
+}
+
+.container__2637a[aria-label^="Wizard Testing Ground"] .header_f37cb1:after,
+.container__2637a[aria-label^="Wizard Testing Ground"] .container_f37cb1:after {
     content: '';
     position: absolute;
     top: 75px;
@@ -2222,8 +2224,14 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
     color: var(--Text);
 }
 
-.container__2637a[aria-label^="Test Server"] .header_f37cb1:after {
-    content: "Testing server for WizardUI"
+.container__2637a[aria-label^="Wizard Testing Ground"] .header_f37cb1:after {
+    content: "Preview server for WizardUI";
+    position: absolute;
+    top: 75px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: var(--Text);
 }
 
 .iconWrapper__9293f:not(.focusable-1YV_-H)>.icon__9293f {
@@ -3104,7 +3112,7 @@ path[fill="#7289da"] {
 .panels_c48ade>.container__37e49 {
     position: relative;
     background-color: var(--bg-user-area);
-    height: 50px;
+    height: 54px;
     padding: 0 5px 0 5px !important;
     margin: 0;
     gap: 0px;
@@ -4066,10 +4074,6 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item__58105,
 .markup__75297 code.inline {
     background-color: var(--Primary);
     color: var(--Text);
-}
-
-.activityInviteEducationFadeIn_b88801 {
-    margin-bottom: 50px;
 }
 
 .iconBackgroundTierNone__97677 svg,
@@ -5625,6 +5629,8 @@ div.selected-3veCBZ:hover .name__20a53 {
     background-image: none;
     background-color: var(--bg-ui);
     border-bottom: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
 
 .container__87bf1,
@@ -6569,7 +6575,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     font-weight: 900;
     content: "\f093";
     color: var(--Text);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .attachButton__74017:hover .attachButtonInner__0923f:after {
@@ -6604,7 +6610,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 .textArea__74017 {
     height: auto !important;
-    max-height: calc(12px + 22px * var(--sendmessage-text-lines));
+    max-height: calc(10px + 22px * var(--sendmessage-text-lines));
     overflow-y: auto;
     order: 1;
 }
@@ -7052,4 +7058,14 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 
 :where(.visual-refresh) .tooltipPrimary__382e7 .tooltipPointer__382e7 {
     border-top-color: var(--darkgrey);
+}
+
+.scroller__629e4 {
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.heroAssetTint__636a2 {
+    background-color: var(--ui-success) !important;
 }

@@ -69,6 +69,14 @@
 @import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/1.css"); 
 */
 
+/* 
+    UniqueChatbar.css
+
+  This is an addon that makes the chatbar on one line with the button on the right, while keeping the overall design and function of the theme.
+
+@import url("https://goldenlys.github.io/WizardUI/addons/UniqueChatbar.css"); 
+*/
+
 :root {
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
