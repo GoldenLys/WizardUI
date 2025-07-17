@@ -7,12 +7,13 @@
 }
 
 :root {
-    --version: "2025-82"; /* 0-00 */
+    --version: "2025-83"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
+    --Text-muted: rgba(255, 255, 255, .65);
     --logo: url(https://goldenlys.github.io/WizardUI/images/home.png);
     --sendmessage-text-lines: 8;
     /* THEME COLORS */
@@ -82,6 +83,8 @@
     --Show_GIF_Button: none;
     --Show_Sticker_Button: none;
     --Show_Apps_Button: flex;
+    --server-row-gap: 10px;
+    --server-column-gap: 10px;
 }
 
 .visual-refresh.theme-midnight,
@@ -101,13 +104,14 @@
     --text-default: var(--Text);
     --text-normal: var(--Text);
     --text-secondary: var(--Text);
-    --text-muted: rgba(255, 255, 255, .65);
+    --text-muted: var(--Text-muted);
+    --chat-text-muted: var(--Text-muted);
     --text-positive: var(--ui-success);
     --channeltextarea-background: var(--grey);
     --interactive-normal: var(--Text);
     --interactive-hover: var(--Text);
     --interactive-active: var(--Text);
-    --interactive-muted: rgba(255, 255, 255, .65);
+    --interactive-muted: var(--Text-muted);
     --background-primary: var(--darkgrey);
     --background-secondary: var(--darkgrey);
     --background-secondary-alt: var(--grey);
@@ -7068,4 +7072,17 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 
 .heroAssetTint__636a2 {
     background-color: var(--ui-success) !important;
+}
+
+.colorDanger_c1e9c4.focused_c1e9c4, .colorDanger_c1e9c4.focused_c1e9c4 .check_c1e9c4, .colorDanger_c1e9c4.focused_c1e9c4 .label_c1e9c4 {
+    color: var(--Text);
+}
+
+.colorDanger_c1e9c4.focused_c1e9c4:not(.checkboxContainer_c1e9c4) path {
+    fill: var(--Text);
+}
+
+#app-mount .guilds_c48ade .scroller_ef3116 .stack_dbd263:not([id]) {
+    row-gap: var(--server-row-gap);
+    column-gap: var(--server-column-gap);
 }
