@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-84"; /* 0-00 */
+    --version: "2025-85"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -112,6 +112,7 @@
     --interactive-hover: var(--Text);
     --interactive-active: var(--Text);
     --interactive-muted: var(--Text-muted);
+    --header-muted: var(--Text-muted);
     --background-primary: var(--darkgrey);
     --background-secondary: var(--darkgrey);
     --background-secondary-alt: var(--grey);
@@ -194,6 +195,7 @@
     --brand-360: var(--Primary);
     --button-positive-background: var(--ui-success);
     --background-base-low: var(--bg-ui);
+    --background-base-lower: var(--bg-ui);
     --background-mod-subtle: var(--bg-ui);
     --background-mod-normal: var(--darkgrey);
     --redesign-button-overlay-alpha-background: var(--bg-ui);
@@ -203,6 +205,8 @@
     --channels-default: var(--Text);
     --user-profile-overlay-background: var(--darkgrey);
     --brand-530: var(--Primary);
+    --control-text-critical-secondary-default: var(--ui-error);
+    --text-feedback-positive: var(--ui-success);
 }
 
 #app-mount.appMount__51fd7 {
@@ -257,6 +261,7 @@ textarea {
     padding-top: 0;
 }
 
+.privateChannels__35e86,
 .visual-refresh .chatContent_f75fb0,
 .visual-refresh .wrapper__14245,
 .visual-refresh .wrapper_d852db,
@@ -360,7 +365,6 @@ div[class^=folder_],
     border-radius: var(--Rounding);
 }
 
-.visual-refresh .container__2637a>.container_f37cb1, 
 .visual-refresh .searchResultsWrap_a9e706,
 .content__37e49,
 .container_6sXIoE,
@@ -373,7 +377,6 @@ div[class^=folder_],
 .shop__6db1d  .container__9293f.themed__9293f,
 .chat_f75fb0 .title_f75fb0.container__9293f,
 .sidebar_c48ade>.container__2637a,
-.privateChannels__35e86,
 .stackedBars__74017,
 .callContainer_cb9592 {
     background-color: var(--bg-ui) !important;
@@ -5636,6 +5639,7 @@ div.selected-3veCBZ:hover .name__20a53 {
 
 .container__87bf1,
 .input__87bf1 {
+    background-color: var(--bg-ui) !important;
     border-radius: var(--Rounding);
     cursor: pointer;
 }
@@ -7089,17 +7093,25 @@ a.link__972a0[href="/shop"] .name__20a53:before {
     z-index: initial;
 }
 
+.privateChannels__35e86:before,
 .visual-refresh .container__2637a>.scroller__629e4:before {
     content: "";
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    inset: 0;
     z-index: -1;
     background-color: var(--bg-ui);
+    pointer-events: none;
+    margin-bottom: 54px;
 }
 
 .badge_c3d04b {
     color: var(--Text);
+}
+
+.game_cc46f0 {
+    box-shadow: 0 1px 0 0 var(--bg-ui) !important;
+}
+
+.lastPlayed_cc46f0 {
+    color: var(--Text-muted);
 }
