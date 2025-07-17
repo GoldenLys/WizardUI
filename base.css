@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-83"; /* 0-00 */
+    --version: "2025-84"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -198,6 +198,7 @@
     --background-mod-normal: var(--darkgrey);
     --redesign-button-overlay-alpha-background: var(--bg-ui);
     --redesign-button-overlay-alpha-pressed-background: var(--darkgrey);
+    --background-surface-high: var(--darkgrey);
     --background-surface-highest: var(--darkgrey);
     --channels-default: var(--Text);
     --user-profile-overlay-background: var(--darkgrey);
@@ -358,7 +359,8 @@ div[class^=folder_],
 .pageWrapper_a3a4ce {
     border-radius: var(--Rounding);
 }
-.visual-refresh .container__2637a>.container_f37cb1, .visual-refresh .container__2637a>.scroller__629e4,
+
+.visual-refresh .container__2637a>.container_f37cb1, 
 .visual-refresh .searchResultsWrap_a9e706,
 .content__37e49,
 .container_6sXIoE,
@@ -419,10 +421,6 @@ div[class^=folder_],
 .modal__7f8f5,
 .clickable_f37cb1 .header_f37cb1 {
     border: none;
-}
-
-.hasBanner_f37cb1.clickable_f37cb1 .header_f37cb1 {
-    background-color: transparent !important;
 }
 
 #app-mount .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786,
@@ -4775,8 +4773,7 @@ div[class^=folderIconWrapper],
 }
 
 .visual-refresh .searchBar__5ec2f {
-    background: transparent;
-    place-content: center;
+    background: var(--bg-ui);
     place-items: center;
     margin: 0px;
     padding: 0px 10px;
@@ -6970,7 +6967,7 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 }
 
 .visual-refresh .shopCardDark_c3d04b, .visual-refresh .shopCardLight_c3d04b {
-    background-color: var(--darkgrey);
+    background-color: var(--darkgrey5);
     border-radius: 5px;
     border: none;
 }
@@ -7085,4 +7082,24 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 #app-mount .guilds_c48ade .scroller_ef3116 .stack_dbd263:not([id]) {
     row-gap: var(--server-row-gap);
     column-gap: var(--server-column-gap);
+}
+
+.visual-refresh .container__2637a>.container_f37cb1,
+.visual-refresh .container__2637a>.scroller__629e4 {
+    z-index: initial;
+}
+
+.visual-refresh .container__2637a>.scroller__629e4:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: var(--bg-ui);
+}
+
+.badge_c3d04b {
+    color: var(--Text);
 }
