@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-86"; /* 0-00 */
+    --version: "2025-87"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -4758,7 +4758,8 @@ div[class^=folderIconWrapper],
 .wrapper__44df5 {
     position: relative;
     border-radius: 0px;
-    margin-bottom: 0px;
+    margin: 0px 0px 0px;
+    border: 0px solid transparent;
     padding: 16px 0;
     width: 100%;
     background-color: var(--bg-ui);
