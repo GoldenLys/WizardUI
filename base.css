@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-85"; /* 0-00 */
+    --version: "2025-86"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -4972,7 +4972,8 @@ div[class^=folderIconWrapper],
     text-transform: lowercase;
 }
 
-.timestamp_c19a55.latin12CompactTimeStamp_c19a55 {
+.compact_c19a55 .timestamp_c19a55,
+.cozy_c19a55 .timestamp_c19a55.alt_c19a55 {
     width: unset;
 }
 
