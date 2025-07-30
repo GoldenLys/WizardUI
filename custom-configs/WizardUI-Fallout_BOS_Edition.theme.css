@@ -2,21 +2,19 @@
 * @name WizardUI - Fallout BOS Edition
 * @author NEBULYS
 * @authorLink https://github.com/GoldenLys
-* @version 1.43
+* @version 1.5
 * @invite SBuYeHh
 * @description An amazing modular and fully customizable theme, made with 💖 by NEBULYS.
 * @website https://nebulys.eu/themegen
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
-
 @import url("https://goldenlys.github.io/WizardUI/base.css");
-
 @import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/5.css"); 
 
 :root {
     /* GENERAL */
-    --AppName: "Fallout";
+    --AppName: "- Fallout";
     --Watermark: "Brotherhood of Steel Edition";
     --font: "Share Tech Mono", "emoji", sans-serif;
     --logo: url("https://goldenlys.github.io/WizardUI/images/logos/23.png");
@@ -25,6 +23,7 @@
     /* COLORS */
     --Primary: #8d1b1b;
     --Text: #f8f8f2;
+    --text-link: var(--Primary);
     --text-shadow: #484d64;
     --Highlighted:  #8d1b1b80;
     --MessageHover: #2a2c3900;

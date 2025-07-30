@@ -2,21 +2,19 @@
 * @name WizardUI - Fallout Edition
 * @author NEBULYS
 * @authorLink https://github.com/GoldenLys
-* @version 1.43
+* @version 1.5
 * @invite SBuYeHh
 * @description An amazing modular and fully customizable theme, made with 💖 by NEBULYS.
 * @website https://nebulys.eu/themegen
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
-
 @import url("https://goldenlys.github.io/WizardUI/base.css");
-
 @import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/5.css"); 
 
 :root {
     /* GENERAL */
-    --AppName: "Robco Industries";
+    --AppName: "- Robco Industries";
     --Watermark: "(TM) 2075-2077 Termlink";
     --font: "Share Tech Mono", "emoji", sans-serif;
     --logo: url("https://goldenlys.github.io/WizardUI/images/logos/24.png");
@@ -25,6 +23,7 @@
     /* COLORS */
     --Primary: #7deb7d;
     --Text: #d4f1d6;
+    --text-link: var(--Primary);
     --text-shadow: #142214;
     --Highlighted:  #7deb7d80;
     --MessageHover: #29292900;
