@@ -26,6 +26,8 @@ div.link__2ea32[class*="modeSelected_"]:before {
 	-webkit-animation: RGB_BG var(--ColorTime) linear infinite !important;
 }
 
+.progressContainer__0d0f9,
+.progress__0d0f9,
 .replying__5126c:before,
 .expandButton_fccfdf:not(:hover),
 .bd-addon-views .bd-view-button.selected,

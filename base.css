@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-87"; /* 0-00 */
+    --version: "2025-88"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -198,6 +198,7 @@
     --background-base-lower: var(--bg-ui);
     --background-mod-subtle: var(--bg-ui);
     --background-mod-normal: var(--darkgrey);
+    --background-mod-strong: var(--grey5);
     --redesign-button-overlay-alpha-background: var(--bg-ui);
     --redesign-button-overlay-alpha-pressed-background: var(--darkgrey);
     --background-surface-high: var(--darkgrey);
@@ -1639,7 +1640,7 @@ div[class^="role_"],
 
 .containerDefault_c69b6d>.wrapper__2ea32.modeSelected__2ea32:before {
     background: var(--Primary);
-    opacity: 0.15;
+    opacity: 1.0;
 }
 
 .wrapper__2ea32:hover .link__2ea32 {
@@ -4760,9 +4761,9 @@ div[class^=folderIconWrapper],
     border-radius: 0px;
     margin: 0px 0px 0px;
     border: 0px solid transparent;
-    padding: 16px 0;
+    padding: 11px 0;
     width: 100%;
-    background-color: var(--bg-ui);
+    background-color: var(--bg-sendmessage);
 }
 
 .cozy_c19a55.hasThread_c19a55:after {
@@ -5908,6 +5909,21 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 .visual-refresh .searchHeader_f3b986 {
     background-color: var(--bg-chat-elements);
     border: none;
+}
+
+.progressContainer__0d0f9 {
+    background-color: var(--Primary);
+    opacity: 0.15;
+}
+
+.progress__0d0f9 {
+    background-color: var(--Primary);
+    background-image: none;
+}
+
+.container__0d0f9:hover .progress__0d0f9 {
+    background-color: var(--Primary);
+    background-image: linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .25));;
 }
 
 .progressBarContainer_baf530,
