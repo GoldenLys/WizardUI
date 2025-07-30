@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-88"; /* 0-00 */
+    --version: "2025-89"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -580,7 +580,7 @@ div[class^=folder_],
 .emptyChannelIcon__00de6,
 .total__260e1:after,
 .guildIcon-2Tpnad,
-.guildIcon__48112,
+.folderPreviewGuildIcon__48112,
 .form_f75fb0:before,
 div[class^=guildSeparator],
 div[class^=tutorialContainer]>.listItem__650eb svg mask,
@@ -746,7 +746,6 @@ div.link__2ea32[class*="modeSelected_"]:before {
     z-index: 1;
 }
 
-.sidebar_c48ade .containerDefault_c69b6d.selected_c69b6d .iconContainer__2ea32:before,
 .sidebar_c48ade .containerDefault_c69b6d.selected_c69b6d>svg,
 .sidebar_c48ade .containerDefault_c69b6d.selected_c69b6d .channelName-3KPsGw {
     color: var(--Primary);
@@ -1028,7 +1027,7 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.status_a423bd {
     text-shadow: none;
 }
 
-.inner_c0bea0 .header__08449>svg>foreignObject,
+.inner_c0bea0 .header__7f9c0>svg>foreignObject,
 .inner_c0bea0 .header__5be3e>svg>foreignObject {
     mask: none;
     -webkit-mask: none;
@@ -1643,6 +1642,10 @@ div[class^="role_"],
     opacity: 1.0;
 }
 
+.containerDefault_c69b6d>.wrapper__2ea32.modeSelected__2ea32 .iconContainer__2ea32:before {
+    color: var(--Text);
+}
+
 .wrapper__2ea32:hover .link__2ea32 {
     background-color: transparent;
 }
@@ -1675,7 +1678,7 @@ div[class^=circleIconButton_] {
 div[class^=circleIconButton_],
 .guilds_c48ade .scroller_ef3116>div:not([class]):not([style])+div[class^=tutorialContainer] div[class^=circleIconButton_],
 .guilds_c48ade .scroller_ef3116>div:not([class]):not([style])+div[class^=tutorialContainer]+.listItem__650eb div[class^=circleIconButton_],
-div[class^=folderIconWrapper]:not([style])>.closedFolderIconWrapper__48112,
+div[class^=folderIconWrapper]:not([style])>.folderPreview__48112,
 div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);"],
 div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"] {
     background-color: var(--Primary) !important;
@@ -1696,7 +1699,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
     background-color: var(--Unread) !important;
 }
 
-.visual-refresh .folderIcon__48112:before {
+.visual-refresh .folderHeader__48112:before {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
@@ -1707,7 +1710,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
     color: var(--Text);
 }
 
-.visual-refresh .folderGroup__48112.isExpanded__48112 .folderIcon__48112:before {
+.visual-refresh .folderGroup__48112.isExpanded__48112 .folderHeader__48112:before {
     content: "\f07c";
 }
 
@@ -6663,19 +6666,19 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     display: flex;
 }
 
-#app-mount .buttons__74017 .button__201d5[aria-label~="gift"] {
+#app-mount .buttons__74017 .button__74017[aria-label~="gift"] {
     display: var(--Show_Gift_Button);
 }
 
-#app-mount .buttons__74017 .button__201d5[aria-label~="GIF"] {
+#app-mount .buttons__74017 .button__74017[aria-label~="GIF"] {
     display: var(--Show_GIF_Button);
 }
 
-#app-mount .buttons__74017 .button__201d5[aria-label~="sticker"] {
+#app-mount .buttons__74017 .button__74017[aria-label~="sticker"] {
     display: var(--Show_Sticker_Button);
 }
 
-.channelAppLauncher_e6e74f .buttonContainer_e6e74f>.button_e6e74f {
+.channelAppLauncher_e6e74f>.buttonContainer_e6e74f >button {
     display: var(--Show_Apps_Button);
 }
 
@@ -6770,8 +6773,8 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     justify-content: center;
 }
 
-.visual-refresh .folder__48112,
-.visual-refresh .folder__48112>.folderIconWrapper__48112{
+.visual-refresh .hiddenVisually__27f77,
+.visual-refresh .hiddenVisually__27f77>.folderPreviewWrapper__48112{
     width: 100%;
     height: 100%;
 }
@@ -6817,7 +6820,7 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     background-color: var(--Hover);
 }
 
-.visual-refresh .isExpanded__48112 .folderIcon__48112 {
+.visual-refresh .isExpanded__48112 .folderHeader__48112 {
     height: 100%;
     width: 100%;
     margin-bottom: 0px;
@@ -6953,7 +6956,7 @@ a.link__972a0[href="/shop"] .name__20a53:before {
     border: none;
 }
 
-.folderIcon__48112>svg {
+.folderHeader__48112>svg {
     display: none;
 }
 
