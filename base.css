@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-89"; /* 0-00 */
+    --version: "2025-90"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -579,8 +579,6 @@ div[class^=folder_],
 .spinner-2RT7ZC>.pulsingEllipsis-10G8Z6,
 .emptyChannelIcon__00de6,
 .total__260e1:after,
-.guildIcon-2Tpnad,
-.folderPreviewGuildIcon__48112,
 .form_f75fb0:before,
 div[class^=guildSeparator],
 div[class^=tutorialContainer]>.listItem__650eb svg mask,
@@ -1699,7 +1697,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
     background-color: var(--Unread) !important;
 }
 
-.visual-refresh .folderHeader__48112:before {
+.visual-refresh .folderIcon__48112:before {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
@@ -1710,7 +1708,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
     color: var(--Text);
 }
 
-.visual-refresh .folderGroup__48112.isExpanded__48112 .folderHeader__48112:before {
+.visual-refresh .folderGroup__48112.isExpanded__48112 .folderIcon__48112:before {
     content: "\f07c";
 }
 
@@ -6773,8 +6771,8 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     justify-content: center;
 }
 
-.visual-refresh .hiddenVisually__27f77,
-.visual-refresh .hiddenVisually__27f77>.folderPreviewWrapper__48112{
+.visual-refresh .folder__48112,
+.visual-refresh .folder__48112>.folderPreviewWrapper__48112{
     width: 100%;
     height: 100%;
 }
@@ -6820,10 +6818,11 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     background-color: var(--Hover);
 }
 
-.visual-refresh .isExpanded__48112 .folderHeader__48112 {
+.visual-refresh .isExpanded__48112 .folderIcon__48112 {
     height: 100%;
     width: 100%;
     margin-bottom: 0px;
+    border-radius: var(--Rounding);
 }
 
 .visual-refresh .container__0f2e8 {
@@ -6956,7 +6955,7 @@ a.link__972a0[href="/shop"] .name__20a53:before {
     border: none;
 }
 
-.folderHeader__48112>svg {
+.folderIcon__48112>svg {
     display: none;
 }
 
