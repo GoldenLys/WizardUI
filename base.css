@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-91"; /* 0-00 */
+    --version: "2025-92"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -2347,7 +2347,6 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
     background-color: var(--darkgrey5);
     border: none;
     color: var(--Text);
-    height: 28px;
     border-radius: var(--Rounding);
 }
 
@@ -2355,8 +2354,6 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
 .visual-refresh .total__260e1 {
     color: var(--Text);
     width: auto;
-    height: 28px;
-    line-height: 28px;
     background-color: transparent;
     padding: 0 10px;
     border-radius: 0px;
@@ -7131,4 +7128,14 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 
 .lastPlayed_cc46f0 {
     color: var(--Text-muted);
+}
+
+html.density-compact.visual-refresh .wrapper__260e1 {
+    height: 20px;
+}
+
+html.density-compact.visual-refresh .users__260e1, 
+html.density-compact.visual-refresh .total__260e1 {
+    height: 20px;
+    line-height: 20px;
 }
