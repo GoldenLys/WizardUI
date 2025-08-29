@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-90"; /* 0-00 */
+    --version: "2025-91"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -569,7 +569,7 @@ div[class^=folder_],
 .bg__960e4,
 .channelNotice-tO6Tus,
 .overlayToggleIconOff-3hGOmN>g>rect,
-.iconContainer__2ea32>svg,
+.link__2ea32:not(.basicChannelRowLink__2ea32)>div>.iconContainer__2ea32>svg,
 .dots-1BwzZQ,
 #user-settings .contentRegion__23e6b>div>div>main>div>[class^=divider],
 .option__56fec:after,
@@ -1009,7 +1009,7 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.status_a423bd {
 
 .outer_c0bea0 {
     position: relative;
-    background-color: var(--grey);
+    background-color: var(--bg-ui);
     border-radius: 5px;
 }
 
@@ -1017,7 +1017,6 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.status_a423bd {
     position: relative;
     background-color: transparent;
     background-image: none;
-    border-radius: 5px;
     text-shadow: var(--text-shadow) 0px 0px 2.5px;
 }
 
@@ -5507,7 +5506,6 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
 
 .containerDefault__29444,
 .containerDefault_c69b6d {
-    margin: 5px 0;
     padding: 0 5px;
 }
 
