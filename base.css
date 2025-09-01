@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-92"; /* 0-00 */
+    --version: "2025-93"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -403,6 +403,7 @@ div[class^=folder_],
     border-radius: 5px;
 }
 
+.container_a592e1,
 .visual-refresh .container__01ae2,
 .winButtonsWithDivider_c38106:before,
 .visual-refresh .searchResultsWrap_a9e706,
@@ -4938,6 +4939,7 @@ div[class^=folderIconWrapper],
     border-color: var(--ui-error) !important;
 }
 
+.primary__6af3a:hover,
 .custom-profile-theme .themeColor_fb7f94.primary_fb7f94:hover,
 .lookFilled__201d5.colorBrand__201d5:hover,
 .lookFilled__201d5.colorPrimary__201d5:active,
@@ -7116,6 +7118,11 @@ a.link__972a0[href="/shop"] .name__20a53:before {
     background-color: var(--bg-ui);
     pointer-events: none;
     margin-bottom: 54px;
+}
+
+.container__551b0 {
+    background-color: var(--bg-ui);
+    border: none;
 }
 
 .badge_c3d04b {
