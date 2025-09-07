@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-93"; /* 0-00 */
+    --version: "2025-94"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -1518,7 +1518,7 @@ div[class^="role_"],
 }
 
 .visual-refresh .searchBar__97492 .icon__97492:not(.clear_fea832):after {
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0;
     right: 0;
@@ -7145,4 +7145,8 @@ html.density-compact.visual-refresh .users__260e1,
 html.density-compact.visual-refresh .total__260e1 {
     height: 20px;
     line-height: 20px;
+}
+
+.base_c48ade {
+    padding-top:  0px !important;
 }
