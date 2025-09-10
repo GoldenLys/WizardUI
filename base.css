@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-95"; /* 0-00 */
+    --version: "2025-96"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -552,6 +552,7 @@ div[class^=folder_],
     border: none !important;
 }
 
+.chatGradientBase__36d07,
 .chatGradient__36d07,
 .activityInviteEducation_b88801,
 .visual-refresh .dot__9293f,
