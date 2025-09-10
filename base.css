@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-94"; /* 0-00 */
+    --version: "2025-95"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -552,6 +552,7 @@ div[class^=folder_],
     border: none !important;
 }
 
+.chatGradient__36d07,
 .activityInviteEducation_b88801,
 .visual-refresh .dot__9293f,
 .visual-refresh .sidebar_c48ade:after,
@@ -580,7 +581,6 @@ div[class^=folder_],
 .spinner-2RT7ZC>.pulsingEllipsis-10G8Z6,
 .emptyChannelIcon__00de6,
 .total__260e1:after,
-.form_f75fb0:before,
 div[class^=guildSeparator],
 div[class^=tutorialContainer]>.listItem__650eb svg mask,
 a[href="https://support.discord.com"],
@@ -628,6 +628,10 @@ div[class^=tutorialContainer]+.listItem__650eb .pill__5bc7e,
     padding: 0 !important;
 }
 
+.align-chat-input .form_f75fb0 {
+    margin-top: 0;
+}
+
 .chat_f75fb0 .textArea__74017 .placeholder__1b31f:after {
     font-size: 1rem;
     line-height: 1.375rem;
@@ -644,11 +648,11 @@ div[class^=tutorialContainer]+.listItem__650eb .pill__5bc7e,
     background-color: var(--bg-chat-elements);
 }
 
-.visual-refresh .title__85643 {
+.visual-refresh .title_bb0d86 {
     gap: 0px;
 }
 
-.title_c38106>.title__85643>.lineClamp1__4bd52 {
+.title_c38106>.title_bb0d86>.lineClamp1__4bd52 {
     display: flex;
     position: relative;
     padding-left: 5px;
@@ -7149,4 +7153,8 @@ html.density-compact.visual-refresh .total__260e1 {
 
 .base_c48ade {
     padding-top:  0px !important;
+}
+
+.attachWrapper__0923 {
+    padding: 0px;
 }
