@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-96"; /* 0-00 */
+    --version: "2025-97"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -1813,9 +1813,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
 .container__13cf1,
 .inviteDestinationJoined_d5f3cd,
 .optionHeader-27AHfD {
-    font-size: 15px !important;
     font-weight: bold !important;
-    line-height: 16px !important;
     text-transform: uppercase !important;
     color: var(--Primary);
     text-shadow: var(--text-shadow) 0px 0px 2.5px;
@@ -3120,6 +3118,7 @@ path[fill="#7289da"] {
 .panels_c48ade>.container__37e49 {
     position: relative;
     background-color: var(--bg-user-area);
+    border-radius: 0px;
     height: 54px;
     padding: 0 5px 0 5px !important;
     margin: 0;
