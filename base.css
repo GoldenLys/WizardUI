@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-97"; /* 0-00 */
+    --version: "2025-98"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -4943,6 +4943,7 @@ div[class^=folderIconWrapper],
     border-color: var(--ui-error) !important;
 }
 
+.primary_a22cb0:hover,
 .primary__6af3a:hover,
 .custom-profile-theme .themeColor_fb7f94.primary_fb7f94:hover,
 .lookFilled__201d5.colorBrand__201d5:hover,
@@ -6838,6 +6839,7 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     background-color: var(--bg-ui);
     border-radius: 5px;
     border-color: transparent;
+    padding-bottom: 0px;
 }
 
 .visual-refresh .optionButtonWrapper__270d7,
@@ -7160,4 +7162,8 @@ html.density-compact.visual-refresh .total__260e1 {
 
 .attachWrapper__0923 {
     padding: 0px;
+}
+
+.buttonChildrenWrapper_a22cb0 {
+    border-radius: var(--Rounding);
 }
