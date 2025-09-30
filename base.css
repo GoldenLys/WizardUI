@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-98"; /* 0-00 */
+    --version: "2025-99"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -6568,6 +6568,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 .attachWrapper__0923f {
     flex: 1 1;
     height: 35px;
+    padding: 0px;
 }
 
 .attachWrapper__0923f>.attachButton__74017,
@@ -6863,7 +6864,7 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
 }
 
 .shop__6db1d .discordLogo__80679+.titleWrapper__9293f>h1:before {
-    content: "Scam Shop";
+    content: "N2O ScamShop";
     font-size: 16px;
     line-height: 1.25;
 }
@@ -6874,7 +6875,7 @@ a.link__972a0[href="/shop"] .name__20a53 {
 }
 
 a.link__972a0[href="/shop"] .name__20a53:before {
-    content: "Scam Shop";
+    content: "N2O ScamShop";
     font-size: 16px;
     line-height: 20px;
 }
@@ -7166,4 +7167,15 @@ html.density-compact.visual-refresh .total__260e1 {
 
 .buttonChildrenWrapper_a22cb0 {
     border-radius: var(--Rounding);
+}
+
+#discord-nitro-tab button.shinyButton__6a443 .buttonText_e00877 {
+    font-size: 0px;
+    line-height: 0px;
+}
+
+#discord-nitro-tab button.shinyButton__6a443 .buttonText_e00877:before {
+    content: "Subscribe to N2O Scam";
+    font-size: 16px;
+    line-height: 20px;
 }
