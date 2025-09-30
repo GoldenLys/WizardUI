@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-99"; /* 0-00 */
+    --version: "2025-100"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -6858,28 +6858,6 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     border-color: transparent;
 }
 
-.shop__6db1d .discordLogo__80679+.titleWrapper__9293f>h1 {
-    font-size: 0px;
-    line-height: 0px;
-}
-
-.shop__6db1d .discordLogo__80679+.titleWrapper__9293f>h1:before {
-    content: "N2O ScamShop";
-    font-size: 16px;
-    line-height: 1.25;
-}
-
-a.link__972a0[href="/shop"] .name__20a53 {
-    font-size: 0px;
-    line-height: 0px;
-}
-
-a.link__972a0[href="/shop"] .name__20a53:before {
-    content: "N2O ScamShop";
-    font-size: 16px;
-    line-height: 20px;
-}
-
 .bd-addon-store {
     display: flex;
     gap: 20px clamp(8px, 2vw, 20px);
@@ -7169,13 +7147,160 @@ html.density-compact.visual-refresh .total__260e1 {
     border-radius: var(--Rounding);
 }
 
+.applicationStore_f07d62 button.button_a22cb0.fullWidth_a22cb0 span,
+.applicationStore_f07d62 .wrapper_d38e00>.buttonContainer_d38e00>button.button_a22cb0 span,
+.applicationStore_f07d62 button.button_a22cb0.overlay-secondary_a22cb0 span,
+.applicationStore_f07d62 button.button_a22cb0.expressive_a22cb0 span,
+#discord-nitro-tab button.giftButton__82222 .buttonText__82222,
 #discord-nitro-tab button.shinyButton__6a443 .buttonText_e00877 {
     font-size: 0px;
     line-height: 0px;
 }
 
+.shop__6db1d .discordLogo__80679+.titleWrapper__9293f>h1 {
+    font-size: 0px;
+    line-height: 0px;
+}
+
+.shop__6db1d .discordLogo__80679+.titleWrapper__9293f>h1:before {
+    content: "Scamium Shop";
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+a.link__972a0[href="/shop"] .name__20a53 {
+    font-size: 0px;
+    line-height: 0px;
+}
+
+a.link__972a0[href="/shop"] .name__20a53:before {
+    content: "Scamium Shop";
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.applicationStore_f07d62 button.button_a22cb0.fullWidth_a22cb0 span:before,
+.applicationStore_f07d62 button.button_a22cb0.expressive_a22cb0 span:before,
 #discord-nitro-tab button.shinyButton__6a443 .buttonText_e00877:before {
-    content: "Subscribe to N2O Scam";
+    content: "Get Scammed";
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.applicationStore_f07d62 .wrapper_d38e00>.buttonContainer_d38e00>button.button_a22cb0 span:before,
+.applicationStore_f07d62 button.button_a22cb0.overlay-secondary_a22cb0 span:before,
+#discord-nitro-tab button.giftButton__82222 .buttonText__82222:before {
+    content: "Gift Scamium";
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.tags__63ed3>.container__8061a>div .badge__8061a {
+    width: 30px;
+    height: 30px;
+}
+
+.tags__63ed3>.container__8061a>div:first-child>a[href="https://discord.com/settings/premium"]>.badge__8061a {
+    visibility: hidden;
+}
+
+.tags__63ed3>.container__8061a>div:first-child>a[href="https://discord.com/settings/premium"] { 
+    position: relative;
+}
+
+.tags__63ed3>.container__8061a>div:first-child>a[href="https://discord.com/settings/premium"]:after {
+    position: absolute;
+    content: '';
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: center / cover no-repeat url(https://goldenlys.github.io/WizardUI/images/bag.png);
+    width: 30px;
+    height: 30px;
+}
+
+#discord-nitro-tab .settingsTextContainer__81281>h2 {
+    font-size: 0px;
+    line-height: 0px;
+}
+
+.applicationStore_f07d62 .header__3849c {
+    font-size: 0px;
+    line-height: 0px;
+}
+
+.applicationStore_f07d62 .header__3849c:before {
+    content: "Unlock the ultimate disappointment with Scamium";
+    font-size: 58px;
+    line-height: 100%;
+}
+
+#discord-nitro-tab .settingsTextContainer__81281>h2:before {
+    content: "Unlock the ultimate disappointment with Scamium";
+    font-size: 34px;
+    line-height: 36px;
+}
+
+#discord-nitro-tab .premiumCards_ac86f6 .card_ac86f6 .price__784e4 {
+    position: relative;
+}
+
+#discord-nitro-tab .premiumCards_ac86f6 .card_ac86f6 .title_ac86f6.tier0Title_ac86f6 path,
+#discord-nitro-tab .premiumCards_ac86f6 .card_ac86f6 .title_ac86f6.tier2Title_ac86f6 path {
+    display: none;
+}
+
+#discord-nitro-tab .premiumCards_ac86f6 .card_ac86f6 .title_ac86f6.tier0Title_ac86f6+h2:before {
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: bold;
+    content: "Scamium Poor";
+}
+
+#discord-nitro-tab .premiumCards_ac86f6 .card_ac86f6 .title_ac86f6.tier2Title_ac86f6+h2:before {
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: bold;
+    content: "Scamium +";
+}
+
+#discord-nitro-tab .premiumCards_ac86f6>.card_ac86f6>.wumpusImageContainer_ac86f6 .wumpusImage_ac86f6 {
+    visibility: hidden;
+}
+
+#discord-nitro-tab .premiumCards_ac86f6>.card_ac86f6>.wumpusImageContainer_ac86f6:after {
+    position: absolute;
+    content: '';
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: center / cover no-repeat url(https://goldenlys.github.io/WizardUI/images/bag.png);
+}
+
+.settingsTextContainer__81281 {
+    max-width: 1052px;
+    width: 100%;
+}
+
+#discord-nitro-tab .promoBannerContainer__94da4 span{
+    font-size: 0px;
+    line-height: 0px;
+}
+
+#discord-nitro-tab .promoBannerContainer__94da4 span:before {
+    content: "DO NOT REDEEM";
     font-size: 16px;
     line-height: 20px;
 }
