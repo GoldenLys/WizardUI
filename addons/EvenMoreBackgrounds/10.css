@@ -1,0 +1,47 @@
+@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreBackgrounds/EMB.css");
+
+@keyframes EMB_BG {
+	0% {
+        background-image: var(--background);
+    }
+
+    11% {
+       background-image: var(--EMB_1);
+    }
+
+    22% {
+       background-image: var(--EMB_2);
+    }
+
+    33% {
+       background-image: var(--EMB_3);
+    }
+
+    44% {
+       background-image: var(--EMB_4);
+    }
+
+    55% {
+       background-image: var(--EMB_5);
+    }
+
+    66% {
+       background-image: var(--EMB_6);
+    }
+
+    77% {
+       background-image: var(--EMB_7);
+    }
+
+    88% {
+       background-image: var(--EMB_8);
+    }
+
+    99% {
+       background-image: var(--EMB_9);
+    }
+
+    to {
+        background-image: var(--background);
+    }
+}

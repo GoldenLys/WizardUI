@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-100"; /* 0-00 */
+    --version: "2025-101"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -85,6 +85,17 @@
     --Show_Apps_Button: flex;
     --server-row-gap: 10px;
     --server-column-gap: 10px;
+    /* EMB ADDON VARIABLES */
+    --BackgroundTime: 60s;
+    --EMB_1: var(--background);
+    --EMB_2: var(--background);
+    --EMB_3: var(--background);
+    --EMB_4: var(--background);
+    --EMB_5: var(--background);
+    --EMB_6: var(--background);
+    --EMB_7: var(--background);
+    --EMB_8: var(--background);
+    --EMB_9: var(--background);
 }
 
 .visual-refresh.theme-midnight,

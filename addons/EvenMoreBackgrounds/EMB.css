@@ -1,0 +1,6 @@
+#app-mount .container_a2f514,
+#app-mount.appMount__51fd7 {
+    background: center / cover no-repeat var(--background);
+    animation: EMB_BG var(--BackgroundTime) linear infinite !important;
+	-webkit-animation: EMB_BG var(--BackgroundTime) linear infinite !important;
+}
