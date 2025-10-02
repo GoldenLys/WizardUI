@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-101"; /* 0-00 */
+    --version: "2025-102"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -2987,9 +2987,6 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 }
 
 #app-mount .group-spacing-16 .divider__5126c.hasContent__5126c {
-    margin-top: 0;
-    margin-bottom: 0;
-    height: 32px;
     display: flex;
     flex-direction: column;
     border-top: none;
@@ -4868,6 +4865,7 @@ div[class^=folderIconWrapper],
     transform: none !important;
 }
 
+.container__60fa3,
 .theme-dark .bd-addon-store-card,
 .lookFilled-1GseHa.select-1Ia3hD,
 .itemCard__7e549.wrapper__00943,
@@ -7056,7 +7054,6 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     background-color: var(--bg-chat-elements) !important;
     top: 5px;
     border-radius: 5px;
-    margin: 5px;
 }
 
 .hoverButton__06ab4.selected__06ab4, .hoverButton__06ab4:hover, .keyboard-mode .hoverButton__06ab4:focus {
