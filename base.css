@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-102"; /* 0-00 */
+    --version: "2025-103"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -2961,7 +2961,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 #app-mount .group-spacing-16 .divider__5126c.hasContent__5126c>span.unreadPill__908e2 {
     display: flex;
     position: absolute;
-    top: 4px;
+    top: -12px;
     left: auto;
     right: auto;
     margin: 0 auto;
