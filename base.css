@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-105"; /* 0-00 */
+    --version: "2025-106"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -463,7 +463,6 @@ div[class^=folder_],
 .colorDefault-CDqZdO.focused-3qFvc8,
 .selected-3H3-RC,
 .wrapper__00943,
-.guilds_c48ade,
 .container_cc2dff,
 .reactors_cc2dff {
     background-color: var(--grey5) !important;
@@ -2484,8 +2483,6 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
     color: white;
     background-color: var(--darkgrey5);
 }
-
-/* HORIZONTAL SERVER LIST BY PURPLE WIZARD */
 
 .guilds_c48ade {
     background: transparent !important;
@@ -7301,4 +7298,9 @@ a.link__972a0[href="/shop"] .name__20a53:before {
     content: "DO NOT REDEEM";
     font-size: 16px;
     line-height: 20px;
+}
+
+.wrapper_ef3116 {
+    -webkit-mask: none;
+    mask: none;
 }
