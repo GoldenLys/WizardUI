@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-106"; /* 0-00 */
+    --version: "2025-107"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -219,6 +219,7 @@
     --brand-530: var(--Primary);
     --control-text-critical-secondary-default: var(--ui-error);
     --text-feedback-positive: var(--ui-success);
+    --custom-nameplate-neutral: var(--darkgrey5);
 }
 
 #app-mount.appMount__51fd7 {
@@ -1425,24 +1426,26 @@ div[class^="role_"],
     color: var(--ui-error);
 }
 
-.panels_c48ade .container__37e49 .button__67645>.contents__201d5>svg {
-    display: none;
-}
-
-/* DEAFEN BUTTON */
-.panels_c48ade .container__37e49 .button__67645:nth-last-of-type(2)>.contents__201d5::after {
-    content: "\f58f";
-}
-
-/* OPTIONS BUTTON */
-.panels_c48ade .container__37e49 .button__67645:nth-last-of-type(1)>.contents__201d5::after {
-    content: "\f085";
+/* HIDE USER AREA BUTTONS */
+.buttons__37e49 .micButtonParent__37e49 .micButtonWithMenu__37e49 .lottieIcon__5eb9b,
+.buttons__37e49>.button__67645[aria-label] .lottieIcon__5eb9b {
+    display: none !important;
 }
 
 /* MUTE BUTTON */
-.panels_c48ade .container__37e49 .micButtonParent__37e49>.button__67645>.contents__201d5::after {
+.buttons__37e49 .micButtonParent__37e49:nth-last-of-type(2) .micButtonWithMenu__37e49 .contents__201d5::after {
     content: "\f3c9";
 }
+
+/* DEAFEN BUTTON */
+.buttons__37e49 .micButtonParent__37e49:nth-last-of-type(1) .micButtonWithMenu__37e49 .contents__201d5::after {
+    content: "\f58f";
+}
+
+.buttons__37e49>.button__67645[aria-label] .contents__201d5::after {
+    content: "\f085";
+}
+
 
 .container__37e49 .avatar__37e49,
 .container__37e49 .avatar__37e49 foreignObject,
@@ -3129,11 +3132,6 @@ path[fill="#7289da"] {
     padding: 0 5px 0 5px !important;
     margin: 0;
     gap: 0px;
-}
-
-.panels_c48ade>.container__37e49 .lottieIcon__5eb9b:not(.buttonIcon_e131a9),
-.panels_c48ade>.container__37e49 .lottieIcon__5eb9b:not(.buttonIcon_e131a9) svg {
-    display: none!important;
 }
 
 .panels_c48ade>.container__37e49>div.flex__7c0ba { 
