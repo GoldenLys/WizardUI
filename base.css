@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-108"; /* 0-00 */
+    --version: "2025-109"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -1412,19 +1412,13 @@ div[class^="role_"],
     left: 0px;
 }
 
-/* GAME ACTIVITY PLUGIN BUTTON */
-
-.panels_c48ade .buttons__37e49>.gameActivityToggleButton_fd3fb5 .contents__201d5::after {
-    content: "\f11b" !important;
-    color: var(--Text);
-    font-weight: 900;
-}
-
+.panels_c48ade .buttons__37e49>.button__201d5[aria-label*="Game Activity"].redGlow__67645>.contents__201d5::after,
 .panels_c48ade .buttons__37e49>.gameActivityToggleButton_fd3fb5>.button__67645.redGlow__67645>.contents__201d5::after {
     color: var(--ui-error);
 }
 
 /* HIDE USER AREA BUTTONS */
+.panels_c48ade .buttons__37e49>.button__201d5[aria-label*="Game Activity"] svg,
 .panels_c48ade .buttons__37e49>.gameActivityToggleButton_fd3fb5 .lottieIcon__5eb9b,
 .buttons__37e49 .micButtonParent__37e49 .micButtonWithMenu__37e49 .lottieIcon__5eb9b,
 .buttons__37e49>.button__67645[aria-label] .lottieIcon__5eb9b {
@@ -1449,6 +1443,15 @@ div[class^="role_"],
     content: "\f085";
 }
 
+/* GAME ACTIVITY PLUGIN (VENCORD) */
+.panels_c48ade .buttons__37e49>.button__201d5[aria-label*="Game Activity"]>.contents__201d5::after,
+
+/* GAME ACTIVITY PLUGIN (BD) */
+.panels_c48ade .buttons__37e49>.gameActivityToggleButton_fd3fb5 .contents__201d5::after {
+    content: "\f11b" !important;
+    color: var(--Text);
+    font-weight: 900;
+}
 
 .container__37e49 .avatar__37e49,
 .container__37e49 .avatar__37e49 foreignObject,
