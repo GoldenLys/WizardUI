@@ -66,9 +66,9 @@ div[class^=circleIconButton_], .guilds_c48ade .scroller_ef3116>div:not([class]):
 .name-IbjUBS,
 .inviteDestinationJoined_d5f3cd,
 .optionHeader-27AHfD,
-.sidebar_c48ade .containerDefault_c69b6d.selected_c69b6d .iconContainer__2ea32:before,
-.sidebar_c48ade .containerDefault_c69b6d.selected_c69b6d>svg,
-.sidebar_c48ade .containerDefault_c69b6d.selected_c69b6d .channelName-3KPsGw,
+.sidebar__5e434 .containerDefault_c69b6d.selected_c69b6d .iconContainer__2ea32:before,
+.sidebar__5e434 .containerDefault_c69b6d.selected_c69b6d>svg,
+.sidebar__5e434 .containerDefault_c69b6d.selected_c69b6d .channelName-3KPsGw,
 .name_f37cb1,
 .name__29444,
 .name__29444,
@@ -76,7 +76,7 @@ div[class^=circleIconButton_], .guilds_c48ade .scroller_ef3116>div:not([class]):
 .headerText__99e7c,
 .nameTag__37e49>div:first-child>div,
 .guildNameText_b1f768,
-.sidebar_c48ade .content__99f8c>div[style^="height"]:not([aria-hidden]):after,
+.sidebar__5e434 .content__99f8c>div[style^="height"]:not([aria-hidden]):after,
 .iconWrapper__9293f.clickable__9293f .icon__9293f,
 .searchBar__97492 .icon__97492:not(.clear_fea832):after,
 .winButton__421ed,
@@ -110,10 +110,10 @@ div[class^=circleIconButton_], .guilds_c48ade .scroller_ef3116>div:not([class]):
 	-webkit-animation: RGB_TEXT var(--ColorTime) linear infinite !important;
 }
 
-.sidebar_c48ade .containerDefault_c69b6d.selected_c69b6d .iconContainer__2ea32:before, 
-.sidebar_c48ade .containerDefault_c69b6d.selected_c69b6d>svg,
-.sidebar_c48ade .containerDefault_c69b6d.selected_c69b6d .channelName-3KPsGw,
-.sidebar_c48ade .content__99f8c>div[style^="height"]:not([aria-hidden]) {
+.sidebar__5e434 .containerDefault_c69b6d.selected_c69b6d .iconContainer__2ea32:before, 
+.sidebar__5e434 .containerDefault_c69b6d.selected_c69b6d>svg,
+.sidebar__5e434 .containerDefault_c69b6d.selected_c69b6d .channelName-3KPsGw,
+.sidebar__5e434 .content__99f8c>div[style^="height"]:not([aria-hidden]) {
 	animation: RGB_TEXT var(--ColorTime) linear infinite !important;
 	-webkit-animation: RGB_TEXT var(--ColorTime) linear infinite !important;
 }
