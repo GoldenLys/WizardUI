@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-113"; /* 0-00 */
+    --version: "2025-114"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -411,12 +411,12 @@ div[class^=folder_],
 .lookFilled-1GseHa.select-1Ia3hD,
 .itemCard__7e549.wrapper__00943,
 .wrapper_d5f3cd,
-.section__00943,
 .embedFull__623de,
 .markup__75297 code {
     background-color: var(--bg-chat-elements) !important;
 }
 
+.section__00943,
 .profile__9c3be,
 :where(.overlay_c0bea0),
 .messageGroupWrapper_e8b59c,
@@ -4910,6 +4910,7 @@ div[class^=folderIconWrapper],
 
 .section__00943 {
     border-radius: var(--Rounding);
+    border: none;
 }
 
 .replyBar__841c8 {
