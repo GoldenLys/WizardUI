@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-114"; /* 0-00 */
+    --version: "2025-115"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -215,7 +215,7 @@
     --background-surface-high: var(--darkgrey);
     --background-surface-highest: var(--darkgrey);
     --channels-default: var(--Text);
-    --user-profile-overlay-background: var(--darkgrey);
+    --user-profile-overlay-background: var(--bg-ui-elements);
     --brand-530: var(--Primary);
     --control-text-critical-secondary-default: var(--ui-error);
     --text-feedback-positive: var(--ui-success);
@@ -279,6 +279,7 @@ textarea {
     padding-top: 0;
 }
 
+.footerContent__083ae,
 .channelHeader__35a7e,
 .privateChannels_e6b769,
 .visual-refresh .chatContent_f75fb0,
@@ -405,6 +406,7 @@ div[class^=folder_],
     background-color: var(--bg-ui) !important;
 }
 
+.guildInviteContainer__083ae,
 .visual-refresh .optionButtonWrapper__270d7.selected__270d7,
 .container__60fa3,
 .theme-dark .bd-addon-store-card,
@@ -416,6 +418,8 @@ div[class^=folder_],
     background-color: var(--bg-chat-elements) !important;
 }
 
+.outer_ab8609,
+.visual-refresh .popout__76f04,
 .section__00943,
 .profile__9c3be,
 :where(.overlay_c0bea0),
@@ -6439,8 +6443,9 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 .viewFullBio_f5f93a {
     background-color: var(--Primary);
     color: var(--Text);
+    text-align: center;
     width: auto;
-    margin: -24px auto 5px;
+    margin: 0px auto 5px;
     border-radius: 5px;
     padding: 0px 5px;
     height: 24px;
@@ -6454,6 +6459,12 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 .viewFullBio_f5f93a:hover {
     background-color: white;
+    color: var(--Primary);
+    text-decoration: none;
+}
+
+.viewFullBio_f5f93a:hover span {
+    text-align: center;
     color: var(--Primary);
     text-decoration: none;
 }
@@ -7087,13 +7098,6 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     box-shadow: none;  
 }
 
-:where(.visual-refresh) .tooltipPrimary_c36707,
-.visual-refresh .popout__76f04 {
-    border-radius: var(--Rounding);
-    background-color: var(--darkgrey);
-    border: none;
-}
-
 :where(.visual-refresh) .tooltipPrimary_c36707 .tooltipPointer_c36707 {
     border-top-color: var(--darkgrey);
 }
@@ -7367,9 +7371,30 @@ a.link__972a0[href="/shop"] .name__20a53:before {
     padding-inline-end: 0px;
 }
 
+:where(.visual-refresh) .tooltipPrimary_c36707,
+.visual-refresh .popout__76f04 {
+    border-radius: var(--Rounding);
+    border: none;
+}
+
+.visual-refresh .popout__76f04,
 .channelHeader__35a7e,
 .container_fc561d,
 .messagesPopoutWrap_e8b59c,
 .scroller_c1e9c4 {
     backdrop-filter: blur(2px);
+}
+
+.active_a22cb0 {
+    background-color: var(--Primary) !important;
+    color: var(--Text) !important;
+}
+
+.active_a22cb0:hover {
+    background-color: var(--Text) !important;
+    color: var(--Primary) !important;
+}
+
+.guildInviteContainer__083ae {
+    border: none;
 }
