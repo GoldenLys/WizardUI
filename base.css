@@ -4132,9 +4132,6 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item__58105,
     color: var(--Text);
     margin: 0;
     padding: 0 0.2rem;
-    display: flex;
-    text-align: center;
-    align-items: center;
 }
 
 .iconBackgroundTierNone__97677 svg,
