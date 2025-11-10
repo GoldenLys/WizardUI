@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-111"; /* 0-00 */
+    --version: "2025-112"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -378,6 +378,7 @@ div[class^=folder_],
     border-radius: var(--Rounding);
 }
 
+.messagesPopoutWrap_e8b59c,
 .containerBackground_f48ee4,
 .visual-refresh .searchResultsWrap_a9e706,
 .content__37e49,
@@ -458,6 +459,7 @@ div[class^=folder_],
     border-radius: 5px;
 }
 
+.header_e8b59c,
 .notice_c5cd6a,
 .applicationStreamingPreviewWrapper__00943,
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_),
@@ -3584,7 +3586,7 @@ a {
     border-radius: 5px;
 }
 
-.messageGroupWrapper__45690 {
+.messageGroupWrapper_e8b59c {
     background: var(--grey5);
     border: none;
     border-radius: 5px;
