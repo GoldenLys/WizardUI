@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-116"; /* 0-00 */
+    --version: "2025-117"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -7400,6 +7400,7 @@ a.link__972a0[href="/shop"] .name__20a53:before {
     border: none;
 }
 
+.newBadge__9a337,
 .newBadge__0b563 {
     color: var(--Primary);
 }
