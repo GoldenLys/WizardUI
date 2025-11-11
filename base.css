@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-115"; /* 0-00 */
+    --version: "2025-116"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -414,7 +414,7 @@ div[class^=folder_],
 .itemCard__7e549.wrapper__00943,
 .wrapper_d5f3cd,
 .embedFull__623de,
-.markup__75297 code {
+.embed__623de code {
     background-color: var(--bg-chat-elements) !important;
 }
 
@@ -6258,7 +6258,8 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     background-color: var(--bg-alt-message);
 }
 
-.name__5d473 {
+.username__5d473,
+.username_c19a55 {
     text-shadow: var(--text-shadow) 0px 0px 2.5px;
 }
 
@@ -7397,4 +7398,8 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 
 .guildInviteContainer__083ae {
     border: none;
+}
+
+.newBadge__0b563 {
+    color: var(--Primary);
 }
