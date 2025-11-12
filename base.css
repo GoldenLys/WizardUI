@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-117"; /* 0-00 */
+    --version: "2025-118"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -50,6 +50,7 @@
     --darkgrey: rgb(10, 10, 20);
     --darkgrey5: rgba(10, 10, 20, .75);
     --ui-success: rgb(69, 208, 34);
+    --ui-info: rgb(34, 80, 208);
     --ui-warning: rgb(238, 165, 30);
     --ui-error: rgb(208, 34, 34);
     /* SERVER SETTINGS */
@@ -182,7 +183,7 @@
     --text-brand: var(--Primary);
     --brand-experiment-80a: var(--Primary);
     --mention-foreground: var(--Text);
-    --mention-background: var(--grey5);
+    --mention-background: var(--bg-chat-elements);
     --home-background: transparent;
     --red-400: var(--ui-error);
     --yellow-360: var(--ui-warning);
@@ -225,6 +226,10 @@
     --redesign-button-overlay-alpha-background: var(--bg-ui-elements);
     --button-secondary-background: var(--darkgrey5);
     --button-secondary-text: var(--Text);
+    --notice-text-positive: var(--ui-success);
+    --notice-text-critical: var(--ui-error);
+    --notice-text-info: var(--ui-info);
+    --notice-text-warning: var(--ui-warning);
 }
 
 #app-mount.appMount__51fd7 {
@@ -279,6 +284,8 @@ textarea {
     padding-top: 0;
 }
 
+.container_d9c882, 
+.header_d9c882,
 .footerContent__083ae,
 .channelHeader__35a7e,
 .privateChannels_e6b769,
@@ -385,6 +392,9 @@ div[class^=folder_],
     border-radius: var(--Rounding);
 }
 
+.container__4e30a,
+.newPostsButton_f369db,
+.container__5808f,
 .menu_c1e9c4,
 .container_fc561d,
 .messagesPopoutWrap_e8b59c,
@@ -406,6 +416,8 @@ div[class^=folder_],
     background-color: var(--bg-ui) !important;
 }
 
+.container__8a031,
+.visual-refresh .popout__76f04,
 .guildInviteContainer__083ae,
 .visual-refresh .optionButtonWrapper__270d7.selected__270d7,
 .container__60fa3,
@@ -414,12 +426,14 @@ div[class^=folder_],
 .itemCard__7e549.wrapper__00943,
 .wrapper_d5f3cd,
 .embedFull__623de,
-.embed__623de code {
+.embed__623de code,
+.chat_f02135 .container__34c2c {
     background-color: var(--bg-chat-elements) !important;
 }
 
+.wrapper__4e6ce,
+.container__6764b,
 .outer_ab8609,
-.visual-refresh .popout__76f04,
 .section__00943,
 .profile__9c3be,
 :where(.overlay_c0bea0),
@@ -506,7 +520,6 @@ div[class^=folder_],
 }
 
 .contentWrapper__9c62c,
-.container__34c2c,
 .directoryModal-YJsOMv,
 .keyboardShortcutsModal_f061f6,
 .autocomplete__13533,
@@ -2767,7 +2780,6 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 
 .wrapper__29444.clickable__29444:not([class*=collapsed]) .name__29444:before {
     content: "\f06e";
-    color: var(--ui-success);
 }
 
 .list_c3cd7d {
@@ -2819,6 +2831,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
     content: "\f6e8 ";
     color: var(--Primary);
     text-shadow: 0 0 5px;
+    margin-right: 5px;
 }
 
 .container__00de6>.header__00de6.header__7e6bb {
@@ -6023,10 +6036,11 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 }
 
 .bar__7aaec {
-    background-color: var(--grey);
+    background-color: var(--bg-ui);
     padding: 2px 5px;
     border-radius: var(--Rounding);
     margin-bottom: 4px;
+    border: none;
 }
 
 .heroDescription-2QJJDj>* {
@@ -6882,6 +6896,7 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     padding-bottom: 0px;
 }
 
+.pill_a2c9e8,
 .visual-refresh .optionButtonWrapper__270d7,
 .visual-refresh .button__201d5,
 .bannerButton_de8008 {
@@ -6896,6 +6911,8 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     background-color: var(--darkgrey5) !important;
     border-radius: var(--Rounding);
     border-color: transparent;
+    line-height: 16px;
+    font-size: 11px;
 }
 
 .bd-addon-store {
@@ -7403,4 +7420,47 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 .newBadge__9a337,
 .newBadge__0b563 {
     color: var(--Primary);
+}
+
+.container__6764b,
+.container__8a031 {
+    border: none;
+    border-radius: 5px;
+}
+
+#app-mount .textContentFooter__9a337 {
+    background: none;
+}
+
+#app-mount .tags__08166>.pill_a2c9e8.tagPill__9a337 {
+    background-color: var(--bg-ui-elements);
+    box-shadow: none;
+    backdrop-filter: blur(2px);
+}
+
+.container__4e30a,
+.newPostsButton_f369db,
+.container__5808f {
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    backdrop-filter: blur(2px);
+}
+
+.wrapper_c0e32c, 
+.wrapper_c0e32c.isBurstReactionPicker_c0e32c {
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    backdrop-filter: blur(2px);
+}
+
+.wrapper__72c38 {
+    background-color: var(--bg-ui-elements);
+    border: none;
+    border-radius: var(--Rounding);
+}
+
+.categoryList_c0e32c {
+    border-radius: 5px;
 }
