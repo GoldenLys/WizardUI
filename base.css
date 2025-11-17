@@ -111,6 +111,7 @@
 .visual-refresh.theme-light,
 .visual-refresh .theme-light {
     --font-primary: var(--font) !important;
+    --font-code: "Source Code Pro", "emoji", monospace !important;
     --font-display: var(--font) !important;
     --font-headline: var(--font) !important;
     --blurple-50: var(--Primary);
