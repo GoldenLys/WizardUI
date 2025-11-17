@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-121"; /* 0-00 */
+    --version: "2025-122"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -1781,7 +1781,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
 
 .visual-refresh .folderButton__48112:before {
     position: relative;
-    font-family: "Font Awesome 7 Free";
+    font-family: "Font Awesome 7 Free", "emoji";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     display: flex;
@@ -1801,7 +1801,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
 
 .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderPreviewWrapper__48112:before {
     content: "\f07b";
-    font-family: "Font Awesome 7 Free";
+    font-family: "Font Awesome 7 Free", "emoji";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     display: block;
