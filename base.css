@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-122"; /* 0-00 */
+    --version: "2025-123"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -7471,4 +7471,32 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 
 .categoryList_c0e32c {
     border-radius: 5px;
+}
+
+#app-mount .members__1ee8c .role__1ee8c.button_afdfcc,
+#app-mount .members__1ee8c .role_b4b2c3 {
+    min-width: auto !important;
+    background-color: transparent !important;
+    flex-direction: row;
+}
+
+#app-mount .members__1ee8c .role_b4b2c3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--custom-role-label-color);
+    opacity: 0.2;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+#app-mount .members__1ee8c .role_b4b2c3 .roleColor_b4b2c3 {
+    height: 12px;
+    width: 12px;
+    border: none;
+    border-radius: 50%;
+    margin: 0 5px;
 }
