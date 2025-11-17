@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-119"; /* 0-00 */
+    --version: "2025-120"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -86,6 +86,7 @@
     --Show_Sticker_Button: none;
     --Show_Apps_Button: flex;
     --Show_Now_Playing_Tab: block;
+    --Show_Category_Visibility_Icon: block;
     --server-row-gap: 10px;
     --server-column-gap: 10px;
     /* EMB ADDON VARIABLES */
@@ -285,7 +286,7 @@ textarea {
     padding-top: 0;
 }
 
-.container_d9c882, 
+.container_d9c882:not(.browser_d98031), 
 .header_d9c882,
 .footerContent__083ae,
 .channelHeader__35a7e,
@@ -393,6 +394,7 @@ div[class^=folder_],
     border-radius: var(--Rounding);
 }
 
+.browser_d98031.container_d9c882,
 .container__4e30a,
 .newPostsButton_f369db,
 .container__5808f,
@@ -1444,7 +1446,7 @@ div[class^="role_"],
 }
 
 .panels__5e434 .container__37e49 button>.contents__201d5::after {
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     display: block;
@@ -1603,7 +1605,7 @@ div[class^="role_"],
     right: 0;
     left: 0;
     display: flex;
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
@@ -1778,7 +1780,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
 
 .visual-refresh .folderButton__48112:before {
     position: relative;
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     display: flex;
@@ -1798,7 +1800,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
 
 .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderPreviewWrapper__48112:before {
     content: "\f07b";
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     display: block;
@@ -1832,7 +1834,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
 .info__2debe:before {
     display: inline-block;
     color: var(--Text);
-    font-family: 'Font Awesome 6 Free';
+    font-family: 'Font Awesome 7 Free';
     content: "\f6e8";
     font-size: 10px;
     font-weight: 600;
@@ -1939,7 +1941,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
 #bd-settings-sidebar>span>div>.ui-tab-bar-item:before,
 #bd-settings-sidebar>span>div .bd-changelog-button:before,
 #bd-settings-sidebar+div+.item_aa8da2:before {
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     color: var(--Text);
@@ -2770,19 +2772,21 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
     place-items: center;
 }
 
-.wrapper__29444.clickable__29444 .name__29444:before {
-    font-family: "Font Awesome 6 Free";
-    content: "\f070";
+.wrapper__29444.clickable__29444 .name__29444:after {
+    display: var(--Show_Category_Visibility_Icon);
+    font-family: "Font Awesome 7 Free";
+    content: "\f105";
     color: var(--ui-error);
-    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .wrapper__29444.clickable__29444>.mainContent__29444>svg>path {
     display: none;
 }
 
-.wrapper__29444.clickable__29444:not([class*=collapsed]) .name__29444:before {
-    content: "\f06e";
+/* Hidden Categories Icon */
+.wrapper__29444.clickable__29444:not([class*=collapsed]) .name__29444:after {
+    content: "\f107";
 }
 
 .list_c3cd7d {
@@ -2827,7 +2831,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 .container__00de6>.header__00de6.header__7e6bb:before,
 .container__00de6>.description__00de6:before,
 .container_aae012>.inner_aae012>div:before {
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     font-weight: 900;
     line-height: 14px;
     font-size: 18px;
@@ -2922,7 +2926,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 
 /* CHANNELS ICONS */
 .sidebar__5e434 .containerDefault_c69b6d .iconContainer__2ea32:before {
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
     line-height: 20px;
@@ -2931,7 +2935,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 
 /* EVENTS CHANNEL */
 .sidebar__5e434 .containerDefault_c69b6d .link__2ea32[data-list-item-id^="channels___upcoming-events"] .name__2ea32:before {
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
@@ -2942,7 +2946,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 
 /* SERVER GUIDE */
 .sidebar__5e434 .containerDefault_c69b6d .link__2ea32[data-list-item-id^="channels___home-tab"] .name__2ea32:before {
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
@@ -2988,7 +2992,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 .sidebar__5e434 .typeThread__2ea32.wrapper__2ea32>.link__2ea32>.linkTop__2ea32>.name__2ea32:before {
     content: "\f4ad";
     margin-right: 5px;
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
     line-height: 20px;
@@ -4187,7 +4191,7 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item__58105,
 .guildBadge_e90879.partnered__09691::after,
 .guildBadge__85d16.partnered__09691::after,
 .rowIcon_b1f768.partnered__09691::after {
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     font-weight: 900;
     content: "\f4c6";
     color: var(--Text);
@@ -4197,7 +4201,7 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item__58105,
 
 .rowIcon_b1f768.verified__09691::after,
 .guildBadge__85d16.verified__09691::after {
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     font-weight: 900;
     content: "\f4c4";
     color: var(--Text);
@@ -4210,7 +4214,7 @@ div[class^=tutorialContainer]:hover div[class^=pill] .item__58105,
 .iconBackgroundTierTwo__97677::after,
 .iconBackgroundTierThree__97677::after {
     position: absolute;
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     font-weight: 900;
     content: "";
     color: var(--Text);
@@ -4285,7 +4289,7 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
 
 .bd-switch,
 .container-2nx-BQ {
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     font-weight: 900;
     color: var(--Text);
     font-size: 15px;
@@ -4476,7 +4480,7 @@ div[class^=folderIconWrapper],
 .avatarUploaderIndicator-2G-aIZ:after {
     content: "\f302";
     color: var(--Text);
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     display: block;
@@ -5318,7 +5322,7 @@ div[class^=folderIconWrapper],
     display: flex;
     place-content: center;
     align-items: center;
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     font-weight: 600;
     -webkit-font-smoothing: antialiased;
     content: "\f552";
@@ -5799,7 +5803,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 .voiceUser__07f91 .icons__07f91 div[aria-label="Muted"]:before {
     display: block;
     content: "\f3c9";
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     font-size: 14px;
@@ -5814,7 +5818,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 .voiceUser__07f91 .icons__07f91 div[aria-label="Deafened"]:before {
     display: block;
     content: "\f590";
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     font-size: 14px;
@@ -6057,7 +6061,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 .winButtonMinMax__421ed.winButton__421ed:after,
 .winButtonClose__421ed.winButton__421ed:after {
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     display: block;
@@ -6657,7 +6661,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     left: 0px;
     right: 0px;
     bottom: 0px;
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     font-weight: 900;
     content: "\f093";
     color: var(--Text);
@@ -6713,7 +6717,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 }
 
 .caret__9293f+span+.titleWrapper__9293f:before {
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
     font-weight: 900;
