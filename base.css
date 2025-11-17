@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-118"; /* 0-00 */
+    --version: "2025-119"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -85,6 +85,7 @@
     --Show_GIF_Button: none;
     --Show_Sticker_Button: none;
     --Show_Apps_Button: flex;
+    --Show_Now_Playing_Tab: block;
     --server-row-gap: 10px;
     --server-column-gap: 10px;
     /* EMB ADDON VARIABLES */
@@ -466,6 +467,7 @@ div[class^=folder_],
     border-radius: 5px;
 }
 
+.container__955a3,
 .container_a592e1,
 .visual-refresh .container__01ae2,
 .winButtonsWithDivider_c38106:before,
@@ -2691,6 +2693,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 }
 
 .nowPlayingColumn__133bf {
+    display: var(--Show_Now_Playing_Tab);
     border-radius: 0 5px 0 0;
     border-bottom: none;
     padding: 5px;
