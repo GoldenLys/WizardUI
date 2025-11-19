@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-123"; /* 0-00 */
+    --version: "2025-124"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -123,6 +123,7 @@
     --text-muted: var(--Text-muted);
     --chat-text-muted: var(--Text-muted);
     --text-positive: var(--ui-success);
+    --input-placeholder-text: var(--Text);
     --channeltextarea-background: var(--grey);
     --interactive-normal: var(--Text);
     --interactive-hover: var(--Text);
@@ -1827,13 +1828,13 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
     height: 48px;
 }
 
-.info__2debe>.colorMuted_c9946a,
-.info__2debe>span {
+.compactInfo__2debe>.colorMuted_c9946a {
     color: var(--Text) !important;
 }
 
-.info__2debe:before {
+.clickable__2debe.compact__2debe:before {
     display: inline-block;
+    text-align: center;
     color: var(--Text);
     font-family: 'Font Awesome 7 Free';
     content: "\f6e8";
@@ -1845,11 +1846,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
     border-radius: var(--Rounding);
 }
 
-.info__2debe>span:nth-child(1) {
-    display: inline;
-}
-
-.info__2debe>span:nth-child(1):before {
+.compactInfo__2debe:before {
     display: inline-block;
     content: var(--currentVersion);
     color: var(--Text);
@@ -1857,10 +1854,11 @@ div[class^=folderIconWrapper][style="background-color: rgba(88, 101, 242, 0.4);"
     vertical-align: bottom;
     font-weight: bold;
     text-transform: none;
-    min-width: 75%;
+    min-width: 100%;
+    visibility: visible !important;
 }
 
-.info__2debe>span:nth-child(1):after {
+.clickable__2debe.compact__2debe:after {
     display: block;
     content: "Customized by NEBULYS";
     font-size: 12px;
@@ -4273,6 +4271,21 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
 .bd-addon-views .bd-view-button.selected,
 .bd-button-filled.bd-button-color-brand {
     background-color: var(--Primary);
+    color: var(--Text);
+}
+
+.bd-button-filled.bd-button-color-brand:disabled {
+    background-color: var(--Primary);
+    opacity: 0.75;
+}
+
+.bd-button-filled.bd-button-color-brand:hover {
+    background-color: var(--Text);
+    color: var(--Primary);
+}
+
+.bd-button-filled.bd-button-color-brand:hover svg {
+    fill: var(--Primary);
 }
 
 .bd-button:hover,
@@ -4855,6 +4868,7 @@ div[class^=folderIconWrapper],
 }
 
 .visual-refresh .searchBar__5ec2f {
+    display: flex;
     background: var(--bg-ui);
     place-items: center;
     margin: 0px;
@@ -5471,11 +5485,6 @@ div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges
 
 .channelName-3KPsGw+.subtitle__2ea32 {
     color: var(--Primary) !important;
-}
-
-.info__2debe>*:nth-child(2),
-.info__2debe>*:nth-child(3) {
-    display: none
 }
 
 .bannerSVGWrapper_b32cc2>mask>circle {
@@ -7499,4 +7508,25 @@ a.link__972a0[href="/shop"] .name__20a53:before {
     border: none;
     border-radius: 50%;
     margin: 0 5px;
+}
+
+.visual-refresh .peopleColumn__133bf .searchBar__5ec2f {
+    background-color: transparent;
+}
+
+.visual-refresh .peopleColumn__133bf .container__0f084 {
+    background-color: var(--bg-ui);
+}
+
+.outerContainer_e44912 .container__8a031.modal_e44912 {
+    background: var(--bg-settings);
+}
+
+.fixedContent__409aa:after {
+    display: none;
+}
+
+.outerContainer_e44912 .container__8a031.modal_e44912 .modalContentInner_e44912 .content_e9e3ed,
+.outerContainer_e44912 .container__8a031.modal_e44912 .modalContentInner_e44912 .contentHeader_e9e3ed {
+    background-color: transparent;
 }
