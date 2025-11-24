@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-124"; /* 0-00 */
+    --version: "2025-125"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -7415,8 +7415,7 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 .visual-refresh .popout__76f04,
 .channelHeader__35a7e,
 .container_fc561d,
-.messagesPopoutWrap_e8b59c,
-.scroller_c1e9c4 {
+.messagesPopoutWrap_e8b59c {
     backdrop-filter: blur(2px);
 }
 
@@ -7529,4 +7528,15 @@ a.link__972a0[href="/shop"] .name__20a53:before {
 .outerContainer_e44912 .container__8a031.modal_e44912 .modalContentInner_e44912 .content_e9e3ed,
 .outerContainer_e44912 .container__8a031.modal_e44912 .modalContentInner_e44912 .contentHeader_e9e3ed {
     background-color: transparent;
+}
+
+.scroller_c1e9c4:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(2px);
+    z-index: -1;
 }
