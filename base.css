@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-126"; /* 0-00 */
+    --version: "2025-127"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -2590,9 +2590,18 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
     height: var(--ServerSize);
 }
 
+.guilds__5e434 svg[width="48"] svg[width="48"] {
+    width: 100%;
+    height: 100%;
+}
+
 .icon__6e9f8 {
     width: 100%;
     height: 100%;
+    aspect-ratio: auto;
+    border-radius: var(
+    --Rounding);
+    object-fit: contain;
 }
 
 .tutorialContainer__1f388 {
@@ -3430,6 +3439,11 @@ button[role*="switch"][aria-checked=false]:not(#GameActivityToggleBtn):after {
 
 .divider-2_Eu47 {
     position: relative;
+}
+
+.wrapper__6e9f8 {
+    width: 100%;
+    height: 100%;
 }
 
 .modal-2LBig1 .listRow__9d78f .listAvatar-1NlAhb,
@@ -4415,7 +4429,6 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
 .acronym_fb7739,
 .iconActiveMedium_f34534,
 .wrapper-1VLyxH,
-.icon__6e9f8,
 div[class^=folderIconWrapper],
 .wrapper__6e9f8,
 .wrapper__8436d,
@@ -7038,8 +7051,13 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     width: var(--ServerSize) !important;
 }
 
+.wrapper_cc5dd2 .wrapper_cc5dd2 {
+    height: 100% !important;
+    width: 100% !important;
+}
+
 .wrapper_cc5dd2>svg {
-    contain: initial;
+    contain: size;
 }
 
 #guild-list-unread-dms>div:not([class])[style*="height: 40px;"] {
