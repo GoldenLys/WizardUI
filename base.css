@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-125"; /* 0-00 */
+    --version: "2025-126"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -943,6 +943,8 @@ div.link__2ea32[class*="modeSelected_"]:before {
     border-color: var(--Text);
 }
 
+.linkButtonIcon__972a0,
+.link__972a0,
 .bd-sidebar-header h2,
 .placeholder__1b31f,
 .visual-refresh .reaction__23977 .reactionCount__23977,
@@ -2588,9 +2590,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
     height: var(--ServerSize);
 }
 
-.icon__6e9f8,
-.guilds__5e434 .wrapper__6e9f8,
-.bd-minimal .guilds__5e434 .wrapper__6e9f8 {
+.icon__6e9f8 {
     width: 100%;
     height: 100%;
 }
@@ -3432,7 +3432,6 @@ button[role*="switch"][aria-checked=false]:not(#GameActivityToggleBtn):after {
     position: relative;
 }
 
-.wrapper__6e9f8,
 .modal-2LBig1 .listRow__9d78f .listAvatar-1NlAhb,
 .connectedAccountIcon_e6abe8 {
     width: var(--ServerSize);
@@ -4418,7 +4417,6 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
 .wrapper-1VLyxH,
 .icon__6e9f8,
 div[class^=folderIconWrapper],
-.wrapper__6e9f8,
 .wrapper__6e9f8,
 .wrapper__8436d,
 .wrapperSimple_cc5dd2 {
