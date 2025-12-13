@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-127"; /* 0-00 */
+    --version: "2025-128"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -137,6 +137,7 @@
     --background-accent: var(--grey);
     --background-floating: var(--darkgrey);
     --background-modifier-hover: var(--Hover);
+    --interactive-background-hover: var(--Hover);
     --background-modifier-active: var(--darkgrey5);
     --background-modifier-selected: var(--grey5);
     --modal-background: var(--darkgrey);
@@ -288,6 +289,7 @@ textarea {
     padding-top: 0;
 }
 
+.button__24af7:not(.noHover__24af7):hover,
 .container_d9c882:not(.browser_d98031), 
 .header_d9c882,
 .footerContent__083ae,
@@ -396,6 +398,10 @@ div[class^=folder_],
     border-radius: var(--Rounding);
 }
 
+.contentWrapper__9c62c,
+.directoryModal-YJsOMv,
+.keyboardShortcutsModal_f061f6,
+.autocomplete__13533,
 .browser_d98031.container_d9c882,
 .container__4e30a,
 .newPostsButton_f369db,
@@ -525,10 +531,6 @@ div[class^=folder_],
     background-color: var(--grey5) !important;
 }
 
-.contentWrapper__9c62c,
-.directoryModal-YJsOMv,
-.keyboardShortcutsModal_f061f6,
-.autocomplete__13533,
 .root__5c9fc:not(.carouselModal-1eUFoq),
 .scroller_cc2dff {
     background-color: var(--darkgrey) !important;
@@ -766,6 +768,8 @@ div[class^=tutorialContainer]+.listItem__650eb .pill__5bc7e,
     overflow: hidden auto !important;
 }
 
+.clickable__91a9d.container__91a9d:hover, 
+.clickable__91a9d.container__91a9d:hover .muted__91a9d,
 .containerDefault__29444>div:hover,
 .containerDefault_c69b6d>div:hover,
 .link__2ea32:hover>.wrapper__2ea32 {
@@ -6642,14 +6646,16 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     align-self: flex-end;
     align-items: center;
     margin: 0;
-    height: 35px;
-    order: 2;
+    height: calc(10px + 44px);
 }
 
 .attachWrapper__0923f {
-    flex: 1 1;
-    height: 35px;
+    flex: 0 1;
     padding: 0px;
+}
+
+.attachWrapper__0923f>.attachButton__74017 {
+    order: 2;
 }
 
 .attachWrapper__0923f>.attachButton__74017,
@@ -6668,8 +6674,8 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 .buttonContainer_e6e74f>.button_e6e74f {
     margin: auto 0 0 0;
     background-color: transparent;
-    width: 30px;
-    height: 35px;
+    width: calc(30px);
+    height: calc(10px + 44px);
 }
 
 .attachButton__74017 .attachButtonInner__0923f>svg {
@@ -6714,15 +6720,15 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 .inner__74017 {
     display: flex;
     position: relative;
-    flex-wrap: wrap;
     flex-direction: row;
 }
 
 .textArea__74017 {
+    order: -1;
+    flex: 1 1;
     height: auto !important;
     max-height: calc(10px + 22px * var(--sendmessage-text-lines));
     overflow-y: auto;
-    order: 1;
 }
 
 .micTest__169b3 {
@@ -6779,7 +6785,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
 
 .container__19cf2,
 .container_cb32c7 {
-    background-color: var(--grey);
+    background-color: var(--bg-ui-elements);
 }
 
 .container__19cf2 {
