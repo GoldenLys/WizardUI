@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-131"; /* 0-00 */
+    --version: "2025-132"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -328,7 +328,7 @@ div[class$=folder],
 .scroller__244e5,
 .adb41f8099151bc8-header,
 ._4a84a2c88d373bef-scroller,
-._5e434347c823b592-guilds div[class$=tutorialContainer]>._650eb104245d257b-listItem>div[class$=listItemWrapper]>div svg .childWrapper_a6ce15,
+._5e434347c823b592-guilds ._1f388bcaa446c0c8-tutorialContainer>._650eb104245d257b-listItem>div[class*=listItemWrapper]>div svg .childWrapper_a6ce15,
 .ef3116c2da186559-scroller,
 #MemberCount,
 .f75fb00fb7356cbe-form,
@@ -1057,7 +1057,7 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.a423bdd721ddcc83-status {
     fill: var(--Streaming) !important;
 }
 
-._5e434347c823b592-guilds ._1f388bcaa446c0c8-tutorialContainer>div[class$=-listItem]>div[class$=-listItemWrapper]>div {
+._5e434347c823b592-guilds ._1f388bcaa446c0c8-tutorialContainer>div[class*=-listItem]>div[class*=-listItemWrapper]>div {
     border-radius: var(--Rounding);
     background-image: var(--logo);
     max-height: calc(var(--ServerSize) - 0px);
@@ -5645,11 +5645,11 @@ div.selected-3veCBZ:hover ._20a53846fe2e8513-name {
     padding: 0 0 !important;
 }
 
-._5e434347c823b592-guilds ._1f388bcaa446c0c8-tutorialContainer>div[class$=-listItem]>div[class$=-listItemWrapper]>div ._6e9f8dce4cc18de3-wrapper ._6e9f8dce4cc18de3-childWrapper {
+._5e434347c823b592-guilds ._1f388bcaa446c0c8-tutorialContainer>div[class*=-listItem]>div[class*=-listItemWrapper]>div ._6e9f8dce4cc18de3-wrapper ._6e9f8dce4cc18de3-childWrapper {
     background: transparent !important;
 }
 
-._5e434347c823b592-guilds ._1f388bcaa446c0c8-tutorialContainer>div[class$=-listItem]>div[class$=-listItemWrapper]>div ._6e9f8dce4cc18de3-wrapper ._6e9f8dce4cc18de3-childWrapper svg {
+._5e434347c823b592-guilds ._1f388bcaa446c0c8-tutorialContainer>div[class*=-listItem]>div[class*=-listItemWrapper]>div ._6e9f8dce4cc18de3-wrapper ._6e9f8dce4cc18de3-childWrapper svg {
     visibility: hidden !important;
 }
 
