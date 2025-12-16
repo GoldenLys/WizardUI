@@ -21,8 +21,8 @@
 }
 
 
-#app-mount .container_a2f514,
-#app-mount.appMount__51fd7 {
+#app-mount .a2f5142ba8328dfd-container,
+#app-mount._51fd70792ee2e563-appMount {
     background: center / cover no-repeat var(--background);
     animation: EMB_BG calc(var(--BackgroundTime) * 4)  linear(0 0%, 0 100%) infinite !important;
 	-webkit-animation: EMB_BG calc(var(--BackgroundTime) * 4)  linear(0 0%, 0 100%) infinite !important;
