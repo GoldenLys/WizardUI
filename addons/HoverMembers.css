@@ -1,20 +1,20 @@
 /* ROLE NAME */
-.visual-refresh .membersGroup_c8ffbb {
+.visual-refresh .c8ffbb79449f399c-membersGroup {
     height: 0px;
     padding: 0px;
     transition: all 250ms ease, padding 100ms ease;
     -webkit-transition: all 250ms ease, padding 100ms ease;
 }
 
-.visual-refresh .chat_f75fb0>.content_f75fb0>.membersWrap_c8ffbb .membersGroup_c8ffbb,
-.visual-refresh .chat_f75fb0 .container_c8ffbb .membersGroup_c8ffbb {
+.visual-refresh .f75fb00fb7356cbe-chat>.f75fb00fb7356cbe-content>.c8ffbb79449f399c-membersWrap .c8ffbb79449f399c-membersGroup,
+.visual-refresh .f75fb00fb7356cbe-chat .c8ffbb79449f399c-container .c8ffbb79449f399c-membersGroup {
     opacity: 0;
     transition: all 2s ease;
     text-align: center;
 }
 
-.visual-refresh .chat_f75fb0>.content_f75fb0>.membersWrap_c8ffbb:hover .membersGroup_c8ffbb,
-.visual-refresh .chat_f75fb0 .container_c8ffbb .membersWrap_c8ffbb:hover .membersGroup_c8ffbb {
+.visual-refresh .f75fb00fb7356cbe-chat>.f75fb00fb7356cbe-content>.c8ffbb79449f399c-membersWrap:hover .c8ffbb79449f399c-membersGroup,
+.visual-refresh .f75fb00fb7356cbe-chat .c8ffbb79449f399c-container .c8ffbb79449f399c-membersWrap:hover .c8ffbb79449f399c-membersGroup {
     transition: all 2s ease;
     opacity: 1;
     height: 26px;
@@ -22,8 +22,8 @@
 }
 
 /* MOVING THE MEMBERS LIST TO THE RIGHT */
-.visual-refresh .chat_f75fb0>.content_f75fb0>.membersWrap_c8ffbb,
-.visual-refresh .chat_f75fb0 .container_c8ffbb {
+.visual-refresh .f75fb00fb7356cbe-chat>.f75fb00fb7356cbe-content>.c8ffbb79449f399c-membersWrap,
+.visual-refresh .f75fb00fb7356cbe-chat .c8ffbb79449f399c-container {
     width: 60px;
     transition: all 500ms ease;
     min-width: 60px;
@@ -33,32 +33,32 @@
     justify-content: flex-start;
 }
 
-.visual-refresh .chat_f75fb0>.content_f75fb0>.membersWrap_c8ffbb:hover,
-.visual-refresh .chat_f75fb0 .container_c8ffbb:hover {
+.visual-refresh .f75fb00fb7356cbe-chat>.f75fb00fb7356cbe-content>.c8ffbb79449f399c-membersWrap:hover,
+.visual-refresh .f75fb00fb7356cbe-chat .c8ffbb79449f399c-container:hover {
     width: 265px;
 }
 
 /* MEMBERS LIST CONTENT */
-.visual-refresh .chat_f75fb0 .container_c8ffbb .members_c8ffbb {
+.visual-refresh .f75fb00fb7356cbe-chat .c8ffbb79449f399c-container .c8ffbb79449f399c-members {
     width: 265px;
     overflow: hidden;
     flex: 0 1 auto;
 }
 
-.visual-refresh .chat_f75fb0>.content_f75fb0>.membersWrap_c8ffbb .membersWrap_c8ffbb:hover,
-.visual-refresh .chat_f75fb0 .container_c8ffbb .membersWrap_c8ffbb:hover {
+.visual-refresh .f75fb00fb7356cbe-chat>.f75fb00fb7356cbe-content>.c8ffbb79449f399c-membersWrap .c8ffbb79449f399c-membersWrap:hover,
+.visual-refresh .f75fb00fb7356cbe-chat .c8ffbb79449f399c-container .c8ffbb79449f399c-membersWrap:hover {
     overflow: auto;
 }
 
 /* MOVING USER DETAILS */
-.visual-refresh .chat_f75fb0 .container_c8ffbb .members_c8ffbb .member_c8ffbb .content__91a9d {
+.visual-refresh .f75fb00fb7356cbe-chat .c8ffbb79449f399c-container .c8ffbb79449f399c-members .c8ffbb79449f399c-member ._91a9d7f7e5248a56-content {
     -webkit-transform: translateX(220px);
     transform: translateX(220px);
     transition: all 750ms ease;
     -webkit-transition: all 750ms ease;
 }
 
-.visual-refresh .chat_f75fb0 .container_c8ffbb:hover .members_c8ffbb .member_c8ffbb .content__91a9d {
+.visual-refresh .f75fb00fb7356cbe-chat .c8ffbb79449f399c-container:hover .c8ffbb79449f399c-members .c8ffbb79449f399c-member ._91a9d7f7e5248a56-content {
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
 }

@@ -1,148 +1,148 @@
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderPreviewWrapper:before {
     font-size: 0.75rem;
     color: var(--Text);
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="A"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="a"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="A"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="a"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "A";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="B"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="b"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="B"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="b"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "B";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="C"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="c"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="C"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="c"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "C";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="D"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="d"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="D"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="d"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "D";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="E"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="e"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="E"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="e"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "E";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="F"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="f"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="F"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="f"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "F";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="G"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="g"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="G"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="g"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "G";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="H"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="h"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="H"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="h"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "H";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="I"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="i"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="I"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="i"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "I";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="J"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="j"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="J"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="j"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "J";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="K"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="k"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="K"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="k"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "K";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="L"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="l"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="L"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="l"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "L";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="M"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="m"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="M"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="m"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "M";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="N"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="n"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="N"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="n"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "N";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="O"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="o"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="O"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="o"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "O";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="P"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="p"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="P"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="p"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "P";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="Q"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="q"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="Q"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="q"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "Q";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="R"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="r"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="R"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="r"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "R";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="S"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="s"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="S"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="s"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "S";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="T"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="t"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="T"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="t"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "T";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="U"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="u"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="U"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="u"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "U";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="V"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="v"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="V"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="v"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "V";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="W"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="w"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="W"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="w"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "W";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="X"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="x"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="X"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="x"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "X";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="Y"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="y"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="Y"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="y"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "Y";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="Z"] .folderPreviewWrapper__48112:before, .visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="z"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="Z"] ._48112cbe77dc5022-folderPreviewWrapper:before, .visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="z"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "Z";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="0"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="0"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "0";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="1"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="1"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "1";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="2"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="2"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "2";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="3"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="3"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "3";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="4"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="4"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "4";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="5"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="5"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "5";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="6"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="6"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "6";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="7"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="7"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "7";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="8"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="8"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "8";
 }
 
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderHeader__48112[data-dnd-name^="9"] .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderHeader[data-dnd-name^="9"] ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "9";
 }

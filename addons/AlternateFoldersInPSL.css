@@ -1,8 +1,8 @@
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderPreviewWrapper__48112:before {
+.visual-refresh ._48112cbe77dc5022-folderGroup:not(._48112cbe77dc5022-isExpanded) ._48112cbe77dc5022-folderPreviewWrapper:before {
     content: "";
     display: none;
 }
 
-.folderPreview__48112 {
+._48112cbe77dc5022-folderPreview {
     gap: 0.25rem;
 }
