@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-132"; /* 0-00 */
+    --version: "2025-133"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -2712,6 +2712,10 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
     border-bottom: none;
     padding: 5px;
     margin: 0;
+}
+
+._133bf5eea8e33a34-nowPlayingColumn>aside {
+    flex: 1;
 }
 
 ._133bf5eea8e33a34-nowPlayingColumn ._5dec784a68542d60-gameIcon {
@@ -6324,6 +6328,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     color: var(--Text);
 }
 
+.fccfdf3cfff21921-root>span ._7d7f78b99d0a7581-button,
 .fccfdf3cfff21921-root>div:not(.dfa8b6b94cddb191-pill) ._7d7f78b99d0a7581-button,
 #app-mount .dfa8b6b94cddb191-pill, #app-mount .fccfdf3cfff21921-pill {
     text-align: center;
@@ -6336,12 +6341,17 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     font-size: 15px;
     line-height: 16px;
     overflow: hidden;
+    justify-content: center;
+    height: auto;
+    max-height: unset;
+    min-height: unset;
 }
 
+.fccfdf3cfff21921-root>span ._7d7f78b99d0a7581-button,
 .fccfdf3cfff21921-root>div:not(.dfa8b6b94cddb191-pill) ._7d7f78b99d0a7581-button {
     width: 100%;
     height: auto;
-    border: none;
+    border-color: transparent;
 }
 
 .fccfdf3cfff21921-root {
@@ -7016,10 +7026,12 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     display: none;
 }
 
+.fccfdf3cfff21921-root>span ._7d7f78b99d0a7581-button,
 .fccfdf3cfff21921-expandButton {
     background-color: var(--Primary);
 }
 
+.fccfdf3cfff21921-root>span ._7d7f78b99d0a7581-button:hover,
 .fccfdf3cfff21921-expandButton:hover {
     background-color: var(--Text);
     color: var(--Primary);

@@ -2,7 +2,7 @@
 * @name WizardUI Void Bloom
 * @author NEBULYS
 * @authorLink https://github.com/GoldenLys
-* @version 1.8
+* @version 1.84
 * @invite SBuYeHh
 * @description An amazing modular and fully customizable theme, made with 💖 by NEBULYS.
 * @website https://nebulys.eu/themegen
@@ -12,7 +12,6 @@
 @import url("https://goldenlys.github.io/WizardUI/base.css");
 @import url("https://goldenlys.github.io/WizardUI/addons/PurpleServerList.css"); 
 @import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/1.css");
-@import url("https://goldenlys.github.io/WizardUI/addons/UniqueChatbar.css");
 @import url("https://goldenlys.github.io/WizardUI/addons/UniqueGroupsIcons.css");
 
 :root {
@@ -25,6 +24,7 @@
     /* COLORS */
     --Primary: #b888e3;
     --Text: #ffffff;
+    --text-link: var(--Primary);
     --text-shadow: #000000;
     --Highlighted:  #b888e380;
     --MessageHover: #504c6700;
@@ -58,6 +58,7 @@
     --bg-members: var(--bg-ui);
     --bg-chat-elements: rgb(80 76 103 / 35%);
     --bg-settings: var(--bg-ui);
+    --bg-user-area: var(--bg-ui);
     --bg-colorprofile: rgb(29 30 38 / 50%);
     --bg-alt-message: transparent;
 
@@ -100,4 +101,4 @@
 }
 
 
-/* Theme generated using WizardUI Theme Generator v1.8 */
+/* Theme generated using WizardUI Theme Generator v1.84 */

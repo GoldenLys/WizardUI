@@ -2,56 +2,42 @@
 * @name WizardUI Midnight Hunt
 * @author NEBULYS
 * @authorLink https://github.com/GoldenLys
-* @version 1.5
+* @version 1.84
 * @invite SBuYeHh
-* @description An amazing fully customizable theme, made with 💖 by NEBULYS.
-* @website https://nebulys.eu/
+* @description An amazing modular and fully customizable theme, made with 💖 by NEBULYS.
+* @website https://nebulys.eu/themegen
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url("https://goldenlys.github.io/WizardUI/base.css");
 @import url("https://goldenlys.github.io/WizardUI/addons/PurpleServerList.css");
-@import url("https://goldenlys.github.io/WizardUI/addons/AlternateFoldersInPSL.css");
 @import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors/1.css");
+@import url("https://goldenlys.github.io/WizardUI/addons/UniqueGroupsIcons.css");
 
 :root {
-    /* MAIN VARIABLES */
+    /* GENERAL */
     --Watermark: "- WizardUI v" var(--version);
-    --font: 'Source Sans Pro', 'emoji', sans-serif;
-    --Text: rgb(255, 255, 255);
-    --logo: url(https://goldenlys.github.io/WizardUI/images/home.png);
-    --sendmessage-text-lines: 6;
+    --font: "Source Sans Pro", "emoji", sans-serif;
+    --logo: url("https://goldenlys.github.io/WizardUI/images/home.png");
+    --sendmessage-text-lines: 8;
 
-    /* THEME COLORS */
+    /* COLORS */
     --Primary: #7562c9;
+    --Text: rgb(255, 255, 255);
     --text-link: var(--Primary);
     --text-shadow: rgb(0 0 0);
     --Highlighted: var(--Primary);
     --MessageHover: var(--grey5);
     --Unread: rgb(194, 18, 18);
-    --Hover: #24283d;
 
-    /* STATUS VARIABLES */
+    /* STATUS */
     --Online: #8AFF80;
     --Idle: #99FFEE;
     --Unavailable: #FF9580;
     --Offline: rgb(90, 95, 100);
     --Streaming: #AA99FF;
 
-    /* BACKGROUNDS */
-    --background: #0b0d0f;
-    --bg-titlebar: #0b0d0f;
-    --bg-servers: #131a20;
-    --bg-sendmessage: #0a0d10;
-    --bg-ui: #0a0d10;
-    --bg-chatbox: #0b0d0f;
-    --bg-members: var(--bg-ui);
-    --bg-chat-elements: #131a20;
-    --bg-settings: var(--bg-ui);
-    --bg-colorprofile: rgb(29 30 38 / 50%);
-    --bg-alt-message: transparent;
-
-    /* UI COLOR VARIABLES */
+    /* UI */
     --grey: rgb(64, 88, 108);
     --grey5: rgb(64 88 108 / 75%);
     --darkgrey: rgb(33, 46, 56);
@@ -59,37 +45,60 @@
     --ui-success: rgb(129, 248, 100);
     --ui-warning: rgb(245, 181, 64);
     --ui-error: rgb(241, 69, 69);
+    --Hover: #24283d;
 
-    /* SERVER SETTINGS */
-    --ServerSize: 50px;
+    /* BACKGROUNDS */
+    --background: #0b0d0f;
+    --bg-titlebar: #0b0d0f;
+    --bg-servers: #131a20;
+    --bg-sendmessage: #0a0d10;
+    --bg-ui: #0a0d10;
+    --bg-ui-elements: #131a20;
+    --bg-chatbox: #0b0d0f;
+    --bg-members: var(--bg-ui);
+    --bg-chat-elements: #131a20;
+    --bg-settings: var(--bg-ui);
+    --bg-user-area: var(--bg-ui);
+    --bg-colorprofile: rgb(29 30 38 / 50%);
+    --bg-alt-message: transparent;
+
+    /* RGB */
+    --ColorTime: 5s;
+    --Color2: #000000;
+    --Color3: #000000;
+    --Color4: #000000;
+    --Color5: #000000;
+    --Color6: #000000;
+    --Color7: #000000;
+    --Color8: #000000;
+    --Color9: #000000;
+    --Color10: #000000;
+
+    /* EMB */
+    --BackgroundTime: 60s;
+    --EMB_1: url("https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg");
+    --EMB_2: url("https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg");
+    --EMB_3: url("https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg");
+    --EMB_4: url("https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg");
+    --EMB_5: url("https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg");
+    --EMB_6: url("https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg");
+    --EMB_7: url("https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg");
+    --EMB_8: url("https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg");
+    --EMB_9: url("https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg");
+
+    /* MISCS */
+    --ServerSize: 55px;
     --ServerPills: var(--Primary);
     --ServerFoldersColor: var(--Primary);
-    
-    /* ROUNDING */
     --Rounding: 5px;
-    --AvatarRounding: var(--Rounding);
-
-    /* RGB ADDON */
-    --ColorTime: 5s;
-    --Color2: rgb(0 0 0);
-    --Color3: rgb(0 0 0);
-    --Color4: rgb(0 0 0);
-    --Color5: rgb(0 0 0);
-    --Color6: rgb(0 0 0);
-    --Color7: rgb(0 0 0);
-    --Color8: rgb(0 0 0);
-    --Color9: rgb(0 0 0);
-    --Color10: rgb(0 0 0);
-
-    /* 
-        SHOWN BUTTONS IN THE MESSSAGE BOX
-
-      Choose between 'none' or 'flex'
-      none will disable / hide the button and flex will make it appear again
-    
-    */
+    --AvatarRounding: 5px;
     --Show_Gift_Button: none;
     --Show_GIF_Button: none; 
     --Show_Sticker_Button: none; 
-    --Show_Apps_Button: none;
+    --Show_Apps_Button: flex;
+    --Show_Now_Playing_Tab: flex;
+    --Show_Category_Visibility_Icon: flex;
 }
+
+
+/* Theme generated using WizardUI Theme Generator v1.84 */
