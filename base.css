@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-133"; /* 0-00 */
+    --version: "2025-134"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -86,7 +86,8 @@
     --Show_Sticker_Button: none;
     --Show_Apps_Button: flex;
     --Show_Now_Playing_Tab: block;
-    --Show_Category_Visibility_Icon: block;
+    --Show_Category_Visibility_Icon: flex;
+    --Show_Current_Channel_Title: flex;
     --server-row-gap: 10px;
     --server-column-gap: 10px;
     /* EMB ADDON VARIABLES */
@@ -328,7 +329,7 @@ div[class$=folder],
 .scroller__244e5,
 .adb41f8099151bc8-header,
 ._4a84a2c88d373bef-scroller,
-._5e434347c823b592-guilds ._1f388bcaa446c0c8-tutorialContainer>._650eb104245d257b-listItem>div[class*=listItemWrapper]>div svg .childWrapper_a6ce15,
+._5e434347c823b592-guilds ._1f388bcaa446c0c8-tutorialContainer>._650eb104245d257b-listItem div[class*=listItemWrapper]>div svg ._6e9f8dce4cc18de3-childWrapper,
 .ef3116c2da186559-scroller,
 #MemberCount,
 .f75fb00fb7356cbe-form,
@@ -719,6 +720,7 @@ div[class$=tutorialContainer]+._650eb104245d257b-listItem ._5bc7ed9d4097f6b5-pil
 }
 
 .visual-refresh .edbb22df99c39831-title {
+    display: var(--Show_Current_Channel_Title);
     gap: 0px;
 }
 
@@ -1057,7 +1059,7 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.a423bdd721ddcc83-status {
     fill: var(--Streaming) !important;
 }
 
-._5e434347c823b592-guilds ._1f388bcaa446c0c8-tutorialContainer>div[class*=-listItem]>div[class*=-listItemWrapper]>div {
+._5e434347c823b592-guilds ._1f388bcaa446c0c8-tutorialContainer>div[class*=-listItem] div[class*=-listItemWrapper]>div {
     border-radius: var(--Rounding);
     background-image: var(--logo);
     max-height: calc(var(--ServerSize) - 0px);
