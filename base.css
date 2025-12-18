@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-134"; /* 0-00 */
+    --version: "2025-135"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -6876,12 +6876,6 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.visual-refresh .b18fe29d6fe8dd82-hiddenVisually,
-.visual-refresh .b18fe29d6fe8dd82-hiddenVisually>._48112cbe77dc5022-folderPreviewWrapper{
-    width: 100%;
-    height: 100%;
 }
 
 .visual-refresh .dbd2630aec71879b-stack {
