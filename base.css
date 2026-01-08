@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2025-135"; /* 0-00 */
+    --version: "2025-136"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -1498,6 +1498,11 @@ div[class$="role"],
 /* DEAFEN BUTTON */
 ._37e49614b9f110a9-buttons ._37e49614b9f110a9-micButtonParent:nth-last-of-type(1) ._37e49614b9f110a9-micButtonWithMenu ._201d5e8a3c09670a-contents::after {
     content: "\f58f";
+}
+
+/* SETTINGS */
+._37e49614b9f110a9-buttons>._67645e1530f1195d-button[aria-label*="User Settings"] ._201d5e8a3c09670a-contents::after {
+    content: "\f013";
 }
 
 ._67645e1530f1195d-plateMuted._67645e1530f1195d-redGlow {
@@ -7601,4 +7606,14 @@ a._972a0d22c8afa7f0-link[href="/shop"] ._20a53846fe2e8513-name:before {
 
 ._04eede68d145ae81-spriteGreyscale {    
     background-color: var(--Text);
+}
+
+._201d5e8a3c09670a-button ._201d5e8a3c09670a-contents {
+    color: var(--Text);
+}
+
+._2ea32c412048f708-iconContainer {
+    display: flex;
+    gap: 5px;
+    width: auto;
 }
