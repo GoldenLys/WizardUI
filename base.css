@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-1"; /* 0-00 */
+    --version: "2026-2"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -1015,6 +1015,7 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.a423bdd721ddcc83-status {
     background-color: var(--Streaming) !important;
 }
 
+rect[fill="#45a366"],
 rect[fill="#43a25a"],
 rect[fill="#23a55a"],
 rect[fill="#3ba55c"],
@@ -1023,6 +1024,7 @@ rect[fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"],
     fill: var(--Online) !important;
 }
 
+rect[fill="#ffc04e"],
 rect[fill="#ca9654"],
 rect[fill="#f0b232"],
 rect[fill="#faa61a"],
@@ -1031,6 +1033,7 @@ rect[fill="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"],
     fill: var(--Idle) !important;
 }
 
+rect[fill="#da3e44"],
 rect[fill="#d83a42"],
 rect[fill="#f23f43"],
 rect[fill="#ed4245"],
@@ -1040,7 +1043,7 @@ rect[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"],
 }
 
 /* DISABLE OFFLINE STATUS */
-
+rect[fill="#84858d"],
 rect[fill="#82838b"],  
 rect[fill="#82858f"],
 rect[fill="#80848e"],
@@ -6948,11 +6951,11 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
 .a2c9e80f6531ccc2-pill,
 .visual-refresh ._270d7a28db32b312-optionButtonWrapper,
 .visual-refresh ._201d5e8a3c09670a-button,
-.de800837163648e8-bannerButton {
+.fb7f9476ada049c8-bannerButton {
     border-radius: 5px;
 }
 
-.de800837163648e8-bannerButton {
+.fb7f9476ada049c8-bannerButton {
     border: 1px solid transparent;
 }
 
@@ -7621,4 +7624,12 @@ a._972a0d22c8afa7f0-link[href="/shop"] ._20a53846fe2e8513-name:before {
     display: flex;
     gap: 5px;
     width: auto;
+}
+
+.ce832809562bf737-statusPickerModalMenu>.c1e9c47c23f12ca3-scroller>div:nth-last-child(2) foreignObject[mask^="url(#svg-mask-status-offline"]>.a423bdd721ddcc83-status {
+    border-radius: 50%;
+}
+
+.aa8da23faa27393c-top .aa8da23faa27393c-item {
+    --selected-tab-item-color: var(--Primary);
 }
