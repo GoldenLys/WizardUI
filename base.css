@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-2"; /* 0-00 */
+    --version: "2026-3"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -410,7 +410,7 @@ div[class$=folder],
 .b6544fb09f373e60-container,
 .e8b59c4b335dd2fc-messagesPopoutWrap,
 .f48ee41a9dd2c078-containerBackground,
-.visual-refresh .a9e7064fdee8e9b0-searchResultsWrap,
+.visual-refresh .a98f3b020416ad54-searchResultsWrap,
 .content__37e49,
 .container_6sXIoE,
 ._01ae244280823725-container>._9293f6b2fc12398a-container,
@@ -481,7 +481,7 @@ div[class$=folder],
 .a592e1970a0ce22c-container,
 .visual-refresh ._01ae244280823725-container,
 .c38106a3f0c3ca76-winButtonsWithDivider:before,
-.visual-refresh .a9e7064fdee8e9b0-searchResultsWrap,
+.visual-refresh .a98f3b020416ad54-searchResultsWrap,
 .visual-refresh ._0920e02cc8fc7b7b-homeWrapper,
 .visual-refresh .c1e9c47c23f12ca3-menu,
 ._9a337c84ff86a914-contentPreview,
@@ -646,7 +646,7 @@ div[class$=folder],
 ._2ea32c412048f708-link:not(._2ea32c412048f708-basicChannelRowLink)>div>._2ea32c412048f708-iconContainer>svg,
 .dots-1BwzZQ,
 #user-settings ._23e6b439306f125a-contentRegion>div>div>main>div>[class$=divider],
-._56fec8e8b8048fe0-option:after,
+._16eb0bfd5c5a90d1-option:after,
 .resultsGroup-1BPR25:before,
 ._2ea32c412048f708-link._2ea32c412048f708-modeUnreadImportant>._2ea32c412048f708-unread,
 .emptyMessage-3ggYEG,
@@ -3944,7 +3944,7 @@ div[class$=tutorialContainer]:hover div[class$=pill] ._581051df43c5ebb6-item,
     background: rgba(255, 255, 255, 15%);
 }
 
-._4bb93312e84f332e-card:before {
+.b846e57d7dad7f1a-card:before {
     background-color: var(--bg-ui) !important;
     border-color: transparent !important;
 }
@@ -5288,7 +5288,7 @@ div[class$=folderIconWrapper],
     box-shadow: inset 0 0 0 2px var(--ui-success), inset 0 0 0 2px var(--bg-ui);
 }
 
-._56fec8e8b8048fe0-option:hover {
+._16eb0bfd5c5a90d1-option:hover {
     background: var(--Primary);
 }
 
@@ -6008,8 +6008,8 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     display: none !important;
 }
 
-.visual-refresh ._02a39cb2980ceaaf-searchResult,
-.visual-refresh .f3b986a284a18c78-searchHeader {
+.visual-refresh ._80bf8435713f6adb-searchResult,
+.visual-refresh .ae7890a1b8e75804-searchHeader {
     background-color: var(--bg-chat-elements);
     border: none;
 }

@@ -1,7 +1,7 @@
 /* ROLE NAME */
 .visual-refresh .c8ffbb79449f399c-membersGroup {
-    height: 0px;
-    padding: 0px;
+    height: 0;
+    padding: 0;
     transition: all 250ms ease, padding 100ms ease;
     -webkit-transition: all 250ms ease, padding 100ms ease;
 }
@@ -45,7 +45,7 @@
     flex: 0 1 auto;
 }
 
-.visual-refresh .f75fb00fb7356cbe-chat>.f75fb00fb7356cbe-content>.c8ffbb79449f399c-membersWrap .c8ffbb79449f399c-membersWrap:hover,
+.visual-refresh .f75fb00fb7356cbe-chat>.f75fb00fb7356cbe-content>.c8ffbb79449f399c-membersWrap:hover,
 .visual-refresh .f75fb00fb7356cbe-chat .c8ffbb79449f399c-container .c8ffbb79449f399c-membersWrap:hover {
     overflow: auto;
 }
