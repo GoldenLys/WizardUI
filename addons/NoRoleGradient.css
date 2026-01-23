@@ -10,5 +10,5 @@
     -webkit-background-clip: initial;
     background-clip: initial; 
     background-size: initial;
-    -webkit-text-fill-color: var(--Text);
+    -webkit-text-fill-color: var(--custom-gradient-color-1);
 }
