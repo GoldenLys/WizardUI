@@ -1,0 +1,14 @@
+.e5de7811b2777bfa-twoColorGradient {
+    background: transparent;
+}
+
+.e5de7811b2777bfa-threeColorGradient {
+    background: transparent;
+}
+
+.e5de7811b2777bfa-usernameGradient {
+    -webkit-background-clip: initial;
+    background-clip: initial; 
+    background-size: initial;
+    -webkit-text-fill-color: var(--Text);
+}
