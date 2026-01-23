@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-3"; /* 0-00 */
+    --version: "2026-4"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -623,6 +623,7 @@ div[class$=folder],
     border: none !important;
 }
 
+._1f388bcaa446c0c8-tutorialContainer>._650eb104245d257b-listItem div[class*=listItemWrapper]>div svg ._6e9f8dce4cc18de3-childWrapper>svg,
 ._36d072eab2b2e737-chatGradientBase,
 ._36d072eab2b2e737-chatGradient,
 .b8880176888cc928-activityInviteEducation,
