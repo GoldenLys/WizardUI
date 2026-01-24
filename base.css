@@ -6888,7 +6888,7 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     justify-content: center;
 }
 
-.visual-refresh .stack__dbd263 {
+.visual-refresh .stack_dbd263 {
     height: auto !important;
     padding: 5px 0 !important;
 }
@@ -7200,7 +7200,7 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     fill: var(--Text);
 }
 
-#app-mount .guilds__5e434 .scroller_ef3116 .stack__dbd263:not([id]) {
+#app-mount .guilds__5e434 .scroller_ef3116 .stack_dbd263:not([id]) {
     row-gap: var(--server-row-gap);
     column-gap: var(--server-column-gap);
 }
