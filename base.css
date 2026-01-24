@@ -2897,21 +2897,21 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 }
 
 /* TYPING DOTS */
-#app-mount .typingDots__b88801>svg {
+#app-mount .typingDots_b88801>svg {
     display: none;
 }
 
 .typing-3AH5vK:before,
 .typing-vATlQt:before,
 .typing__11513:before,
-.typing_b88801>div>.text__b88801>strong:first-child:before {
+.typing_b88801>div>.text_b88801>strong:first-child:before {
     content: "✒️";
     color: var(--Text);
     -webkit-animation: writing 1.25s ease infinite !important;
     animation: writing 1.25s ease infinite !important;
 }
 
-.typing_b88801>div>.text__b88801>strong:first-child:before {
+.typing_b88801>div>.text_b88801>strong:first-child:before {
     margin-right: 5px;
 }
 
@@ -7639,6 +7639,7 @@ a.link__972a0d[href="/shop"] .name__20a538:before {
 }
 
 .chatContent_f75fb0 .form_f75fb0 {
+    position: initial;
     margin-top: 0;
     padding: 0;
 }
