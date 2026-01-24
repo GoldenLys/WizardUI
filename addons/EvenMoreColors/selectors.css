@@ -47,7 +47,7 @@ div.link_2ea32c[class*="modeSelected_"]:before {
 div[class$=-circleIconButton], .guilds__5e434 .scroller_ef3116>div:not([class]):not([style])+div[class$=-tutorialContainer] div[class$=-circleIconButton],
 .info_2debea:before,
 .mentioned_5126c0:before,
-.hasReply_c19a55.mentioned_5126c0:not(:has(.roleMention_752971[style]))::after,
+.hasReply_c19a55.mentioned_5126c0:not(:has(.roleMention__75297[style]))::after,
 .closeButton_c2b141,
 .tutorialContainer_1f388b .circleIconButton__5bc7e,
 .tutorialContainer_1f388b+.listItem__650eb .circleIconButton__5bc7e,
