@@ -155,7 +155,7 @@
 
 #app-mount .guilds__5e434 .scroller_ef3116>div#guild-list-unread-dms .listItem__650eb>.pill_ed9a5f,
 #app-mount .guilds__5e434 .listItem__650eb .pill_e5445c,
-#app-mount .pill_1f388b {
+#app-mount .pill__1f388 {
     transform: rotate(90deg) translateY(0%);
     height: var(--ServerSize);
     width: 10px;
@@ -171,7 +171,7 @@
 
 #app-mount .guilds__5e434 .scroller_ef3116>div#guild-list-unread-dms .listItem__650eb>.pill_ed9a5f>span,
 #app-mount .guilds__5e434 .listItem__650eb .pill_e5445c>span,
-#app-mount .pill_1f388b>span {
+#app-mount .pill__1f388>span {
     margin-left: 0;
     width: 5px;
     border-radius: 50%;

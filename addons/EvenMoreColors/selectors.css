@@ -49,8 +49,8 @@ div[class$=-circleIconButton], .guilds__5e434 .scroller_ef3116>div:not([class]):
 .mentioned_5126c0:before,
 .hasReply_c19a55.mentioned_5126c0:not(:has(.roleMention_752971[style]))::after,
 .closeButton_c2b141,
-.tutorialContainer_1f388b .circleIconButton_5bc7ed,
-.tutorialContainer_1f388b+.listItem__650eb .circleIconButton_5bc7ed,
+.tutorialContainer_1f388b .circleIconButton__5bc7e,
+.tutorialContainer_1f388b+.listItem__650eb .circleIconButton__5bc7e,
 .progressBarContainer_baf530,
 .containerWithMargin_eff079,
 .containerDefault_c69b6d>.wrapper_2ea32c.modeSelected_2ea32c:before {
@@ -119,7 +119,7 @@ div[class$=-circleIconButton], .guilds__5e434 .scroller_ef3116>div:not([class]):
 	-webkit-animation: RGB_TEXT var(--ColorTime) linear infinite !important;
 }
 
-#app-mount .pill_1f388b>.item_581051:not([style*="height: 8px;"]) {
+#app-mount .pill__1f388>.item_581051:not([style*="height: 8px;"]) {
 	animation: RGB_BG_TEXT var(--ColorTime) linear infinite !important;
 	-webkit-animation: RGB_BG_TEXT var(--ColorTime) linear infinite !important;
 }
