@@ -49,11 +49,11 @@ div[class$=-circleIconButton], .guilds__5e434 .scroller_ef3116>div:not([class]):
 .mentioned_5126c0:before,
 .hasReply_c19a55.mentioned_5126c0:not(:has(.roleMention__75297[style]))::after,
 .closeButton_c2b141,
-.tutorialContainer_1f388b .circleIconButton__5bc7e,
-.tutorialContainer_1f388b+.listItem__650eb .circleIconButton__5bc7e,
+.tutorialContainer__650eb .circleIconButton__5bc7e,
+.tutorialContainer__650eb+.listItem__650eb .circleIconButton__5bc7e,
 .progressBarContainer_baf530,
 .containerWithMargin_eff079,
-.containerDefault_c69b6d>.wrapper_2ea32c.modeSelected_2ea32c:before {
+.containerDefault_c69b6d>.wrapper__2ea32.modeSelected__2ea32:before {
 	animation: RGB_BG var(--ColorTime) linear infinite !important;
 	-webkit-animation: RGB_BG var(--ColorTime) linear infinite !important;
 }
@@ -71,8 +71,7 @@ div[class$=-circleIconButton], .guilds__5e434 .scroller_ef3116>div:not([class]):
 .sidebar_5e4343 .containerDefault_c69b6d.selected_c69b6d>svg,
 .sidebar_5e4343 .containerDefault_c69b6d.selected_c69b6d .channelName-3KPsGw,
 .name_f37cb1,
-.name_29444b,
-.name_29444b,
+.name__29444,
 .title_9293f6,
 .headerText_99e7ca,
 .nameTag_37e496>div:first-child>div,
@@ -89,7 +88,7 @@ div[class$=-circleIconButton], .guilds__5e434 .scroller_ef3116>div:not([class]):
 	-webkit-animation: RGB_TEXT var(--ColorTime) linear infinite !important;
 }
 
-.membersGroup_c8ffbb>span,
+.membersGroup_c8ffbb,
 .title_b717a1,
 .title_ace4f5,
 .h5_b717a1,
