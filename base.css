@@ -242,6 +242,7 @@
     --text-feedback-critical: var(--ui-error);
     --icon-feedback-positive: var(--ui-success);
     --background-feedback-notification: var(--Unread);
+    --badge-notification-background: var(--Unread);
 }
 
 #app-mount.appMount__51fd7 {
