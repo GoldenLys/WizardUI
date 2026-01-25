@@ -7662,3 +7662,7 @@ button.giftButton__82222 .buttonText__82222:before {
 .warning__35859 .innerContainer__35859 {
     z-index: 1;
 }
+
+.childWrapperNoHoverBg__6e9f8 {
+    background-color: var(--Primary);
+}
