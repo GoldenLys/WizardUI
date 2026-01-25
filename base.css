@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-8"; /* 0-00 */
+    --version: "2026-9"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -298,7 +298,6 @@ textarea {
 }
 
 .container_fed6d3,
-.childWrapperNoHoverBg__6e9f8,
 .themedBackground__74017,
 .button__24af7:not(.noHover__24af7):hover,
 .container_d9c882:not(.browser_d98031), 
