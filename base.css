@@ -241,6 +241,7 @@
     --notice-text-warning: var(--ui-warning);
     --text-feedback-critical: var(--ui-error);
     --icon-feedback-positive: var(--ui-success);
+    --background-feedback-notification: var(--Unread);
 }
 
 #app-mount.appMount__51fd7 {
