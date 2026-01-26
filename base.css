@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-15"; /* 0-00 */
+    --version: "2026-16"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -842,7 +842,7 @@ div.link__2ea32[class$="modeSelected"]:before {
 
 .blockquoteContainer__75297 .blockquoteDivider__75297 {
     width: 2px;
-    border-radius: 0;
+    border-radius: 5px;
     background: var(--Primary)
 }
 
@@ -5837,8 +5837,8 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     opacity: 0.1;
 }
 
-.mentioned__5126c:before,
-.mentioned__5126c:after,
+.mentioned__5126c:not(.hasReply_c19a55):before,
+.mentioned__5126c:not(.hasReply_c19a55):after,
 .roleMention__75297~[class*="ention"]:before,
 .roleMention__75297~[class*="ention"].roleMention__75297:after,
 .repliedMessage__c19a55 [class*="ention"]:before,
@@ -7260,7 +7260,7 @@ a.link__972a0[href="/store"] .name__20a53:after {
     line-height: 20px;
 }
 
-
+.applicationStore_f07d62 button.button_a22cb0.secondary_a22cb0 span:before,
 .applicationStore_f07d62 button.button_a22cb0.fullWidth__a22cb0 span:before,
 .applicationStore_f07d62 button.button_a22cb0.expressive_a22cb0 span:before,
 button.shinyButton__6a443 .buttonText_e00877:before {
@@ -7271,7 +7271,6 @@ button.shinyButton__6a443 .buttonText_e00877:before {
 
 .applicationStore_f07d62 .navBar__88ef1 button.button_a22cb0.secondary_a22cb0 span:before,
 .applicationStore_f07d62 .wrapper_d38e00>.buttonContainer_d38e00>button.button_a22cb0 span:before,
-.applicationStore_f07d62 button.button_a22cb0.secondary_a22cb0 span:before,
 .applicationStore_f07d62 button.button_a22cb0.overlay-secondary_a22cb0 span:before,
 button.giftButton__82222 .buttonText__82222:before {
     content: "Gift Scamium";
@@ -7279,20 +7278,20 @@ button.giftButton__82222 .buttonText__82222:before {
     line-height: 20px;
 }
 
-.tags__63ed30>.container__8061a>div .badge__8061a5 {
+.tags__63ed3>.container__8061a .badge__8061a {
     width: 30px;
     height: 30px;
 }
 
-.tags__63ed30>.container__8061a>div:first-child>a[href="https://discord.com/settings/premium"]>.badge__8061a5 {
+.tags__63ed3>.container__8061a> a[href="https://discord.com/settings/premium"]>.badge__8061a {
     visibility: hidden;
 }
 
-.tags__63ed30>.container__8061a>div:first-child>a[href="https://discord.com/settings/premium"] {
+.tags__63ed3>.container__8061a> a[href="https://discord.com/settings/premium"] {
     position: relative;
 }
 
-.tags__63ed30>.container__8061a>div:first-child>a[href="https://discord.com/settings/premium"]:after {
+.tags__63ed3>.container__8061a> a[href="https://discord.com/settings/premium"]:after {
     position: absolute;
     content: '';
     top: 0px;
@@ -7744,4 +7743,15 @@ button.giftButton__82222 .buttonText__82222:before {
 .nonMediaAttachment_ef83c1,
 .nonMediaMosaicItem__06ab4 {
     outline: none;
+}
+
+.whatsNewSectionContainer_f48ee4 .bentoBoxesGrid_b0db00 .boxContainer_b0db00.large_b0db00 .header_b0db00 {
+    font-size: 0px;
+    line-height: 0;
+}
+
+.whatsNewSectionContainer_f48ee4 .bentoBoxesGrid_b0db00 .boxContainer_b0db00.large_b0db00 .header_b0db00:before {
+    content: "Same name. New look. More cash. (for us)";
+    font-size: 32px;
+    line-height: 1.25;
 }
