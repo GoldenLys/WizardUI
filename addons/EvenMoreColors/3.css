@@ -65,3 +65,39 @@
 		color: var(--Primary)
 	}
 }
+
+@keyframes RGB_FILL {
+	0% {
+		fill: var(--Primary)
+	}
+
+	34% {
+		fill: var(--Color2)
+	}
+
+	69% {
+		fill: var(--Color3)
+	}
+
+	to {
+		fill: var(--Primary)
+	}
+}
+
+@keyframes RGB_BORDER {
+	0% {
+		border-color: var(--Primary)
+	}
+
+	34% {
+		border-color: var(--Color2)
+	}
+
+	69% {
+		border-color: var(--Color3)
+	}
+
+	to {
+		border-color: var(--Primary)
+	}
+}

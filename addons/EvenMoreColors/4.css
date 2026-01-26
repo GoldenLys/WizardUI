@@ -80,3 +80,47 @@
 		color: var(--Primary);
 	}
 }
+
+@keyframes RGB_FILL {
+	0% {
+		fill: var(--Primary)
+	}
+
+	26% {
+		fill: var(--Color2)
+	}
+
+	52% {
+		fill: var(--Color3)
+	}
+
+	78% {
+		fill: var(--Color4)
+	}
+
+	to {
+		fill: var(--Primary)
+	}
+}
+
+@keyframes RGB_BORDER {
+	0% {
+		border-color: var(--Primary)
+	}
+
+	26% {
+		border-color: var(--Color2)
+	}
+
+	52% {
+		border-color: var(--Color3)
+	}
+
+	78% {
+		border-color: var(--Color4)
+	}
+
+	to {
+		border-color: var(--Primary)
+	}
+}

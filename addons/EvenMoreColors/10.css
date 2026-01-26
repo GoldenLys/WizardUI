@@ -170,3 +170,95 @@
         color: var(--Primary);
     }
 }
+
+@keyframes RGB_FILL {
+    0% {
+        fill: var(--Primary);
+    }
+
+    11% {
+        fill: var(--Color2);
+    }
+
+    22% {
+        fill: var(--Color3);
+    }
+
+    33% {
+        fill: var(--Color4);
+    }
+
+    44% {
+        fill: var(--Color5);
+    }
+
+    55% {
+        fill: var(--Color6);
+    }
+
+    66% {
+        fill: var(--Color7);
+    }
+
+    77% {
+        fill: var(--Color8);
+    }
+
+    88% {
+        fill: var(--Color9);
+    }
+
+    99% {
+        fill: var(--Color10);
+    }
+
+    to {
+        fill: var(--Primary);
+    }
+}
+
+@keyframes RGB_BORDER {
+    0% {
+        border-color: var(--Primary);
+    }
+
+    11% {
+        border-color: var(--Color2);
+    }
+
+    22% {
+        border-color: var(--Color3);
+    }
+
+    33% {
+        border-color: var(--Color4);
+    }
+
+    44% {
+        border-color: var(--Color5);
+    }
+
+    55% {
+        border-color: var(--Color6);
+    }
+
+    66% {
+        border-color: var(--Color7);
+    }
+
+    77% {
+        border-color: var(--Color8);
+    }
+
+    88% {
+        border-color: var(--Color9);
+    }
+
+    99% {
+        border-color: var(--Color10);
+    }
+
+    to {
+        border-color: var(--Primary);
+    }
+}

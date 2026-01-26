@@ -1,3 +1,6 @@
+.tabBar__133bf .addFriend__133bf,
+.markup__75297 code.inline,
+.spineBorder__5b40b,
 .badgeContainer__635ed,
 .accountProfileCard_1fed1d>.background_1fed1d>.fieldList_1fed1d>.field_1fed1d,
 .flowerStarContainer_3e3b0b>svg,
@@ -105,7 +108,7 @@ div[class$=-circleIconButton], .guilds__5e434 .scroller_ef3116>div:not([class]):
 .container_aae012>.inner_aae012>div:after,
 .archivedDivider-2dQ9JY,
 .headerText-3MQ6n4>h3>span,
-.anchor_edefb8:not(.hoverButton_be4802),
+.anchor_edefb8:not(.hoverButton_be4802):not(.embedLink__623de),
 .users_260e19 {
 	animation: RGB_TEXT var(--ColorTime) linear infinite !important;
 	-webkit-animation: RGB_TEXT var(--ColorTime) linear infinite !important;
@@ -132,4 +135,15 @@ div[class$=-circleIconButton], .guilds__5e434 .scroller_ef3116>div:not([class]):
 
 #app-mount .flowerStarContainer_3e3b0b {
 	background-color: transparent;
+}
+
+.spine__5b40b path {
+	animation: RGB_FILL var(--ColorTime) linear infinite !important;
+	-webkit-animation: RGB_FILL var(--ColorTime) linear infinite !important;
+}
+
+.repliedMessageClickableSpine_c19a55, 
+.repliedMessage__c19a55:before {
+	animation: RGB_BORDER var(--ColorTime) linear infinite !important;
+	-webkit-animation: RGB_BORDER var(--ColorTime) linear infinite !important;
 }

@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-14"; /* 0-00 */
+    --version: "2026-15"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -483,7 +483,7 @@ div[class$=folder],
 .tagsButton__f369db,
 .pill_a2c9e8.tag_f369db,
 .channeltextArea__74017,
-.sortDropdown__f369db,
+.sortDropdown_f369db,
 .mainCard_f369db {
     border-radius: 5px;
 }
@@ -3686,14 +3686,14 @@ a {
     max-width: fit-content !important;
 }
 
-.embedProvider__623de {
+.embed__623de>div>div>div:first-child {
     text-align: center;
     position: relative;
     z-index: 0;
 }
 
-.embedProvider__623de>a:before,
-.embedProvider__623de>span:before {
+.embed__623de>div>div>div:first-child:before,
+.embed__623de>div>div>div:first-child span:before {
     content: "";
     z-index: -1;
     position: absolute;
@@ -3706,8 +3706,8 @@ a {
     color: var(--Text);
 }
 
-.embedProvider__623de>a[href="https://www.youtube.com"]:before {
-    background: #FF0000;
+.embedProvider__623de .embedLink__623de {
+    color: var(--Text);
 }
 
 .embedTitle__623de,
@@ -6069,17 +6069,17 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     margin-left: 4px;
 }
 
-.visual-refresh .sortDropdown__f369db,
+.visual-refresh .sortDropdown_f369db,
 .visual-refresh .tagsButton__f369db {
     border: none;
 }
 
-.sortDropdown__f369db {
+.sortDropdown_f369db {
     margin-right: 4px;
     margin-bottom: 0px;
 }
 
-.sortDropdown__f369db+.divider__f369db {
+.sortDropdown_f369db+.divider__f369db {
     display: none;
 }
 

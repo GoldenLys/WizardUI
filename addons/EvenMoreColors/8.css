@@ -140,3 +140,79 @@
         color: var(--Primary);
     }
 }
+
+@keyframes RGB_FILL {
+    0% {
+        fill: var(--Primary);
+    }
+
+    14% {
+        fill: var(--Color2);
+    }
+
+    27% {
+        fill: var(--Color3);
+    }
+
+    41% {
+        fill: var(--Color4);
+    }
+
+    54% {
+        fill: var(--Color5);
+    }
+
+    68% {
+        fill: var(--Color6);
+    }
+
+    81% {
+        fill: var(--Color7);
+    }
+
+    95% {
+        fill: var(--Color8);
+    }
+
+    to {
+        fill: var(--Primary);
+    }
+}
+
+@keyframes RGB_BORDER {
+    0% {
+        border-color: var(--Primary);
+    }
+
+    14% {
+        border-color: var(--Color2);
+    }
+
+    27% {
+        border-color: var(--Color3);
+    }
+
+    41% {
+        border-color: var(--Color4);
+    }
+
+    54% {
+        border-color: var(--Color5);
+    }
+
+    68% {
+        border-color: var(--Color6);
+    }
+
+    81% {
+        border-color: var(--Color7);
+    }
+
+    95% {
+        border-color: var(--Color8);
+    }
+
+    to {
+        border-color: var(--Primary);
+    }
+}

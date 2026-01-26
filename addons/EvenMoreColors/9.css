@@ -155,3 +155,87 @@
         color: var(--Primary);
     }
 }
+
+@keyframes RGB_FILL {
+    0% {
+        fill: var(--Primary);
+    }
+
+    12% {
+        fill: var(--Color2);
+    }
+
+    24% {
+        fill: var(--Color3);
+    }
+
+    36% {
+        fill: var(--Color4);
+    }
+
+    48% {
+        fill: var(--Color5);
+    }
+
+    61% {
+        fill: var(--Color6);
+    }
+
+    73% {
+        fill: var(--Color7);
+    }
+
+    85% {
+        fill: var(--Color8);
+    }
+
+    97% {
+        fill: var(--Color9);
+    }
+
+    to {
+        fill: var(--Primary);
+    }
+}
+
+@keyframes RGB_BORDER {
+    0% {
+        border-color: var(--Primary);
+    }
+
+    12% {
+        border-color: var(--Color2);
+    }
+
+    24% {
+        border-color: var(--Color3);
+    }
+
+    36% {
+        border-color: var(--Color4);
+    }
+
+    48% {
+        border-color: var(--Color5);
+    }
+
+    61% {
+        border-color: var(--Color6);
+    }
+
+    73% {
+        border-color: var(--Color7);
+    }
+
+    85% {
+        border-color: var(--Color8);
+    }
+
+    97% {
+        border-color: var(--Color9);
+    }
+
+    to {
+        border-color: var(--Primary);
+    }
+}
