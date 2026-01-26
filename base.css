@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-11"; /* 0-00 */
+    --version: "2026-12"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -575,15 +575,6 @@ div[class$=folder],
     background-color: var(--Highlighted);
 }
 
-::-webkit-selection {
-    background-color: var(--Highlighted);
-}
-
-::-moz-selection {
-    background-color: var(--Highlighted);
-}
-
-
 .textArea__74017::-webkit-scrollbar {
     width: 10px !important;
 }
@@ -798,7 +789,7 @@ div.link__2ea32[class$="modeSelected"]:before {
     bottom: 0;
 }
 
-.selected__91a9d .childContainer__91a9d7 {
+.selected__91a9d .childContainer__91a9d {
     background-color: transparent;
 }
 
