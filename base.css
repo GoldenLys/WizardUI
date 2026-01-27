@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-16"; /* 0-00 */
+    --version: "2026-17"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -3288,7 +3288,7 @@ path[fill="#7289da"] {
     background-color: var(--bg-user-area);
     border: none;
     border-radius: 0px;
-    padding: 0 5px 0 5px !important;
+    padding: 0 5px 10px 5px !important;
     margin: 0;
 }
 
@@ -6910,13 +6910,13 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     justify-content: center;
 }
 
-.visual-refresh .header__c0e32c {
+.visual-refresh .header_c0e32c {
     background-color: var(--bg-ui);
     border-radius: 5px 5px 0 0;
     border-color: transparent;
 }
 
-.visual-refresh .expressionPickerPositionLayer__74017 .header__c0e32c {
+.visual-refresh .expressionPickerPositionLayer__74017 .header_c0e32c {
     background-color: transparent;
     border-radius: 5px 5px 0 0;
     border-color: transparent;
@@ -6926,6 +6926,7 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     border-radius: 5px;
     background-color: transparent;
     border-color: transparent;
+    box-shadow: none;
 }
 
 .browser_d98031.container_d9c882,
@@ -7283,26 +7284,6 @@ button.giftButton__82222 .buttonText__82222:before {
     height: 30px;
 }
 
-.tags__63ed3>.container__8061a> a[href="https://discord.com/settings/premium"]>.badge__8061a {
-    visibility: hidden;
-}
-
-.tags__63ed3>.container__8061a> a[href="https://discord.com/settings/premium"] {
-    position: relative;
-}
-
-.tags__63ed3>.container__8061a> a[href="https://discord.com/settings/premium"]:after {
-    position: absolute;
-    content: '';
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    background: center / cover no-repeat url(https://goldenlys.github.io/WizardUI/images/bag.png);
-    width: 30px;
-    height: 30px;
-}
-
 .settingsTextContainer__81281>h1 {
     font-size: 0px;
     line-height: 0px;
@@ -7484,8 +7465,9 @@ button.giftButton__82222 .buttonText__82222:before {
     backdrop-filter: blur(2px);
 }
 
-.wrapper__c0e32c,
-.wrapper__c0e32c.isBurstReactionPicker__c0e32c {
+.wrapper_c0e32c,
+.wrapper_c0e32c.isBurstReactionPicker_c0e32c {
+    background-color: var(--bg-ui-elements);
     border: none;
     border-radius: 5px;
     box-shadow: none;
@@ -7498,7 +7480,7 @@ button.giftButton__82222 .buttonText__82222:before {
     border-radius: var(--Rounding);
 }
 
-.categoryList__c0e32c {
+.categoryList_c0e32c {
     border-radius: 5px;
 }
 
