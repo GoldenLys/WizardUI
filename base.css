@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-17"; /* 0-00 */
+    --version: "2026-18"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -435,6 +435,7 @@ div[class$=folder],
     background-color: var(--bg-ui) !important;
 }
 
+.channelTextArea__74017,
 .container__8a031:not(.modal_e44912),
 .visual-refresh .popout__76f04,
 .guildInviteContainer__083ae,
@@ -7736,4 +7737,11 @@ button.giftButton__82222 .buttonText__82222:before {
     content: "Same name. New look. More cash. (for us)";
     font-size: 32px;
     line-height: 1.25;
+}
+
+.rolePopout__75297 {
+    box-shadow: none;
+    background-color: var(--bg-ui);
+    border: none;
+    border-radius: 5px;
 }
