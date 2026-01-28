@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-18"; /* 0-00 */
+    --version: "2026-19"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -1492,6 +1492,14 @@ path[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"],
 #app-mount .wrapper-1VLyxH foreignObject {
     -webkit-mask: none;
     mask: none;
+}
+
+.container__2637a {
+    padding-bottom: calc(54px - 6px);
+}
+
+.wrapper_ef3116 {
+    margin-bottom: calc(54px - 0px);
 }
 
 .panels__5e434 .container__37e49 button>.contents__201d5::after {
@@ -7170,9 +7178,18 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
     border-bottom: none;
 }
 
+.sidebarList__5e434 {
+    border: none;
+}
+
+.privateChannels_e6b769 {
+    position: relative;
+    z-index: 0;
+}
+
 .privateChannels_e6b769:before {
     content: "";
-    position: fixed;
+    position: absolute;
     inset: 0;
     z-index: -1;
     background-color: var(--bg-user-area);
@@ -7745,3 +7762,4 @@ button.giftButton__82222 .buttonText__82222:before {
     border: none;
     border-radius: 5px;
 }
+
