@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-19"; /* 0-00 */
+    --version: "2026-20"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -435,7 +435,7 @@ div[class$=folder],
     background-color: var(--bg-ui) !important;
 }
 
-.channelTextArea__74017,
+.channelTextArea__5126c,
 .container__8a031:not(.modal_e44912),
 .visual-refresh .popout__76f04,
 .guildInviteContainer__083ae,
@@ -489,6 +489,7 @@ div[class$=folder],
     border-radius: 5px;
 }
 
+.channelTextArea__5126c,
 .searchBar_e6b769,
 .header_e8b59c,
 .header_d9c882,
