@@ -16,3 +16,4 @@ An amazing fully customizable theme and the direct successor of ELYSIA, the them
 > [!TIP] 
 > ### Useful link
 > - Find more theme configs and get support [here](https://discord.gg/SBuYeHh)
+> - Customize it and create your own theme [here](https://goldenlys.github.io/WizardUI-Theme-Generator)
