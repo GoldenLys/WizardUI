@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-21"; /* 0-00 */
+    --version: "2026-22"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -1196,6 +1196,13 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.status__a423bd {
     border-top: 2px solid var(--Primary);
     margin: 24px 0px 0px;
     border-radius: 0px;
+    background-color: var(--bg-colorprofile);
+}
+
+:where(.outer_c0bea0).user-profile-popout {
+    box-shadow: none;
+    border-radius: 5px;
+    backdrop-filter: blur(2px);
     background-color: var(--bg-colorprofile);
 }
 
