@@ -1,3 +1,7 @@
+.followButton_f75fb0>button,
+.activeButton_c15210,
+.activeButton_c15210:hover,
+.checkIcon__270d7,
 .tabBar__133bf .addFriend__133bf,
 .markup__75297 code.inline,
 .spineBorder__5b40b,
@@ -142,6 +146,7 @@ div[class$=-circleIconButton], .guilds__5e434 .scroller_ef3116>div:not([class]):
 	-webkit-animation: RGB_FILL var(--ColorTime) linear infinite !important;
 }
 
+.optionButtonWrapper__270d7.selected__270d7,
 .repliedMessageClickableSpine_c19a55, 
 .repliedMessage__c19a55:before {
 	animation: RGB_BORDER var(--ColorTime) linear infinite !important;
