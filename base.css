@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-23"; /* 0-00 */
+    --version: "2026-24"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -225,6 +225,7 @@
     --background-mod-strong: var(--grey5);
     --redesign-button-overlay-alpha-pressed-background: var(--darkgrey);
     --background-surface-high: var(--darkgrey);
+    --background-surface-higher: var(--darkgrey);
     --background-surface-highest: var(--darkgrey);
     --channels-default: var(--Text);
     --user-profile-overlay-background: var(--bg-ui-elements);
@@ -422,7 +423,7 @@ div[class$=folder],
 .container__b6544f,
 .messagesPopoutWrap_e8b59c,
 .containerBackground_f48ee4,
-.visual-refresh .searchResultsWrap__a98f3b,
+.searchResultsWrap_a98f3b,
 .content__37e49,
 .container_6sXIoE,
 .container__01ae2>.container__9293f,
@@ -437,6 +438,7 @@ div[class$=folder],
     background-color: var(--bg-ui) !important;
 }
 
+.box_ee23ac,
 .reactionBtn__23977.forceShow__23977,
 .mainTableContainer__09a38,
 .prompt__5d7c9,
@@ -507,7 +509,7 @@ div[class$=folder],
 .container__a592e1,
 .visual-refresh .container__01ae2,
 .winButtonsWithDivider_c38106:before,
-.visual-refresh .searchResultsWrap__a98f3b,
+.searchResultsWrap_a98f3b,
 .visual-refresh .homeWrapper__0920e0,
 .visual-refresh .menu_c1e9c4,
 .contentPreview__9a337,
@@ -7453,6 +7455,7 @@ button.giftButton__82222 .buttonText__82222:before {
     border: none;
 }
 
+.searchResultsWrap_a98f3b,
 .container__b6544f,
 .visual-refresh .popout__76f04,
 .channelHeader__35a7e,
@@ -7786,7 +7789,6 @@ button.giftButton__82222 .buttonText__82222:before {
     border-radius: 5px;
 }
 
-
 .channelRow_e4503a {
     border-color: var(--Text-muted);
 }
@@ -7800,4 +7802,14 @@ button.giftButton__82222 .buttonText__82222:before {
 
 .browser_d98031.container_d9c882 {
     backdrop-filter: blur(2px);
+}
+
+path[fill="#45a366"] {
+    fill: var(--ui-success);
+}
+
+.searchResult__80bf8 {
+    background-color: var(--bg-ui-elements);
+    border: none;
+    border-radius: 5px;
 }
