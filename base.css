@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-27"; /* 0-00 */
+    --version: "2026-28"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -3721,10 +3721,13 @@ a {
     margin-top: 0;
 }
 
-#app-mount .embed__623de,
+#app-mount .embed__623de {
+    position: relative;
+}
+
 .gridContainer__623de {
     position: relative;
-    max-width: fit-content !important;
+    max-width: 100% !important;
 }
 
 .embed__623de>div>div>.embedProvider__623de,
