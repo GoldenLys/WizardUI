@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-26"; /* 0-00 */
+    --version: "2026-27"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -739,9 +739,9 @@ div[class*=tutorialContainer]+.listItem__650eb .pill__5bc7e,
     content: "Write a message..";
 }
 
-.visual-refresh .container__9271d2,
-.visual-refresh .container__f69538,
-.visual-refresh .container__0be773,
+.visual-refresh .container__9271d,
+.visual-refresh .container_f69538,
+.visual-refresh .container__0be77,
 .fileWrapper__0ccaee {
     border-radius: 5px;
     border-color: var(--bg-chat-elements);
@@ -5848,7 +5848,6 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     border-radius: 5px;
     width: 3px;
     background-color: var(--Primary);
-    filter: saturate(var(--saturation-factor, 1));
 }
 
 .hasReply_c19a55.mentioned__5126c:not(:has(.roleMention__75297[style])):after,
@@ -5860,7 +5859,6 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     background-color: var(--Primary);
     opacity: 0.15;
     z-index: -1;
-    filter: saturate(var(--saturation-factor, 1));
     border-radius: 5px;
 }
 
@@ -6246,19 +6244,19 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     border-radius: 0px;
 }
 
-.answersContainer__4c5209 {
+.answersContainer__4c520 {
     grid-gap: 5px;
     gap: 5px;
 }
 
-.answerInner__4c5209 {
+.answerInner__4c520 {
     border-radius: var(--Rounding);
     background-color: var(--darkgrey5);
     padding: 10px 10px;
     min-height: auto;
 }
 
-.answer__4c5209:hover .answerInner__4c5209.currentlyVoting__4c5209 {
+.answer__4c520:hover .answerInner__4c520.currentlyVoting__4c520 {
     outline: 1px solid var(--Primary);
 }
 
@@ -6275,8 +6273,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     filter: none;
 }
 
-.answer__4c5209 {
-    background-color: var(--bg-ui);
+.answer__4c520 {
     border-radius: var(--Rounding);
 }
 
@@ -6519,12 +6516,12 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     border-radius: var(--Rounding);
 }
 
-.votePercentageBar__4c5209 {
+.votePercentageBar__4c520 {
     background-color: var(--Primary);
-    opacity: 0.35;
+    opacity: 0.5;
 }
 
-.victorStyles__a1443c .votePercentageBar__4c5209 {
+.victorStyles_a1443c .votePercentageBar__4c520 {
     background-color: var(--ui-success);
     opacity: 0.85;
 }
@@ -7845,4 +7842,8 @@ path[fill="#45a366"] {
 #app-mount .pill_a2c9e8.selected_a2c9e8 {
     background-color: var(--Primary);
     color: var(--Text);
+}
+
+.answerSelectionIcon__4c520 path {
+    fill: var(--ui-success);
 }
