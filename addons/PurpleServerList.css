@@ -213,6 +213,11 @@
     margin: 0px 0px 0px 10px;
 }
 
+#guild-list-unread-dms>div:not([class])[style*="height: 40px;"] {
+    margin: 0px 0px 0px 10px;
+    height: var(--ServerSize) !important;
+}
+
 #app-mount .guilds__5e434 .scroller_ef3116>div[style*="opacity: 1;"]:not(:first-child) {
     margin: 3px 0 3px 0;
 }
@@ -308,4 +313,11 @@
 
 .folderGroup__48112.isExpanded__48112 .folderPreviewWrapper__48112 {
     margin-top: 6px;
+}
+
+.wrapper_cc5dd2 > svg > foreignObject > div:not([class]) {
+    width: 100%;
+    height: 100%;
+    -webkit-mask: none;
+    mask: none;
 }

@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-28"; /* 0-00 */
+    --version: "2026-29"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -2802,7 +2802,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
     margin: 0;
 }
 
-.nowPlayingColumn__133bf>div {
+.nowPlayingColumn__133bf>.container__7d20c {
     flex: 1;
 }
 

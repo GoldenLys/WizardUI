@@ -34,7 +34,8 @@
 .embedProvider_623de8>a:before,
 .embedProvider_623de8>span:before,
 .channel_972a0d .selected_bf202d:before,
-.selected__91a9d.member_c8ffbb:after,
+.item_caf372.active_caf372:before, 
+.selected__91a9d.member_c8ffbb:before,
 div.selected-3veCBZ:before,
 div.link_2ea32c[class*="modeSelected_"]:before {
 	animation: RGB_BG var(--ColorTime) linear infinite !important;
