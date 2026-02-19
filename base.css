@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-30"; /* 0-00 */
+    --version: "2026-31"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -6903,13 +6903,13 @@ svg>foreignObject[mask="url(#svg-mask-squircle)"] {
 
 .visual-refresh .isExpanded__48112 .folderHeader__48112 {
     margin-bottom: 0px;
-    border-radius: var(--Rounding);
+    border-radius: 5px;
 }
 
 #app-mount .isExpanded__48112 .folderGroupBackground__48112 {
     background-color: var(--custom-folder-color);
     opacity: 0.6;
-    border-radius: var(--Rounding);
+    border-radius: 5px;
     left: 13px;
     height: calc(100% - 0px);
     width: var(--ServerSize);
@@ -7853,4 +7853,36 @@ path[fill="#45a366"] {
 
 .answerSelectionIcon__4c520 path {
     fill: var(--ui-success);
+}
+
+.navButton__08434 {
+    padding: 10px 16px;
+    font-size: 16px;
+    flex: 1 1 auto;
+    text-align: center;
+    border-radius: var(--Rounding);
+}
+
+.navButtonActive__08434,
+.navButtonActive__08434:active,
+.navButtonActive__08434:hover {
+    background-color: var(--Primary);
+    color: var(--Text);
+}
+
+.stickersNavItem__08434 {
+    justify-content: center;
+}
+
+.categoryFade_d02962:hover, 
+.categoryFadeBlurple_d02962:hover, 
+[data-focused=true] .categoryFade_d02962, 
+[data-focused=true] .categoryFadeBlurple_d02962 {
+    border: 1px solid var(--Primary);
+    border-radius: 5px;
+}
+
+.categoryFadeBlurple_d02962 {
+    background: var(--Primary);
+    opacity: 0.45;
 }

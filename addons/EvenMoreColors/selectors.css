@@ -1,3 +1,7 @@
+.categoryFadeBlurple_d02962,
+.navButtonActive__08434, 
+.navButtonActive__08434:active, 
+.navButtonActive__08434:hover,
 .hasReply_c19a55.mentioned__5126c:not(:has(.roleMention__75297[style])):before,
 .mentioned__5126c .mention:before,
 .message__5126c .roleMention__75297:before,
@@ -156,6 +160,10 @@ div[class$=-circleIconButton], .guilds__5e434 .scroller_ef3116>div:not([class]):
 	-webkit-animation: RGB_FILL var(--ColorTime) linear infinite !important;
 }
 
+.categoryFade_d02962:hover, 
+.categoryFadeBlurple_d02962:hover, 
+[data-focused=true] .categoryFade_d02962, 
+[data-focused=true] .categoryFadeBlurple_d02962,
 .optionButtonWrapper__270d7.selected__270d7,
 .repliedMessageClickableSpine_c19a55, 
 .repliedMessage__c19a55:before {
