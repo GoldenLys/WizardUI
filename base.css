@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-32"; /* 0-00 */
+    --version: "2026-33"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -3080,7 +3080,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 }
 
 /* TEXT CHANNEL */
-.sidebar__5e434 .containerDefault_c69b6d .link__2ea32[aria-label$="(text channel)"] .iconContainer__2ea32:before {
+.sidebar__5e434 .containerDefault_c69b6d .link__2ea32[aria-label*="(text channel)"] .iconContainer__2ea32:before {
     content: "\f27a";
     font-weight: 100;
     margin-right: 5px;
