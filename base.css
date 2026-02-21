@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-31"; /* 0-00 */
+    --version: "2026-32"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -1528,14 +1528,6 @@ path[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"],
 #app-mount .wrapper-1VLyxH foreignObject {
     -webkit-mask: none;
     mask: none;
-}
-
-.container__2637a {
-    padding-bottom: calc(54px - 6px);
-}
-
-.wrapper_ef3116 {
-    margin-bottom: calc(54px - 0px);
 }
 
 .panels__5e434 .container__37e49 button>.contents__201d5::after {
