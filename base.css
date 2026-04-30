@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-34"; /* 0-00 */
+    --version: "2026-35"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -3892,10 +3892,10 @@ div[class$=tutorialContainer]+.listItem__650eb:hover div[class$=listItemWrapper]
     transform: scale(0.85);
 }
 
-.guilds__5e434 .scroller_ef3116>.listItem__650eb .wrapper__58105>.item__58105,
-.guilds__5e434 .scroller_ef3116>div:not([class]):not([style])>div div[class$=pill]>.item__58105,
-div[class$=tutorialContainer]:hover div[class*=pill] .wrapper__58105,
-div[class$=tutorialContainer]:hover div[class*=pill] .item__58105,
+.guilds__5e434 .listItem__650eb>.wrapper__58105.overlay__58105 > .item__58105,
+.guilds__5e434 .scroller_ef3116>div:not([class]):not([style])>div .wrapper__58105>.item__58105,
+div[class$=tutorialContainer]:hover .wrapper__58105 .wrapper__58105,
+div[class$=tutorialContainer]:hover .wrapper__58105 .item__58105,
 #app-mount .guilds__5e434 .scroller_ef3116>div[style*="opacity: 1;"]:not(:first-child) .wrapper__58105 div {
     background: var(--ServerPills);
     border-radius: 2.5px 2.5px 2.5px 2.5px !important;
