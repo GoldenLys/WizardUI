@@ -145,8 +145,8 @@
     align-items: center;
 }
 
-#app-mount .guilds__5e434 .scroller_ef3116>div#guild-list-unread-dms .listItem__650eb>.pill_ed9a5f,
-#app-mount .guilds__5e434 .listItem__650eb .pill_e5445c,
+#app-mount .guilds__5e434 .scroller_ef3116>div#guild-list-unread-dms .listItem__650eb>.pill_ebc727,
+#app-mount .guilds__5e434 .listItem__650eb .wrapper__58105,
 #app-mount .pill__1f388 {
     transform: rotate(90deg) translateY(0%);
     height: var(--ServerSize);
@@ -157,12 +157,12 @@
     justify-content: center;
 }
 
-#app-mount .guilds__5e434 div.stack_dbd263>.folderGroup__48112 .listItem__650eb .pill_e5445c {
+#app-mount .guilds__5e434 div.stack_dbd263>.folderGroup__48112 .listItem__650eb .wrapper__58105 {
     top: calc(var(--ServerSize) / -1 + var(--ServerSize) / 2 - 5px) !important;
 }
 
-#app-mount .guilds__5e434 .scroller_ef3116>div#guild-list-unread-dms .listItem__650eb>.pill_ed9a5f>span,
-#app-mount .guilds__5e434 .listItem__650eb .pill_e5445c>span,
+#app-mount .guilds__5e434 .scroller_ef3116>div#guild-list-unread-dms .listItem__650eb>.pill_ebc727>span,
+#app-mount .guilds__5e434 .listItem__650eb .wrapper__58105>span,
 #app-mount .pill__1f388>span {
     margin-left: 0;
     width: 5px;
@@ -171,12 +171,12 @@
     box-shadow: 0px 0px 5px 1px currentColor;  
 }
 
-#app-mount .guilds__5e434 .listItem__650eb .pill_e5445c>span[style*="height: 8px;"] {
+#app-mount .guilds__5e434 .listItem__650eb .wrapper__58105>span[style*="height: 8px;"] {
     border-radius: 5px;
     box-shadow: 0px 0px 0px 0px currentColor;  
 }
 
-#app-mount .guilds__5e434 .listItem__650eb .pill_e5445c>span:not([style*="height: 40px;"]) {
+#app-mount .guilds__5e434 .listItem__650eb .wrapper__58105>span:not([style*="height: 40px;"]) {
     height: calc(var(--ServerSize) * 0.5) !important;
     border-radius: 5px;
     box-shadow: 0px 0px 0px 0px currentColor;  

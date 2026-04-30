@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-33"; /* 0-00 */
+    --version: "2026-34"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -427,7 +427,7 @@ div[class$=folder],
 .container_fc561d,
 .container__b6544f,
 .messagesPopoutWrap_e8b59c,
-.containerBackground_f48ee4,
+.containerBackground__02f2d,
 .searchResultsWrap_a98f3b,
 .content__37e49,
 .container_6sXIoE,
@@ -1727,7 +1727,7 @@ path[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"],
     mask: none;
 }
 
-.guilds__5e434 div[class*=tutorialContainer]:not(:hover)>.listItem__650eb>div[class*=pill]>.item__58105 {
+.guilds__5e434 div[class*=tutorialContainer]:not(:hover)>.listItem__650eb>.wrapper__58105>.item__58105 {
     height: 100% !important;
     width: 100%;
     margin: 0;
@@ -3892,11 +3892,11 @@ div[class$=tutorialContainer]+.listItem__650eb:hover div[class$=listItemWrapper]
     transform: scale(0.85);
 }
 
-.guilds__5e434 .scroller_ef3116>.listItem__650eb div[class$=pill]>.item__58105,
+.guilds__5e434 .scroller_ef3116>.listItem__650eb .wrapper__58105>.item__58105,
 .guilds__5e434 .scroller_ef3116>div:not([class]):not([style])>div div[class$=pill]>.item__58105,
 div[class$=tutorialContainer]:hover div[class*=pill] .wrapper__58105,
 div[class$=tutorialContainer]:hover div[class*=pill] .item__58105,
-#app-mount .guilds__5e434 .scroller_ef3116>div[style*="opacity: 1;"]:not(:first-child) div[class$=pill] div {
+#app-mount .guilds__5e434 .scroller_ef3116>div[style*="opacity: 1;"]:not(:first-child) .wrapper__58105 div {
     background: var(--ServerPills);
     border-radius: 2.5px 2.5px 2.5px 2.5px !important;
 }
@@ -4054,7 +4054,7 @@ div[class$=tutorialContainer]:hover div[class*=pill] .item__58105,
     border-color: transparent !important;
 }
 
-.fieldList__1fed1d {
+.fieldList_a27e58d {
     background-color: var(--bg-ui);
 }
 
@@ -4743,14 +4743,14 @@ div[class$=folderIconWrapper],
     padding-right: 0;
 }
 
-.accountProfileCard__1fed1d>div {
+.accountProfileCard_a27e58d>div {
     position: relative;
     z-index: 1;
 }
 
 .header__5be3e>svg[viewBox="0 0 300 105"]>foreignObject,
 .inner_c0bea0>header>svg[viewBox="0 0 600 210"]>foreignObject,
-.accountProfileCard__1fed1d>svg[viewBox="0 0 660 100"]>foreignObject {
+.accountProfileCard_a27e58d>svg[viewBox="0 0 660 100"]>foreignObject {
     mask: none;
     -webkit-mask: none;
 }
@@ -4759,7 +4759,7 @@ div[class$=folderIconWrapper],
     display: none;
 }
 
-.accountProfileCard__1fed1d .settingsBanner_c3e427 {
+.accountProfileCard_a27e58d .settingsBanner_c3e427 {
     position: absolute;
     top: 0;
     left: 0;
@@ -4770,18 +4770,18 @@ div[class$=folderIconWrapper],
     min-height: 340px;
 }
 
-.accountProfileCard__1fed1d>.userInfo__1fed1d {
+.accountProfileCard_a27e58d>.userInfo_a27e58d {
     padding: 16px 16px 0 112px;
     min-height: calc(80px + 32px);
 }
 
-.accountProfileCard__1fed1d>.background__1fed1d {
+.accountProfileCard_a27e58d>.background_a27e58d {
     border-radius: 5px;
     background-color: transparent;
     padding: 0px;
 }
 
-.accountProfileCard__1fed1d>.background__1fed1d>.fieldList__1fed1d {
+.accountProfileCard_a27e58d>.background_a27e58d>.fieldList_a27e58d {
     display: flex;
     background-color: transparent;
     flex-direction: row;
@@ -4789,8 +4789,8 @@ div[class$=folderIconWrapper],
     flex-wrap: wrap;
 }
 
-.accountProfileCard__1fed1d>.background__1fed1d>.fieldList__1fed1d div:not(.field__1fed1d),
-.accountProfileCard__1fed1d>.background__1fed1d>.fieldList__1fed1d>.field__1fed1d {
+.accountProfileCard_a27e58d>.background_a27e58d>.fieldList_a27e58d div:not(.field_a27e58d),
+.accountProfileCard_a27e58d>.background_a27e58d>.fieldList_a27e58d>.field_a27e58d {
     flex-direction: column;
     flex: 1 1 calc(50% - 10px);
     padding: 0px;
@@ -4798,17 +4798,17 @@ div[class$=folderIconWrapper],
     -webkit-box-sizing: border-box;
 }
 
-.accountProfileCard__1fed1d>.background__1fed1d>.fieldList__1fed1d .field__1fed1d {
+.accountProfileCard_a27e58d>.background_a27e58d>.fieldList_a27e58d .field_a27e58d {
     background: var(--Primary);
     border-radius: 5px;
 }
 
-.accountProfileCard__1fed1d>.background__1fed1d>.fieldList__1fed1d .field__1fed1d .fieldTitle__1fed1d {
+.accountProfileCard_a27e58d>.background_a27e58d>.fieldList_a27e58d .field_a27e58d .fieldTitle_a27e58d {
     text-align: center;
     color: var(--Text) !important;
 }
 
-.accountProfileCard__1fed1d>.background__1fed1d>.fieldList__1fed1d .field__1fed1d>.constrainedRow__1fed1d {
+.accountProfileCard_a27e58d>.background_a27e58d>.fieldList_a27e58d .field_a27e58d>.constrainedRow_a27e58d {
     background: var(--grey);
     margin-right: 0px;
     padding: 10px 10px 5px;
@@ -4817,45 +4817,45 @@ div[class$=folderIconWrapper],
     overflow: visible;
 }
 
-.accountProfileCard__1fed1d>.background__1fed1d>.fieldList__1fed1d .field__1fed1d>.constrainedRow__1fed1d>div {
+.accountProfileCard_a27e58d>.background_a27e58d>.fieldList_a27e58d .field_a27e58d>.constrainedRow_a27e58d>div {
     width: 100%;
 }
 
-.accountProfileCard__1fed1d>.background__1fed1d>.fieldList__1fed1d .field__1fed1d>button {
+.accountProfileCard_a27e58d>.background_a27e58d>.fieldList_a27e58d .field_a27e58d>button {
     background: transparent !important;
     border-radius: 0 0 5px 5px;
 }
 
-.accountProfileCard__1fed1d>.background__1fed1d>.fieldList__1fed1d .field__1fed1d>.fieldButtonList__1fed1d {
+.accountProfileCard_a27e58d>.background_a27e58d>.fieldList_a27e58d .field_a27e58d>.fieldButtonList_a27e58d {
     display: flex;
     flex-direction: row;
 }
 
-.accountProfileCard__1fed1d>.background__1fed1d>.fieldList__1fed1d .field__1fed1d>.fieldButtonList__1fed1d>button:not(.removeButton__1fed1d) {
+.accountProfileCard_a27e58d>.background_a27e58d>.fieldList_a27e58d .field_a27e58d>.fieldButtonList_a27e58d>button:not(.removeButton_a27e58d) {
     flex: 1 1 auto;
     background: transparent !important;
 }
 
-.accountProfileCard__1fed1d>.background__1fed1d>.fieldList__1fed1d .field__1fed1d>.fieldButtonList__1fed1d>button.removeButton__1fed1d {
+.accountProfileCard_a27e58d>.background_a27e58d>.fieldList_a27e58d .field_a27e58d>.fieldButtonList_a27e58d>button.removeButton_a27e58d {
     flex: 1 1 auto;
 }
 
-.accountProfileCard__1fed1d>.background__1fed1d>.fieldList__1fed1d .field__1fed1d:hover {
+.accountProfileCard_a27e58d>.background_a27e58d>.fieldList_a27e58d .field_a27e58d:hover {
     background: var(--Text) !important;
 }
 
-.accountProfileCard__1fed1d>.background__1fed1d>.fieldList__1fed1d .field__1fed1d:hover>.fieldButtonList__1fed1d>button,
-.accountProfileCard__1fed1d>.background__1fed1d>.fieldList__1fed1d .field__1fed1d:hover>button {
+.accountProfileCard_a27e58d>.background_a27e58d>.fieldList_a27e58d .field_a27e58d:hover>.fieldButtonList_a27e58d>button,
+.accountProfileCard_a27e58d>.background_a27e58d>.fieldList_a27e58d .field_a27e58d:hover>button {
     color: var(--Primary);
 }
 
-.accountProfileCard__1fed1d>.background__1fed1d>.fieldList__1fed1d .field__1fed1d.fieldSpacerBottom__1fed1d,
-.accountProfileCard__1fed1d>.background__1fed1d>.fieldList__1fed1d .field__1fed1d.fieldSpacer__1fed1d {
+.accountProfileCard_a27e58d>.background_a27e58d>.fieldList_a27e58d .field_a27e58d.fieldSpacerBottom_a27e58d,
+.accountProfileCard_a27e58d>.background_a27e58d>.fieldList_a27e58d .field_a27e58d.fieldSpacer_a27e58d {
     margin-bottom: 0px;
     margin-top: 0px;
 }
 
-.accountProfileCard__1fed1d>.userInfo__1fed1d>.avatar__1fed1d {
+.accountProfileCard_a27e58d>.userInfo_a27e58d>.avatar_a27e58d {
     position: absolute;
     top: 16px;
     left: 16px;
@@ -5985,7 +5985,7 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     margin: 5px 5px;
 }
 
-.progressBar__5a6abd,
+.progressBar__45530d,
 .progressBar__baf530 {
     height: 6px;
     margin-top: 0px;
@@ -6782,13 +6782,13 @@ path[d="M4.16667 8.33333V5.83333H5.83333V8.33333H7.91667V5H9.16667L5 1.25L0.8333
     background-color: var(--bg-ui);
 }
 
-.authedAppV2__50a54,
+.authedAppV2__24605,
 .card__73069:not(.outline__73069) {
     border-radius: 5px;
     border: none;
 }
 
-.headerV2__50a54 {
+.headerV2__24605 {
     background-color: transparent;
 }
 
@@ -7267,13 +7267,13 @@ html.density-compact.visual-refresh .total__260e19 {
 }
 
 .applicationStore_f07d62 button.button_a22cb0.secondary_a22cb0 span,
-.applicationStore_f07d62 .navBar__88ef1 button.button_a22cb0.secondary_a22cb0 span,
+.applicationStore_f07d62 .navBar__131a1 button.button_a22cb0.secondary_a22cb0 span,
 .applicationStore_f07d62 button.button_a22cb0.fullWidth__a22cb0 span,
-.applicationStore_f07d62 .wrapper_d38e00>.buttonContainer_d38e00>button.button_a22cb0 span,
+.applicationStore_f07d62 .wrapper__17be2>.buttonContainer__17be2>button.button_a22cb0 span,
 .applicationStore_f07d62 button.button_a22cb0.overlay-secondary_a22cb0 span,
 .applicationStore_f07d62 button.button_a22cb0.expressive_a22cb0 span,
 button.giftButton__82222 .buttonText__82222,
-button.shinyButton__6a443 .buttonText_e00877 {
+button.shinyButton__6a443 .buttonText_d723f6 {
     font-size: 0px;
     line-height: 0px;
 }
@@ -7312,14 +7312,14 @@ a.link__972a0[href="/store"] .name__20a53:after {
 .applicationStore_f07d62 button.button_a22cb0.secondary_a22cb0 span:before,
 .applicationStore_f07d62 button.button_a22cb0.fullWidth__a22cb0 span:before,
 .applicationStore_f07d62 button.button_a22cb0.expressive_a22cb0 span:before,
-button.shinyButton__6a443 .buttonText_e00877:before {
+button.shinyButton__6a443 .buttonText_d723f6:before {
     content: "Get Scammed";
     font-size: 16px;
     line-height: 20px;
 }
 
-.applicationStore_f07d62 .navBar__88ef1 button.button_a22cb0.secondary_a22cb0 span:before,
-.applicationStore_f07d62 .wrapper_d38e00>.buttonContainer_d38e00>button.button_a22cb0 span:before,
+.applicationStore_f07d62 .navBar__131a1 button.button_a22cb0.secondary_a22cb0 span:before,
+.applicationStore_f07d62 .wrapper__17be2>.buttonContainer__17be2>button.button_a22cb0 span:before,
 .applicationStore_f07d62 button.button_a22cb0.overlay-secondary_a22cb0 span:before,
 button.giftButton__82222 .buttonText__82222:before {
     content: "Gift Scamium";
@@ -7332,38 +7332,38 @@ button.giftButton__82222 .buttonText__82222:before {
     height: 30px;
 }
 
-.settingsTextContainer__81281>h1 {
+.settingsTextContainer_cd0f26>h1 {
     font-size: 0px;
     line-height: 0px;
 }
 
-.applicationStore_f07d62 .header__3849c {
+.applicationStore_f07d62 .header_a98bec {
     font-size: 0px;
     line-height: 0px;
 }
 
-.applicationStore_f07d62 .header__3849c:before {
+.applicationStore_f07d62 .header_a98bec:before {
     content: "Unlock the ultimate disappointment with Scamium";
     font-size: 58px;
     line-height: 100%;
 }
 
-.settingsTextContainer__81281>h1:before {
+.settingsTextContainer_cd0f26>h1:before {
     content: "Unlock the ultimate disappointment with Scamium";
     font-size: 34px;
     line-height: 36px;
 }
 
-.premiumCards__6df1a .card__ac86f6 .price__784e44 {
+.premiumCards__91402 .card__ac86f6 .price__784e44 {
     position: relative;
 }
 
-.premiumCards__6df1a .card__ac86f6 .title__ac86f6.tier0Title__ac86f6 path,
-.premiumCards__6df1a .card__ac86f6 .title__ac86f6.tier2Title__ac86f6 path {
+.premiumCards__91402 .card__ac86f6 .title__ac86f6.tier0Title__ac86f6 path,
+.premiumCards__91402 .card__ac86f6 .title__ac86f6.tier2Title__ac86f6 path {
     display: none;
 }
 
-.premiumCards__6df1a .tier0CardOrder__6df1a .cardTitle__6df1a:before {
+.premiumCards__91402 .tier0CardOrder_ac86f6 .cardTitle_ac86f6:before {
     position: absolute;
     top: -20px;
     left: 0px;
@@ -7375,12 +7375,12 @@ button.giftButton__82222 .buttonText__82222:before {
     content: "Scamium Poor";
 }
 
-.premiumCards__6df1a .cardTitle__6df1a {
+.premiumCards__91402 .cardTitle_ac86f6 {
     font-size: 0px;
     line-height: 0px
 }
 
-.premiumCards__6df1a .tier2CardOrder__6df1a .cardTitle__6df1a:before {
+.premiumCards__91402 .tier2CardOrder_ac86f6 .cardTitle_ac86f6:before {
     position: absolute;
     top: -20px;
     left: 0px;
@@ -7392,11 +7392,11 @@ button.giftButton__82222 .buttonText__82222:before {
     content: "Scamium +";
 }
 
-.premiumCards__6df1a>.card__ac86f6>.wumpusImageContainer__ac86f6 .wumpusImage__ac86f6 {
+.premiumCards__91402>.card__ac86f6>.wumpusImageContainer__ac86f6 .wumpusImage__ac86f6 {
     visibility: hidden;
 }
 
-.premiumCards__6df1a>.card__ac86f6>.wumpusImageContainer__ac86f6:after {
+.premiumCards__91402>.card__ac86f6>.wumpusImageContainer__ac86f6:after {
     position: absolute;
     content: '';
     top: 0px;
@@ -7406,7 +7406,7 @@ button.giftButton__82222 .buttonText__82222:before {
     background: center / cover no-repeat url(https://goldenlys.github.io/WizardUI/images/bag.png);
 }
 
-.settingsTextContainer__812818 {
+.settingsTextContainer_cd0f268 {
     max-width: 1052px;
     width: 100%;
 }
