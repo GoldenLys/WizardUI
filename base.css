@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-35"; /* 0-00 */
+    --version: "2026-36"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -3112,7 +3112,7 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
 }
 
 /* ANNOUNCEMENT CHANNEL */
-.sidebar__5e434 .containerDefault_c69b6d .link__2ea32[aria-label$="(announcement channel)"] .iconContainer__2ea32:before {
+.sidebar__5e434 .containerDefault_c69b6d .link__2ea32[aria-label*="(announcement channel)"] .iconContainer__2ea32:before {
     content: "\f0f3";
     font-weight: 100;
     margin-right: 5px
@@ -4293,6 +4293,7 @@ div[class$=tutorialContainer]:hover .wrapper__58105 .item__58105,
     background-color: var(--bg-chat-elements);
 }
 
+.bd-description code,
 .markup__75297 code.inline {
     background-color: var(--Primary);
     color: var(--Text);
@@ -7309,7 +7310,6 @@ a.link__972a0[href="/store"] .name__20a53:after {
     line-height: 20px;
 }
 
-.applicationStore_f07d62 button.button_a22cb0.secondary_a22cb0 span:before,
 .applicationStore_f07d62 button.button_a22cb0.fullWidth__a22cb0 span:before,
 .applicationStore_f07d62 button.button_a22cb0.expressive_a22cb0 span:before,
 button.shinyButton__6a443 .buttonText_d723f6:before {
@@ -7318,6 +7318,7 @@ button.shinyButton__6a443 .buttonText_d723f6:before {
     line-height: 20px;
 }
 
+.applicationStore_f07d62 button.button_a22cb0.secondary_a22cb0 span:before,
 .applicationStore_f07d62 .navBar__131a1 button.button_a22cb0.secondary_a22cb0 span:before,
 .applicationStore_f07d62 .wrapper__17be2>.buttonContainer__17be2>button.button_a22cb0 span:before,
 .applicationStore_f07d62 button.button_a22cb0.overlay-secondary_a22cb0 span:before,
