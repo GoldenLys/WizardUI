@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-36"; /* 0-00 */
+    --version: "2026-37"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);

@@ -321,3 +321,8 @@
     -webkit-mask: none;
     mask: none;
 }
+
+#app-mount .app_a3002d .base__5e434 .content__5e434>.sidebar__5e434.hidden__5e434+.page__5e434 {
+    margin-top: calc((var(--ServerSize) + 20px) * -1) !important;
+    height: calc(100% + var(--ServerSize) + 20px) !important;
+}
