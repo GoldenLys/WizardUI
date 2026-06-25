@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-37"; /* 0-00 */
+    --version: "2026-38"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -1146,7 +1146,6 @@ foreignObject[mask^="url(#svg-mask-status-streaming"]>.status__a423bd {
 }
 
 .inner_c0bea0:not(.userProfileModalInner_c69a7b):not(.userCardInner_c69a7b) {
-    position: relative;
     background-color: transparent;
     background-image: none;
     text-shadow: var(--text-shadow) 0px 0px 2.5px;
