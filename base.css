@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-38"; /* 0-00 */
+    --version: "2026-39"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -267,16 +267,6 @@
 }
 
 ::-webkit-input-placeholder,
-body,
-button,
-input,
-select,
-textarea {
-    font-family: var(--font);
-    line-height: 1.15;
-    text-rendering: optimizeLegibility
-}
-
 ::placeholder,
 body,
 button,
@@ -284,6 +274,7 @@ input,
 select,
 textarea {
     font-family: var(--font);
+    line-height: 1.15;
     text-rendering: optimizeLegibility
 }
 
@@ -7877,4 +7868,12 @@ path[fill="#45a366"] {
 .categoryFadeBlurple_d02962 {
     background: var(--Primary);
     opacity: 0.45;
+}
+
+#app-mount .guilds__5e434 .listItem__650eb .wrapper__58105>.item__58105.visible__58105 {
+    background: var(--Unread);
+}
+
+#app-mount .guilds__5e434 .listItem__650eb .wrapper__58105>.item__58105.visible__58105.selected__58105 {
+    background: var(--Primary);
 }
