@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-40"; /* 0-00 */
+    --version: "2026-41"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -3024,95 +3024,76 @@ div[aria-label="Purple Wizard"] .topSection-13QKHs .nameTag-2Nlmsy:before,
     content: none;
 }
 
-/* CHANNELS ICONS */
-.sidebar__5e434 .containerDefault_c69b6d .iconContainer__2ea32:before {
+.sidebar__5e434 .containerDefault_c69b6d .iconContainer__2ea32:before,
+.sidebar__5e434 .containerDefault_c69b6d .link__2ea32 .name__2ea32:before,
+.sidebar__5e434 .typeThread__2ea32.wrapper__2ea32>.link__2ea32>.linkTop__2ea32>.name__2ea32:before,
+.sidebar__5e434 .typeThread__2ea32.wrapper__2ea32>.link__2ea32>.linkTop__2ea32>.name__2ea32>div:before,
+.grid_f369db .card_f369db>.header__9a337>h3:before {
     font-family: "Font Awesome 7 Free";
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
     line-height: 20px;
     color: var(--Text);
+    margin-right: 5px;
 }
 
 /* EVENTS CHANNEL */
-.sidebar__5e434 .containerDefault_c69b6d .link__2ea32[data-list-item-id^="channels___upcoming-events"] .name__2ea32:before {
-    font-family: "Font Awesome 7 Free";
-    font-weight: 900;
-    -webkit-font-smoothing: antialiased;
-    font-size: 16px;
-    line-height: 20px;
-    content: "\f073";
-    margin-right: 5px
-}
-
-/* SERVER GUIDE */
-.sidebar__5e434 .containerDefault_c69b6d .link__2ea32[data-list-item-id^="channels___home-tab"] .name__2ea32:before {
-    font-family: "Font Awesome 7 Free";
-    font-weight: 900;
-    -webkit-font-smoothing: antialiased;
-    font-size: 16px;
-    line-height: 20px;
-    content: "\f05a";
-    margin-right: 5px
-}
-
-/* VOICE CHANNEL */
-.sidebar__5e434 .containerDefault_c69b6d .link__2ea32 .iconContainer__2ea32[aria-label$="Voice (Limited) icon"]:before,
-.sidebar__5e434 .containerDefault_c69b6d .link__2ea32 .iconContainer__2ea32[aria-label$="Voice icon"]:before {
-    content: "\f590";
-    margin-right: 5px
-}
-
-
 .sidebar__5e434 .typeThread__2ea32.modeSelected__2ea32.wrapper__2ea32>.link__2ea32>.linkTop__2ea32>.name__2ea32:before,
 .sidebar__5e434 .containerDefault_c69b6d>div>.modeConnected__2ea32 .iconContainer__2ea32:before,
 .sidebar__5e434 .containerDefault_c69b6d.selected_c69b6d .link__2ea32 .iconContainer__2ea32:before {
     font-weight: 900 !important;
 }
 
+.sidebar__5e434 .containerDefault_c69b6d .link__2ea32[data-list-item-id^="channels___upcoming-events"] .name__2ea32:before {
+    content: "\f073";
+    font-weight: 900;
+}
+
+/* SERVER GUIDE */
+.sidebar__5e434 .containerDefault_c69b6d .link__2ea32[data-list-item-id^="channels___home-tab"] .name__2ea32:before {
+    content: "\f05a";
+    font-weight: 900;
+}
+
+/* VOICE CHANNEL */
+.sidebar__5e434 .containerDefault_c69b6d .link__2ea32 .iconContainer__2ea32[aria-label$="Voice (Limited) icon"]:before,
+.sidebar__5e434 .containerDefault_c69b6d .link__2ea32 .iconContainer__2ea32[aria-label$="Voice icon"]:before {
+    content: "\f590";
+}
+
 /* TEXT CHANNEL */
 .sidebar__5e434 .containerDefault_c69b6d .link__2ea32[aria-label*="(text channel)"] .iconContainer__2ea32:before {
     content: "\f27a";
     font-weight: 100;
-    margin-right: 5px;
 }
 
 /* STAGE CHANNEL */
 .sidebar__5e434 .containerDefault_c69b6d .link__2ea32 .iconContainer__2ea32[aria-label$="Stage icon"]:before {
     content: "\f8d7";
     font-weight: 600;
-    margin-right: 5px
 }
 
 /* FORUM CHANNEL */
 .sidebar__5e434 .containerDefault_c69b6d .link__2ea32 .iconContainer__2ea32[aria-label^="Forum"]:before {
     content: "\f022";
-    margin-right: 5px;
 }
 
 /* THREADS CHANNEL */
 .grid_f369db .card_f369db>.header__9a337>h3:before,
-.sidebar__5e434 .typeThread__2ea32.wrapper__2ea32>.link__2ea32>.linkTop__2ea32>.name__2ea32:before {
+.sidebar__5e434 .typeThread__2ea32.wrapper__2ea32>.link__2ea32>.linkTop__2ea32>.name__2ea32>div:before {
     content: "\f4ad";
-    margin-right: 5px;
-    font-family: "Font Awesome 7 Free";
-    -webkit-font-smoothing: antialiased;
-    font-size: 16px;
-    line-height: 20px;
-    color: var(--Text);
 }
 
 /* ANNOUNCEMENT CHANNEL */
 .sidebar__5e434 .containerDefault_c69b6d .link__2ea32[aria-label*="(announcement channel)"] .iconContainer__2ea32:before {
     content: "\f0f3";
     font-weight: 100;
-    margin-right: 5px
 }
 
 /* LOCKED CHANNEL */
 .sidebar__5e434 .containerDefault_c69b6d .link__2ea32 .iconContainer__2ea32[aria-label~="(Locked)"]:before {
     content: "\f023";
     font-weight: 600;
-    margin-right: 5px;
 }
 
 .username__c19a55 {
