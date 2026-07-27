@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-39"; /* 0-00 */
+    --version: "2026-40"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -7872,6 +7872,10 @@ path[fill="#45a366"] {
 
 #app-mount .guilds__5e434 .listItem__650eb .wrapper__58105>.item__58105.visible__58105 {
     background: var(--Unread);
+}
+
+#app-mount .guilds__5e434 .listItem__650eb .wrapper__58105>.item__58105.visible__58105.hovered__58105 {
+    background: var(--Text);
 }
 
 #app-mount .guilds__5e434 .listItem__650eb .wrapper__58105>.item__58105.visible__58105.selected__58105 {
