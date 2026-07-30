@@ -3,7 +3,7 @@
 .sidebarList__5e434,
 .page__5e434,
 .outerContainer_e44912 .container__8a031.modal_e44912 {
-    backdrop-filter: var(--VitrumBlur);
+    backdrop-filter: blur(var(--VitrumBlur));
 }
 
 .page__5e434 {
