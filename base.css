@@ -7,7 +7,7 @@
 }
 
 :root {
-    --version: "2026-41"; /* 0-00 */
+    --version: "2026-42"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
     --Watermark: "- WizardUI v" var(--version);
@@ -101,6 +101,8 @@
     --EMB_7: var(--background);
     --EMB_8: var(--background);
     --EMB_9: var(--background);
+    /* VITRUM ADDON EFFECT */
+    --VitrumBlur: 8px;
 }
 
 .visual-refresh.theme-midnight,

@@ -192,4 +192,7 @@ This is an addon that removes the custom nameplates in the members list.
     --Show_Apps_Button: flex;
     --Show_Now_Playing_Tab: flex;
     --Show_Category_Visibility_Icon: flex;
+
+    /* VITRUM ADDON EFFECT */
+    --VitrumBlur: 8px;
 }

@@ -1,0 +1,32 @@
+.bar_c38106,
+#app-mount .guilds__5e434,
+.sidebarList__5e434,
+.page__5e434,
+.outerContainer_e44912 .container__8a031.modal_e44912 {
+    backdrop-filter: var(--VitrumBlur);
+}
+
+.page__5e434 {
+    margin: 0rem 1rem 0rem 0;
+    border-radius: 0px 5px 5px 0px;
+    width: auto;
+    height: calc(100% - 2rem);
+    bottom: 1rem;
+    top: 1rem;
+}
+
+.sidebarList__5e434 {
+    margin: 1rem 0rem 1rem 1rem;
+    border-radius: 5px;
+}
+
+.bannerImg_f37cb1 {
+    border-radius: 5px;
+}
+
+.visual-refresh .panels__5e434 {
+    left: 1rem;
+    bottom: 1rem;
+    border-radius: 5px;
+    width: calc(100% - 1rem);
+}
