@@ -101,6 +101,15 @@ This is an addon that removes the custom nameplates in the members list.
 @import url("https://goldenlys.github.io/WizardUI/addons/NoNameplates.css"); 
 */
 
+/* 
+    Vitrum.css
+  
+This is an addon that add a blur/glassy effect to the app.
+
+@import url("https://goldenlys.github.io/WizardUI/addons/Vitrum.css"); 
+*/
+
+
 :root {
     /* GENERAL */
     --Watermark: "- WizardUI v" var(--version);
