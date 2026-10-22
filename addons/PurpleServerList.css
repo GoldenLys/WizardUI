@@ -143,6 +143,12 @@
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
+    overflow: hidden auto !important;
+}
+
+#app-mount .guilds__5e434 .scroller_ef3116::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
 }
 
 #app-mount .guilds__5e434 .scroller_ef3116>div#guild-list-unread-dms .listItem__650eb>.pill_ebc727,
