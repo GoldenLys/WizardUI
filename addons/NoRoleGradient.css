@@ -1,14 +1,4 @@
-.twoColorGradient_e5de78 {
-    background: transparent;
-}
-
-.threeColorGradient_e5de78 {
-    background: transparent;
-}
-
-.usernameGradient_e5de78 {
-    -webkit-background-clip: initial;
-    background-clip: initial; 
-    background-size: initial;
-    -webkit-text-fill-color: var(--custom-gradient-color-1);
+.showEffect_or4Hj-.container_or4Hj- .gradient_or4Hj-, .showEffect_or4Hj-.container_or4Hj- .prism_or4Hj- {
+    -webkit-text-fill-color: var(--custom-display-name-styles-main-color);
+    background: none;
 }

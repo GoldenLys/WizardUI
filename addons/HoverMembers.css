@@ -1,20 +1,20 @@
 /* ROLE NAME */
-.visual-refresh .membersGroup_c8ffbb {
+.visual-refresh .membersGroup_86es0b {
     height: 0;
     padding: 0;
     transition: all 250ms ease, padding 100ms ease;
     -webkit-transition: all 250ms ease, padding 100ms ease;
 }
 
-.visual-refresh .chat_f75fb0>.content_f75fb0>.membersWrap_c8ffbb .membersGroup_c8ffbb,
-.visual-refresh .chat_f75fb0 .container_c8ffbb .membersGroup_c8ffbb {
+.visual-refresh .chat_z_gUBg>.content_z_gUBg>.membersWrap_86es0b .membersGroup_86es0b,
+.visual-refresh .chat_z_gUBg .container_86es0b .membersGroup_86es0b {
     opacity: 0;
     transition: all 2s ease;
     text-align: center;
 }
 
-.visual-refresh .chat_f75fb0>.content_f75fb0>.membersWrap_c8ffbb:hover .membersGroup_c8ffbb,
-.visual-refresh .chat_f75fb0 .container_c8ffbb .membersWrap_c8ffbb:hover .membersGroup_c8ffbb {
+.visual-refresh .chat_z_gUBg>.content_z_gUBg>.membersWrap_86es0b:hover .membersGroup_86es0b,
+.visual-refresh .chat_z_gUBg .container_86es0b .membersWrap_86es0b:hover .membersGroup_86es0b {
     transition: all 2s ease;
     opacity: 1;
     height: 26px;
@@ -22,8 +22,8 @@
 }
 
 /* MOVING THE MEMBERS LIST TO THE RIGHT */
-.visual-refresh .chat_f75fb0>.content_f75fb0>.membersWrap_c8ffbb,
-.visual-refresh .chat_f75fb0 .container_c8ffbb {
+.visual-refresh .chat_z_gUBg>.content_z_gUBg>.membersWrap_86es0b,
+.visual-refresh .chat_z_gUBg .container_86es0b {
     width: 60px;
     transition: all 500ms ease;
     min-width: 60px;
@@ -33,32 +33,32 @@
     justify-content: flex-start;
 }
 
-.visual-refresh .chat_f75fb0>.content_f75fb0>.membersWrap_c8ffbb:hover,
-.visual-refresh .chat_f75fb0 .container_c8ffbb:hover {
+.visual-refresh .chat_z_gUBg>.content_z_gUBg>.membersWrap_86es0b:hover,
+.visual-refresh .chat_z_gUBg .container_86es0b:hover {
     width: 265px;
 }
 
 /* MEMBERS LIST CONTENT */
-.visual-refresh .chat_f75fb0 .container_c8ffbb .members_c8ffbb {
+.visual-refresh .chat_z_gUBg .container_86es0b .members_86es0b {
     width: 265px;
     overflow: hidden;
     flex: 0 1 auto;
 }
 
-.visual-refresh .chat_f75fb0>.content_f75fb0>.membersWrap_c8ffbb:hover,
-.visual-refresh .chat_f75fb0 .container_c8ffbb .membersWrap_c8ffbb:hover {
+.visual-refresh .chat_z_gUBg>.content_z_gUBg>.membersWrap_86es0b:hover,
+.visual-refresh .chat_z_gUBg .container_86es0b .membersWrap_86es0b:hover {
     overflow: auto;
 }
 
 /* MOVING USER DETAILS */
-.visual-refresh .chat_f75fb0 .container_c8ffbb .members_c8ffbb .member_c8ffbb .content_91a9d7 {
+.visual-refresh .chat_z_gUBg .container_86es0b .members_86es0b .member_86es0b .content_91a9d7 {
     -webkit-transform: translateX(220px);
     transform: translateX(220px);
     transition: all 750ms ease;
     -webkit-transition: all 750ms ease;
 }
 
-.visual-refresh .chat_f75fb0 .container_c8ffbb:hover .members_c8ffbb .member_c8ffbb .content_91a9d7 {
+.visual-refresh .chat_z_gUBg .container_86es0b:hover .members_86es0b .member_86es0b .content_91a9d7 {
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
 }

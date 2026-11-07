@@ -1,8 +1,8 @@
-.visual-refresh .folderGroup__48112:not(.isExpanded__48112) .folderPreviewWrapper__48112:before {
+.visual-refresh .folderGroup_RTMSuZ:not(.isExpanded_RTMSuZ) .folderPreviewWrapper_RTMSuZ:before {
     content: "";
     display: none;
 }
 
-.folderPreview__48112 {
+.folderPreview_RTMSuZ {
     gap: 0.25rem;
 }
